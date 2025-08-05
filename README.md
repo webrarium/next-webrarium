@@ -71,8 +71,11 @@ To run this project locally:
 ## Project Structure
 
 /api - Apis
+
 /components - Reusable components
+
 /utils - Utility functions
+
 /lib - Library
 
 ## Scripts
