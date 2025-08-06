@@ -1,4 +1,4 @@
-import { getStoryblokApi } from "@storyblok/react/rsc";
+import { apiPlugin, getStoryblokApi, storyblokInit } from "@storyblok/react/rsc";
 import StoryblokStory from "@storyblok/react/story";
 import type { Metadata } from "next";
 
@@ -40,6 +40,11 @@ export async function generateMetadata({ params: { locale } }: any) {
   };
   return Metadata;
 }
+
+storyblokInit({
+  accessToken: process.env.STORYBLOK_ACCESS_TOKEN,
+  use: [apiPlugin],
+});
 
 export default async function Projects({ params: { locale } }: any) {
   const { data } = await fetchData(locale);
