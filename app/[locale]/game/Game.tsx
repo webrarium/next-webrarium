@@ -25,8 +25,8 @@ const MAP_TPL = [
   [1,2,2,2,2,1,2,2,1,2,2,1,2,2,2,2,1],
   [1,1,1,1,2,1,1,0,0,0,1,1,2,1,1,1,1],
   [0,0,0,1,2,1,0,0,0,0,0,1,2,1,0,0,0],
-  [1,1,1,1,2,1,0,1,1,1,0,1,2,1,1,1,1],
-  [0,0,0,0,2,0,0,1,0,1,0,0,2,0,0,0,0],
+  [1,1,1,1,2,1,0,0,0,0,0,1,2,1,1,1,1],
+  [0,0,0,0,2,0,0,0,0,0,0,0,2,0,0,0,0],
   [1,1,1,1,2,1,0,1,1,1,0,1,2,1,1,1,1],
   [0,0,0,1,2,1,0,0,0,0,0,1,2,1,0,0,0],
   [1,1,1,1,2,1,1,0,0,0,1,1,2,1,1,1,1],
@@ -88,7 +88,7 @@ export default function Game() {
   const initGame = useCallback(() => {
     stateRef.current = {
       map: MAP_TPL.map(r => [...r]),
-      pac: { x:8, y:10, dx:0, dy:0, ndx:0, ndy:0, mouth:0.15, mouthDir:1, dead:false, deadTimer:0 },
+      pac: { x:8, y:4, dx:1, dy:0, ndx:1, ndy:0, mouth:0.15, mouthDir:1, dead:false, deadTimer:0 },
       ghosts: [
         { x:7,  y:9,  dx:1,  dy:0,  color:GHOST_COLORS[0], scared:false, home:true,  homeTimer:40  },
         { x:8,  y:9,  dx:-1, dy:0,  color:GHOST_COLORS[1], scared:false, home:true,  homeTimer:80  },
