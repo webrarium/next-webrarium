@@ -366,7 +366,7 @@ export default function Game() {
             <div className={styles.overlayBox}>
               <div className={styles.overlayIcon}>{isWin?"🏆":"📊"}</div>
               <h2>Рахунок: {finalScore}</h2>
-              <p className={styles.modalSub}>Залиш ім'я та email — потрапиш у таблицю рекордів</p>
+              <p className={styles.modalSub}>Залиш ім&apos;я та email — потрапиш у таблицю рекордів</p>
               <input
                 className={styles.input}
                 placeholder="Ім'я або нікнейм"
