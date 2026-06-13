@@ -4,6 +4,22 @@ import type { Metadata } from "next";
 
 export const revalidate = 600;
 
+function mergeRels(story: any, rels: any[]) {
+  if (!rels?.length) return story;
+  const relMap: Record<string, any> = {};
+  rels.forEach((rel: any) => { relMap[rel.uuid] = rel; });
+  function resolve(val: any): any {
+    if (typeof val === "string" && relMap[val]) return relMap[val];
+    if (Array.isArray(val)) return val.map(resolve);
+    if (val && typeof val === "object") {
+      const out: any = {};
+      for (const k of Object.keys(val)) out[k] = resolve(val[k]);
+      return out;
+    }
+    return val;
+  }
+  return { ...story, content: resolve(story.content) };
+}
 
 export async function generateMetadata({ params: { locale } }: any) {
   const pageSlug = "services";
@@ -15,26 +31,19 @@ export async function generateMetadata({ params: { locale } }: any) {
 
   const Metadata: Metadata = {
     title:
-      seoData.story.content.title ||
-      (locale === "en"
-        ? "Webrarium | We create digital solutions"
-        : "Webrarium | Створюємо цифрові рішення"),
+      seoData.story?.content?.title ||
+      (locale === "en" ? "Webrarium | We create digital solutions" : "Webrarium | Створюємо цифрові рішення"),
     description:
-      seoData.story.content.description ||
+      seoData.story?.content?.description ||
       (locale === "en"
         ? "Website development, chatbot development, marketing automation, product design, digital advertising."
         : "Створення сайтів, розробка чат-ботів, автоматизація маркетингу, продуктовий дизайн, цифрова реклама"),
     openGraph: {
-      images:
-        seoData.story.content.og_image?.filename ||
-        (locale === "en" ? "/OpenGraph_Eng.jpg" : "/OpenGraph_UA.jpg"),
+      images: seoData.story?.content?.og_image?.filename || (locale === "en" ? "/OpenGraph_Eng.jpg" : "/OpenGraph_UA.jpg"),
     },
     alternates: {
       canonical: locale === "en" ? `/en/${pageSlug}` : `/${pageSlug}`,
-      languages: {
-        uk: `/${pageSlug}`,
-        en: `/en/${pageSlug}`,
-      },
+      languages: { uk: `/${pageSlug}`, en: `/en/${pageSlug}` },
     },
   };
   return Metadata;
@@ -42,24 +51,15 @@ export async function generateMetadata({ params: { locale } }: any) {
 
 export default async function Services({ params: { locale } }: any) {
   const { data } = await fetchData(locale);
-
   return <StoryblokStory story={data.story} />;
 }
-async function fetchData(locale: string) {
-  let sbParams: {
-    version: "published" | "draft";
-    language: any;
-    resolve_relations: any;
-  } = {
-    version: "published",
-    language: locale,
-    resolve_relations: ["services_grid.services_list"],
-  };
 
+async function fetchData(locale: string) {
   const res = await fetch(
     `https://api.storyblok.com/v2/cdn/stories/services?version=published&token=${process.env.STORYBLOK_ACCESS_TOKEN}&language=${locale}&resolve_relations=services_grid.services_list`,
     { next: { revalidate: 600 } }
   );
-  const data = await res.json();
-  return { data };
+  const json = await res.json();
+  const story = mergeRels(json.story, json.rels);
+  return { data: { story } };
 }
