@@ -104,8 +104,7 @@ export default function Game() {
   // ─── Input ─────────────────────────────────────────────────────────────────
   const handleDir = useCallback((dx: number, dy: number) => {
     const s = stateRef.current;
-    if (!s) return;
-    if (s.phase === "idle" || s.phase === "over" || s.phase === "win") { initGame(); return; }
+    if (!s || s.phase === "idle" || s.phase === "over" || s.phase === "win") { initGame(); return; }
     if (s.phase === "playing") { s.pac.ndx = dx; s.pac.ndy = dy; }
   }, [initGame]);
 
