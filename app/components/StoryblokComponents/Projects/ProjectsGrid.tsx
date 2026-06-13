@@ -54,25 +54,25 @@ function ProjectCard({
   btn2txt: string;
 }) {
   const projectLink = `/${blok.full_slug}`;
-  const projectSiteLink = blok.content.project_site_link || null;
+  const projectSiteLink = blok.content?.project_site_link ?? null;
 
   return (
     <div className={styles.project_card}>
       <img
-        src={blok.content.cover.filename}
-        alt={blok.content.cover.alt}
+        src={blok.content?.cover?.filename}
+        alt={blok.content?.cover?.alt || ""}
         className={styles.bg}
         loading="lazy"
       />
       <div className={styles.pc_content}>
-        <h3>{blok.content.title}</h3>
+        <h3>{blok.content?.title}</h3>
         <div className={styles.divider}></div>
-        <div className={styles.description}>{blok.content.description}</div>
+        <div className={styles.description}>{blok.content?.description}</div>
         <div className={styles.pc_btns_wrp}>
           <Link href={projectLink} className={styles.case_btn}>
             {btntxt}
           </Link>
-          {projectSiteLink.url !== "" ? (
+          {projectSiteLink?.url && projectSiteLink.url !== "" ? (
             <Link
               href={projectSiteLink.url}
               className={styles.case_btn}
