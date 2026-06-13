@@ -1,12 +1,15 @@
 import { NextResponse } from "next/server";
 import { createClient } from "@supabase/supabase-js";
 
-const supabase = createClient(
-  process.env.SUPABASE_URL!,
-  process.env.SUPABASE_SERVICE_KEY!
-);
+function getClient() {
+  return createClient(
+    process.env.SUPABASE_URL!,
+    process.env.SUPABASE_SERVICE_KEY!
+  );
+}
 
 export async function GET() {
+  const supabase = getClient();
   const { data, error } = await supabase
     .from("game_scores")
     .select("name, score, created_at")
@@ -20,6 +23,7 @@ export async function GET() {
 }
 
 export async function POST(req: Request) {
+  const supabase = getClient();
   const { name, email, score } = await req.json();
 
   if (!name?.trim() || !email?.trim() || typeof score !== "number") {
