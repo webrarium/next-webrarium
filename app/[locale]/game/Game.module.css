@@ -1,0 +1,214 @@
+.wrapper {
+  max-width: 560px;
+  margin: 0 auto;
+  padding: 2rem 1rem 4rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.25rem;
+}
+
+/* HUD */
+.hud {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  font-size: 1rem;
+  color: rgba(255,255,255,0.6);
+}
+.hud strong {
+  color: #80c474;
+}
+
+/* Canvas */
+.canvasWrap {
+  position: relative;
+  border-radius: 12px;
+  overflow: hidden;
+  border: 1px solid rgba(80,122,73,0.4);
+  box-shadow: 0 0 40px rgba(80,122,73,0.15);
+}
+.canvas {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+/* Overlay */
+.overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(7,13,7,0.88);
+  backdrop-filter: blur(4px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+}
+.overlayBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.75rem;
+  text-align: center;
+  width: 100%;
+  max-width: 300px;
+}
+.overlayIcon {
+  font-size: 2.5rem;
+  line-height: 1;
+}
+.overlayBox h2 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #fff;
+}
+.overlayBox p {
+  font-size: 0.9rem;
+  color: rgba(255,255,255,0.55);
+  line-height: 1.5;
+}
+.overlayBox strong {
+  color: #80c474;
+}
+.modalSub {
+  font-size: 0.85rem !important;
+  color: rgba(255,255,255,0.45) !important;
+}
+
+/* Form */
+.input {
+  width: 100%;
+  padding: 0.7rem 1rem;
+  background: rgba(255,255,255,0.06);
+  border: 1px solid rgba(80,122,73,0.5);
+  border-radius: 8px;
+  color: #fff;
+  font-family: inherit;
+  font-size: 0.9rem;
+  outline: none;
+  transition: border-color 0.2s;
+}
+.input:focus {
+  border-color: #507a49;
+}
+.input::placeholder {
+  color: rgba(255,255,255,0.3);
+}
+.err {
+  color: #e74c3c !important;
+  font-size: 0.8rem !important;
+}
+
+/* Buttons */
+.ctaBtn {
+  width: 100%;
+  padding: 0.8rem 1.5rem;
+  background: #507a49;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-family: inherit;
+  font-size: 0.95rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s, transform 0.1s;
+}
+.ctaBtn:hover:not(:disabled) { background: #5e8f55; }
+.ctaBtn:active { transform: scale(0.98); }
+.ctaBtn:disabled { opacity: 0.6; cursor: not-allowed; }
+.ghostBtn {
+  background: none;
+  border: none;
+  color: rgba(255,255,255,0.35);
+  font-family: inherit;
+  font-size: 0.8rem;
+  cursor: pointer;
+  padding: 0.25rem 0;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+.ghostBtn:hover { color: rgba(255,255,255,0.6); }
+
+/* D-Pad */
+.dpad {
+  display: grid;
+  grid-template-columns: repeat(3, 48px);
+  grid-template-rows: repeat(2, 48px);
+  gap: 6px;
+}
+.dpad button {
+  border: 1px solid rgba(80,122,73,0.4);
+  border-radius: 8px;
+  background: rgba(80,122,73,0.1);
+  color: #fff;
+  font-size: 1.1rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: inherit;
+  transition: background 0.15s;
+  touch-action: manipulation;
+}
+.dpad button:active { background: rgba(80,122,73,0.35); }
+.dpad div { /* empty cell */ }
+
+/* Leaderboard */
+.board {
+  width: 100%;
+  background: rgba(15,28,14,0.8);
+  border: 1px solid rgba(80,122,73,0.3);
+  border-radius: 12px;
+  padding: 1.25rem 1.5rem;
+}
+.boardTitle {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #80c474;
+  margin-bottom: 1rem;
+}
+.boardEmpty {
+  font-size: 0.85rem;
+  color: rgba(255,255,255,0.3);
+  line-height: 1.6;
+  text-align: center;
+  padding: 1rem 0;
+}
+.boardList {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+.boardRow {
+  display: grid;
+  grid-template-columns: 28px 1fr auto;
+  gap: 8px;
+  align-items: center;
+  padding: 0.55rem 0;
+  border-bottom: 1px solid rgba(255,255,255,0.06);
+  font-size: 0.9rem;
+}
+.boardRow:last-child { border-bottom: none; }
+.first { color: #80c474; }
+.boardRank { font-size: 1rem; text-align: center; }
+.boardName { color: rgba(255,255,255,0.8); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.boardScore { font-weight: 700; color: #80c474; font-size: 0.95rem; white-space: nowrap; }
+.refreshBtn {
+  margin-top: 0.75rem;
+  background: none;
+  border: none;
+  color: rgba(255,255,255,0.25);
+  font-family: inherit;
+  font-size: 0.78rem;
+  cursor: pointer;
+  padding: 0;
+}
+.refreshBtn:hover { color: rgba(255,255,255,0.5); }
+
+@media (max-width: 520px) {
+  .wrapper { padding: 1rem 0.5rem 3rem; }
+  .canvasWrap { width: 100%; }
+  .canvas { width: 100%; }
+}
