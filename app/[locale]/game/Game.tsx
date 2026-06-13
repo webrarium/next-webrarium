@@ -90,10 +90,10 @@ export default function Game() {
       map: MAP_TPL.map(r => [...r]),
       pac: { x:8, y:4, dx:1, dy:0, ndx:1, ndy:0, mouth:0.15, mouthDir:1, dead:false, deadTimer:0 },
       ghosts: [
-        { x:7,  y:9,  dx:1,  dy:0,  color:GHOST_COLORS[0], scared:false, home:true,  homeTimer:40  },
-        { x:8,  y:9,  dx:-1, dy:0,  color:GHOST_COLORS[1], scared:false, home:true,  homeTimer:80  },
-        { x:9,  y:9,  dx:0,  dy:1,  color:GHOST_COLORS[2], scared:false, home:true,  homeTimer:120 },
-        { x:8,  y:10, dx:0,  dy:-1, color:GHOST_COLORS[3], scared:false, home:true,  homeTimer:160 },
+        { x:7,  y:9,  dx:1,  dy:0,  color:GHOST_COLORS[0], scared:false, home:true,  homeTimer:5   },
+        { x:8,  y:9,  dx:-1, dy:0,  color:GHOST_COLORS[1], scared:false, home:true,  homeTimer:10  },
+        { x:9,  y:9,  dx:0,  dy:1,  color:GHOST_COLORS[2], scared:false, home:true,  homeTimer:15  },
+        { x:8,  y:10, dx:0,  dy:-1, color:GHOST_COLORS[3], scared:false, home:true,  homeTimer:20  },
       ],
       score: 0, lives: 3, powerTimer: 0, phase: "playing", tick: 0,
     };
@@ -166,7 +166,7 @@ export default function Game() {
       }
       const cell = s.map[p.y]?.[p.x];
       if (cell === DOT)   { s.map[p.y][p.x]=EMPTY; s.score+=10; }
-      if (cell === POWER) { s.map[p.y][p.x]=EMPTY; s.score+=50; s.powerTimer=220; s.ghosts.forEach(g=>g.scared=true); }
+      if (cell === POWER) { s.map[p.y][p.x]=EMPTY; s.score+=50; s.powerTimer=120; s.ghosts.forEach(g=>g.scared=true); }
       p.mouth += 0.05 * p.mouthDir;
       if (p.mouth > 0.35 || p.mouth < 0.02) p.mouthDir *= -1;
       if (countDots(s.map) === 0) {
@@ -307,7 +307,7 @@ export default function Game() {
       const s = stateRef.current;
       if (!s || s.phase==="idle") { drawIdle(); return; }
       if (s.phase==="over"||s.phase==="win") return;
-      const tickRate = 120; // ms per game tick
+      const tickRate = 170; // ms per game tick
       if (ts - lastTick < tickRate) { /* draw only */ } else {
         lastTick=ts; s.tick++;
         updatePac(s);
