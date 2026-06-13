@@ -1,4 +1,4 @@
-import { getStoryblokApi } from "@storyblok/react/rsc";
+
 import StoryblokStory from "@storyblok/react/story";
 import type { Metadata } from "next";
 
@@ -48,11 +48,10 @@ async function fetchData(locale: string) {
     language: any;
   } = { version: "published", language: locale };
 
-  const storyblokApi = getStoryblokApi();
-  return await storyblokApi.get(`cdn/stories/privacy-policy`, sbParams, {
-    // cache: "no-store",
-    next: {
-      revalidate: 600,
-    },
-  });
+  const res = await fetch(
+    `https://api.storyblok.com/v2/cdn/stories/privacy-policy?version=published&token=${process.env.STORYBLOK_ACCESS_TOKEN}&language=${locale}`,
+    { next: { revalidate: 600 } }
+  );
+  const data = await res.json();
+  return { data };
 }

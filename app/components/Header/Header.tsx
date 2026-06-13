@@ -1,21 +1,10 @@
-import { getStoryblokApi } from "@storyblok/react/rsc";
 import StoryblokStory from "@storyblok/react/story";
 
 export default async function Header({ locale }: { locale: string }) {
-  const { data } = await fetchData(locale);
-  return <StoryblokStory story={data.story} locale={locale} />;
-}
-async function fetchData(locale: string) {
-  let sbParams: {
-    version: "published" | "draft";
-    language: any;
-  } = { version: "published", language: locale };
-
-  const storyblokApi = getStoryblokApi();
-  return storyblokApi.get(`cdn/stories/header`, sbParams, {
-    // cache: "no-store",
-    next: {
-      revalidate: 600,
-    },
-  });
+  const res = await fetch(
+    `https://api.storyblok.com/v2/cdn/stories/header?version=published&token=${process.env.STORYBLOK_ACCESS_TOKEN}&language=${locale}`,
+    { next: { revalidate: 600 } }
+  );
+  const { story } = await res.json();
+  return <StoryblokStory story={story} locale={locale} />;
 }

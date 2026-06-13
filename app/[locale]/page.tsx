@@ -1,4 +1,4 @@
-import { getStoryblokApi } from "@storyblok/react/rsc";
+
 import StoryblokStory from "@storyblok/react/story";
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
@@ -67,6 +67,10 @@ async function fetchData(locale: string) {
     ],
   };
 
-  const storyblokApi = getStoryblokApi();
-  return storyblokApi.get(`cdn/stories/home`, sbParams, { next: { revalidate: 600 } });
+  const res = await fetch(
+    `https://api.storyblok.com/v2/cdn/stories/home?version=published&token=${process.env.STORYBLOK_ACCESS_TOKEN}&language=${locale}&resolve_relations=projects_grid.projects_list,services_grid.services_list`,
+    { next: { revalidate: 600 } }
+  );
+  const data = await res.json();
+  return { data };
 }

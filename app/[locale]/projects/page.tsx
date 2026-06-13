@@ -1,4 +1,4 @@
-import { apiPlugin, getStoryblokApi, storyblokInit } from "@storyblok/react/rsc";
+
 import StoryblokStory from "@storyblok/react/story";
 import type { Metadata } from "next";
 
@@ -62,10 +62,10 @@ async function fetchData(locale: string) {
     resolve_relations: ["projects_grid.projects_list"],
   };
 
-  const storyblokApi = getStoryblokApi();
-  return storyblokApi.get(`cdn/stories/projects`, sbParams, {
-    next: {
-      revalidate: 600,
-    },
-  });
+  const res = await fetch(
+    `https://api.storyblok.com/v2/cdn/stories/projects?version=published&token=${process.env.STORYBLOK_ACCESS_TOKEN}&language=${locale}&resolve_relations=projects_grid.projects_list`,
+    { next: { revalidate: 600 } }
+  );
+  const data = await res.json();
+  return { data };
 }
