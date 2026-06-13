@@ -2,22 +2,42 @@ import { storyblokEditable, getStoryblokApi } from "@storyblok/react/rsc";
 import styles from "@/app/components/StoryblokComponents/Projects/Projects.module.css";
 import Link from "next/link";
 import { useEffect, useState } from "react";
+import { useParams } from "next/navigation";
 
 export default function ProjectsGrid({ blok }: { blok: any }) {
   const [resolvedBlok, setResolvedBlok] = useState(blok);
+  const { locale } = useParams();
 
   useEffect(() => {
     const fetchResolvedData = async () => {
       const storyblokApi = getStoryblokApi();
-      const { data } = await storyblokApi.get(`cdn/stories/${blok.slug}`, {
-        version: "published",
-        resolve_relations: ["projects_grid.projects_list"],
-      });
 
-      setResolvedBlok(data.story.content);
+      // Case: projects_list contains UUID strings (inline on service/project pages)
+      if (blok.projects_list?.length && typeof blok.projects_list[0] === "string") {
+        const { data } = await storyblokApi.get("cdn/stories", {
+          version: "published",
+          by_uuids: blok.projects_list.join(","),
+          language: locale?.toString() || "uk",
+        });
+        setResolvedBlok({ ...blok, projects_list: data.stories });
+        return;
+      }
+
+      // Case: no projects_list — fetch the grid story by slug
+      if (blok.slug) {
+        const { data } = await storyblokApi.get(`cdn/stories/${blok.slug}`, {
+          version: "published",
+          resolve_relations: ["projects_grid.projects_list"],
+        });
+        setResolvedBlok(data.story.content);
+      }
     };
 
-    if (!blok.projects_list) {
+    const needsFetch =
+      !blok.projects_list ||
+      (blok.projects_list.length > 0 && typeof blok.projects_list[0] === "string");
+
+    if (needsFetch) {
       fetchResolvedData();
     }
   }, [blok]);
