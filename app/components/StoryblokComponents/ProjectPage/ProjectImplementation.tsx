@@ -10,11 +10,11 @@ export default function ProjectImplementation({ blok, projectLink }: { blok: any
             <div className="container">
                 <h2>{blok.title}</h2>
                 <div className={styles.implementation}>
-                    {blok.cards.map((card: any) => (
+                    {(blok.cards || []).map((card: any) => (
                         <ProjectImplementationCard blok={card} key={card._uid} />
                     ))}
                 </div>
-                {projectLink.url &&
+                {projectLink?.url &&
                     <Link className={`${styles.btn} ${styles.btnWild}`} href={projectLink.url} target="_blank">{blok.button_text}</Link>
                 }
             </div>

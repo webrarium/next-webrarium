@@ -9,7 +9,7 @@ export default function ProjectRealization({ blok, projectLink }: { blok: any, p
       <div className="container">
         <h2>{blok.title}</h2>
         <div className={styles.realization_txt}>{render(blok.text)}</div>
-        {projectLink.url &&
+        {projectLink?.url &&
           <Link className={styles.btn} href={projectLink.url} target="_blank">Live</Link>
         }
       </div>
