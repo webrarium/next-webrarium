@@ -637,6 +637,46 @@
         "title__i18n__en": "Customer Feedback"
       },
       {
+        "_uid": "261e5bcd-c8e2-4e4e-ace9-41104a58db69",
+        "component": "service_faq",
+        "title": "Часті запитання про 3D анімацію та моушн-дизайн",
+        "title__i18n__en": "FAQ: 3D Animation & Motion Design",
+        "items": [
+          {
+            "_uid": "5c68102f-c4e7-4a1b-94e4-502069f307b4",
+            "component": "faq_item",
+            "question": "Для яких форматів робите 3D анімацію?",
+            "answer": "Готуємо відео для Instagram Reels, TikTok, YouTube, банерної реклами, сайтів та презентацій. Вихідний формат — MP4, MOV або GIF. Під кожну платформу адаптуємо розміри та тривалість.",
+            "question__i18n__en": "What formats do you create 3D animations for?",
+            "answer__i18n__en": "We produce videos for Instagram Reels, TikTok, YouTube, banner ads, websites, and presentations. Output formats: MP4, MOV, or GIF. We adapt dimensions and duration for each platform."
+          },
+          {
+            "_uid": "478579df-938a-4abd-9b0f-f346cb6ac851",
+            "component": "faq_item",
+            "question": "Скільки коштує 3D анімація для ювелірних прикрас?",
+            "answer": "Від $400 за коротке відео (5–15 сек). Ціна залежить від складності моделі, матеріалів, тривалості та кількості сцен. Надаємо кошторис після отримання референсів і технічного завдання.",
+            "question__i18n__en": "How much does 3D animation for jewelry cost?",
+            "answer__i18n__en": "Starting from $400 for a short video (5–15 sec). The price depends on model complexity, materials, duration, and the number of scenes. We provide a quote after receiving references and a brief."
+          },
+          {
+            "_uid": "c347c89b-7f9a-4707-8122-4693ed62fac3",
+            "component": "faq_item",
+            "question": "Чи потрібно надавати 3D-моделі або CAD-файли?",
+            "answer": "Ні. Ми можемо створити 3D-модель з фотографій або ескізів. Якщо у вас є готові CAD або STL файли — використаємо їх, це скоротить час і вартість роботи.",
+            "question__i18n__en": "Do I need to provide 3D models or CAD files?",
+            "answer__i18n__en": "No. We can create a 3D model from photographs or sketches. If you have existing CAD or STL files — we'll use them, which will reduce the time and cost."
+          },
+          {
+            "_uid": "7f46a035-fb13-4d5c-a88c-9374030b2055",
+            "component": "faq_item",
+            "question": "Скільки часу займає виробництво одного відео?",
+            "answer": "Зазвичай 7–14 днів на одне відео: 2–3 дні на 3D-моделювання, 3–5 днів на анімацію і рендер, 1–2 дні на постобробку. Паралельне виробництво серії відео скорочує загальний термін.",
+            "question__i18n__en": "How long does production of one video take?",
+            "answer__i18n__en": "Usually 7–14 days per video: 2–3 days for 3D modeling, 3–5 days for animation and rendering, 1–2 days for post-production. Parallel production of a video series reduces the overall timeline."
+          }
+        ]
+      },
+      {
         "_uid": "e8e1a110-d6c9-4be1-8694-50703b28cdcc",
         "title": "Інші проєкти",
         "component": "projects_grid",

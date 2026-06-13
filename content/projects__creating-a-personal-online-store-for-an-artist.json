@@ -372,6 +372,46 @@
         "title__i18n__en": "Client Feedback"
       },
       {
+        "_uid": "3df37345-b185-427b-a31b-3cd49d6993ab",
+        "component": "service_faq",
+        "title": "Часті запитання про розробку інтернет-магазину",
+        "title__i18n__en": "FAQ: Online Store Development",
+        "items": [
+          {
+            "_uid": "375a170f-61df-4d5c-b420-b6957a7914a3",
+            "component": "faq_item",
+            "question": "Чому Shopify, а не WooCommerce чи інша платформа?",
+            "answer": "Shopify — оптимальний вибір для продажу творчих робіт: вбудований хостинг, безпека, підтримка міжнародних платежів та простий адмін-панель без технічних знань. WooCommerce підходить, якщо вже є WordPress-сайт.",
+            "question__i18n__en": "Why Shopify and not WooCommerce or another platform?",
+            "answer__i18n__en": "Shopify is the optimal choice for selling creative works: built-in hosting, security, international payment support, and a simple admin panel requiring no technical knowledge. WooCommerce is better if you already have a WordPress site."
+          },
+          {
+            "_uid": "18669cc4-efc9-4d4a-b6f7-9627d6a70621",
+            "component": "faq_item",
+            "question": "Скільки коштує розробка магазину для художника / творця?",
+            "answer": "Базовий Shopify-магазин під ключ — від $800. Включає налаштування теми, каталог, оплату, доставку та базову SEO-оптимізацію. Складніші проєкти з кастомним дизайном — від $2000.",
+            "question__i18n__en": "How much does an online store for an artist or creator cost?",
+            "answer__i18n__en": "A basic turnkey Shopify store starts at $800. It includes theme setup, catalog, payments, shipping, and basic SEO. More complex projects with custom design start from $2,000."
+          },
+          {
+            "_uid": "e87215ef-cb7e-4b53-afff-1d42d5748220",
+            "component": "faq_item",
+            "question": "Чи зможу я сам додавати роботи та керувати магазином?",
+            "answer": "Так. Після запуску ми навчимо вас керувати магазином: додавати товари, змінювати ціни, обробляти замовлення. Shopify має зручний інтерфейс — розібратися можна за годину.",
+            "question__i18n__en": "Will I be able to add products and manage the store myself?",
+            "answer__i18n__en": "Yes. After launch we'll train you to manage the store: add products, change prices, process orders. Shopify has an intuitive interface — you can learn it in an hour."
+          },
+          {
+            "_uid": "49fa2876-1430-4172-be2d-63d7f044d8cd",
+            "component": "faq_item",
+            "question": "Чи можна продавати роботи по всьому світу?",
+            "answer": "Так. Налаштовуємо міжнародні платежі (Stripe, PayPal), мультивалютність, міжнародну доставку та за потреби — перекладені версії магазину. Ваші покупці можуть бути будь-де у світі.",
+            "question__i18n__en": "Can I sell works internationally?",
+            "answer__i18n__en": "Yes. We set up international payments (Stripe, PayPal), multi-currency support, international shipping, and if needed — translated store versions. Your buyers can be anywhere in the world."
+          }
+        ]
+      },
+      {
         "_uid": "7b47cb5d-f496-42ea-95b8-5c1e0e51454a",
         "title": "Інші проєкти",
         "component": "projects_grid",

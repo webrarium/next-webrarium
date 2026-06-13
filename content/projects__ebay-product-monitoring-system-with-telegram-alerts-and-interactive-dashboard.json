@@ -352,6 +352,46 @@
         "title__i18n__en": "Client Testimonial"
       },
       {
+        "_uid": "88a078b8-42e3-4e31-abf7-3a61f589e5eb",
+        "component": "service_faq",
+        "title": "Часті запитання про автоматизацію та бізнес-боти",
+        "title__i18n__en": "FAQ: Business Automation & Bots",
+        "items": [
+          {
+            "_uid": "7bd08a24-95a6-4123-8fd6-3cf2efee3b63",
+            "component": "faq_item",
+            "question": "Що можна автоматизувати за допомогою Telegram-бота?",
+            "answer": "Сповіщення про нові замовлення, ліди або події; моніторинг цін, залишків, позицій у пошуку; щоденні/тижневі звіти; узгодження та затвердження; внутрішні дашборди. Практично будь-який повторюваний процес.",
+            "question__i18n__en": "What can be automated with a Telegram bot?",
+            "answer__i18n__en": "Notifications about new orders, leads, or events; monitoring of prices, stock levels, search positions; daily/weekly reports; approvals and sign-offs; internal dashboards. Virtually any repetitive process."
+          },
+          {
+            "_uid": "92663d01-6af7-46f8-b54e-16bdacadd863",
+            "component": "faq_item",
+            "question": "Скільки коштує розробка системи моніторингу або бота?",
+            "answer": "Простий Telegram-бот з повідомленнями — від $300. Система моніторингу з парсингом, базою даних та дашбордом — від $800. Ціна залежить від кількості джерел даних та складності логіки.",
+            "question__i18n__en": "How much does a monitoring system or bot cost?",
+            "answer__i18n__en": "A simple Telegram bot with notifications starts at $300. A monitoring system with parsing, database, and dashboard — from $800. The price depends on the number of data sources and logic complexity."
+          },
+          {
+            "_uid": "ae96ed11-68be-448d-af48-3a3e227a0730",
+            "component": "faq_item",
+            "question": "Чи можна моніторити не лише eBay, а й інші маркетплейси?",
+            "answer": "Так. Розробляємо парсери та системи моніторингу для Amazon, OLX, Rozetka, Prom, Etsy, Alibaba та інших платформ. Також можемо інтегрувати офіційні API там, де вони доступні.",
+            "question__i18n__en": "Can you monitor platforms other than eBay?",
+            "answer__i18n__en": "Yes. We develop parsers and monitoring systems for Amazon, OLX, Rozetka, Prom, Etsy, Alibaba, and other platforms. We can also integrate official APIs where available."
+          },
+          {
+            "_uid": "bec02ee1-dd14-46fd-a8d6-e1a092add694",
+            "component": "faq_item",
+            "question": "Чи потрібно мати технічні знання для роботи з системою?",
+            "answer": "Ні. Ми розробляємо зручний інтерфейс: веб-дашборд або Telegram-команди. Система налаштовується під ваші потреби, а ми навчаємо команду і надаємо документацію.",
+            "question__i18n__en": "Do I need technical knowledge to use the system?",
+            "answer__i18n__en": "No. We develop a user-friendly interface: a web dashboard or Telegram commands. The system is configured to your needs, and we train your team and provide documentation."
+          }
+        ]
+      },
+      {
         "_uid": "ea151583-1867-4c7e-b742-62db291af2fc",
         "title": "Інші проєкти",
         "component": "projects_grid",

@@ -633,6 +633,46 @@
         "title__i18n__en": "🗣️ Client Feedback"
       },
       {
+        "_uid": "3faa644e-a70e-4545-92ed-e4ae6921a535",
+        "component": "service_faq",
+        "title": "Часті запитання про рекламні кампанії",
+        "title__i18n__en": "FAQ: Advertising Campaigns",
+        "items": [
+          {
+            "_uid": "873a356f-e7a0-4e8b-861f-f54f1ee01f54",
+            "component": "faq_item",
+            "question": "Скільки коштує запуск рекламної кампанії?",
+            "answer": "Вартість залежить від бюджету на рекламу та обсягу робіт. Ми працюємо з бюджетами від $500/міс. Вартість налаштування та ведення обговорюється індивідуально після аудиту ніші.",
+            "question__i18n__en": "How much does launching an ad campaign cost?",
+            "answer__i18n__en": "The cost depends on the ad budget and scope of work. We work with budgets starting from $500/month. Setup and management fees are discussed individually after a niche audit."
+          },
+          {
+            "_uid": "6ddaa00f-d6eb-49ff-a6c2-22b687c65ce4",
+            "component": "faq_item",
+            "question": "Які канали просування ви використовуєте?",
+            "answer": "Google Ads (пошук, КМС, YouTube), Meta (Facebook та Instagram), LinkedIn. Для кожного проєкту підбираємо оптимальний мікс каналів залежно від аудиторії та цілей.",
+            "question__i18n__en": "Which advertising channels do you use?",
+            "answer__i18n__en": "Google Ads (search, Display, YouTube), Meta (Facebook and Instagram), LinkedIn. For each project we select the optimal channel mix based on the target audience and goals."
+          },
+          {
+            "_uid": "3618dc71-8bf2-4ead-8a58-3ecdaef4e370",
+            "component": "faq_item",
+            "question": "Коли чекати перші результати?",
+            "answer": "Перші дані — вже в перший тиждень. Оптимізація займає 2–4 тижні. Стабільні результати зазвичай досягаються на 4–6-й тиждень після старту кампанії.",
+            "question__i18n__en": "When can I expect the first results?",
+            "answer__i18n__en": "First data appears within the first week. Optimization takes 2–4 weeks. Stable results are typically achieved by week 4–6 after the campaign launch."
+          },
+          {
+            "_uid": "767cf44b-c950-4b96-b4cc-107e2a3ac066",
+            "component": "faq_item",
+            "question": "Як ви вимірюєте ефективність реклами?",
+            "answer": "Налаштовуємо наскрізну аналітику: Google Analytics 4, Google Tag Manager, Meta Pixel. Звітуємо по CPL, CPA, ROAS та конверсіям з кожного каналу — без «порожніх» метрик.",
+            "question__i18n__en": "How do you measure advertising effectiveness?",
+            "answer__i18n__en": "We set up end-to-end analytics: Google Analytics 4, Google Tag Manager, Meta Pixel. We report on CPL, CPA, ROAS, and conversions from each channel — no vanity metrics."
+          }
+        ]
+      },
+      {
         "_uid": "87b5c952-de04-4a2d-8a4c-2102419e150a",
         "title": "Інші проєкти",
         "component": "projects_grid",

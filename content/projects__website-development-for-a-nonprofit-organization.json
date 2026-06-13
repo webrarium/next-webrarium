@@ -237,6 +237,46 @@
         "button_text__i18n__en": "View Website"
       },
       {
+        "_uid": "0a0c3a4d-410a-47da-b6da-3e516a8cd851",
+        "component": "service_faq",
+        "title": "Часті запитання про сайти для НКО та правозахисних організацій",
+        "title__i18n__en": "FAQ: Websites for NGOs & Human Rights Organizations",
+        "items": [
+          {
+            "_uid": "f314060a-beb3-4551-b416-e474b758a106",
+            "component": "faq_item",
+            "question": "Чи маєте досвід роботи з НКО та некомерційними організаціями?",
+            "answer": "Так. Ми розуміємо специфіку НКО: необхідність донести складні теми зрозумілою мовою, залучити донорів та партнерів, побудувати довіру аудиторії. Маємо досвід роботи з правозахисними та соціальними організаціями.",
+            "question__i18n__en": "Do you have experience working with NGOs and nonprofits?",
+            "answer__i18n__en": "Yes. We understand the specifics of NGOs: the need to communicate complex topics in accessible language, attract donors and partners, and build audience trust. We have experience with human rights and social organizations."
+          },
+          {
+            "_uid": "33a1e4eb-52b8-44cd-aa42-6f71749c27a8",
+            "component": "faq_item",
+            "question": "Скільки коштує сайт для громадської організації?",
+            "answer": "Від $800 за базовий сайт з описом місії, командою, проєктами та формою зворотнього зв'язку. Складніші проєкти з мультимовністю, базою даних або донаційним модулем — від $2000.",
+            "question__i18n__en": "How much does a website for a nonprofit organization cost?",
+            "answer__i18n__en": "From $800 for a basic site with mission description, team, projects, and contact form. More complex projects with multilingual support, database, or donation module — from $2,000."
+          },
+          {
+            "_uid": "dc2e8124-83f0-4824-87ac-a11a13ee03c1",
+            "component": "faq_item",
+            "question": "Чи можете зробити сайт двома або більше мовами?",
+            "answer": "Так. Реалізуємо повноцінну багатомовність: переключення мов, SEO для кожної мовної версії, окремі URL. Для міжнародних організацій — стандартна практика.",
+            "question__i18n__en": "Can you build the site in two or more languages?",
+            "answer__i18n__en": "Yes. We implement full multilingual support: language switching, SEO for each language version, separate URLs. Standard practice for international organizations."
+          },
+          {
+            "_uid": "6e75eae1-b05f-4154-8b35-1a1eea1a5139",
+            "component": "faq_item",
+            "question": "Як сайт допоможе залучити донорів та партнерів?",
+            "answer": "Сильний сайт показує прозорість, результати роботи та довіру. Інтегруємо форми для донацій, звіти про діяльність, кейси та відгуки. Налаштовуємо SEO і аналітику для розуміння, звідки приходять відвідувачі.",
+            "question__i18n__en": "How will the website help attract donors and partners?",
+            "answer__i18n__en": "A strong website demonstrates transparency, results, and trust. We integrate donation forms, activity reports, case studies, and testimonials. We set up SEO and analytics to understand where visitors come from."
+          }
+        ]
+      },
+      {
         "_uid": "6151ec3e-c443-44fd-8639-914932e99e78",
         "title": "Інші проєкти",
         "component": "projects_grid",

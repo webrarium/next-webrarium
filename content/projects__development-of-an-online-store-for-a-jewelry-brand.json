@@ -504,6 +504,46 @@
         "title__i18n__en": "Feedback from the Founder"
       },
       {
+        "_uid": "2e7e9607-2bb9-4889-8450-2a8d580453a8",
+        "component": "service_faq",
+        "title": "Часті запитання про розробку ювелірного інтернет-магазину",
+        "title__i18n__en": "FAQ: Jewelry Online Store Development",
+        "items": [
+          {
+            "_uid": "742d7431-f16a-41f8-b663-0c1e12d63409",
+            "component": "faq_item",
+            "question": "Яка платформа краще для ювелірного магазину — Shopify чи WooCommerce?",
+            "answer": "Shopify — якщо важлива швидкість запуску, стабільність і мінімум технічного обслуговування. WooCommerce — якщо потрібна максимальна кастомізація і вже є WordPress. Для більшості ювелірних брендів рекомендуємо Shopify.",
+            "question__i18n__en": "Which platform is better for a jewelry store — Shopify or WooCommerce?",
+            "answer__i18n__en": "Shopify — if speed of launch, stability, and minimal technical maintenance are priorities. WooCommerce — if you need maximum customization and already have WordPress. For most jewelry brands we recommend Shopify."
+          },
+          {
+            "_uid": "0ba84fde-1cbe-4a40-a6e2-17c5af0edc59",
+            "component": "faq_item",
+            "question": "Як показати фактуру та деталі прикрас онлайн?",
+            "answer": "Використовуємо кілька підходів: якісна макрофотографія, 3D-анімація, відео 360°, zoom-функціонал. Можемо також інтегрувати AR-приміряння для деяких платформ.",
+            "question__i18n__en": "How do you showcase jewelry texture and details online?",
+            "answer__i18n__en": "We use several approaches: quality macro photography, 3D animation, 360° video, zoom functionality. We can also integrate AR try-on features for some platforms."
+          },
+          {
+            "_uid": "0eff7789-d56f-4d61-95a9-e4f1df3e7548",
+            "component": "faq_item",
+            "question": "Скільки коштує розробка ювелірного інтернет-магазину?",
+            "answer": "Від $1200 за базовий магазин з каталогом, фільтрами, оплатою і SEO. Проєкти з кастомним дизайном, великим каталогом або складними інтеграціями — від $3000. Кошторис після брифу.",
+            "question__i18n__en": "How much does a jewelry online store cost?",
+            "answer__i18n__en": "From $1,200 for a basic store with catalog, filters, payment, and SEO. Projects with custom design, large catalog, or complex integrations — from $3,000. Quote provided after the brief."
+          },
+          {
+            "_uid": "f5f3ac87-6808-42b4-a0f9-ec396d8b9d09",
+            "component": "faq_item",
+            "question": "Чи допоможете з фотозйомкою прикрас?",
+            "answer": "Так, за потреби координуємо або рекомендуємо партнерів-фотографів для предметної зйомки. Також можемо замінити або доповнити фото 3D-рендерами та відео для сильнішої презентації товару.",
+            "question__i18n__en": "Can you help with jewelry photography?",
+            "answer__i18n__en": "Yes, if needed we coordinate or recommend partner photographers for product photography. We can also replace or supplement photos with 3D renders and videos for a stronger product presentation."
+          }
+        ]
+      },
+      {
         "_uid": "ccdf9de6-4543-47ad-93e4-a3b8ddacad11",
         "title": "Інші проєкти",
         "component": "projects_grid",

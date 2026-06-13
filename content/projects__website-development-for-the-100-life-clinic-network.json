@@ -546,6 +546,46 @@
         "title__i18n__en": "🗣️ Customer review"
       },
       {
+        "_uid": "0c279afa-76eb-43e7-9ccf-6d5fd2b2feb9",
+        "component": "service_faq",
+        "title": "Часті запитання про маркетинг для медичних клінік",
+        "title__i18n__en": "FAQ: Marketing for Medical Clinics",
+        "items": [
+          {
+            "_uid": "2a9ced67-2658-45a1-a9bd-c5ef8b893f1e",
+            "component": "faq_item",
+            "question": "Чи є обмеження на рекламу медичних послуг у Google та Meta?",
+            "answer": "Так, є. Google і Meta мають суворі правила для медичної реклами: заборона таргетингу за станом здоров'я, обмеження на деякі формулювання. Ми знаємо ці правила і налаштовуємо кампанії у відповідності з ними.",
+            "question__i18n__en": "Are there restrictions on advertising medical services on Google and Meta?",
+            "answer__i18n__en": "Yes, there are. Google and Meta have strict rules for medical advertising: prohibition of health condition targeting, restrictions on certain wording. We know these rules and set up campaigns in compliance with them."
+          },
+          {
+            "_uid": "9f3dafc2-a87b-44e9-ae63-0cf522e43133",
+            "component": "faq_item",
+            "question": "Скільки коштує залучення одного пацієнта через рекламу?",
+            "answer": "Залежить від ніші та конкуренції. У нашому кейсі для клінік 100% ЖИТТЯ вартість звернення склала $1.20. Стоматологія, репродуктивна медицина чи хірургія можуть мати інші показники — обговоримо після аналізу ніші.",
+            "question__i18n__en": "How much does attracting one patient through advertising cost?",
+            "answer__i18n__en": "It depends on the niche and competition. In our case study for 100% LIFE clinics, the cost per contact was $1.20. Dentistry, reproductive medicine, or surgery may have different metrics — we'll discuss after analyzing your niche."
+          },
+          {
+            "_uid": "b7163beb-5fa2-45c0-916c-cbbcd1931aba",
+            "component": "faq_item",
+            "question": "Що важливіше для клініки — SEO чи платна реклама?",
+            "answer": "Обидва інструменти потрібні, але на різних етапах. Реклама дає швидкий потік пацієнтів вже з першого тижня. SEO будує стабільний органічний трафік за 3–6 місяців. Оптимально — запускати паралельно.",
+            "question__i18n__en": "What's more important for a clinic — SEO or paid advertising?",
+            "answer__i18n__en": "Both tools are needed, but at different stages. Advertising delivers a fast flow of patients from the first week. SEO builds stable organic traffic over 3–6 months. The optimal approach is to run both in parallel."
+          },
+          {
+            "_uid": "a6a1c689-eb6f-4839-938e-3f5adc47664c",
+            "component": "faq_item",
+            "question": "Чи допоможете з сайтом і контентом для клініки?",
+            "answer": "Так. Розробляємо медичні сайти на Webflow, WordPress та інших платформах: структура під SEO, зручна запис на прийом, сторінки послуг та лікарів. Пишемо контент, що відповідає вимогам E-E-A-T Google.",
+            "question__i18n__en": "Can you help with the website and content for a clinic?",
+            "answer__i18n__en": "Yes. We develop medical websites on Webflow, WordPress, and other platforms: SEO-optimized structure, easy appointment booking, service and doctor pages. We write content that meets Google's E-E-A-T requirements."
+          }
+        ]
+      },
+      {
         "_uid": "0d8b6983-3181-40ed-9df3-4fa357cda3f4",
         "title": "Схожі проєкти",
         "component": "projects_grid",
