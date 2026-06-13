@@ -27,7 +27,7 @@
       "meta_data": {},
       "is_external_url": false
     },
-    "title": "Розробка онлайн-магазину для ювелірного бренду",
+    "title": "Онлайн-магазин для ювелірного бренду: зручний каталог, що конвертує",
     "blocks": [
       {
         "_uid": "9bdc04ff-068a-466e-935f-b3209e04b563",
@@ -144,27 +144,27 @@
         "project_results_cards": [
           {
             "_uid": "5db8b6e8-5703-4837-82f9-b9beadd269ad",
-            "text": "Ріст органічного та платного трафіку на сайті завдяки оптимізації контенту і рекламним кампаніям.",
-            "title": "Збільшення трафіку",
+            "text": "завдяки SEO-оптимізації сторінок товарів і семантичному ядру бренд з'явився у Google за цільовими запитами покупців",
+            "title": "↑ Органічний трафік",
             "component": "project_results_card",
-            "text__i18n__en": "Increase in organic and paid traffic to the site through content optimization and advertising campaigns.",
-            "title__i18n__en": "Increasing Traffic"
+            "text__i18n__en": "thanks to product page SEO optimization and semantic core, the brand appeared in Google for buyers' target queries",
+            "title__i18n__en": "↑ Organic traffic"
           },
           {
             "_uid": "4c64af1a-e457-471a-b556-e49562b74912",
-            "text": "Від 0 до 120 000uah оборотних коштів, проведених через вебсайт. ",
-            "title": "Збільшення продажів",
+            "text": "зручний каталог, швидкий чекаут та інтеграція платіжних систем скоротили шлях від огляду до покупки",
+            "title": "↑ Онлайн-продажі",
             "component": "project_results_card",
-            "text__i18n__en": "From 0 to 120,000 UAH in turnover conducted through the website.",
-            "title__i18n__en": "Increasing Sales"
+            "text__i18n__en": "a user-friendly catalog, fast checkout, and payment system integration shortened the path from browsing to purchase",
+            "title__i18n__en": "↑ Online sales"
           },
           {
             "_uid": "9f7af4bb-2486-459b-b058-91260541acbf",
-            "text": "Збільшення кількості покупок або запитів через сайт завдяки ефективному дизайну та оптимізації процесу покупки.",
-            "title": "Покращення конверсій",
+            "text": "оптимізований UX, мобільна адаптація та детальні картки товарів збільшили частку відвідувачів, що завершують покупку",
+            "title": "↑ Конверсія",
             "component": "project_results_card",
-            "text__i18n__en": "Increase the number of purchases or inquiries through the site by implementing effective design and optimizing the purchasing process.",
-            "title__i18n__en": "Improving Conversions"
+            "text__i18n__en": "optimized UX, mobile adaptation, and detailed product cards increased the share of visitors completing a purchase",
+            "title__i18n__en": "↑ Conversion rate"
           }
         ]
       },
@@ -520,10 +520,10 @@
         "button2_txt__i18n__en": "View Site"
       }
     ],
-    "subtitle": "Створення зручного онлайн-магазину для бренду якісної ювелірної продукції. Метою було розробити платформу, яка продемонструє колекцію ювелірних виробів бренду, покращить досвід покупок та сприятиме збільшенню продажів.",
+    "subtitle": "Бренд якісних ювелірних прикрас потребував платформу, де клієнт з легкістю знайде виріб і купить. Ми розробили інтернет-магазин з продуманим UX, SEO-оптимізацією та маркетинговими інтеграціями — і ріст трафіку та продажів не забарився.",
     "component": "project",
     "description": "Розробка зручного онлайн-магазину для бренду ювелірної продукції. Створення платформи, що демонструє вишукану колекцію ювелірних прекрас, покращує досвід покупок і сприяє збільшенню продажів.",
-    "title__i18n__en": "Development of an Online Store for a Jewelry Brand",
+    "title__i18n__en": "Online Store for a Jewelry Brand: A User-Friendly Catalog That Converts",
     "project_site_link": {
       "id": "",
       "url": "https://tobimozhna.com",
@@ -531,12 +531,12 @@
       "fieldtype": "multilink",
       "cached_url": "https://tobimozhna.com"
     },
-    "subtitle__i18n__en": "Creation of an elegant and user-friendly online store for a high-quality jewelry brand. The goal was to develop a platform that showcases the brand's exquisite jewelry collection, enhances the shopping experience, and boosts sales.",
+    "subtitle__i18n__en": "A quality jewelry brand needed a platform where customers could easily find and purchase items. We developed an online store with thoughtful UX, SEO optimization, and marketing integrations — and traffic and sales growth followed quickly.",
     "description__i18n__en": "Development of a user-friendly online store for a high-end jewelry brand. Creating a platform that showcases an exquisite jewelry collection, enhances the shopping experience, and drives sales.",
-    "meta_title": "Інтернет-магазин для ювелірного бренду — кейс Webrarium",
-    "meta_title__i18n__en": "Online Store for a Jewelry Brand — Webrarium Case Study",
-    "meta_description": "Кейс розробки інтернет-магазину для ювелірного бренду: каталог, фільтри, онлайн-оплата, адаптивний дизайн. Webrarium — розробка e-commerce сайтів в Україні.",
-    "meta_description__i18n__en": "Case study: jewelry brand online store — product catalog, filters, online payments, responsive design. Webrarium — e-commerce website development in Ukraine."
+    "meta_title": "Онлайн-магазин для ювелірного бренду: UX, SEO та зростання продажів | Webrarium",
+    "meta_title__i18n__en": "Online Store for a Jewelry Brand: UX, SEO & Sales Growth | Webrarium",
+    "meta_description": "Кейс: розробка інтернет-магазину для ювелірного бренду — зручний каталог, SEO-оптимізація, інтеграція платіжних систем. Ріст трафіку та конверсій.",
+    "meta_description__i18n__en": "Case study: online store development for a jewelry brand — user-friendly catalog, SEO optimization, payment system integration. Traffic and conversion growth."
   },
   "published": true,
   "slug": "development-of-an-online-store-for-a-jewelry-brand",

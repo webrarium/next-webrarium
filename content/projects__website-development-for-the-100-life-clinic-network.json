@@ -32,7 +32,7 @@
       },
       "is_external_url": false
     },
-    "title": "Розробка сайту для мережі клінік 100% ЖИТТЯ",
+    "title": "4700+ звернень за 6 місяців — сайт та реклама для мережі клінік 100% ЖИТТЯ",
     "blocks": [
       {
         "_uid": "1780bbf9-b752-4be8-991a-13c6e8d1613b",
@@ -266,38 +266,43 @@
         "project_results_cards": [
           {
             "_uid": "3e610536-960d-45e6-b828-20d3f4d69348",
-            "text": "",
-            "title": "4700+ звернень за перші 6 місяців через сайт",
+            "text": "звернень через сайт за перші 6 місяців — пацієнти знаходили клініки в своєму місті і записувалися онлайн",
+            "title": "4700+",
             "component": "project_results_card",
-            "title__i18n__en": "4700+ applications in the first 6 months through the site"
+            "title__i18n__en": "4700+",
+            "text__i18n__en": "patient contacts via the website in the first 6 months — patients found clinics in their city and booked online"
           },
           {
             "_uid": "2eb20cd5-87e7-4691-bef8-c571d23bac7f",
-            "text": "",
-            "title": "1000+ пацієнтів записалися на консультації онлайн",
+            "text": "пацієнтів записалися на консультації онлайн — форма онлайн-запису стала основним каналом нових звернень",
+            "title": "1000+",
             "component": "project_results_card",
-            "title__i18n__en": "1000+ patients signed up for online consultations"
+            "title__i18n__en": "1000+",
+            "text__i18n__en": "patients booked consultations online — the appointment form became the primary channel for new contacts"
           },
           {
             "_uid": "7ea5d2be-1d72-47ce-aecb-d671864ef906",
-            "text": "",
-            "title": "CTR понад 8% у пошукових кампаніях",
+            "text": "показник клікабельності в пошукових кампаніях Google Ads — вдвічі вище галузевого середнього для медичної тематики",
+            "title": "CTR 8%+",
             "component": "project_results_card",
-            "title__i18n__en": "CTR over 8% in search campaigns"
+            "title__i18n__en": "CTR 8%+",
+            "text__i18n__en": "click-through rate in Google Ads search campaigns — twice the industry average for medical topics"
           },
           {
             "_uid": "aa32e4c7-6188-4bfe-ba1b-fbd3e94f610c",
-            "text": "",
-            "title": "Середня вартість залучення одного пацієнта — $1.20",
+            "text": "середня вартість залучення одного пацієнта через рекламу — ефективно навіть за обмеженого бюджету клінік",
+            "title": "$1.20",
             "component": "project_results_card",
-            "title__i18n__en": "The average cost of attracting one patient is $1.20"
+            "title__i18n__en": "$1.20",
+            "text__i18n__en": "average cost per patient acquisition through ads — effective even within the clinics' limited budgets"
           },
           {
             "_uid": "a4160d8b-02dd-4ee5-977e-5f00ecb88387",
-            "text": "",
-            "title": "Ріст органічного трафіку на 180% протягом 3 місяців",
+            "text": "зростання органічного трафіку з Google за 3 місяці завдяки SEO-оптимізації під запити у кожному регіоні",
+            "title": "+180%",
             "component": "project_results_card",
-            "title__i18n__en": "Organic traffic growth by 180% within 3 months"
+            "title__i18n__en": "+180%",
+            "text__i18n__en": "organic traffic growth from Google within 3 months thanks to SEO optimization targeting queries in each region"
           }
         ]
       },
@@ -553,10 +558,10 @@
         ]
       }
     ],
-    "subtitle": "Сайт для мережі клінік 100% ЖИТТЯ — повний цикл: дизайн, розробка на Webflow, SEO та Google-реклама з результатом у 4700 звернень",
+    "subtitle": "Мережа клінік 100% ЖИТТЯ — найбільша в Україні, орієнтована на допомогу вразливим групам. Ми розробили сайт на Webflow, провели SEO і запустили Google Ads по всіх регіонах. Результат: 4700+ звернень, $1.20 за пацієнта та зростання органіки на 180% за 3 місяці.",
     "component": "project",
     "description": "Розробка сайту для мережі клінік 100% ЖИТТЯ: дизайн, Webflow, SEO та реклама, що принесла понад 4700 звернень через сайт",
-    "title__i18n__en": "Website development for the network of clinics 100% LIFE",
+    "title__i18n__en": "4700+ Contacts in 6 Months — Website & Ads for the 100% LIFE Clinic Network",
     "project_site_link": {
       "id": "",
       "url": "https://www.100percentlife.clinic",
@@ -564,12 +569,12 @@
       "fieldtype": "multilink",
       "cached_url": "https://www.100percentlife.clinic"
     },
-    "subtitle__i18n__en": "Website for the 100% LIFE clinic chain - full cycle: design, development on Webflow, SEO, and Google advertising with a result of 4700 visits",
+    "subtitle__i18n__en": "100% LIFE is Ukraine's largest clinic network focused on vulnerable groups. We built a Webflow site, conducted SEO, and launched regional Google Ads. Result: 4700+ contacts, $1.20 per patient, and 180% organic growth in 3 months.",
     "description__i18n__en": "Website development for the 100% LIFE clinic network: design, Webflow, SEO, and advertising, which brought more than 4700 requests through the site",
-    "meta_title": "Сайт для мережі клінік 100% ЖИТТЯ — кейс Webrarium",
-    "meta_title__i18n__en": "Website for 100% LIFE Clinic Network — Webrarium Case Study",
-    "meta_description": "Кейс розробки вебсайту для мережі медичних клінік 100% ЖИТТЯ: UX/UI дизайн, онлайн-запис, SEO. Webrarium — розробка сайтів для медичних закладів в Україні.",
-    "meta_description__i18n__en": "Case study: website for 100% LIFE medical clinic network — UX/UI design, online booking, SEO optimization. Webrarium — medical website development in Ukraine."
+    "meta_title": "4700+ звернень за 6 місяців: сайт і реклама для мережі клінік 100% ЖИТТЯ | Webrarium",
+    "meta_title__i18n__en": "4700+ Contacts in 6 Months: Website & Ads for 100% LIFE Clinic Network | Webrarium",
+    "meta_description": "Кейс: Webflow-сайт, SEO та Google Ads для мережі клінік. 4700+ звернень, $1.20 за пацієнта, +180% органіки за 3 місяці.",
+    "meta_description__i18n__en": "Case study: Webflow site, SEO & Google Ads for a clinic network. 4700+ contacts, $1.20 per patient, +180% organic traffic in 3 months."
   },
   "published": true,
   "slug": "website-development-for-the-100-life-clinic-network",

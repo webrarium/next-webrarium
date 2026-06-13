@@ -28,7 +28,7 @@
         "alt": "Система моніторингу товарів eBay із Telegram-сповіщеннями та інтерактивним дашбордом"
       }
     },
-    "title": "Система моніторингу товарів eBay із Telegram-сповіщеннями та інтерактивним дашбордом",
+    "title": "Автоматичний моніторинг eBay: Telegram-алерти та live-дашборд замість ручної перевірки",
     "blocks": [
       {
         "_uid": "c1521de9-73c1-46d3-b2f0-2205a9802a02",
@@ -206,38 +206,43 @@
         "project_results_cards": [
           {
             "_uid": "85bf4175-96b3-4a7f-b3b8-5b53d13856d3",
-            "text": "",
-            "title": "⚡ Система моніторить десятки параметрів у реальному часі",
+            "text": "система автоматично моніторить товари за десятками параметрів і миттєво реагує на будь-які зміни замість клієнта",
+            "title": "0 ручних перевірок",
             "component": "project_results_card",
-            "title__i18n__en": "The system monitors dozens of parameters in real time"
+            "title__i18n__en": "0 manual checks",
+            "text__i18n__en": "the system automatically monitors products across dozens of parameters and instantly reacts to any changes on the client's behalf"
           },
           {
             "_uid": "cba82ba2-1458-46a2-8620-ec663f1cc8dc",
-            "text": "",
-            "title": "🔔 Своєчасні Telegram-сповіщення з кнопками взаємодії",
+            "text": "час від зміни ціни чи статусу товару до Telegram-сповіщення з кнопками взаємодії прямо в месенджері",
+            "title": "< 3 сек",
             "component": "project_results_card",
-            "title__i18n__en": "🔔 Timely Telegram notifications with interaction buttons"
+            "title__i18n__en": "< 3 sec",
+            "text__i18n__en": "time from a price or status change to a Telegram notification with interactive buttons directly in the messenger"
           },
           {
             "_uid": "38b6763a-d279-46ba-ad85-9c119fb33774",
-            "text": "",
-            "title": "📊 Автоматичне оновлення цін, статусів, та очищення бази",
+            "text": "Next.js інтерфейс оновлює дані без перезавантаження — фільтрація, статуси, ціни та дії з товарами в одному вікні",
+            "title": "Real-time дашборд",
             "component": "project_results_card",
-            "title__i18n__en": "🔔 Timely Telegram notifications with interaction buttons"
+            "title__i18n__en": "Real-time dashboard",
+            "text__i18n__en": "the Next.js interface updates data without reload — filtering, statuses, prices, and product actions all in one window"
           },
           {
             "_uid": "7bddc257-e55c-4347-abc6-f5c5fb2059ff",
-            "text": "",
-            "title": "🔄 Фронтенд миттєво реагує на нові товари, зміни цін або статусу (бан, лайк, приховування)",
+            "text": "архітектура витримує паралельну обробку великого числа товарів без втрати швидкості та без збоїв",
+            "title": "Масштабованість",
             "component": "project_results_card",
-            "title__i18n__en": "🔄 Frontend instantly responds to new products, price or status changes (ban, like, hide)"
+            "title__i18n__en": "Scalability",
+            "text__i18n__en": "the architecture handles parallel processing of large numbers of products without loss of speed or failures"
           },
           {
             "_uid": "d57fe988-2190-4d13-9b09-534a6489a1f7",
-            "text": "",
-            "title": "👤 Можливість взаємодіяти з даними через дашборд або через Telegram",
+            "text": "клієнт може банити, лайкати та приховувати товари прямо з телефону — не відкриваючи браузер",
+            "title": "Контроль через Telegram",
             "component": "project_results_card",
-            "title__i18n__en": "👤 Ability to interact with data via dashboard or Telegram"
+            "title__i18n__en": "Control via Telegram",
+            "text__i18n__en": "the client can ban, like, and hide products directly from their phone — without opening a browser"
           }
         ]
       },
@@ -361,10 +366,10 @@
         "button2_txt__i18n__en": "View Site"
       }
     ],
-    "subtitle": "Розробка повноцінної системи моніторингу товарів на eBay, яка складається з асинхронного Python-сервісу для збору даних та інтегрованого дашборду на Next.js 15 з live-оновленням. Система дозволяє відслідковувати товари за заданими параметрами, отримувати push-сповіщення у Telegram з інтерактивними кнопками, та миттєво взаємодіяти з товарами через вебінтерфейс",
+    "subtitle": "Клієнт витрачав години на ручний моніторинг конкурентів і товарів на eBay. Ми розробили систему: асинхронний Python-сервер збирає дані, Telegram надсилає сповіщення з інтерактивними кнопками, а Next.js-дашборд оновлюється в реальному часі — більше жодних ручних перевірок.",
     "component": "project",
     "description": "Клієнт мав потребу у комплексному сервісі для постійного моніторингу оголошень на eBay за заданими параметрами: категорія, ключові слова, модель, бренд, ціна, продавець тощо.",
-    "title__i18n__en": "eBay product monitoring system with Telegram notifications and interactive dashboard",
+    "title__i18n__en": "Automated eBay Monitoring: Telegram Alerts & Live Dashboard Instead of Manual Checks",
     "project_site_link": {
       "id": "",
       "url": "",
@@ -372,12 +377,12 @@
       "fieldtype": "multilink",
       "cached_url": ""
     },
-    "subtitle__i18n__en": "Development of a full-fledged product monitoring system on eBay, which consists of an asynchronous Python service for data collection and an integrated dashboard on Next.js 15 with live updates. The system allows you to track products according to the specified parameters, receive push notifications in Telegram with interactive buttons, and instantly interact with products via the web interface",
+    "subtitle__i18n__en": "The client was spending hours manually monitoring competitors and products on eBay. We built a system: an async Python server collects data, Telegram delivers notifications with interactive buttons, and a Next.js dashboard updates in real time — no more manual checks.",
     "description__i18n__en": "The client needed a comprehensive service for continuous monitoring of eBay ads according to the specified parameters: category, keywords, model, brand, price, seller, etc.",
-    "meta_title": "Система моніторингу eBay з Telegram-ботом — кейс Webrarium",
-    "meta_title__i18n__en": "eBay Monitoring System with Telegram Bot — Webrarium Case Study",
-    "meta_description": "Кейс розробки автоматизованої системи моніторингу товарів eBay: Telegram-сповіщення, аналітичний дашборд, автоматизація на Python. Webrarium — автоматизація бізнесу.",
-    "meta_description__i18n__en": "Case study: automated eBay product monitoring system with Telegram alerts, analytics dashboard, Python automation. Webrarium — business process automation."
+    "meta_title": "Система моніторингу eBay з Telegram-алертами та live-дашбордом | Webrarium",
+    "meta_title__i18n__en": "eBay Monitoring System with Telegram Alerts & Live Dashboard | Webrarium",
+    "meta_description": "Кейс: автоматичний моніторинг товарів eBay — Python-сервер, Telegram-сповіщення в реальному часі, Next.js дашборд. Нуль ручних перевірок.",
+    "meta_description__i18n__en": "Case study: automated eBay product monitoring — Python server, real-time Telegram notifications, Next.js dashboard. Zero manual checks."
   },
   "published": true,
   "slug": "ebay-product-monitoring-system-with-telegram-alerts-and-interactive-dashboard",

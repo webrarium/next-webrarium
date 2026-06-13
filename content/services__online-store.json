@@ -1171,153 +1171,9 @@
         "title__i18n__en": "Recent Projects",
         "button_txt__i18n__en": "View Case",
         "button2_txt__i18n__en": "View Site"
-      },
-      {
-        "_uid": "e287bccd-cd4e-4838-8b7e-5bd0857422c4",
-        "component": "service_details",
-        "title": "Часті запитання",
-        "title__i18n__en": "Frequently Asked Questions",
-        "service_details_cards": [
-          {
-            "_uid": "6da407f5-442b-42b5-8367-839854dce5af",
-            "component": "service_details_card",
-            "title": "Скільки коштує розробка інтернет-магазину?",
-            "description": {
-              "type": "doc",
-              "content": [
-                {
-                  "type": "paragraph",
-                  "content": [
-                    {
-                      "text": "Вартість залежить від кількості товарів, функціоналу та платформи. Кожен проєкт розраховується індивідуально — залиште заявку для безкоштовної консультації.",
-                      "type": "text"
-                    }
-                  ]
-                }
-              ]
-            },
-            "title__i18n__en": "How much does an online store development cost?",
-            "description__i18n__en": {
-              "type": "doc",
-              "content": [
-                {
-                  "type": "paragraph",
-                  "content": [
-                    {
-                      "text": "The cost depends on the number of products, functionality, and platform. Each project is calculated individually — leave a request for a free consultation.",
-                      "type": "text"
-                    }
-                  ]
-                }
-              ]
-            }
-          },
-          {
-            "_uid": "7bcaf118-0a6f-4fde-b67c-1802fb8bd6b6",
-            "component": "service_details_card",
-            "title": "Які платформи ви використовуєте?",
-            "description": {
-              "type": "doc",
-              "content": [
-                {
-                  "type": "paragraph",
-                  "content": [
-                    {
-                      "text": "Ми працюємо з Shopify, WooCommerce та розробляємо магазини на замовлення. Вибір платформи залежить від ваших задач та бюджету.",
-                      "type": "text"
-                    }
-                  ]
-                }
-              ]
-            },
-            "title__i18n__en": "What platforms do you use?",
-            "description__i18n__en": {
-              "type": "doc",
-              "content": [
-                {
-                  "type": "paragraph",
-                  "content": [
-                    {
-                      "text": "We work with Shopify, WooCommerce and develop custom stores. The platform choice depends on your needs and budget.",
-                      "type": "text"
-                    }
-                  ]
-                }
-              ]
-            }
-          },
-          {
-            "_uid": "4a708594-3a81-4469-ac7f-1b47e61a1ff5",
-            "component": "service_details_card",
-            "title": "Чи можна підключити платіжні системи?",
-            "description": {
-              "type": "doc",
-              "content": [
-                {
-                  "type": "paragraph",
-                  "content": [
-                    {
-                      "text": "Так, інтегруємо LiqPay, Wayforpay, Stripe, PayPal та інші популярні платіжні системи для України та міжнародних ринків.",
-                      "type": "text"
-                    }
-                  ]
-                }
-              ]
-            },
-            "title__i18n__en": "Can you integrate payment systems?",
-            "description__i18n__en": {
-              "type": "doc",
-              "content": [
-                {
-                  "type": "paragraph",
-                  "content": [
-                    {
-                      "text": "Yes, we integrate LiqPay, Wayforpay, Stripe, PayPal and other popular payment systems for Ukraine and international markets.",
-                      "type": "text"
-                    }
-                  ]
-                }
-              ]
-            }
-          },
-          {
-            "_uid": "a3e377b7-ca5d-4a41-8979-42252f2392b3",
-            "component": "service_details_card",
-            "title": "Скільки товарів можна додати в магазин?",
-            "description": {
-              "type": "doc",
-              "content": [
-                {
-                  "type": "paragraph",
-                  "content": [
-                    {
-                      "text": "Обмежень немає — магазин масштабується під будь-яку кількість товарів. Також налаштовуємо імпорт товарів з таблиць або інших платформ.",
-                      "type": "text"
-                    }
-                  ]
-                }
-              ]
-            },
-            "title__i18n__en": "How many products can be added?",
-            "description__i18n__en": {
-              "type": "doc",
-              "content": [
-                {
-                  "type": "paragraph",
-                  "content": [
-                    {
-                      "text": "There are no limits — the store scales to any number of products. We also set up product imports from spreadsheets or other platforms.",
-                      "type": "text"
-                    }
-                  ]
-                }
-              ]
-            }
-          }
-        ]
       }
     ],
-    "title": "Розробка інтернет-магазину",
+    "title": "Розробка інтернет-магазину під ключ на Shopify та WooCommerce",
     "subtitle": "Запускаємо інтернет-магазини, що продають. Від вибору платформи до першого замовлення.",
     "component": "service",
     "description": {
@@ -1334,7 +1190,7 @@
         }
       ]
     },
-    "title__i18n__en": "Online Store Development",
+    "title__i18n__en": "Online Store Development — Shopify & WooCommerce",
     "subtitle__i18n__en": "We launch online stores that sell. From platform selection to the first order.",
     "description__i18n__en": {
       "type": "doc",

@@ -1291,153 +1291,9 @@
         "title__i18n__en": "Recent Projects",
         "button_txt__i18n__en": "View Case",
         "button2_txt__i18n__en": "View Site"
-      },
-      {
-        "_uid": "ad95081f-a704-4046-b38e-73ebbe8d2cb8",
-        "component": "service_details",
-        "title": "Часті запитання",
-        "title__i18n__en": "Frequently Asked Questions",
-        "service_details_cards": [
-          {
-            "_uid": "682c6728-d8ec-44c0-89fc-e1de707876d6",
-            "component": "service_details_card",
-            "title": "Скільки коштує UX/UI дизайн?",
-            "description": {
-              "type": "doc",
-              "content": [
-                {
-                  "type": "paragraph",
-                  "content": [
-                    {
-                      "text": "Вартість залежить від кількості екранів, складності та дедлайнів. Кожен проєкт оцінюється індивідуально — залиште заявку для консультації.",
-                      "type": "text"
-                    }
-                  ]
-                }
-              ]
-            },
-            "title__i18n__en": "How much does UX/UI design cost?",
-            "description__i18n__en": {
-              "type": "doc",
-              "content": [
-                {
-                  "type": "paragraph",
-                  "content": [
-                    {
-                      "text": "The cost depends on the number of screens, complexity, and deadlines. Each project is assessed individually — leave a request for a consultation.",
-                      "type": "text"
-                    }
-                  ]
-                }
-              ]
-            }
-          },
-          {
-            "_uid": "39030002-c696-427a-a311-f1a55f3d5f2c",
-            "component": "service_details_card",
-            "title": "Що включає дизайн продукту?",
-            "description": {
-              "type": "doc",
-              "content": [
-                {
-                  "type": "paragraph",
-                  "content": [
-                    {
-                      "text": "UX-дослідження, wireframes, прототипи, UI-дизайн у Figma, дизайн-система, адаптивні макети для мобільних та десктоп.",
-                      "type": "text"
-                    }
-                  ]
-                }
-              ]
-            },
-            "title__i18n__en": "What does product design include?",
-            "description__i18n__en": {
-              "type": "doc",
-              "content": [
-                {
-                  "type": "paragraph",
-                  "content": [
-                    {
-                      "text": "UX research, wireframes, prototypes, UI design in Figma, design system, responsive layouts for mobile and desktop.",
-                      "type": "text"
-                    }
-                  ]
-                }
-              ]
-            }
-          },
-          {
-            "_uid": "1132637e-3079-44e1-922b-a83e76fb18de",
-            "component": "service_details_card",
-            "title": "В яких інструментах ви працюєте?",
-            "description": {
-              "type": "doc",
-              "content": [
-                {
-                  "type": "paragraph",
-                  "content": [
-                    {
-                      "text": "Основний інструмент — Figma. Також використовуємо FigJam для воркшопів та Maze для UX-тестування.",
-                      "type": "text"
-                    }
-                  ]
-                }
-              ]
-            },
-            "title__i18n__en": "What tools do you work with?",
-            "description__i18n__en": {
-              "type": "doc",
-              "content": [
-                {
-                  "type": "paragraph",
-                  "content": [
-                    {
-                      "text": "Our main tool is Figma. We also use FigJam for workshops and Maze for UX testing.",
-                      "type": "text"
-                    }
-                  ]
-                }
-              ]
-            }
-          },
-          {
-            "_uid": "64392ec1-79fa-4ded-8c4b-6ce1857a6ca6",
-            "component": "service_details_card",
-            "title": "Скільки часу займає дизайн?",
-            "description": {
-              "type": "doc",
-              "content": [
-                {
-                  "type": "paragraph",
-                  "content": [
-                    {
-                      "text": "Дизайн лендінгу — 1–2 тижні. Повноцінний UX/UI для вебдодатку — від 4 до 12 тижнів залежно від обсягу.",
-                      "type": "text"
-                    }
-                  ]
-                }
-              ]
-            },
-            "title__i18n__en": "How long does design take?",
-            "description__i18n__en": {
-              "type": "doc",
-              "content": [
-                {
-                  "type": "paragraph",
-                  "content": [
-                    {
-                      "text": "Landing page design takes 1–2 weeks. Full UX/UI for a web application takes 4–12 weeks depending on scope.",
-                      "type": "text"
-                    }
-                  ]
-                }
-              ]
-            }
-          }
-        ]
       }
     ],
-    "title": "UX/UI дизайн та прототипування",
+    "title": "UX/UI дизайн сайтів та мобільних додатків у Figma",
     "subtitle": "Дизайн, що конвертує. Створюємо зручні інтерфейси на основі досліджень користувачів та бізнес-цілей.",
     "component": "service",
     "description": {
@@ -1454,7 +1310,7 @@
         }
       ]
     },
-    "title__i18n__en": "UX/UI Design & Prototyping",
+    "title__i18n__en": "UX/UI Design for Websites & Mobile Apps in Figma",
     "subtitle__i18n__en": "Design that converts. We create intuitive interfaces based on user research and business goals.",
     "description__i18n__en": {
       "type": "doc",

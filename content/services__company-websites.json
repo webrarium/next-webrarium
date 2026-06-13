@@ -1498,153 +1498,9 @@
         "title__i18n__en": "Recent Projects",
         "button_txt__i18n__en": "View Case",
         "button2_txt__i18n__en": "View Site"
-      },
-      {
-        "_uid": "76d43c21-4a76-45c2-a124-bff5e03dbe68",
-        "component": "service_details",
-        "title": "Часті запитання",
-        "title__i18n__en": "Frequently Asked Questions",
-        "service_details_cards": [
-          {
-            "_uid": "ad21b111-ad1b-48fc-9035-8f912edba62d",
-            "component": "service_details_card",
-            "title": "Скільки коштує розробка корпоративного сайту?",
-            "description": {
-              "type": "doc",
-              "content": [
-                {
-                  "type": "paragraph",
-                  "content": [
-                    {
-                      "text": "Вартість розробки корпоративного сайту формується індивідуально залежно від обсягу функціоналу, дизайну та строків. Залиште заявку — безкоштовно розрахуємо вартість для вашого проєкту.",
-                      "type": "text"
-                    }
-                  ]
-                }
-              ]
-            },
-            "title__i18n__en": "How much does corporate website development cost?",
-            "description__i18n__en": {
-              "type": "doc",
-              "content": [
-                {
-                  "type": "paragraph",
-                  "content": [
-                    {
-                      "text": "The cost of corporate website development is calculated individually based on functionality, design, and timeline. Leave a request — we will estimate the cost for your project for free.",
-                      "type": "text"
-                    }
-                  ]
-                }
-              ]
-            }
-          },
-          {
-            "_uid": "d5a130c4-0729-4fdf-82bc-14520bec8b76",
-            "component": "service_details_card",
-            "title": "Скільки часу займає розробка сайту?",
-            "description": {
-              "type": "doc",
-              "content": [
-                {
-                  "type": "paragraph",
-                  "content": [
-                    {
-                      "text": "Терміни залежать від складності проєкту. Лендінг — 2–3 тижні, корпоративний сайт — 4–8 тижнів. Точний графік узгоджується на етапі планування.",
-                      "type": "text"
-                    }
-                  ]
-                }
-              ]
-            },
-            "title__i18n__en": "How long does website development take?",
-            "description__i18n__en": {
-              "type": "doc",
-              "content": [
-                {
-                  "type": "paragraph",
-                  "content": [
-                    {
-                      "text": "Timelines depend on project complexity. A landing page takes 2–3 weeks, a corporate website 4–8 weeks. The exact schedule is agreed upon during planning.",
-                      "type": "text"
-                    }
-                  ]
-                }
-              ]
-            }
-          },
-          {
-            "_uid": "34046463-6b1d-47ba-85bc-8afcb26d8f8b",
-            "component": "service_details_card",
-            "title": "Які технології ви використовуєте?",
-            "description": {
-              "type": "doc",
-              "content": [
-                {
-                  "type": "paragraph",
-                  "content": [
-                    {
-                      "text": "Ми використовуємо Next.js, React, WordPress, Webflow залежно від задач клієнта. Для CMS — Storyblok, Contentful або WordPress.",
-                      "type": "text"
-                    }
-                  ]
-                }
-              ]
-            },
-            "title__i18n__en": "What technologies do you use?",
-            "description__i18n__en": {
-              "type": "doc",
-              "content": [
-                {
-                  "type": "paragraph",
-                  "content": [
-                    {
-                      "text": "We use Next.js, React, WordPress, Webflow depending on the client's needs. For CMS — Storyblok, Contentful, or WordPress.",
-                      "type": "text"
-                    }
-                  ]
-                }
-              ]
-            }
-          },
-          {
-            "_uid": "90ed7d97-0564-4a8b-8bfa-73fd7362c883",
-            "component": "service_details_card",
-            "title": "Чи надаєте підтримку після запуску сайту?",
-            "description": {
-              "type": "doc",
-              "content": [
-                {
-                  "type": "paragraph",
-                  "content": [
-                    {
-                      "text": "Так, ми надаємо технічну підтримку та супровід після запуску. Умови підтримки обговорюються індивідуально.",
-                      "type": "text"
-                    }
-                  ]
-                }
-              ]
-            },
-            "title__i18n__en": "Do you provide support after launch?",
-            "description__i18n__en": {
-              "type": "doc",
-              "content": [
-                {
-                  "type": "paragraph",
-                  "content": [
-                    {
-                      "text": "Yes, we provide technical support and maintenance after launch. Support terms are discussed individually.",
-                      "type": "text"
-                    }
-                  ]
-                }
-              ]
-            }
-          }
-        ]
       }
     ],
-    "title": "Розробка вебсайту компанії",
+    "title": "Розробка сайту під ключ — корпоративні сайти та лендінги",
     "subtitle": "Корпоративний сайт — ваш головний онлайн-актив. Розробляємо під ключ із фокусом на конверсії та SEO.",
     "component": "service",
     "description": {
@@ -1661,7 +1517,7 @@
         }
       ]
     },
-    "title__i18n__en": "Corporate Website Development",
+    "title__i18n__en": "Website Development — Corporate Sites & Landing Pages",
     "subtitle__i18n__en": "A corporate website is your main online asset. We build it end-to-end with a focus on conversions and SEO.",
     "description__i18n__en": {
       "type": "doc",

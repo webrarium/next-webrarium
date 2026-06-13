@@ -33,7 +33,7 @@
       "content_type": "webp",
       "is_external_url": false
     },
-    "title": "Розробка вебсайту для громадської організації",
+    "title": "Вебсайт для правозахисної організації: складна тема — сильний цифровий голос",
     "blocks": [
       {
         "_uid": "12fbb94f-008e-4945-8abc-dcf6eec1d8df",
@@ -100,27 +100,27 @@
         "project_results_cards": [
           {
             "_uid": "2ded5604-5501-4dfe-b693-b033b2d6d5df",
-            "text": "Котре продожує зростати органічно",
-            "title": "Сайт отримав чимале охоплення",
+            "text": "сайт отримав органічний трафік із різних країн — матеріали поширювали журналісти, правозахисники та міжнародні організації",
+            "title": "Широке охоплення",
             "component": "project_results_card",
-            "text__i18n__en": "Which continues to grow organically.",
-            "title__i18n__en": "The Website Achieved Substantial Reach"
+            "text__i18n__en": "the site attracted organic traffic from multiple countries — materials were shared by journalists, human rights advocates, and international organizations",
+            "title__i18n__en": "Wide reach"
           },
           {
             "_uid": "cad2d37d-eefd-4b5f-a78e-941fcbf19dde",
-            "text": "Соціальний вплив",
-            "title": " Взаємодія з контентом",
+            "text": "відвідувачі проводять значний час на сторінці: інтерактивні елементи з рушниками утримують увагу та спонукають до читання",
+            "title": "Висока залученість",
             "component": "project_results_card",
-            "text__i18n__en": "Social Impact",
-            "title__i18n__en": "Content Interaction"
+            "text__i18n__en": "visitors spend significant time on the page: interactive towel elements hold attention and encourage reading",
+            "title__i18n__en": "High engagement"
           },
           {
             "_uid": "6bf39058-794d-4d43-978d-716b04e1add9",
-            "text": "90% сторінок переглянуті користувачами",
-            "title": "Час перебування та глибина відвідування",
+            "text": "низький показник відмов та висока глибина скролу свідчать: аудиторія читає, а не просто заходить і виходить",
+            "title": "Глибина перегляду",
             "component": "project_results_card",
-            "text__i18n__en": "90% of pages were viewed by users",
-            "title__i18n__en": " Time on Site and Depth of Visit"
+            "text__i18n__en": "low bounce rate and high scroll depth indicate: the audience reads, rather than simply landing and leaving",
+            "title__i18n__en": "Scroll depth"
           }
         ]
       },
@@ -253,10 +253,10 @@
         "button2_txt__i18n__en": "View SIte"
       }
     ],
-    "subtitle": "Громадська організація поставила перед собою завдання створити інтернет-платформу, яка передавала б глибоку емоційну та соціальну значимість теми сексуального насильства, зкоєного російськими окупантами під час війни в Україні. Основою для цього стали вишиті рушники, які символізують непридумані, але узагальнені історії людей, які постраждали від жорстокості.",
+    "subtitle": "Організація документує злочини сексуального насильства, скоєні під час російського вторгнення. Їм потрібен був сайт, що передає емоційну глибину теми, а не просто збирає факти. Ми поєднали традиційну символіку (вишиті рушники) з сучасним UX — і отримали платформу, яка захоплює і утримує увагу.",
     "component": "project",
     "description": "Розробка унікального сайту для громадської організації, що переповідає історії через вишиті рушники. Сайт поєднує емоційний контент, сучасний дизайн та інтерактивні елементи, допомагаючи привернути увагу до теми сексуального насильства, скоєного російськими окупантами.",
-    "title__i18n__en": "Website Development for a Nonprofit Organization",
+    "title__i18n__en": "Website for a Human Rights Organization: A Difficult Topic — A Powerful Digital Voice",
     "project_site_link": {
       "id": "",
       "url": "https://vyshyti-bolem.in.ua/#home",
@@ -264,12 +264,12 @@
       "fieldtype": "multilink",
       "cached_url": "https://vyshyti-bolem.in.ua/#home"
     },
-    "subtitle__i18n__en": "The nonprofit organization set out to create an online platform that conveys the deep emotional and social significance of sexual violence committed by russian occupiers during the war in Ukraine. The foundation of this project is embroidered towels, which symbolize real, yet generalized stories of individuals who have suffered from brutality.",
+    "subtitle__i18n__en": "The organization documents sexual violence crimes committed during the Russian invasion. They needed a website that conveys the emotional depth of the topic, not just collects facts. We combined traditional symbolism (embroidered towels) with modern UX — creating a platform that captures and holds attention.",
     "description__i18n__en": "Develop a unique website for a nonprofit organization that tells stories through embroidered towels. The site combines emotional content, modern design, and interactive elements to draw attention to the issue of sexual violence committed by Russian occupiers. The goal is to engage the audience in supporting and spreading important information through our innovative web project.",
-    "meta_title": "Сайт для громадської організації — кейс Webrarium",
-    "meta_title__i18n__en": "Website for a Nonprofit Organization — Webrarium Case Study",
-    "meta_description": "Кейс розробки вебсайту для громадської організації: UX/UI дизайн, CMS, SEO-оптимізація. Webrarium — розробка сайтів для НГО та благодійних організацій в Україні.",
-    "meta_description__i18n__en": "Case study: website development for a nonprofit — UX/UI design, CMS, SEO optimization. Webrarium — NGO and charity website development in Ukraine."
+    "meta_title": "Вебсайт для правозахисної організації — цифровий голос проти насильства | Webrarium",
+    "meta_title__i18n__en": "Website for a Human Rights Organization — a Digital Voice Against Violence | Webrarium",
+    "meta_description": "Кейс: розробка сайту для організації, що документує злочини під час війни. Поєднання традиційної символіки з сучасним UX — результат, що чіпляє.",
+    "meta_description__i18n__en": "Case study: website development for an organization documenting wartime crimes. Combining traditional symbolism with modern UX — impactful results."
   },
   "published": true,
   "slug": "website-development-for-a-nonprofit-organization",

@@ -32,7 +32,7 @@
       },
       "is_external_url": false
     },
-    "title": "Створення 3D моушн анімації для ювелірного бренду",
+    "title": "3D моушн-анімація для ювелірного бренду: контент, що продає красу виробу",
     "blocks": [
       {
         "_uid": "50fc6a75-93f9-404a-8120-5563ebb3bba0",
@@ -87,27 +87,27 @@
         "project_results_cards": [
           {
             "_uid": "08ec4ddf-8fb9-4f4c-ba14-277e2bd7d092",
-            "text": "3D анімація показує прикраси в динаміці та під різними кутами, підкреслюючи їхні унікальні риси",
-            "title": "Підвищення привабливості продукту",
+            "text": "3D анімація показує текстуру металу, блиск каменів і форму виробу так, як звичайна фотографія не може — глядач бачить продукт з усіх сторін",
+            "title": "Деталі, які продають",
             "component": "project_results_card",
-            "text__i18n__en": "3D animation showcases jewelry in motion and from different angles, highlighting its unique features.",
-            "title__i18n__en": "Enhancing Product Appeal"
+            "text__i18n__en": "3D animation shows metal texture, gem sparkle, and product form in ways photography cannot — the viewer sees the product from every angle",
+            "title__i18n__en": "Details that sell"
           },
           {
             "_uid": "4f060701-d781-4ab8-830a-31308fc3d74c",
-            "text": "Анімація використовується на вебсайті, у соцмережах, відеорекламі",
-            "title": "Залучення клієнтів через цифрові канали",
+            "text": "готові відео для сторінок товарів, Instagram Reels, TikTok та рекламних кампаній — один проєкт закриває потребу в кількох форматах",
+            "title": "Контент для digital",
             "component": "project_results_card",
-            "text__i18n__en": "Animation is used on the website, social media, and video advertisements.",
-            "title__i18n__en": "Engaging Customers Through Digital Channels"
+            "text__i18n__en": "ready-made videos for product pages, Instagram Reels, TikTok, and ad campaigns — one project covers the need for multiple formats",
+            "title__i18n__en": "Content for digital"
           },
           {
             "_uid": "0446b04e-1ed7-4661-b9db-607bfd81f844",
-            "text": "Якісна 3D анімація не лише привертає увагу, а й впливає на рішення клієнтів купити виріб",
-            "title": "Покращення конверсій та продажів",
+            "text": "товари з 3D відео мають вищий CTR у рекламі та менший показник відмов на сторінці — покупець упевнений ще до замовлення",
+            "title": "Вища конверсія",
             "component": "project_results_card",
-            "text__i18n__en": "High-quality 3D animation not only captures attention but also influences customers' decision to purchase the product.",
-            "title__i18n__en": "Improving Conversions and Sales"
+            "text__i18n__en": "products with 3D video achieve higher CTR in ads and lower bounce rate on the page — the buyer is confident before ordering",
+            "title__i18n__en": "Higher conversion"
           }
         ]
       },
@@ -653,10 +653,10 @@
         "button2_txt__i18n__en": "View Site"
       }
     ],
-    "subtitle": "Анімація 3D візуалізацій - це саме те, що вирізняє прикраси серед інших ювелірних брендів.",
+    "subtitle": "Ювелірний бренд хотів виділитися серед конкурентів і показати деталі виробів так, як не може звичайна фотографія. Ми створили 3D моушн-анімацію: тривимірне моделювання, фізичні ефекти світла і матеріалів, постпродакшн — результат, що цеплює з першої секунди.",
     "component": "project",
     "description": "3D моушн анімація для юверлірного бренду. Створення 3D-моделей прикрас.",
-    "title__i18n__en": "Creating 3D Motion Animation for a Jewelry Brand",
+    "title__i18n__en": "3D Motion Animation for a Jewelry Brand: Content That Sells the Beauty of the Product",
     "project_site_link": {
       "id": "",
       "url": "https://tobimozhna.com/collections/all/products/%D0%BA%D0%B0%D0%B1%D0%BB%D1%83%D1%87%D0%BA%D0%B0-%D0%BB%D1%8E%D0%B1%D0%BE%D0%B2-%D0%B1%D0%B5%D0%B7-%D1%83%D0%BC%D0%BE%D0%B2",
@@ -664,12 +664,12 @@
       "fieldtype": "multilink",
       "cached_url": "https://tobimozhna.com/collections/all/products/%D0%BA%D0%B0%D0%B1%D0%BB%D1%83%D1%87%D0%BA%D0%B0-%D0%BB%D1%8E%D0%B1%D0%BE%D0%B2-%D0%B1%D0%B5%D0%B7-%D1%83%D0%BC%D0%BE%D0%B2"
     },
-    "subtitle__i18n__en": "3D visualization animation is exactly what makes the jewelry stand out among other jewelry brands.",
+    "subtitle__i18n__en": "A jewelry brand wanted to stand out and show product details in ways ordinary photography cannot. We created 3D motion animation: 3D modeling, physical light and material effects, post-production — content that hooks from the first second.",
     "description__i18n__en": "3D Motion Animation for a Jewelry Brand. Creating 3D Jewelry Models",
-    "meta_title": "3D Моушн анімація для ювелірного бренду — кейс Webrarium",
-    "meta_title__i18n__en": "3D Motion Animation for a Jewelry Brand — Webrarium Case Study",
-    "meta_description": "Кейс зі створення 3D моушн анімації для ювелірного бренду: продуктова візуалізація та рекламне відео. Webrarium — UX/UI дизайн і відеопродакшн в Україні.",
-    "meta_description__i18n__en": "Case study: 3D motion animation for a jewelry brand — product visualization and advertising video. Webrarium — UX/UI design and video production in Ukraine."
+    "meta_title": "3D моушн-анімація для ювелірного бренду — контент, що продає | Webrarium",
+    "meta_title__i18n__en": "3D Motion Animation for a Jewelry Brand — Content That Sells | Webrarium",
+    "meta_description": "Кейс: 3D анімація прикрас для цифрових каналів. Тривимірне моделювання, фізика металу та каменів, готові відео для реклами та соцмереж.",
+    "meta_description__i18n__en": "Case study: 3D jewelry animation for digital channels. 3D modeling, metal and gemstone physics, ready-made videos for ads and social media."
   },
   "published": true,
   "slug": "creation-of-3d-motion-animation-for-a-jewelry-brand",

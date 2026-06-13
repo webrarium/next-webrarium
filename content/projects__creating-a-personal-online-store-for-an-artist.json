@@ -33,7 +33,7 @@
       "content_type": "webp",
       "is_external_url": false
     },
-    "title": "Створення персонального інтернет-магазину для художника",
+    "title": "Shopify-магазин для художника: від галереї — до онлайн-продажів по всьому світу",
     "blocks": [
       {
         "_uid": "84f66780-6b33-425e-9082-2994705e7295",
@@ -97,27 +97,27 @@
         "project_results_cards": [
           {
             "_uid": "a2af7f3a-b703-4297-a4bb-a0616fa05a42",
-            "text": "Оптимізували ресурс під ринок штатів та Європи",
-            "title": "Розширення функціоналу",
+            "text": "повний e-commerce з нуля: каталог, кошик, онлайн-оплата, міжнародна доставка та мобільна версія",
+            "title": "Shopify під ключ",
             "component": "project_results_card",
-            "text__i18n__en": "Optimized the resource for the U.S. and European markets",
-            "title__i18n__en": "Expansion of Products and Market"
+            "text__i18n__en": "full e-commerce from scratch: catalog, cart, online payment, international shipping, and mobile version",
+            "title__i18n__en": "Shopify end-to-end"
           },
           {
             "_uid": "658bb1bb-75fb-4693-be2a-b546c6d9324a",
-            "text": "Збільшили органічний трафік в чотири рази",
-            "title": "4x",
+            "text": "зростання доходу від продажів картин за перший квартал після запуску магазину",
+            "title": "4×",
             "component": "project_results_card",
-            "text__i18n__en": "Increased organic traffic fourfold",
-            "title__i18n__en": "4x"
+            "text__i18n__en": "revenue growth from art sales in the first quarter after the store launch",
+            "title__i18n__en": "4×"
           },
           {
             "_uid": "5de19422-49b7-4fc8-a591-85ea07768e28",
-            "text": "Без жодного платного охоплення - продажі зросли. ",
-            "title": "Збільшення продажів",
+            "text": "художник отримав стабільний онлайн-канал продажів замість залежності від офлайн-виставок",
+            "title": "+новий канал збуту",
             "component": "project_results_card",
-            "text__i18n__en": "Without any paid reach, sales increased",
-            "title__i18n__en": "Sales Increased"
+            "text__i18n__en": "the artist gained a stable online sales channel instead of relying solely on offline exhibitions",
+            "title__i18n__en": "+new revenue channel"
           }
         ]
       },
@@ -388,10 +388,10 @@
         "button2_txt__i18n__en": "View Site"
       }
     ],
-    "subtitle": "Власник сучасної арт-галереї прагнув розширити свою аудиторію та покращити онлайн-присутність, створивши витончену онлайн-галерею за допомогою Shopify. Метою було створення візуально привабливої та зручної платформи для демонстрації мистецтв і безперебійного здійснення продажів.",
+    "subtitle": "Власник арт-галереї хотів продавати картини онлайн, але не мав платформи. Ми побудували Shopify-магазин з нуля: бренд, каталог, оплата, доставка — і вже в перший квартал продажі зросли в 4 рази.",
     "component": "project",
     "description": "Власник сучасної арт-галереї розширив свою онлайн-присутність, створивши елегантний інтернет-магазин на платформі Shopify. Мета полягала в розробці зручного та візуально привабливого магазину для ефективної презентації і продажу картин та скульптур.",
-    "title__i18n__en": "Creating a Personal Online Store for an Artist",
+    "title__i18n__en": "Shopify Store for an Artist: From Gallery to Worldwide Online Sales",
     "project_site_link": {
       "id": "",
       "url": "https://balbyshev.com",
@@ -399,12 +399,12 @@
       "fieldtype": "multilink",
       "cached_url": "https://balbyshev.com"
     },
-    "subtitle__i18n__en": "The owner of a modern art gallery sought to broaden their audience and strengthen their online presence by building a sophisticated online gallery with Shopify. The objective was to craft a visually stunning and easy-to-navigate platform for displaying art and ensuring smooth transactions.",
+    "subtitle__i18n__en": "An art gallery owner wanted to sell paintings online but had no platform. We built a Shopify store from scratch — brand, catalog, payments, shipping — and sales grew 4x in the first quarter.",
     "description__i18n__en": "The owner of a contemporary art gallery expanded their online presence by creating an elegant online store on the Shopify platform. The goal was to design a user-friendly and visually appealing store to effectively showcase and sell art.",
-    "meta_title": "Інтернет-магазин для художника на Shopify — кейс Webrarium",
-    "meta_title__i18n__en": "Online Store for an Artist on Shopify — Webrarium Case Study",
-    "meta_description": "Розробка персонального інтернет-магазину для художника: Shopify, галерея робіт, онлайн-оплата, адаптивний дизайн. Кейс веб-студії Webrarium — e-commerce під ключ.",
-    "meta_description__i18n__en": "Development of a personal online store for an artist: Shopify, artwork gallery, online payments, responsive design. Webrarium web studio — e-commerce case study."
+    "meta_title": "Shopify-магазин для художника: ріст продажів картин у 4 рази | Webrarium",
+    "meta_title__i18n__en": "Shopify Store for an Artist: 4x Growth in Art Sales | Webrarium",
+    "meta_description": "Кейс: побудували Shopify-магазин для художника з нуля — каталог, оплата, доставка. Продажі зросли в 4 рази за перший квартал.",
+    "meta_description__i18n__en": "Case study: built a Shopify store for an artist from scratch — catalog, payments, shipping. Sales grew 4x in the first quarter."
   },
   "published": true,
   "slug": "creating-a-personal-online-store-for-an-artist",

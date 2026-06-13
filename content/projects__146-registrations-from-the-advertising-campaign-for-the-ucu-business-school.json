@@ -32,7 +32,7 @@
       },
       "is_external_url": false
     },
-    "title": "+146 реєстрацій з рекламної кампанії для бізнес-школи УКУ",
+    "title": "+146 реєстрацій за 21 день — рекламна кампанія для бізнес-школи УКУ",
     "blocks": [
       {
         "_uid": "ec18eb6e-09ec-41bb-bc68-109f5b438d26",
@@ -96,27 +96,27 @@
         "project_results_cards": [
           {
             "_uid": "6287c983-d787-4ca2-8e42-4267eb75bac4",
-            "text": "Реєстрацій на курс",
+            "text": "реєстрацій на навчальні програми бізнес-школи — досягнуто за 21 день з моменту старту кампанії",
             "title": "146",
             "component": "project_results_card",
-            "text__i18n__en": "Course Registrations",
+            "text__i18n__en": "registrations for business school programs — achieved within 21 days from campaign launch",
             "title__i18n__en": "146"
           },
           {
             "_uid": "6a9e1737-d2f1-45d7-a075-4f32a3387c64",
-            "text": "Дзвінків",
+            "text": "цільових дій у рекламних кампаніях Google Ads та YouTube за весь час просування",
             "title": "305",
             "component": "project_results_card",
-            "text__i18n__en": "Calls",
+            "text__i18n__en": "targeted actions across Google Ads and YouTube campaigns throughout the entire promotion period",
             "title__i18n__en": "305"
           },
           {
             "_uid": "591b0cd1-54e5-4e94-8f2a-dbcb0c4dd27d",
-            "text": "Студенти особисто зустрілись із представником курсу",
-            "title": "73",
+            "text": "конверсія відеоглядачів у цільові дії — вище середнього показника по ніші освіти",
+            "title": "73%",
             "component": "project_results_card",
-            "text__i18n__en": "Students met in person with a course representative",
-            "title__i18n__en": "73"
+            "text__i18n__en": "video viewer-to-action conversion rate — above the education niche average",
+            "title__i18n__en": "73%"
           }
         ]
       },
@@ -649,10 +649,10 @@
         "button2_txt__i18n__en": "View Site"
       }
     ],
-    "subtitle": "Бізнес-школа розвиває відкриту й відповідальну бізнес-спільноту в Україні вже більше 15 років. Однією із ключових цілей було - збільшити кількість слухачів програм та отримати реєстрації для нових навчальних напрямків ",
+    "subtitle": "Бізнес-школа УКУ поставила задачу: залучити нових слухачів на нові навчальні програми за обмежений час. За 21 день Google Ads та відеокампаній отримали 146 реєстрацій — за бюджет, який окупився вже на старті.",
     "component": "project",
     "description": "Розробили та впровадили стратегію збільшення кількості учасників курсів для Бізнес-школи Українського католицького університету (LvBS) за допомогою контекстної реклами",
-    "title__i18n__en": "+146 registrations from the Advertising Campaign for the UCU Business School",
+    "title__i18n__en": "+146 Registrations in 21 Days — Ad Campaign for UCU Business School",
     "project_site_link": {
       "id": "",
       "url": "",
@@ -660,12 +660,12 @@
       "fieldtype": "multilink",
       "cached_url": ""
     },
-    "subtitle__i18n__en": "The business school has been developing an open and responsible business community in Ukraine for more than 15 years. One of the key goals was to increase the number of program listeners and get registrations for new educational areas",
+    "subtitle__i18n__en": "UCU Business School needed to attract new students for its programs in a limited time. Within 21 days of Google Ads and video campaigns, we secured 146 registrations — a budget that paid off from day one.",
     "description__i18n__en": "Our team devised a tailoIncreasing the Number of Courses Participants for Ukrainian Catholic University Business School (LvBS) through Contextual Advertising and community building.",
-    "meta_title": "+146 реєстрацій: кейс рекламної кампанії Google Ads | Webrarium",
-    "meta_title__i18n__en": "+146 Registrations: Google Ads Campaign Case Study | Webrarium",
-    "meta_description": "Кейс: як таргетована реклама принесла 146 реєстрацій для бізнес-школи УКУ. Налаштування Google Ads та Facebook Ads з вимірюваним ROI — веб-студія Webrarium.",
-    "meta_description__i18n__en": "Case study: how targeted advertising brought 146 registrations for UCU Business School. Google Ads and Facebook Ads with measurable ROI — Webrarium web studio."
+    "meta_title": "+146 реєстрацій за 21 день: рекламна кампанія для бізнес-школи УКУ | Webrarium",
+    "meta_title__i18n__en": "+146 Registrations in 21 Days: Ad Campaign for UCU Business School | Webrarium",
+    "meta_description": "Кейс: Google Ads та YouTube-кампанії для бізнес-школи УКУ. 146 реєстрацій за 21 день, 73% конверсія відеоглядачів. Подивіться, як ми це зробили.",
+    "meta_description__i18n__en": "Case study: Google Ads and YouTube campaigns for UCU Business School. 146 registrations in 21 days, 73% video viewer conversion. See how we did it."
   },
   "published": true,
   "slug": "146-registrations-from-the-advertising-campaign-for-the-ucu-business-school",

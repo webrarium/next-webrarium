@@ -832,153 +832,9 @@
         "title__i18n__en": "Recent Projects",
         "button_txt__i18n__en": "View Case",
         "button2_txt__i18n__en": "View Site"
-      },
-      {
-        "_uid": "881dcae7-1688-44c1-aa21-23df2605db4b",
-        "component": "service_details",
-        "title": "Часті запитання",
-        "title__i18n__en": "Frequently Asked Questions",
-        "service_details_cards": [
-          {
-            "_uid": "d7441497-5a01-4088-bc22-70de1763cbb0",
-            "component": "service_details_card",
-            "title": "Скільки коштує налаштування реклами?",
-            "description": {
-              "type": "doc",
-              "content": [
-                {
-                  "type": "paragraph",
-                  "content": [
-                    {
-                      "text": "Вартість налаштування та ведення реклами розраховується індивідуально залежно від кількості кампаній та каналів. Залиште заявку для безкоштовного аудиту.",
-                      "type": "text"
-                    }
-                  ]
-                }
-              ]
-            },
-            "title__i18n__en": "How much does advertising setup cost?",
-            "description__i18n__en": {
-              "type": "doc",
-              "content": [
-                {
-                  "type": "paragraph",
-                  "content": [
-                    {
-                      "text": "The cost of setting up and managing ads is calculated individually depending on the number of campaigns and channels. Leave a request for a free audit.",
-                      "type": "text"
-                    }
-                  ]
-                }
-              ]
-            }
-          },
-          {
-            "_uid": "9db30bcc-2782-4433-9d9f-c832fe340b85",
-            "component": "service_details_card",
-            "title": "Який мінімальний рекламний бюджет?",
-            "description": {
-              "type": "doc",
-              "content": [
-                {
-                  "type": "paragraph",
-                  "content": [
-                    {
-                      "text": "Рекомендуємо стартувати від $300–500/міс для отримання перших даних та результатів. Точний бюджет залежить від ніші та конкуренції.",
-                      "type": "text"
-                    }
-                  ]
-                }
-              ]
-            },
-            "title__i18n__en": "What is the minimum advertising budget?",
-            "description__i18n__en": {
-              "type": "doc",
-              "content": [
-                {
-                  "type": "paragraph",
-                  "content": [
-                    {
-                      "text": "We recommend starting from $300–500/month to get initial data and results. The exact budget depends on the niche and competition.",
-                      "type": "text"
-                    }
-                  ]
-                }
-              ]
-            }
-          },
-          {
-            "_uid": "ae7f44db-bced-4e00-8fe8-ce6f398f256e",
-            "component": "service_details_card",
-            "title": "Як швидко побачу результати від реклами?",
-            "description": {
-              "type": "doc",
-              "content": [
-                {
-                  "type": "paragraph",
-                  "content": [
-                    {
-                      "text": "Перші результати зазвичай видно вже в перший тиждень після запуску. Стабільні показники досягаються протягом 1–2 місяців.",
-                      "type": "text"
-                    }
-                  ]
-                }
-              ]
-            },
-            "title__i18n__en": "How quickly will I see results?",
-            "description__i18n__en": {
-              "type": "doc",
-              "content": [
-                {
-                  "type": "paragraph",
-                  "content": [
-                    {
-                      "text": "First results are typically visible within the first week after launch. Stable metrics are achieved within 1–2 months.",
-                      "type": "text"
-                    }
-                  ]
-                }
-              ]
-            }
-          },
-          {
-            "_uid": "7b022724-34c9-4c05-aab5-390217c6a08f",
-            "component": "service_details_card",
-            "title": "Які рекламні канали ви використовуєте?",
-            "description": {
-              "type": "doc",
-              "content": [
-                {
-                  "type": "paragraph",
-                  "content": [
-                    {
-                      "text": "Google Ads (пошук, дисплей, YouTube), Facebook та Instagram Ads, TikTok Ads. Підбираємо канали під вашу цільову аудиторію.",
-                      "type": "text"
-                    }
-                  ]
-                }
-              ]
-            },
-            "title__i18n__en": "What advertising channels do you use?",
-            "description__i18n__en": {
-              "type": "doc",
-              "content": [
-                {
-                  "type": "paragraph",
-                  "content": [
-                    {
-                      "text": "Google Ads (search, display, YouTube), Facebook and Instagram Ads, TikTok Ads. We select channels based on your target audience.",
-                      "type": "text"
-                    }
-                  ]
-                }
-              ]
-            }
-          }
-        ]
       }
     ],
-    "title": "Цифрова реклама з фокусом на ROI",
+    "title": "Таргетована реклама Google Ads, Meta та LinkedIn",
     "subtitle": "Запускаємо рекламні кампанії, що окупаються. Налаштовуємо, аналізуємо та масштабуємо результат.",
     "component": "service",
     "description": {
@@ -995,7 +851,7 @@
         }
       ]
     },
-    "title__i18n__en": "Digital Advertising with ROI Focus",
+    "title__i18n__en": "Targeted Advertising — Google Ads, Meta & LinkedIn",
     "subtitle__i18n__en": "We launch ad campaigns that pay off. Setup, analysis, and scaling for measurable results.",
     "description__i18n__en": {
       "type": "doc",
