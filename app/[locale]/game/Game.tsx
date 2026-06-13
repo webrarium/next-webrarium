@@ -153,6 +153,17 @@ export default function Game() {
       let nx=p.x+p.dx, ny=p.y+p.dy;
       if (nx<0) nx=COLS-1; if (nx>=COLS) nx=0;
       if (canMove(s.map, nx, ny)) { p.x=nx; p.y=ny; }
+      // collision check after pac moves
+      for (const g of s.ghosts) {
+        if (g.x===p.x && g.y===p.y && !p.dead) {
+          if (g.scared) {
+            s.score+=200; g.scared=false; g.x=8; g.y=9; g.home=true; g.homeTimer=80;
+            setDisplay(d=>({...d,score:s.score}));
+          } else {
+            p.dead=true; p.deadTimer=50;
+          }
+        }
+      }
       const cell = s.map[p.y]?.[p.x];
       if (cell === DOT)   { s.map[p.y][p.x]=EMPTY; s.score+=10; }
       if (cell === POWER) { s.map[p.y][p.x]=EMPTY; s.score+=50; s.powerTimer=220; s.ghosts.forEach(g=>g.scared=true); }
