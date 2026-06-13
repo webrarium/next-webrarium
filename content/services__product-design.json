@@ -1240,6 +1240,46 @@
         "title__i18n__en": "What Tools Do We Use?"
       },
       {
+        "_uid": "73dd510c-e956-47d9-8c67-3cdd33e72d2f",
+        "component": "service_faq",
+        "title": "Часті запитання про UX/UI дизайн",
+        "title__i18n__en": "FAQ: UX/UI Design",
+        "items": [
+          {
+            "_uid": "6b5d3365-6865-430a-a342-ba14e3c2f530",
+            "component": "faq_item",
+            "question": "Що входить у послугу UX/UI дизайну?",
+            "answer": "Дослідження користувачів, аналіз конкурентів, wireframing, прототипування, розробка UI-kit та фінальна передача макетів у Figma з усіма специфікаціями для розробників.",
+            "question__i18n__en": "What is included in UX/UI design services?",
+            "answer__i18n__en": "User research, competitor analysis, wireframing, prototyping, UI kit development, and final Figma handoff with all developer specifications."
+          },
+          {
+            "_uid": "a4fc365b-9e1a-4b14-ab02-abf317dd78dc",
+            "component": "faq_item",
+            "question": "Скільки коштує UX/UI дизайн?",
+            "answer": "Вартість залежить від кількості екранів та складності. Дизайн лендінгу — від $500, мобільного застосунку — від $2000. Надаємо кошторис після обговорення задачі.",
+            "question__i18n__en": "How much does UX/UI design cost?",
+            "answer__i18n__en": "Cost depends on the number of screens and complexity. A landing page design starts at $500; a mobile app from $2,000. We provide an estimate after discussing your task."
+          },
+          {
+            "_uid": "83017dd2-46b2-44d4-8e2c-527e03f4aba6",
+            "component": "faq_item",
+            "question": "Чи можете ви редизайнити існуючий продукт?",
+            "answer": "Так. Проводимо UX-аудит, виявляємо проблемні місця та розробляємо покращений дизайн на основі аналізу поведінки користувачів.",
+            "question__i18n__en": "Can you redesign an existing product?",
+            "answer__i18n__en": "Yes. We conduct a UX audit, identify problem areas, and develop an improved design based on user behavior analysis."
+          },
+          {
+            "_uid": "5e308a1c-c9b5-40da-ab6e-708f10415095",
+            "component": "faq_item",
+            "question": "У якому форматі передаєте фінальні макети?",
+            "answer": "Усі макети передаємо у Figma з організованими шарами, компонентами та design tokens. Також готуємо специфікації та Assets для розробників.",
+            "question__i18n__en": "In what format are final designs delivered?",
+            "answer__i18n__en": "All designs are delivered in Figma with organized layers, components, and design tokens. We also prepare specifications and assets for developers."
+          }
+        ]
+      },
+      {
         "_uid": "6e2bda28-510b-4dbd-b04b-455cc87ffc16",
         "title": "Інші проєкти",
         "component": "projects_grid",
@@ -1398,7 +1438,7 @@
       }
     ],
     "title": "UX/UI дизайн та прототипування",
-    "subtitle": "Розробляємо UX/UI дизайн у Figma: wireframes, прототипи та дизайн-систему. Інтуїтивні інтерфейси, що підвищують конверсію.",
+    "subtitle": "Дизайн, що конвертує. Створюємо зручні інтерфейси на основі досліджень користувачів та бізнес-цілей.",
     "component": "service",
     "description": {
       "type": "doc",
@@ -1407,25 +1447,15 @@
           "type": "paragraph",
           "content": [
             {
-              "text": "Створення зручного користувацького інтерфейсу (UX). Розробка дизайну інтерфейсу користувача (UI).",
-              "type": "text"
-            },
-            {
-              "type": "hard_break"
-            },
-            {
-              "type": "hard_break"
-            },
-            {
-              "text": "Ми зосереджуємося на створенні інтуїтивно зрозумілих інтерфейсів, які покращують досвід користувачів.",
-              "type": "text"
+              "type": "text",
+              "text": "Проєктуємо UX/UI у Figma: дослідження, вайрфрейми, прототипи та дизайн-систему. Зручно для людей — ефективно для бізнесу."
             }
           ]
         }
       ]
     },
     "title__i18n__en": "UX/UI Design & Prototyping",
-    "subtitle__i18n__en": "We design UX/UI in Figma: wireframes, prototypes, and design systems. Intuitive interfaces that boost conversion.",
+    "subtitle__i18n__en": "Design that converts. We create intuitive interfaces based on user research and business goals.",
     "description__i18n__en": {
       "type": "doc",
       "content": [
@@ -1433,23 +1463,19 @@
           "type": "paragraph",
           "content": [
             {
-              "text": "Market and User Research. Creating a User-Friendly Interface (UX). User Interface Design (UI). Prototyping and Testing.",
-              "type": "text"
-            },
-            {
-              "type": "hard_break"
-            },
-            {
-              "type": "hard_break"
-            },
-            {
-              "text": "We focus on creating intuitive interfaces that enhance user experiences, ensuring that every interaction is smooth and engaging.",
-              "type": "text"
+              "type": "text",
+              "text": "We design UX/UI in Figma: research, wireframes, prototypes, and design systems. User-friendly interfaces that drive business results."
             }
           ]
         }
       ]
-    }
+    },
+    "meta_title": "UX/UI дизайн та прототипування у Figma | Webrarium",
+    "meta_title__i18n__en": "UX/UI Design & Prototyping in Figma | Webrarium",
+    "meta_description": "Проєктуємо UX/UI у Figma: дослідження, wireframes, прототипи, дизайн-системи. Зручні інтерфейси для сайтів та мобільних застосунків. Досвід 50+ проєктів.",
+    "meta_description__i18n__en": "We design UX/UI in Figma: research, wireframes, prototypes, design systems. User-friendly interfaces for websites and mobile apps. 50+ projects.",
+    "keywords": "UX/UI дизайн, прототипування Figma, дизайн інтерфейсу, мобільний дизайн, wireframes",
+    "keywords__i18n__en": "UX/UI design, Figma prototyping, interface design, mobile app design, wireframes Ukraine"
   },
   "published": true,
   "slug": "product-design",

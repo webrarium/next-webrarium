@@ -931,10 +931,50 @@
             }
           }
         ]
+      },
+      {
+        "_uid": "fae65640-c154-4140-be8e-7a7fcb4fca5c",
+        "component": "service_faq",
+        "title": "Часті запитання про розробку чат-ботів",
+        "title__i18n__en": "FAQ: Chatbot Development",
+        "items": [
+          {
+            "_uid": "ecf51319-1e8e-4d58-9ad8-d8bfac33a1b7",
+            "component": "faq_item",
+            "question": "На яких платформах ви розробляєте ботів?",
+            "answer": "Telegram, Viber, Instagram, Facebook Messenger та WhatsApp. Також можемо інтегрувати бота на ваш сайт через chat-widget.",
+            "question__i18n__en": "Which platforms do you build bots for?",
+            "answer__i18n__en": "Telegram, Viber, Instagram, Facebook Messenger, and WhatsApp. We can also embed a chat widget on your website."
+          },
+          {
+            "_uid": "5aa8baff-1805-44ae-bc1a-69d28a7cd877",
+            "component": "faq_item",
+            "question": "Чи може бот приймати оплату?",
+            "answer": "Так. Інтегруємо Telegram Pay, LiqPay, Wayforpay та Stripe прямо у чат-бота, щоб клієнти оплачували без виходу з месенджера.",
+            "question__i18n__en": "Can a bot accept payments?",
+            "answer__i18n__en": "Yes. We integrate Telegram Pay, LiqPay, Wayforpay, and Stripe directly into the chatbot so customers can pay without leaving the messenger."
+          },
+          {
+            "_uid": "3236e71d-e470-4e46-8554-2b2c7b18a972",
+            "component": "faq_item",
+            "question": "Скільки часу займає розробка чат-бота?",
+            "answer": "Простий бот з FAQ та зв'язком з оператором — 1–2 тижні. Складний бот з інтеграціями CRM, оплатою та воронками продажів — 3–6 тижнів.",
+            "question__i18n__en": "How long does chatbot development take?",
+            "answer__i18n__en": "A simple bot with FAQ and operator handoff takes 1–2 weeks. A complex bot with CRM integrations, payments, and sales funnels takes 3–6 weeks."
+          },
+          {
+            "_uid": "f1252dd7-592f-49c0-a061-e1fe269b43dd",
+            "component": "faq_item",
+            "question": "Чи можна підключити бота до CRM?",
+            "answer": "Так. Інтегруємо з amoCRM, Bitrix24, HubSpot та іншими системами. Усі ліди автоматично потрапляють у вашу базу клієнтів.",
+            "question__i18n__en": "Can the bot be connected to a CRM?",
+            "answer__i18n__en": "Yes. We integrate with amoCRM, Bitrix24, HubSpot, and other systems. All leads are automatically added to your customer database."
+          }
+        ]
       }
     ],
     "title": "Розробка чат-ботів для бізнесу",
-    "subtitle": "Автоматизуємо комунікацію з клієнтами в Telegram, Viber та Instagram. Чат-боти для продажів, підтримки та збору лідів 24/7.",
+    "subtitle": "Чат-бот — менеджер, що не спить. Автоматизуємо підтримку, продажі та збір лідів у месенджерах.",
     "component": "service",
     "description": {
       "type": "doc",
@@ -943,15 +983,15 @@
           "type": "paragraph",
           "content": [
             {
-              "text": "Чат-боти допомагають бізнесу відповідати на типові запитання, підтримувати користувачів 24/7 і оптимізувати комунікацію на сайті, у месенджерах та соцмережах",
-              "type": "text"
+              "type": "text",
+              "text": "Чат-боти для Telegram, Viber та Instagram. Автоматичні відповіді 24/7, підтримка клієнтів та зростання продажів."
             }
           ]
         }
       ]
     },
     "title__i18n__en": "Chatbot Development for Business",
-    "subtitle__i18n__en": "We automate client communication in Telegram, Viber, and Instagram. Chatbots for sales, support, and lead generation 24/7.",
+    "subtitle__i18n__en": "A chatbot is a manager that never sleeps. We automate support, sales, and lead collection in messengers.",
     "description__i18n__en": {
       "type": "doc",
       "content": [
@@ -959,13 +999,19 @@
           "type": "paragraph",
           "content": [
             {
-              "text": "Chatbots help businesses answer common questions, support users 24/7, and optimize communication on their websites, messengers, and social networks",
-              "type": "text"
+              "type": "text",
+              "text": "Chatbots for Telegram, Viber, and Instagram. Automated 24/7 replies, customer support, and sales growth on autopilot."
             }
           ]
         }
       ]
-    }
+    },
+    "meta_title": "Розробка чат-ботів для Telegram та Instagram | Webrarium",
+    "meta_title__i18n__en": "Chatbot Development for Telegram & Instagram | Webrarium",
+    "meta_description": "Розробляємо чат-боти для Telegram, Viber та Instagram. Автовідповіді 24/7, інтеграція з CRM, прийом оплат. Збільшуємо продажі через месенджери.",
+    "meta_description__i18n__en": "We build chatbots for Telegram, Viber, and Instagram. 24/7 auto-replies, CRM integration, payment acceptance. Grow sales through messengers.",
+    "keywords": "чат-бот Telegram, розробка чат-бота, бот для бізнесу, Instagram бот, автоматизація месенджер",
+    "keywords__i18n__en": "Telegram chatbot development, chatbot for business, Instagram bot, messenger automation"
   },
   "published": true,
   "slug": "chatbots-developing",

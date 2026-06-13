@@ -1445,6 +1445,46 @@
         "title__i18n__en": " What we Use"
       },
       {
+        "_uid": "d73531c2-fb50-4faa-8485-b5656efc1555",
+        "component": "service_faq",
+        "title": "Часті запитання про розробку сайтів",
+        "title__i18n__en": "FAQ: Corporate Website Development",
+        "items": [
+          {
+            "_uid": "a3c9bbb4-389f-456b-9a1d-b698f7a6247c",
+            "component": "faq_item",
+            "question": "Скільки коштує розробка корпоративного сайту?",
+            "answer": "Вартість залежить від обсягу функцій, дизайну та інтеграцій. Базовий корпоративний сайт починається від $1500. Надаємо детальний кошторис після брифу.",
+            "question__i18n__en": "How much does a corporate website cost?",
+            "answer__i18n__en": "The cost depends on the scope of features, design, and integrations. A basic corporate website starts at $1,500. We provide a detailed estimate after the brief."
+          },
+          {
+            "_uid": "5e00c893-9661-425e-bbb9-08cd02b03f27",
+            "component": "faq_item",
+            "question": "Скільки часу займає розробка?",
+            "answer": "Стандартний корпоративний сайт — 4–8 тижнів. Терміни залежать від складності дизайну, кількості сторінок та швидкості затвердження матеріалів від клієнта.",
+            "question__i18n__en": "How long does development take?",
+            "answer__i18n__en": "A standard corporate website takes 4–8 weeks. Timelines depend on design complexity, the number of pages, and how quickly the client approves materials."
+          },
+          {
+            "_uid": "06773f30-e46e-4dbb-a3eb-af263ae0ba21",
+            "component": "faq_item",
+            "question": "Чи буде сайт SEO-оптимізований?",
+            "answer": "Так. Ми налаштовуємо базову SEO-оптимізацію: мета-теги, структуру URL, швидкість завантаження, адаптивність та розмітку Schema.org.",
+            "question__i18n__en": "Will the website be SEO-optimized?",
+            "answer__i18n__en": "Yes. We set up basic SEO: meta tags, URL structure, page speed, mobile responsiveness, and Schema.org markup."
+          },
+          {
+            "_uid": "b3ba0273-61b5-4701-a03f-a184c1a00eb2",
+            "component": "faq_item",
+            "question": "Що входить у підтримку після запуску?",
+            "answer": "Ми надаємо технічну підтримку, оновлення CMS, виправлення помилок та консультації. Деталі обговорюються індивідуально залежно від потреб проєкту.",
+            "question__i18n__en": "What's included in post-launch support?",
+            "answer__i18n__en": "We provide technical support, CMS updates, bug fixes, and consultations. Details are discussed individually based on project needs."
+          }
+        ]
+      },
+      {
         "_uid": "00a505da-5e4d-417f-9dd4-37f919a8e00f",
         "title": "Нещодавні проєкти",
         "component": "projects_grid",
@@ -1605,7 +1645,7 @@
       }
     ],
     "title": "Розробка вебсайту компанії",
-    "subtitle": "Створюємо корпоративні сайти, що залучають клієнтів та підвищують впізнаваність бренду. Від UI/UX дизайну до запуску — повністю під ключ.",
+    "subtitle": "Корпоративний сайт — ваш головний онлайн-актив. Розробляємо під ключ із фокусом на конверсії та SEO.",
     "component": "service",
     "description": {
       "type": "doc",
@@ -1614,24 +1654,15 @@
           "type": "paragraph",
           "content": [
             {
-              "text": "Розробляємо потужний онлайн-інструмент для залучення нових клієнтів і підвищення впізнаваності бренду.",
-              "type": "text"
-            }
-          ]
-        },
-        {
-          "type": "paragraph",
-          "content": [
-            {
-              "text": "Від високоякісного UI/UX до стратегічної навігації, створюємо вебсайт компанії, який відображає вашу компанію відповідно до споживчих цінностей.",
-              "type": "text"
+              "type": "text",
+              "text": "Розробляємо корпоративні сайти та лендінги для залучення клієнтів. Повний цикл: від UX/UI дизайну до SEO-готового запуску."
             }
           ]
         }
       ]
     },
     "title__i18n__en": "Corporate Website Development",
-    "subtitle__i18n__en": "We build corporate websites that attract clients and grow brand recognition. From UI/UX design to launch — fully turnkey.",
+    "subtitle__i18n__en": "A corporate website is your main online asset. We build it end-to-end with a focus on conversions and SEO.",
     "description__i18n__en": {
       "type": "doc",
       "content": [
@@ -1639,22 +1670,19 @@
           "type": "paragraph",
           "content": [
             {
-              "text": "We develop a powerful online tool for attracting new clients and increasing brand recognition.",
-              "type": "text"
-            }
-          ]
-        },
-        {
-          "type": "paragraph",
-          "content": [
-            {
-              "text": "From high-quality UI/UX design to strategic navigation, we create a company website that reflects your brand in alignment with consumer values.",
-              "type": "text"
+              "type": "text",
+              "text": "We build corporate websites and landing pages that generate leads. Full cycle: from UX/UI design to SEO-ready launch."
             }
           ]
         }
       ]
-    }
+    },
+    "meta_title": "Розробка корпоративного сайту під ключ | Webrarium",
+    "meta_title__i18n__en": "Corporate Website Development | Webrarium",
+    "meta_description": "Розробляємо корпоративні сайти та лендінги, що залучають клієнтів. Повний цикл: UX/UI, SEO, CMS. Досвід 50+ проєктів. Отримайте кошторис безкоштовно.",
+    "meta_description__i18n__en": "We build corporate websites and landing pages that attract clients. Full cycle: UX/UI, SEO, CMS. 50+ projects. Get a free estimate.",
+    "keywords": "розробка сайту, корпоративний сайт, створення сайту, веб-розробка Україна, лендінг, сайт під ключ",
+    "keywords__i18n__en": "corporate website development, website design, web development Ukraine, landing page, website creation"
   },
   "published": true,
   "slug": "company-websites",

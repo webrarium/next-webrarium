@@ -37,6 +37,7 @@ import ProjectResultsCard from "./ProjectPage/ProjectResultsCard";
 import ProjectRealization from "./ProjectPage/ProjectRealization";
 import ProjectImplementation from "./ProjectPage/ProjectImplementation";
 import Clutch from "./Clutch/Clutch";
+import ServiceFAQ from "./ServicePage/ServiceFAQ";
 
 const components = {
 	page: Page,
@@ -75,6 +76,7 @@ const components = {
 	service_instruments_card: ServiceInstrumentsCard,
 	project_implementation: ProjectImplementation,
 	clutch: Clutch,
+	service_faq: ServiceFAQ,
 };
 
 storyblokInit({

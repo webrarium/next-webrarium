@@ -781,6 +781,46 @@
         "title__i18n__en": "What We Use"
       },
       {
+        "_uid": "6d3443f9-4149-4e12-af55-c1ffdb38d7b6",
+        "component": "service_faq",
+        "title": "Часті запитання про цифрову рекламу",
+        "title__i18n__en": "FAQ: Digital Advertising",
+        "items": [
+          {
+            "_uid": "793b59f2-ac18-4c6d-9513-42300984c182",
+            "component": "faq_item",
+            "question": "Який мінімальний рекламний бюджет?",
+            "answer": "Для Google Ads рекомендуємо від $300/міс, для Meta — від $200/міс. Чим більший бюджет, тим швидше ви отримаєте статистику для оптимізації.",
+            "question__i18n__en": "What is the minimum advertising budget?",
+            "answer__i18n__en": "We recommend at least $300/month for Google Ads and $200/month for Meta. A larger budget means faster data collection for optimization."
+          },
+          {
+            "_uid": "aa444c69-ca2c-4e99-b3b6-1eb2b86256dc",
+            "component": "faq_item",
+            "question": "Коли чекати перших результатів?",
+            "answer": "Перші ліди зазвичай з'являються протягом 1–2 тижнів. Для повноцінної оптимізації кампаній потрібно 1–2 місяці тестування та аналізу.",
+            "question__i18n__en": "When can I expect the first results?",
+            "answer__i18n__en": "First leads usually appear within 1–2 weeks. Full campaign optimization requires 1–2 months of testing and analysis."
+          },
+          {
+            "_uid": "68ba44bf-45b6-4490-bbf3-5db00e8036ac",
+            "component": "faq_item",
+            "question": "Чи включає послуга створення рекламних матеріалів?",
+            "answer": "Так. Ми розробляємо рекламні тексти, банери та відеоматеріали. Для складних проєктів залучаємо дизайнерів і відеографів.",
+            "question__i18n__en": "Does the service include creating ad materials?",
+            "answer__i18n__en": "Yes. We develop ad copy, banners, and video content. For complex projects, we involve designers and videographers."
+          },
+          {
+            "_uid": "9f9c1f31-75b6-4850-ae5f-4753eaa93f84",
+            "component": "faq_item",
+            "question": "Як ви вимірюєте ефективність реклами?",
+            "answer": "Відстежуємо CPL, ROAS, CPC та конверсії через Google Analytics і Meta Pixel. Щомісяця надаємо детальний звіт з результатами та рекомендаціями.",
+            "question__i18n__en": "How do you measure ad performance?",
+            "answer__i18n__en": "We track CPL, ROAS, CPC, and conversions via Google Analytics and Meta Pixel. Monthly reports with results and recommendations are provided."
+          }
+        ]
+      },
+      {
         "_uid": "f3057620-9670-4b36-a9e1-428a264cd34c",
         "title": "Нещодавні проєкти",
         "component": "projects_grid",
@@ -939,7 +979,7 @@
       }
     ],
     "title": "Цифрова реклама з фокусом на ROI",
-    "subtitle": "Запускаємо рекламу в Google Ads, Facebook та Instagram. Таргетинг на вашу аудиторію з фокусом на конверсії та повернення інвестицій.",
+    "subtitle": "Запускаємо рекламні кампанії, що окупаються. Налаштовуємо, аналізуємо та масштабуємо результат.",
     "component": "service",
     "description": {
       "type": "doc",
@@ -948,15 +988,15 @@
           "type": "paragraph",
           "content": [
             {
-              "text": "Таргетоване просування бізнесу через платні онлайн-канали: Google Ads, соціальні мережі, відео та медійні кампанії",
-              "type": "text"
+              "type": "text",
+              "text": "Таргетована реклама в Google Ads, Meta та LinkedIn. Більше лідів і продажів у межах вашого рекламного бюджету."
             }
           ]
         }
       ]
     },
     "title__i18n__en": "Digital Advertising with ROI Focus",
-    "subtitle__i18n__en": "We run ads on Google Ads, Facebook, and Instagram. Targeting your audience with a focus on conversions and return on investment.",
+    "subtitle__i18n__en": "We launch ad campaigns that pay off. Setup, analysis, and scaling for measurable results.",
     "description__i18n__en": {
       "type": "doc",
       "content": [
@@ -964,23 +1004,19 @@
           "type": "paragraph",
           "content": [
             {
-              "text": "Advertising on Google, Meta, and LinkedIn. Creation, setup, results analysis, and optimization.",
-              "type": "text"
-            },
-            {
-              "type": "hard_break"
-            },
-            {
-              "type": "hard_break"
-            },
-            {
-              "text": "Businesses can reach their potential customers more effectively. ",
-              "type": "text"
+              "type": "text",
+              "text": "Targeted ads on Google Ads, Meta, and LinkedIn. More leads and sales within your advertising budget, with measurable ROI."
             }
           ]
         }
       ]
-    }
+    },
+    "meta_title": "Цифрова реклама Google Ads та Meta | Webrarium",
+    "meta_title__i18n__en": "Digital Advertising Google Ads & Meta | Webrarium",
+    "meta_description": "Запускаємо рекламу в Google Ads, Meta та LinkedIn. Налаштування, оптимізація, звіти. Більше лідів і продажів у межах вашого бюджету. ROI від першого місяця.",
+    "meta_description__i18n__en": "We run ads on Google Ads, Meta, and LinkedIn. Setup, optimization, reports. More leads and sales within your budget. ROI from the first month.",
+    "keywords": "реклама Google Ads, таргетована реклама, контекстна реклама, Meta реклама, реклама Facebook",
+    "keywords__i18n__en": "Google Ads management, targeted advertising, Meta ads, Facebook advertising, digital marketing Ukraine"
   },
   "published": true,
   "slug": "digital-advertising",

@@ -1119,6 +1119,46 @@
         "title__i18n__en": "What We Use"
       },
       {
+        "_uid": "44159452-5967-47ad-913b-1071ce1139e9",
+        "component": "service_faq",
+        "title": "Часті запитання про розробку інтернет-магазинів",
+        "title__i18n__en": "FAQ: Online Store Development",
+        "items": [
+          {
+            "_uid": "c473ae82-6f02-408c-b180-d833a16ae3fd",
+            "component": "faq_item",
+            "question": "Яку платформу краще обрати для інтернет-магазину?",
+            "answer": "Shopify — ідеально для швидкого старту і масштабування. WooCommerce — для тих, хто хоче більшої гнучкості. Допоможемо обрати під ваш бюджет і задачі.",
+            "question__i18n__en": "Which platform is better for an online store?",
+            "answer__i18n__en": "Shopify is ideal for quick launch and scaling. WooCommerce is better for those who need more flexibility. We'll help you choose based on your budget and goals."
+          },
+          {
+            "_uid": "b8324c58-6c81-439a-94fc-b1cf42952793",
+            "component": "faq_item",
+            "question": "Чи можна перенести існуючий магазин на нову платформу?",
+            "answer": "Так. Ми виконуємо міграцію продуктів, замовлень, клієнтів і SEO-даних із збереженням позицій у пошуку.",
+            "question__i18n__en": "Can I migrate an existing store to a new platform?",
+            "answer__i18n__en": "Yes. We handle migration of products, orders, customers, and SEO data while preserving your search rankings."
+          },
+          {
+            "_uid": "31684806-6e56-4ed5-8543-c6216393ab41",
+            "component": "faq_item",
+            "question": "Як інтегрувати платіжні системи?",
+            "answer": "Підключаємо LiqPay, Wayforpay, Stripe, PayPal та інші популярні платіжні шлюзи. Безпека транзакцій забезпечується SSL і стандартами PCI DSS.",
+            "question__i18n__en": "How do you integrate payment systems?",
+            "answer__i18n__en": "We connect LiqPay, Wayforpay, Stripe, PayPal, and other popular payment gateways. Transaction security is ensured with SSL and PCI DSS standards."
+          },
+          {
+            "_uid": "f20daa01-18af-443d-81c5-23fe53165cf4",
+            "component": "faq_item",
+            "question": "Чи зможу я самостійно керувати магазином?",
+            "answer": "Так. Після запуску надаємо навчання та відеоінструкції. Ви зможете самостійно додавати товари, керувати замовленнями та акціями.",
+            "question__i18n__en": "Will I be able to manage the store myself?",
+            "answer__i18n__en": "Yes. After launch, we provide training and video tutorials. You'll be able to add products, manage orders, and run promotions independently."
+          }
+        ]
+      },
+      {
         "_uid": "83b9ed20-a21e-4177-817b-8fe2c39cee97",
         "title": "Нещодавні проєкти",
         "component": "projects_grid",
@@ -1278,7 +1318,7 @@
       }
     ],
     "title": "Розробка інтернет-магазину",
-    "subtitle": "Розробляємо інтернет-магазини на Shopify та WooCommerce. Зручний інтерфейс, безпечні платежі та SEO-оптимізація під ключ.",
+    "subtitle": "Запускаємо інтернет-магазини, що продають. Від вибору платформи до першого замовлення.",
     "component": "service",
     "description": {
       "type": "doc",
@@ -1287,24 +1327,15 @@
           "type": "paragraph",
           "content": [
             {
-              "text": "Надаємо усі необхідні інструменти для успішного ведення електронної комерції.",
-              "type": "text"
-            }
-          ]
-        },
-        {
-          "type": "paragraph",
-          "content": [
-            {
-              "text": "Від зручного інтерфейсу до безпеки платежів. Зробимо ваш інтернет-магазин ефективним та зручним для клієнтів.",
-              "type": "text"
+              "type": "text",
+              "text": "Розробляємо інтернет-магазини на Shopify та WooCommerce. Зручний каталог, безпека платежів та зростання конверсій."
             }
           ]
         }
       ]
     },
     "title__i18n__en": "Online Store Development",
-    "subtitle__i18n__en": "We build online stores on Shopify and WooCommerce. User-friendly interface, secure payments, and SEO optimization — fully turnkey.",
+    "subtitle__i18n__en": "We launch online stores that sell. From platform selection to the first order.",
     "description__i18n__en": {
       "type": "doc",
       "content": [
@@ -1312,22 +1343,19 @@
           "type": "paragraph",
           "content": [
             {
-              "text": "We provide all the necessary tools for successful e-commerce.",
-              "type": "text"
-            }
-          ]
-        },
-        {
-          "type": "paragraph",
-          "content": [
-            {
-              "text": "From a user-friendly interface to payment security, we make your online store efficient and convenient for customers.",
-              "type": "text"
+              "type": "text",
+              "text": "We develop online stores on Shopify and WooCommerce. User-friendly catalog, secure payments, and growing conversions."
             }
           ]
         }
       ]
-    }
+    },
+    "meta_title": "Розробка інтернет-магазину на Shopify та WooCommerce | Webrarium",
+    "meta_title__i18n__en": "Online Store Development on Shopify & WooCommerce | Webrarium",
+    "meta_description": "Розробляємо інтернет-магазини з нуля на Shopify та WooCommerce. Зручний каталог, безпека платежів, висока конверсія. Запустимо ваш магазин за 4–8 тижнів.",
+    "meta_description__i18n__en": "We build online stores from scratch on Shopify and WooCommerce. Easy catalog, secure payments, high conversion. Launch in 4–8 weeks.",
+    "keywords": "інтернет-магазин, розробка магазину, Shopify Україна, WooCommerce, e-commerce розробка",
+    "keywords__i18n__en": "online store development, Shopify development, WooCommerce store, e-commerce Ukraine"
   },
   "published": true,
   "slug": "online-store",

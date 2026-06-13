@@ -1062,10 +1062,50 @@
             }
           }
         ]
+      },
+      {
+        "_uid": "2f932202-57e8-4032-9dc4-ef571ec84522",
+        "component": "service_faq",
+        "title": "Часті запитання про автоматизацію бізнесу",
+        "title__i18n__en": "FAQ: Business Process Automation",
+        "items": [
+          {
+            "_uid": "41f81e5f-2f25-4a0c-90b5-903b24df6dc3",
+            "component": "faq_item",
+            "question": "Які інструменти ви використовуєте для автоматизації?",
+            "answer": "Ми працюємо з Make (Integromat), Zapier, n8n, Airtable та іншими no-code/low-code рішеннями. Вибір інструменту залежить від задачі та бюджету.",
+            "question__i18n__en": "What tools do you use for automation?",
+            "answer__i18n__en": "We work with Make (Integromat), Zapier, n8n, Airtable, and other no-code/low-code solutions. The choice of tool depends on the task and budget."
+          },
+          {
+            "_uid": "33effcb0-033b-48fb-9a91-81606d7fb625",
+            "component": "faq_item",
+            "question": "Що можна автоматизувати?",
+            "answer": "Обробку лідів і заявок, email-розсилки, синхронізацію даних між системами, звіти, нагадування, виставлення рахунків та сотні інших рутинних процесів.",
+            "question__i18n__en": "What can be automated?",
+            "answer__i18n__en": "Lead and request processing, email campaigns, data sync between systems, reports, reminders, invoicing, and hundreds of other routine processes."
+          },
+          {
+            "_uid": "25328a08-041f-4f74-9b95-63d10a61a347",
+            "component": "faq_item",
+            "question": "Чи потрібні технічні знання для управління автоматизацією?",
+            "answer": "Ні. Ми налаштовуємо всі сценарії та навчаємо вашу команду. Після запуску ви зможете вносити базові зміни самостійно без коду.",
+            "question__i18n__en": "Do I need technical knowledge to manage automation?",
+            "answer__i18n__en": "No. We configure all workflows and train your team. After launch, you can make basic changes independently without any code."
+          },
+          {
+            "_uid": "805006dc-cf1a-4f58-ac5f-39115ff20671",
+            "component": "faq_item",
+            "question": "Як швидко окупається автоматизація?",
+            "answer": "Більшість клієнтів бачать окупність за 1–3 місяці. Економія часу і зменшення помилок перевищують витрати на налаштування вже в перші тижні.",
+            "question__i18n__en": "How quickly does automation pay off?",
+            "answer__i18n__en": "Most clients see ROI within 1–3 months. Time savings and reduced errors outweigh setup costs within the first few weeks."
+          }
+        ]
       }
     ],
     "title": "Автоматизація бізнес-процесів",
-    "subtitle": "Автоматизуємо рутинні задачі за допомогою Make, Zapier та n8n. Скорочуємо час на операції та масштабуємо ваш бізнес.",
+    "subtitle": "Автоматизуємо рутину — ви займаєтесь ростом. Інтегруємо CRM, email-маркетинг та внутрішні процеси.",
     "component": "service",
     "description": {
       "type": "doc",
@@ -1074,15 +1114,15 @@
           "type": "paragraph",
           "content": [
             {
-              "text": "Ми працюємо не з шаблонами, а з вашими задачами — рішення під ключ враховує особливості ніші, цілі та внутрішні процеси компанії.",
-              "type": "text"
+              "type": "text",
+              "text": "Автоматизуємо процеси через Make, Zapier та n8n. Скорочуємо рутину і звільняємо час для розвитку вашого бізнесу."
             }
           ]
         }
       ]
     },
     "title__i18n__en": "Business Process Automation",
-    "subtitle__i18n__en": "We automate routine tasks using Make, Zapier, and n8n. Reduce time on operations and scale your business.",
+    "subtitle__i18n__en": "We automate the routine — you focus on growth. CRM, email marketing, and internal process integrations.",
     "description__i18n__en": {
       "type": "doc",
       "content": [
@@ -1090,13 +1130,19 @@
           "type": "paragraph",
           "content": [
             {
-              "text": "We do not work with templates, but with your tasks - the solution takes into account the peculiarities of the niche, goals, and internal processes of the company.",
-              "type": "text"
+              "type": "text",
+              "text": "We automate workflows using Make, Zapier, and n8n. Less routine work, more time to grow and scale your business."
             }
           ]
         }
       ]
-    }
+    },
+    "meta_title": "Автоматизація бізнес-процесів Make Zapier n8n | Webrarium",
+    "meta_title__i18n__en": "Business Process Automation Make Zapier n8n | Webrarium",
+    "meta_description": "Автоматизуємо бізнес-процеси через Make, Zapier та n8n. Інтеграції CRM, email, звіти, обробка лідів. Скорочуємо рутину і збільшуємо ефективність команди.",
+    "meta_description__i18n__en": "We automate business processes using Make, Zapier, and n8n. CRM, email, reports, lead processing. Less routine, more team efficiency.",
+    "keywords": "автоматизація бізнесу, Make автоматизація, Zapier інтеграція, n8n, автоматизація процесів Україна",
+    "keywords__i18n__en": "business automation, Make integrations, Zapier automation, n8n workflows, process automation Ukraine"
   },
   "published": true,
   "slug": "business-automation",
