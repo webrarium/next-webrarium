@@ -8,7 +8,7 @@ export const revalidate = 600;
 export async function generateMetadata({ params: { locale } }: any) {
   const pageSlug = "services";
   const rawSeoData = await fetch(
-    `https://api.storyblok.com/v2/cdn/stories/${pageSlug}?version=draft&token=${process.env.STORYBLOK_ACCESS_TOKEN}&language=${locale}`,
+    `https://api.storyblok.com/v2/cdn/stories/${pageSlug}?version=published&token=${process.env.STORYBLOK_ACCESS_TOKEN}&language=${locale}`,
     { next: { revalidate: 600 } }
   );
   const seoData = await rawSeoData.json();
@@ -55,7 +55,7 @@ async function fetchData(locale: string) {
     language: any;
     resolve_relations: any;
   } = {
-    version: "draft",
+    version: "published",
     language: locale,
     resolve_relations: ["services_grid.services_list"],
   };

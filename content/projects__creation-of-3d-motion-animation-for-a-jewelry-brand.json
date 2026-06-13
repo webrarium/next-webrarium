@@ -1,0 +1,736 @@
+{
+  "name": "Creation of 3D motion animation for a jewelry brand",
+  "parent_id": 488037327,
+  "group_id": "844bcffa-39db-4748-90f8-9c178dd9e49d",
+  "alternates": [],
+  "created_at": "2024-09-05T18:30:40.420Z",
+  "deleted_at": null,
+  "sort_by_date": null,
+  "tag_list": [],
+  "updated_at": "2025-03-24T11:28:32.188Z",
+  "published_at": "2024-09-06T14:03:49.592Z",
+  "id": 544773135,
+  "uuid": "87b9c021-466d-4d37-9a95-7dc081b4d0b9",
+  "is_folder": false,
+  "content": {
+    "_uid": "961d092b-5f53-42d0-8738-e88a369bb6a7",
+    "cover": {
+      "id": 17243183,
+      "alt": "3d motion",
+      "name": "",
+      "focus": "",
+      "title": "",
+      "source": "",
+      "filename": "https://a.storyblok.com/f/276513/1200x630/187f51d17a/circlet.webp",
+      "copyright": "",
+      "fieldtype": "asset",
+      "meta_data": {
+        "alt": "3d motion",
+        "title": "",
+        "source": "",
+        "copyright": ""
+      },
+      "is_external_url": false
+    },
+    "title": "Створення 3D моушн анімації для ювелірного бренду",
+    "blocks": [
+      {
+        "_uid": "50fc6a75-93f9-404a-8120-5563ebb3bba0",
+        "text": {
+          "type": "doc",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "3D моушн дизайн — це поєднання тривимірного моделювання, анімації та візуальних ефектів, що дозволяє оживляти ідеї, продукти та історії у захопливий спосіб. На відміну від традиційної 2D-анімації, 3D дизайн створює глибину і реалістичність, що дозволяє глядачу відчути більше залучення до контенту.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        "headline": "3D моушн дизайн: майбутнє Візуального Сторітелінгу",
+        "component": "project_headline",
+        "text__i18n__en": {
+          "type": "doc",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "3D motion design is a combination of 3D modeling, animation, and visual effects that brings ideas, products, and stories to life in an engaging way. Unlike traditional 2D animation, 3D design creates depth and realism, allowing the viewer to feel more immersed in the content.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        "headline__i18n__en": "3D Motion Design: The Future of Visual Storytelling"
+      },
+      {
+        "_uid": "38b4ca37-eb70-446f-8c2f-18ddf14fa832",
+        "component": "project_challenge_and_instruments",
+        "challenge_txt": "Реалістична передача матеріалів:одним із найбільших викликів є реалістичне відтворення дорогоцінних металу. Срібло має складні відблиски, рефракцію (переломлення світла), та гру світла. Правильне відображення цих властивостей вимагає майстерної роботи з текстурами та освітленням.\n\nРеалістична анімація руху. Інтеграція з іншими елементами бренду. \n\nТерміни та бюджет: створення якісної 3D анімації — це тривалий процес, що включає моделювання, анімацію, освітлення, текстурування та рендеринг.",
+        "challenge_title": "Виклики",
+        "instruments_txt": "Cinema 4D,\nRedshift,\nAfter Effects.",
+        "instruments_title": "Що використовували? ",
+        "challenge_txt__i18n__en": "Realistic material rendering: one of the biggest challenges is realistically reproducing precious metals. Silver has complex reflections, refraction (light bending), and light play. Accurately representing these properties requires skilled work with textures and lighting.\n\nRealistic Motion Animation: Ensuring that the animation of movement appears natural and fluid is another significant challenge.\n\nIntegration with other brand elements: it’s essential to seamlessly incorporate 3D animation with other elements of the brand's identity.\n\nTimelines and budget: creating high-quality 3D animation is a lengthy process that involves modeling, animation, lighting, texturing, and rendering.",
+        "challenge_title__i18n__en": "Challenges",
+        "instruments_title__i18n__en": "Tools"
+      },
+      {
+        "_uid": "4b2456c6-a3a0-4784-9b63-1b940e17f144",
+        "title": "Ключові результати",
+        "component": "project_results",
+        "title__i18n__en": "Key Results",
+        "project_results_cards": [
+          {
+            "_uid": "08ec4ddf-8fb9-4f4c-ba14-277e2bd7d092",
+            "text": "3D анімація показує прикраси в динаміці та під різними кутами, підкреслюючи їхні унікальні риси",
+            "title": "Підвищення привабливості продукту",
+            "component": "project_results_card",
+            "text__i18n__en": "3D animation showcases jewelry in motion and from different angles, highlighting its unique features.",
+            "title__i18n__en": "Enhancing Product Appeal"
+          },
+          {
+            "_uid": "4f060701-d781-4ab8-830a-31308fc3d74c",
+            "text": "Анімація використовується на вебсайті, у соцмережах, відеорекламі",
+            "title": "Залучення клієнтів через цифрові канали",
+            "component": "project_results_card",
+            "text__i18n__en": "Animation is used on the website, social media, and video advertisements.",
+            "title__i18n__en": "Engaging Customers Through Digital Channels"
+          },
+          {
+            "_uid": "0446b04e-1ed7-4661-b9db-607bfd81f844",
+            "text": "Якісна 3D анімація не лише привертає увагу, а й впливає на рішення клієнтів купити виріб",
+            "title": "Покращення конверсій та продажів",
+            "component": "project_results_card",
+            "text__i18n__en": "High-quality 3D animation not only captures attention but also influences customers' decision to purchase the product.",
+            "title__i18n__en": "Improving Conversions and Sales"
+          }
+        ]
+      },
+      {
+        "_uid": "4ee49cae-8473-437a-abae-26973b709fe2",
+        "text": {
+          "type": "doc",
+          "content": [
+            {
+              "type": "heading",
+              "attrs": {
+                "level": 3
+              },
+              "content": [
+                {
+                  "text": "3D моделювання",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Створення моделей",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ]
+                },
+                {
+                  "text": ": В основі анімації лежить тривимірне моделювання ювелірних виробів.",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Текстурування",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ]
+                },
+                {
+                  "text": ": Застосування текстур для відображення матеріалів виробів. Тут важливо врахувати, як саме виглядають і взаємодіють зі світлом золото, срібло, діаманти та інші матеріали.",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "heading",
+              "attrs": {
+                "level": 3
+              },
+              "content": [
+                {
+                  "text": "Анімація",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Рух і динаміка",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ]
+                },
+                {
+                  "text": ": На цьому етапі моделі анімуються — наприклад, обертаються, падають у повітрі або збираються з окремих частин.",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Фізичні ефекти",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ]
+                },
+                {
+                  "text": ": Додаються ефекти освітлення, заломлення світла у каменях, тіні та відблиски, які створюють реалістичність анімації.",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "heading",
+              "attrs": {
+                "level": 3
+              },
+              "content": [
+                {
+                  "text": "Освітлення та рендеринг",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Налаштування світла",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ]
+                },
+                {
+                  "text": ": Особлива увага приділяється налаштуванню світла. Воно повинно підкреслювати блиск металів і сяйво каменів, створюючи враження преміум-продукту.",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Рендеринг",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ]
+                },
+                {
+                  "text": ": Це процес перетворення 3D сцени в готові зображення або відео. Рендеринг може зайняти значний час. Важливо зберегти високу роздільну здатність, щоб кінцевий результат був чітким і деталізованим.",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "heading",
+              "attrs": {
+                "level": 3
+              },
+              "content": [
+                {
+                  "text": "Постпродакшн",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Редагування та ефекти",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ]
+                },
+                {
+                  "text": ": На цьому етапі проводиться додаткове редагування, корекція кольорів, додавання спеціальних ефектів або елементів, таких як частинки, світлові промені чи блики.",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "heading",
+              "attrs": {
+                "level": 3
+              }
+            }
+          ]
+        },
+        "title": "Реалізація",
+        "component": "project_realization",
+        "text__i18n__en": {
+          "type": "doc",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "3D Modeling",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Model creation",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ]
+                },
+                {
+                  "text": ": the foundation of animation is 3D modeling of jewelry pieces.",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Texturing",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ]
+                },
+                {
+                  "text": ": Applying textures to represent the materials of the products. It's important to consider how gold, silver, diamonds, and other materials look and interact with light.",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Animation",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Motion and dynamics",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ]
+                },
+                {
+                  "text": ": At this stage, the models are animated — for example, rotating, falling through the air, or assembling from individual parts.",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Physical Effects",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ]
+                },
+                {
+                  "text": ": adding effects such as lighting, light refraction in gemstones, shadows, and reflections to create realism in the animation.",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Lighting and Rendering",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Lighting setup",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ]
+                },
+                {
+                  "text": ": special attention is given to lighting setup. It should highlight the shine of metals and the brilliance of gemstones, creating a premium product impression.",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Rendering",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ]
+                },
+                {
+                  "text": ": this is the process of converting a 3D scene into finished images or videos. Rendering can take significant time. It’s important to maintain high resolution to ensure that the final result is clear and detailed.",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Post-Production",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Editing and Effects",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ]
+                },
+                {
+                  "text": ": at this stage, additional editing, color correction, and adding special effects or elements such as particles, light beams, or glints are performed.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        "title__i18n__en": "Implementation"
+      },
+      {
+        "_uid": "c1fce33a-1cfe-440e-aa27-1a73f6e10c7b",
+        "cards": [
+          {
+            "_uid": "d34fd5d6-fbf0-471b-8099-1f8636de4c22",
+            "title": "Економічна ефективність",
+            "component": "service_need_card",
+            "description": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Створення 3D моделей для анімації коштує менше , ніж традиційна зйомка.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            "title__i18n__en": "Economic Efficiency",
+            "description__i18n__en": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Creating 3D models for animation is less expensive than traditional photography.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "_uid": "d102e5a2-51b8-418b-830f-345c62e2779d",
+            "title": "Інноваційний вигляд",
+            "component": "service_need_card",
+            "description": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Ювелірні бренди, котрі використовують 3D анімацію, сприймаються, як прогресивні. Це особливо важливо продажу й реклами.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            "title__i18n__en": "Innovative Look",
+            "description__i18n__en": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Jewelry brands that use 3D animation are perceived as progressive. This is especially important for sales and advertising.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        ],
+        "media": "https://t47j0mafyqbe9pfh.public.blob.vercel-storage.com/LBU_An7-q7sZBwmb0ro2G3aPuiTU6xxKjgmfml.webm",
+        "title": "Чому ювелірні бренди обирають 3D анімацію?",
+        "component": "service_need",
+        "title__i18n__en": "Why Do Jewelry Brands Choose 3D Animation?"
+      },
+      {
+        "_uid": "c4b72b78-c82d-43ba-aa2c-e3c4c2208772",
+        "title": "Відгук клієнта",
+        "component": "testimonials",
+        "testimonials": [
+          {
+            "ava": {
+              "id": 15169818,
+              "alt": "Тарас Буздиган - власник бренду \"Тобі Можна\"",
+              "name": "",
+              "focus": "",
+              "title": "",
+              "source": "",
+              "filename": "https://a.storyblok.com/f/276513/296x296/1dff453b0f/taras.webp",
+              "copyright": "",
+              "fieldtype": "asset",
+              "meta_data": {
+                "alt": "Тарас Буздиган - власник бренду \"Тобі Можна\"",
+                "title": "",
+                "source": "",
+                "copyright": ""
+              },
+              "content_type": "webp",
+              "is_external_url": false
+            },
+            "_uid": "368f425d-5541-4d00-b41b-d5ce27da54f9",
+            "name": "Тарас Буздиган",
+            "fb_link": {
+              "id": "",
+              "url": "",
+              "linktype": "story",
+              "fieldtype": "multilink",
+              "cached_url": ""
+            },
+            "component": "testimonial_card",
+            "description": "Власник бренду \"Тобі Можна\"",
+            "testimonial": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph"
+                }
+              ]
+            },
+            "name__i18n__en": "Taras Buzdygan",
+            "description__i18n__en": "Owner of the brand \"Tobi Mozhna\""
+          }
+        ],
+        "title__i18n__en": "Customer Feedback"
+      },
+      {
+        "_uid": "e8e1a110-d6c9-4be1-8694-50703b28cdcc",
+        "title": "Інші проєкти",
+        "component": "projects_grid",
+        "button_txt": "Переглянути кейс",
+        "button2_txt": "Переглянути сайт",
+        "projects_list": [
+          "fc71ed4c-ee73-42a9-ad26-7c74d7f815ac",
+          "55a8d19c-babf-4e12-b142-6a2ba090d65c",
+          "79aa4ea5-f41a-43f8-96e4-368af6477536",
+          "42acd9f9-71b9-4dab-9350-906c555bb815"
+        ],
+        "title__i18n__en": "Other Projects",
+        "button_txt__i18n__en": "View Case",
+        "button2_txt__i18n__en": "View Site"
+      }
+    ],
+    "subtitle": "Анімація 3D візуалізацій - це саме те, що вирізняє прикраси серед інших ювелірних брендів.",
+    "component": "project",
+    "description": "3D моушн анімація для юверлірного бренду. Створення 3D-моделей прикрас.",
+    "title__i18n__en": "Creating 3D Motion Animation for a Jewelry Brand",
+    "project_site_link": {
+      "id": "",
+      "url": "https://tobimozhna.com/collections/all/products/%D0%BA%D0%B0%D0%B1%D0%BB%D1%83%D1%87%D0%BA%D0%B0-%D0%BB%D1%8E%D0%B1%D0%BE%D0%B2-%D0%B1%D0%B5%D0%B7-%D1%83%D0%BC%D0%BE%D0%B2",
+      "linktype": "url",
+      "fieldtype": "multilink",
+      "cached_url": "https://tobimozhna.com/collections/all/products/%D0%BA%D0%B0%D0%B1%D0%BB%D1%83%D1%87%D0%BA%D0%B0-%D0%BB%D1%8E%D0%B1%D0%BE%D0%B2-%D0%B1%D0%B5%D0%B7-%D1%83%D0%BC%D0%BE%D0%B2"
+    },
+    "subtitle__i18n__en": "3D visualization animation is exactly what makes the jewelry stand out among other jewelry brands.",
+    "description__i18n__en": "3D Motion Animation for a Jewelry Brand. Creating 3D Jewelry Models"
+  },
+  "published": true,
+  "slug": "creation-of-3d-motion-animation-for-a-jewelry-brand",
+  "path": null,
+  "full_slug": "projects/creation-of-3d-motion-animation-for-a-jewelry-brand",
+  "default_root": null,
+  "disble_fe_editor": false,
+  "disable_fe_editor": false,
+  "parent": {
+    "id": 488037327,
+    "uuid": "4d89644d-6011-41db-8e49-af619af0d34e",
+    "name": "Projects",
+    "slug": "projects",
+    "disble_fe_editor": false
+  },
+  "is_startpage": false,
+  "unpublished_changes": true,
+  "meta_data": null,
+  "imported_at": null,
+  "preview_token": {
+    "token": "3d75a9e85c25715a11d9c3af1c87f577fef8ac97",
+    "timestamp": "1781338275"
+  },
+  "pinned": false,
+  "breadcrumbs": [
+    {
+      "id": 488037327,
+      "name": "Projects",
+      "parent_id": null,
+      "disble_fe_editor": false,
+      "disable_fe_editor": false,
+      "path": null,
+      "slug": "projects",
+      "translated_slugs": []
+    }
+  ],
+  "publish_at": null,
+  "expire_at": null,
+  "first_published_at": "2024-09-06T14:03:49.592Z",
+  "last_author": {
+    "id": 230996,
+    "userid": "zjoka",
+    "friendly_name": "Serhii Halun"
+  },
+  "last_author_id": 230996,
+  "user_ids": [],
+  "space_role_ids": [],
+  "translated_slugs": [],
+  "localized_paths": [
+    {
+      "path": "projects/creation-of-3d-motion-animation-for-a-jewelry-brand",
+      "name": null,
+      "lang": "en",
+      "published": null
+    }
+  ],
+  "position": -100,
+  "translated_stories": [],
+  "can_not_view": false,
+  "is_scheduled": null,
+  "scheduled_dates": null,
+  "ideas": [],
+  "current_version_id": null,
+  "variant_type": null,
+  "experiment_ids": [],
+  "stage": null,
+  "favourite_for_user_ids": []
+}

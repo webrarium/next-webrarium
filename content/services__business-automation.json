@@ -1,0 +1,1023 @@
+{
+  "name": "Business automation",
+  "parent_id": 502332440,
+  "group_id": "302ef30e-f093-48b8-b3ea-40b50fca737e",
+  "alternates": [],
+  "created_at": "2025-05-27T13:00:44.539Z",
+  "deleted_at": null,
+  "sort_by_date": null,
+  "tag_list": [],
+  "updated_at": "2025-08-06T08:48:40.230Z",
+  "published_at": "2025-08-06T08:48:40.210Z",
+  "id": 677951750,
+  "uuid": "177850d2-a46f-4582-87b9-39aa6e215026",
+  "is_folder": false,
+  "content": {
+    "_uid": "ddc2bef0-9984-4d8b-9d04-0e4367696a48",
+    "body": [
+      {
+        "_uid": "ed6fc746-bc62-4542-ab4b-036a01a2212a",
+        "title": "Ми створюємо веб-додатки, інструменти, дашборди та скрипти для автоматизації",
+        "component": "service_details",
+        "title__i18n__en": "We create web applications, tools, dashboards, and scripts for automation",
+        "service_details_cards": [
+          {
+            "_uid": "e7f2d252-1411-4803-85b1-0bde960bc433",
+            "title": " Збір та обробка даних з маркетплейсів, сайтів, API",
+            "component": "service_details_card",
+            "description": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Розробляємо рішення, які автоматично отримують і структурують дані з джерел на кшталт eBay, Amazon, Prom, Rozetka або через API — ціни, наявність, описи, рейтинги, відгуки. Це дозволяє швидко аналізувати ринок, конкурентів і приймати обґрунтовані рішення без ручного моніторингу",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            "title__i18n__en": "Collecting and processing data from marketplaces, websites, APIs",
+            "description__i18n__en": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "We develop solutions that automatically receive and structure data from sources such as eBay, Amazon, Prom, Rozetka, or via API - prices, availability, descriptions, ratings, reviews. This allows you to quickly analyze the market, competitors, and make informed decisions without manual monitoring",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "_uid": "fa391e4f-0950-4237-b3fc-0fe1147eb05d",
+            "title": "Автоматизація рутинних завдань у e-commerce, логістиці, продажах",
+            "component": "service_details_card",
+            "description": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Налаштовуємо автоматичні процеси для задач на кшталт обробки замовлень, оновлення статусів, синхронізації складу, надсилання сповіщень клієнтам, оновлення прайсів або керування асортиментом. Це дозволяє скоротити помилки та зменшити навантаження на команду",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            "title__i18n__en": "Automation of routine tasks in e-commerce, logistics, and sales",
+            "description__i18n__en": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "We set up automated processes for tasks such as order processing, status updates, warehouse synchronization, sending notifications to customers, updating prices, or managing inventory. This reduces errors and reduces the workload of your team",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "_uid": "473a0e18-1948-4025-9afd-a9f476c4c7fc",
+            "title": "Аналітика та формування звітів у реальному часі",
+            "component": "service_details_card",
+            "description": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Створюємо дашборди та системи звітності, які збирають та візуалізують дані в режимі реального часу. Ви бачите ключові метрики — продажі, прибутковість, залишки, продуктивність — в одному місці без потреби в Excel або ручних підрахунках",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            "title__i18n__en": "Real-time analytics and reporting",
+            "description__i18n__en": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "We create dashboards and reporting systems that collect and visualize data in real time. You can see key metrics - sales, profitability, balances, productivity - in one place without the need for Excel or manual calculations",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "_uid": "dbee9d2c-ac1b-4759-b465-1c2189fedcaa",
+            "title": "Комунікація між сервісами, CRM, ERP, email або месенджерами",
+            "component": "service_details_card",
+            "description": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Інтегруємо сервіси між собою: ваш сайт, CRM, служби доставки, бухгалтерію або месенджери — щоб дані передавались автоматично. Це дозволяє уникати дублювання, пришвидшити обробку заявок та покращити клієнтський досвід",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            "title__i18n__en": "Communication between services, CRM, ERP, email or messengers",
+            "description__i18n__en": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "We integrate services with each other - your website, CRM, delivery services, accounting, or messengers - so that data is transferred automatically. This allows you to avoid duplication, speed up order processing, and improve customer experience",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "_uid": "59a8f76a-2a6f-4099-9252-70507d4f38cc",
+        "cards": [
+          {
+            "_uid": "4a0824bf-9906-4782-b099-e60dc18be7d6",
+            "title": "Витрачає багато часу на повторювані задачі",
+            "component": "service_need_card",
+            "description": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Якщо ваша команда щодня виконує одні й ті самі дії — копіює дані, оновлює статуси, шукає інформацію вручну — автоматизація дозволяє звільнити час для важливіших процесів. Ви мінімізуєте людський фактор і зменшуєте втрати продуктивності",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            "title__i18n__en": "Spends a lot of time on repetitive tasks",
+            "description__i18n__en": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "If your team performs the same actions every day - copying data, updating statuses, searching for information manually - automation frees up time for more important processes. You minimize the human factor and reduce productivity losses",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "_uid": "50c6c77f-f4a7-4cf2-a939-37b4225e8879",
+            "title": "Працює з великим обсягом даних",
+            "component": "service_need_card",
+            "description": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Бізнеси, що щодня мають справу з сотнями або тисячами позицій, клієнтів, замовлень чи документів, потребують точних і швидких рішень. Ми створюємо інструменти, які автоматично збирають, сортують, аналізують і виводять інформацію у зручному форматі",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            "title__i18n__en": "Works with large amounts of data",
+            "description__i18n__en": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Businesses that deal with hundreds or thousands of items, customers, orders, or documents every day need accurate and fast solutions. We create tools that automatically collect, sort, analyze, and display information in a convenient format",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "_uid": "b4569f8f-b603-4659-9e68-b8d493058cbd",
+            "title": "Прагне зменшити залежність від сторонніх сервісів",
+            "component": "service_need_card",
+            "description": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Готові платформи часто мають обмеження, дорогі підписки або нестачу гнучкості. Ми допомагаємо перенести ключові процеси у ваш власний інструмент, який працює під ваші задачі, без щомісячних оплат чи обмежень функціоналу",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            "title__i18n__en": "Seeks to reduce dependence on third-party services",
+            "description__i18n__en": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Off-the-shelf platforms often have limitations, expensive subscriptions, or a lack of flexibility. We help you move key processes into your own tool that works for your tasks, without monthly fees or functionality limitations",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "_uid": "e548e793-1c49-4de0-8206-6fabe40c71e2",
+            "title": "Хоче масштабуватись без розширення команди",
+            "component": "service_need_card",
+            "description": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Автоматизовані процеси дозволяють обробляти більше даних, замовлень і клієнтів без залучення додаткових працівників. Ви ростете швидше, залишаючись гнучкими й ефективними в управлінні ресурсами",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            "title__i18n__en": "Wants to scale without expanding the team",
+            "description__i18n__en": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Automated processes allow you to process more data, orders, and customers without hiring additional employees. You grow faster while remaining flexible and efficient in managing resources",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        ],
+        "media": "",
+        "title": "Наші рішення ефективні для малого та середнього бізнесу, який:",
+        "component": "service_need",
+        "title__i18n__en": "Our solutions are effective for small and medium-sized businesses that:"
+      },
+      {
+        "_uid": "a2b705e4-6b3e-4fc8-ade7-1bf9c9386e46",
+        "title": "Що ви отримуєте",
+        "component": "project_results",
+        "title__i18n__en": "What you get",
+        "project_results_cards": [
+          {
+            "_uid": "2d70848b-80f3-4d35-8da1-5797a4863d55",
+            "text": "",
+            "title": "Продукт, який автоматизує саме ваші процеси",
+            "component": "project_results_card",
+            "title__i18n__en": "A product that automates your processes"
+          },
+          {
+            "_uid": "45091ccf-0453-4348-9805-e47d3cd2148c",
+            "text": "",
+            "title": "Економію часу та зменшення ручної роботи",
+            "component": "project_results_card",
+            "title__i18n__en": "Save time and reduce manual work"
+          },
+          {
+            "_uid": "17e1fd0f-2c1d-449b-ba7e-eca7311992fa",
+            "text": "",
+            "title": "Візуальний інтерфейс або інтеграцію в наявну систему",
+            "component": "project_results_card",
+            "title__i18n__en": "Visual interface or integration into an existing system"
+          },
+          {
+            "_uid": "ed25213f-623c-43b9-a47b-b58f1ab7e6ff",
+            "text": "",
+            "title": "Технічну підтримку й розвиток рішення у майбутньому",
+            "component": "project_results_card",
+            "title__i18n__en": "Technical support and development of the solution in the future"
+          }
+        ]
+      },
+      {
+        "_uid": "cde788b9-105a-47bf-b9bb-3226c3ba6c93",
+        "cards": [
+          {
+            "_uid": "4a71df1b-ab76-40ef-b4c2-d4e1eb7bb368",
+            "title": "Технології Front-End",
+            "component": "service_instruments_card",
+            "title__i18n__en": "Front-End technologies",
+            "instruments_list": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Next.js - Фреймворк для розробки сучасних веб-додатків на базі React. Використовуємо його для створення швидких, SEO-оптимізованих і масштабованих інтерфейсів",
+                      "type": "text"
+                    },
+                    {
+                      "type": "hard_break"
+                    },
+                    {
+                      "type": "hard_break"
+                    },
+                    {
+                      "text": "Фреймворки та бібліотеки: React.js: Популярна бібліотека для побудови інтерактивних користувацьких інтерфейсів.",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "textStyle",
+                          "attrs": {
+                            "color": "#FFFFFF"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            "instruments_logos": [
+              {
+                "id": 17126216,
+                "alt": "",
+                "name": "",
+                "focus": "",
+                "title": "",
+                "source": "",
+                "filename": "https://a.storyblok.com/f/276513/394x80/3ed5fbf69b/nextjs-logo.svg",
+                "copyright": "",
+                "fieldtype": "asset",
+                "meta_data": {}
+              },
+              {
+                "id": 17126131,
+                "alt": "",
+                "name": "",
+                "focus": "",
+                "title": "",
+                "source": "",
+                "filename": "https://a.storyblok.com/f/276513/169x150/f29328c999/react_logo.svg",
+                "copyright": "",
+                "fieldtype": "asset",
+                "meta_data": {}
+              }
+            ],
+            "instruments_list__i18n__en": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Next.js is a framework for developing modern web applications based on React. We use it to create fast, SEO-optimized and scalable interfaces",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "_uid": "95903391-93c2-47f3-b185-c6719d3da533",
+            "title": "Технології Back-End",
+            "component": "service_instruments_card",
+            "title__i18n__en": "Back-End technologies",
+            "instruments_list": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Python: Використовується для створення веб-додатків за допомогою фреймворків, таких як Django або Flask.",
+                      "type": "text"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "JavaScript: Мова програмування для динамічної взаємодії з користувачем. Використовується для додавання інтерактивних елементів, анімацій, валідації форм тощо",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "textStyle",
+                          "attrs": {
+                            "color": "#000000"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "text": ".",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "textStyle",
+                          "attrs": {
+                            "color": "#FFFFFF"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            "instruments_logos": [
+              {
+                "id": 17126331,
+                "alt": "",
+                "name": "",
+                "focus": "",
+                "title": "",
+                "source": "",
+                "filename": "https://a.storyblok.com/f/276513/519x154/34bdc0b722/python_logo.svg",
+                "copyright": "",
+                "fieldtype": "asset",
+                "meta_data": {}
+              },
+              {
+                "id": 17036329,
+                "alt": "",
+                "name": "",
+                "focus": "",
+                "title": "",
+                "source": "",
+                "filename": "https://a.storyblok.com/f/276513/150x150/d34a92bbd4/js_logo.svg",
+                "copyright": "",
+                "fieldtype": "asset",
+                "meta_data": {}
+              }
+            ],
+            "instruments_list__i18n__en": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Python: Used to create web applications using frameworks such as Django or Flask.",
+                      "type": "text"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "JavaScript: A programming language for dynamic user interaction. Used to add interactive elements, animations, form validation, etc.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "_uid": "2b09070f-bec1-4b5d-9a0a-5010c5fd3317",
+            "title": "Платформи",
+            "component": "service_instruments_card",
+            "title__i18n__en": "Platforms",
+            "instruments_list": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Zapier",
+                      "type": "text"
+                    },
+                    {
+                      "text": " - ",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Хмарна no-code платформа для створення автоматизацій між популярними сервісами (Google Sheets, Gmail, Shopify, Slack, CRM тощо).",
+                      "type": "text"
+                    },
+                    {
+                      "type": "hard_break"
+                    },
+                    {
+                      "type": "hard_break"
+                    },
+                    {
+                      "text": "n8n",
+                      "type": "text"
+                    },
+                    {
+                      "text": " - ",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Гнучка low-code платформа з відкритим кодом для побудови складніших автоматизацій. Можна встановлювати на власний сервер і не залежати від хмари.",
+                      "type": "text"
+                    },
+                    {
+                      "type": "hard_break"
+                    },
+                    {
+                      "type": "hard_break"
+                    },
+                    {
+                      "text": "Make (ex-Integromat)",
+                      "type": "text"
+                    },
+                    {
+                      "text": " - ",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Візуальна платформа для побудови інтеграцій із великою кількістю готових модулів.",
+                      "type": "text"
+                    },
+                    {
+                      "type": "hard_break"
+                    }
+                  ]
+                }
+              ]
+            },
+            "instruments_logos": [
+              {
+                "id": 22548751,
+                "alt": "zapier logotype",
+                "name": "",
+                "focus": "",
+                "title": "",
+                "source": "",
+                "filename": "https://a.storyblok.com/f/276513/1619x439/1e5b3e9f82/zapier-logo.png",
+                "copyright": "",
+                "fieldtype": "asset",
+                "meta_data": {
+                  "alt": "zapier logotype",
+                  "title": "",
+                  "source": "",
+                  "copyright": ""
+                }
+              },
+              {
+                "id": 22549817,
+                "alt": "n8n logotype",
+                "name": "",
+                "focus": "",
+                "title": "",
+                "source": "",
+                "filename": "https://a.storyblok.com/f/276513/2560x1024/7f5e82b718/n8n-logo.png",
+                "copyright": "",
+                "fieldtype": "asset",
+                "meta_data": {
+                  "alt": "n8n logotype",
+                  "title": "",
+                  "source": "",
+                  "copyright": ""
+                }
+              },
+              {
+                "id": 22550088,
+                "alt": "make logotype",
+                "name": "",
+                "focus": "",
+                "title": "",
+                "source": "",
+                "filename": "https://a.storyblok.com/f/276513/3371x1024/66338251a2/make-logo.png",
+                "copyright": "",
+                "fieldtype": "asset",
+                "meta_data": {
+                  "alt": "make logotype",
+                  "title": "",
+                  "source": "",
+                  "copyright": ""
+                }
+              }
+            ],
+            "instruments_list__i18n__en": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Zapier - A cloud-based no-code platform for creating automations between popular services (Google Sheets, Gmail, Shopify, Slack, CRM, etc.).",
+                      "type": "text"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "n8n - Flexible open-source low-code platform for building more complex automations. You can install it on your own server and not depend on the cloud.",
+                      "type": "text"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Make (ex-Integromat) - A visual platform for building integrations with a large number of ready-made modules.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "_uid": "a16b5199-c5b2-41af-aa8b-2d52af8c27c4",
+            "title": "Сервіси",
+            "component": "service_instruments_card",
+            "title__i18n__en": "Services",
+            "instruments_list": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Fly.io",
+                      "type": "text"
+                    },
+                    {
+                      "text": " - ",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Edge-хостинг для запуску full-stack застосунків ближче до користувачів.",
+                      "type": "text"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Netlify",
+                      "type": "text"
+                    },
+                    {
+                      "text": " - ",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Хмарна платформа для хостингу статичних сайтів і Jamstack-застосунків.",
+                      "type": "text"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Railway - Платформа для розгортання backend-сервісів і баз даних.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            "instruments_logos": [
+              {
+                "id": 22551016,
+                "alt": "fly io logotype",
+                "name": "",
+                "focus": "",
+                "title": "",
+                "source": "",
+                "filename": "https://a.storyblok.com/f/276513/400x400/1d0c3ca6fc/flyio-logo.png",
+                "copyright": "",
+                "fieldtype": "asset",
+                "meta_data": {
+                  "alt": "fly io logotype",
+                  "title": "",
+                  "source": "",
+                  "copyright": ""
+                }
+              },
+              {
+                "id": 22551190,
+                "alt": "netlify logo",
+                "name": "",
+                "focus": "",
+                "title": "",
+                "source": "",
+                "filename": "https://a.storyblok.com/f/276513/2048x2048/7e5eb809f2/netlify-icon.png",
+                "copyright": "",
+                "fieldtype": "asset",
+                "meta_data": {
+                  "alt": "netlify logo",
+                  "title": "",
+                  "source": "",
+                  "copyright": ""
+                }
+              },
+              {
+                "id": 22551448,
+                "alt": "railway logotype",
+                "name": "",
+                "focus": "",
+                "title": "",
+                "source": "",
+                "filename": "https://a.storyblok.com/f/276513/1024x1024/015ab2c9a9/railway-logo.png",
+                "copyright": "",
+                "fieldtype": "asset",
+                "meta_data": {
+                  "alt": "railway logotype",
+                  "title": "",
+                  "source": "",
+                  "copyright": ""
+                }
+              }
+            ],
+            "instruments_list__i18n__en": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Fly.io - Edge hosting for running full-stack applications closer to users.",
+                      "type": "text"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Netlify - Cloud platform for hosting static websites and Jamstack applications.",
+                      "type": "text"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Railway - A platform for deploying backend services and databases.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "_uid": "c515ceff-d26c-4c52-a0a5-95ba611a7881",
+            "title": "Бази данних",
+            "component": "service_instruments_card",
+            "title__i18n__en": "Databases",
+            "instruments_list": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "PostgreSQL: Потужна реляційна база даних з підтримкою складних запитів і високої надійності.",
+                      "type": "text"
+                    },
+                    {
+                      "type": "hard_break"
+                    },
+                    {
+                      "type": "hard_break"
+                    },
+                    {
+                      "text": "Supabase - це альтернатива Firebase з відкритим вихідним кодом.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            "instruments_logos": [
+              {
+                "id": 17126287,
+                "alt": "",
+                "name": "",
+                "focus": "",
+                "title": "",
+                "source": "",
+                "filename": "https://a.storyblok.com/f/276513/576x594/ce7a81176c/postgresql_elephant.svg",
+                "copyright": "",
+                "fieldtype": "asset",
+                "meta_data": {}
+              },
+              {
+                "id": 22552059,
+                "alt": "",
+                "name": "",
+                "focus": "",
+                "title": "",
+                "source": "",
+                "filename": "https://a.storyblok.com/f/276513/1580x305/aa02828198/supabase_logotype.png",
+                "copyright": "",
+                "fieldtype": "asset",
+                "meta_data": {}
+              }
+            ],
+            "instruments_list__i18n__en": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "PostgreSQL: A powerful relational database with support for complex queries and high reliability.",
+                      "type": "text"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Supabase is an open source alternative to Firebase.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        ],
+        "title": "Інструменти, які використовуємо",
+        "component": "service_instruments",
+        "title__i18n__en": "Tools we use"
+      }
+    ],
+    "title": "Бізнес-автоматизація",
+    "subtitle": "Автоматизація бізнес-процесів — це спосіб зменшити витрати часу, підвищити точність виконання завдань і зосередитись на масштабуванні. Ми допомагаємо бізнесам оптимізувати щоденні операції завдяки кастомним цифровим рішенням.",
+    "component": "service",
+    "description": {
+      "type": "doc",
+      "content": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "text": "Ми працюємо не з шаблонами, а з вашими задачами — рішення під ключ враховує особливості ніші, цілі та внутрішні процеси компанії.",
+              "type": "text"
+            }
+          ]
+        }
+      ]
+    },
+    "title__i18n__en": "Business automation",
+    "subtitle__i18n__en": "Automating business processes is a way to reduce time, improve task accuracy, and focus on scaling. We help businesses optimize their daily operations with custom digital solutions.",
+    "description__i18n__en": {
+      "type": "doc",
+      "content": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "text": "We do not work with templates, but with your tasks - the solution takes into account the peculiarities of the niche, goals, and internal processes of the company.",
+              "type": "text"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "published": true,
+  "slug": "business-automation",
+  "path": null,
+  "full_slug": "services/business-automation",
+  "default_root": null,
+  "disble_fe_editor": false,
+  "disable_fe_editor": false,
+  "parent": {
+    "id": 502332440,
+    "uuid": "b365af73-57b4-48b9-b679-98c33aba1ab7",
+    "name": "Services",
+    "slug": "services",
+    "disble_fe_editor": false
+  },
+  "is_startpage": false,
+  "unpublished_changes": false,
+  "meta_data": null,
+  "imported_at": null,
+  "preview_token": {
+    "token": "c08a8ca0691d2070ab32459a469e1efa9a0e2ed0",
+    "timestamp": "1781338273"
+  },
+  "pinned": false,
+  "breadcrumbs": [
+    {
+      "id": 502332440,
+      "name": "Services",
+      "parent_id": null,
+      "disble_fe_editor": false,
+      "disable_fe_editor": false,
+      "path": null,
+      "slug": "services",
+      "translated_slugs": []
+    }
+  ],
+  "publish_at": null,
+  "expire_at": null,
+  "first_published_at": "2025-05-27T13:01:39.037Z",
+  "last_author": {
+    "id": 230996,
+    "userid": "zjoka",
+    "friendly_name": "Serhii Halun"
+  },
+  "last_author_id": 230996,
+  "user_ids": [],
+  "space_role_ids": [],
+  "translated_slugs": [],
+  "localized_paths": [
+    {
+      "path": "services/business-automation",
+      "name": null,
+      "lang": "en",
+      "published": null
+    }
+  ],
+  "position": -160,
+  "translated_stories": [],
+  "can_not_view": false,
+  "is_scheduled": null,
+  "scheduled_dates": null,
+  "ideas": [],
+  "current_version_id": null,
+  "variant_type": null,
+  "experiment_ids": [],
+  "stage": null,
+  "favourite_for_user_ids": []
+}

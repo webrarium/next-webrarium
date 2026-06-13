@@ -5,7 +5,7 @@ import type { Metadata } from "next";
 export async function generateMetadata({ params: { locale } }: any) {
   const pageSlug = "privacy-policy";
   const rawSeoData = await fetch(
-    `https://api.storyblok.com/v2/cdn/stories/${pageSlug}?version=draft&token=${process.env.STORYBLOK_ACCESS_TOKEN}&language=${locale}`
+    `https://api.storyblok.com/v2/cdn/stories/${pageSlug}?version=published&token=${process.env.STORYBLOK_ACCESS_TOKEN}&language=${locale}`
   );
   const seoData = await rawSeoData.json();
 
@@ -46,7 +46,7 @@ async function fetchData(locale: string) {
   let sbParams: {
     version: "published" | "draft";
     language: any;
-  } = { version: "draft", language: locale };
+  } = { version: "published", language: locale };
 
   const storyblokApi = getStoryblokApi();
   return await storyblokApi.get(`cdn/stories/privacy-policy`, sbParams, {

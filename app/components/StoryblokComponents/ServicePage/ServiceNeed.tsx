@@ -18,7 +18,7 @@ export default function ServiceNeed({ blok }: { blok: any }) {
               src={blok.media}
               width={1000}
               height={1000}
-              alt="why do you need our service"
+              alt={blok.title}
             />
           ) : null}
           <div className={styles.service_need_cards_wrp}>

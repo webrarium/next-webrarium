@@ -1,0 +1,907 @@
+{
+  "name": "Digital Advertising",
+  "parent_id": 502332440,
+  "group_id": "1e434051-f6c0-4232-a29d-a622487cb989",
+  "alternates": [],
+  "created_at": "2024-08-26T16:34:08.636Z",
+  "deleted_at": null,
+  "sort_by_date": null,
+  "tag_list": [],
+  "updated_at": "2025-08-06T08:48:44.277Z",
+  "published_at": "2025-08-06T08:48:44.259Z",
+  "id": 540261341,
+  "uuid": "7ceba478-dbb3-4206-878e-0ac15f083451",
+  "is_folder": false,
+  "content": {
+    "_uid": "3d46bf57-f844-4033-9068-d1d754e5b3bb",
+    "body": [
+      {
+        "_uid": "ea8bddc6-0d95-4947-9663-9cd1fa9ace69",
+        "title": "Кроки створення цифрової реклами",
+        "component": "service_details",
+        "title__i18n__en": "Steps to create digital advertising",
+        "service_details_cards": [
+          {
+            "_uid": "1cf451e9-a6b4-4998-9de3-c077353a20d3",
+            "title": "Розробка стратегії",
+            "component": "service_details_card",
+            "description": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Створимо рекламну стратегію, яка буде такою ж унікальною, як бабусин секретний рецепт борщу. Розберемося, де ваша аудиторія проводить час, і як привернути їхню увагу",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            "title__i18n__en": "Strategy Development",
+            "description__i18n__en": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "We'll make an advertising strategy as unique as grandma's secret borscht recipe. We'll identify where your audience spends their time and figure out how to capture their attention.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "_uid": "28e52ffb-c484-4e85-9666-3b84a6c33973",
+            "title": "Управління рекламною кампанією",
+            "component": "service_details_card",
+            "description": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Стежити за метриками, коригуємо стратегію та забезпечуємо, щоб ваші оголошення працювали як добре змащена машина",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            "title__i18n__en": "Campaign Management",
+            "description__i18n__en": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "We monitor metrics, adjust the strategy, and ensure your ads run like a well-oiled machine.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "_uid": "331618a2-0ad9-4a2c-b509-a0ed32df8df2",
+            "title": "Аналітика та звітність",
+            "component": "service_details_card",
+            "description": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Підготуємо звіти настільки детальні, що можуть запаморочити голову. Але не хвилюйтесь, ми розшифруємо все і розкажемо, що працює, а що ні",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            "title__i18n__en": "Analytics and Reporting",
+            "description__i18n__en": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "We’ll prepare reports so detailed they might make your head spin. But don’t worry, we’ll break it all down and tell you what’s working and what’s not.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "_uid": "501f2d72-bdaa-4f24-8555-72f7bbbbbd1b",
+            "title": "Експертиза платформ",
+            "component": "service_details_card",
+            "description": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Від Google Ads до Facebook Ads і всього, що між ними, ми знаємо всі тонкощі. Використаємо всі потрібні інструменти, щоб ваші оголошення були скрізь, де їм потрібно бути.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            "title__i18n__en": "Platform Expertise",
+            "description__i18n__en": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "From Google Ads to Facebook Ads and everything in between, we know all the ins and outs. We’ll use every necessary tool to make sure your ads are everywhere they need to be.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "_uid": "5f2ab796-e800-4225-b71b-6c33e80543b3",
+        "cards": [
+          {
+            "_uid": "0b3cc4bf-9bf2-4a93-b91a-518faddad10d",
+            "title": "Ефективність",
+            "component": "service_need_card",
+            "description": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Ваша реклама відображається тільки тим, хто дійсно зацікавлений у вашому продукті чи послузі, що значно підвищує шанси на конверсію",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            "title__i18n__en": "Efficiency",
+            "description__i18n__en": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Your ads are shown only to those genuinely interested in your product or service, significantly increasing the chances of conversion.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "_uid": "4d62bb87-c471-44c6-9564-9458c9d3670b",
+            "title": "Персоналізація",
+            "component": "service_need_card",
+            "description": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Ви можете адаптувати свої оголошення під різні сегменти аудиторії, роблячи їх більш релевантними та привабливими для кожної групи",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            "title__i18n__en": "Personalization",
+            "description__i18n__en": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "You can tailor your ads to different audience segments, making them more relevant and appealing to each group.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "_uid": "42f5fc29-0980-468d-8912-450cc332ddea",
+            "title": "Аналіз і оптимізація",
+            "component": "service_need_card",
+            "description": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Таргетована реклама надає детальну аналітику, яка дозволяє швидко коригувати кампанії для досягнення кращих результатів",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            "title__i18n__en": "Analysis and Optimization",
+            "description__i18n__en": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Targeted advertising provides detailed analytics, allowing you to quickly adjust campaigns for better results.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "_uid": "05b7fc49-6d41-46c0-b165-3ca497dbdb6a",
+            "title": "Розширені можливості",
+            "component": "service_need_card",
+            "description": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Використання різних платформ і інструментів таргетингу дозволяє вам бути присутніми там, де ваші потенційні клієнти проводять найбільше часу, будь це соцмережі, пошукові системи чи інші сайти.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            "title__i18n__en": "Advanced Capabilities",
+            "description__i18n__en": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Leveraging various platforms and targeting tools allows you to be present where your potential customers spend the most time, whether it's on social media, search engines, or other websites.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        ],
+        "media": "",
+        "title": "Ось чому сьогодні обирають таргетовану рекламу",
+        "component": "service_need",
+        "title__i18n__en": "Here's Why Targeted Advertising is the Choice Today"
+      },
+      {
+        "_uid": "561859dd-4cba-48f6-b55a-cd5fbb76cf21",
+        "cards": [
+          {
+            "_uid": "fe40b046-38b1-4b7d-8370-b52d7d41edc1",
+            "title": "Платформи для реклами",
+            "component": "service_instruments_card",
+            "title__i18n__en": "Advertising Platforms",
+            "instruments_list": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Google Ads:",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ]
+                    },
+                    {
+                      "text": " Рекламні кампанії в пошуковій мережі Google, на YouTube, а також на партнерських сайтах.",
+                      "type": "text"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Facebook Ads:",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ]
+                    },
+                    {
+                      "text": " Реклама в соціальних мережах Facebook та Instagram, включаючи різні формати оголошень.",
+                      "type": "text"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "LinkedIn Ads:",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ]
+                    },
+                    {
+                      "text": " Платформа для таргетингу професійної аудиторії через LinkedIn.",
+                      "type": "text"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "TikTok Ads:",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ]
+                    },
+                    {
+                      "text": " Рекламні кампанії для охоплення молодої аудиторії на платформі TikTok.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            "instruments_logos": [
+              {
+                "id": 17128698,
+                "alt": "Facebook Logo",
+                "name": "",
+                "focus": "",
+                "title": "",
+                "source": "",
+                "filename": "https://a.storyblok.com/f/276513/2500x337/abed2445b4/facebook-ads.svg",
+                "copyright": "",
+                "fieldtype": "asset",
+                "meta_data": {
+                  "alt": "Facebook Logo",
+                  "title": "",
+                  "source": "",
+                  "copyright": ""
+                },
+                "content_type": "svg"
+              },
+              {
+                "id": 17128697,
+                "alt": "Linked in logo",
+                "name": "",
+                "focus": "",
+                "title": "",
+                "source": "",
+                "filename": "https://a.storyblok.com/f/276513/288x77/07842866fe/linkedin-logo.svg",
+                "copyright": "",
+                "fieldtype": "asset",
+                "meta_data": {
+                  "alt": "Linked in logo",
+                  "title": "",
+                  "source": "",
+                  "copyright": ""
+                },
+                "content_type": "svg"
+              },
+              {
+                "id": 17128696,
+                "alt": "Tik Tok logo",
+                "name": "",
+                "focus": "",
+                "title": "",
+                "source": "",
+                "filename": "https://a.storyblok.com/f/276513/651x751/90e1e6d06f/tiktok-logo.svg",
+                "copyright": "",
+                "fieldtype": "asset",
+                "meta_data": {
+                  "alt": "Tik Tok logo",
+                  "title": "",
+                  "source": "",
+                  "copyright": ""
+                },
+                "content_type": "svg"
+              },
+              {
+                "id": 17128695,
+                "alt": "Google Ads logo",
+                "name": "",
+                "focus": "",
+                "title": "",
+                "source": "",
+                "filename": "https://a.storyblok.com/f/276513/251x313/96f642981f/googleads-logo.svg",
+                "copyright": "",
+                "fieldtype": "asset",
+                "meta_data": {
+                  "alt": "Google Ads logo",
+                  "title": "",
+                  "source": "",
+                  "copyright": ""
+                },
+                "content_type": "svg"
+              }
+            ],
+            "instruments_list__i18n__en": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Google Ads",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ]
+                    },
+                    {
+                      "text": ": Advertising campaigns on Google's search network, YouTube, and partner websites.",
+                      "type": "text"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Facebook Ads",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ]
+                    },
+                    {
+                      "text": ": Advertising on social networks Facebook and Instagram, including various ad formats.",
+                      "type": "text"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "LinkedIn Ads",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ]
+                    },
+                    {
+                      "text": ": A platform for targeting professional audiences through LinkedIn.",
+                      "type": "text"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "TikTok Ads",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ]
+                    },
+                    {
+                      "text": ": Advertising campaigns to reach a younger audience on the TikTok platform.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "_uid": "aad74e0f-7e67-496d-be77-9f948c35e061",
+            "title": "Інструменти для аналітики та відстеження",
+            "component": "service_instruments_card",
+            "title__i18n__en": "Analytics and Tracking Tools",
+            "instruments_list": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Google Analytics:",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ]
+                    },
+                    {
+                      "text": " Відстеження відвідувачів сайту, аналіз джерел трафіку та поведінки користувачів.",
+                      "type": "text"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Facebook Pixel:",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ]
+                    },
+                    {
+                      "text": " Відстеження конверсій та поведінки користувачів на сайті після взаємодії з рекламами Facebook.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            "instruments_logos": [
+              {
+                "id": 17128703,
+                "alt": "Facebook Pixel Logo",
+                "name": "",
+                "focus": "",
+                "title": "",
+                "source": "",
+                "filename": "https://a.storyblok.com/f/276513/156x150/835d2e126c/facebook-pixel-logo.svg",
+                "copyright": "",
+                "fieldtype": "asset",
+                "meta_data": {
+                  "alt": "Facebook Pixel Logo",
+                  "title": "",
+                  "source": "",
+                  "copyright": ""
+                },
+                "content_type": "svg"
+              },
+              {
+                "id": 17036625,
+                "alt": "Google Analytics",
+                "name": "",
+                "focus": "",
+                "title": "",
+                "source": "",
+                "filename": "https://a.storyblok.com/f/276513/600x207/afdc790473/google_analytics_logo.svg",
+                "copyright": "",
+                "fieldtype": "asset",
+                "meta_data": {
+                  "alt": "Google Analytics",
+                  "title": "",
+                  "source": "",
+                  "copyright": ""
+                },
+                "content_type": "svg"
+              }
+            ],
+            "instruments_list__i18n__en": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Google Analytics",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ]
+                    },
+                    {
+                      "text": ": Tracks website visitors, analyzes traffic sources, and monitors user behavior.",
+                      "type": "text"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Facebook Pixel",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ]
+                    },
+                    {
+                      "text": ": Tracks conversions and user behavior on your site after interacting with Facebook ads.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "_uid": "ca2734f0-66cf-4324-85e8-e65990944b59",
+            "title": "Інструменти для дослідження ключових слів та SEO",
+            "component": "service_instruments_card",
+            "title__i18n__en": "Keyword Research and SEO Tools",
+            "instruments_list": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Ahrefs:",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ]
+                    },
+                    {
+                      "text": " Інструменти для дослідження ключових слів, аналізу конкурентів та оптимізації контенту.",
+                      "type": "text"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Google Keyword Planner:",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ]
+                    },
+                    {
+                      "text": " Пошук релевантних ключових слів для рекламних кампаній.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            "instruments_logos": [
+              {
+                "id": 17128712,
+                "alt": "A hrefs Logo",
+                "name": "",
+                "focus": "",
+                "title": "",
+                "source": "",
+                "filename": "https://a.storyblok.com/f/276513/967x247/4882efba33/ahrefs-logo.svg",
+                "copyright": "",
+                "fieldtype": "asset",
+                "meta_data": {
+                  "alt": "A hrefs Logo",
+                  "title": "",
+                  "source": "",
+                  "copyright": ""
+                },
+                "content_type": "svg"
+              }
+            ],
+            "instruments_list__i18n__en": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Ahrefs",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ]
+                    },
+                    {
+                      "text": ": Tools for keyword research, competitor analysis, and content optimization.",
+                      "type": "text"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Google Keyword Planner",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ]
+                    },
+                    {
+                      "text": ": Tool for finding relevant keywords for advertising campaigns.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        ],
+        "title": "Що використовуємо",
+        "component": "service_instruments",
+        "title__i18n__en": "What We Use"
+      },
+      {
+        "_uid": "f3057620-9670-4b36-a9e1-428a264cd34c",
+        "title": "Нещодавні проєкти",
+        "component": "projects_grid",
+        "button_txt": "Переглянути кейс",
+        "button2_txt": "Переглянути сайт",
+        "projects_list": [
+          "55a8d19c-babf-4e12-b142-6a2ba090d65c"
+        ],
+        "title__i18n__en": "Recent Projects",
+        "button_txt__i18n__en": "View Case",
+        "button2_txt__i18n__en": "View Site"
+      }
+    ],
+    "title": "Цифрова реклама з фокусом на ROI",
+    "subtitle": "Допомагає вашій рекламі охоплювати широку аудиторію та залучати клієнтів. Так, це напряму впливає на прибуток.",
+    "component": "service",
+    "description": {
+      "type": "doc",
+      "content": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "text": "Таргетоване просування бізнесу через платні онлайн-канали: Google Ads, соціальні мережі, відео та медійні кампанії",
+              "type": "text"
+            }
+          ]
+        }
+      ]
+    },
+    "title__i18n__en": "Digital advertising focused on ROI",
+    "subtitle__i18n__en": "Ensure your ads get the reach and engagement they need. And yes, it drives profits.",
+    "description__i18n__en": {
+      "type": "doc",
+      "content": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "text": "Advertising on Google, Meta, and LinkedIn. Creation, setup, results analysis, and optimization.",
+              "type": "text"
+            },
+            {
+              "type": "hard_break"
+            },
+            {
+              "type": "hard_break"
+            },
+            {
+              "text": "Businesses can reach their potential customers more effectively. ",
+              "type": "text"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "published": true,
+  "slug": "digital-advertising",
+  "path": null,
+  "full_slug": "services/digital-advertising",
+  "default_root": null,
+  "disble_fe_editor": false,
+  "disable_fe_editor": false,
+  "parent": {
+    "id": 502332440,
+    "uuid": "b365af73-57b4-48b9-b679-98c33aba1ab7",
+    "name": "Services",
+    "slug": "services",
+    "disble_fe_editor": false
+  },
+  "is_startpage": false,
+  "unpublished_changes": false,
+  "meta_data": null,
+  "imported_at": null,
+  "preview_token": {
+    "token": "3d75a9e85c25715a11d9c3af1c87f577fef8ac97",
+    "timestamp": "1781338275"
+  },
+  "pinned": false,
+  "breadcrumbs": [
+    {
+      "id": 502332440,
+      "name": "Services",
+      "parent_id": null,
+      "disble_fe_editor": false,
+      "disable_fe_editor": false,
+      "path": null,
+      "slug": "services",
+      "translated_slugs": []
+    }
+  ],
+  "publish_at": null,
+  "expire_at": null,
+  "first_published_at": "2024-08-27T11:20:12.626Z",
+  "last_author": {
+    "id": 230996,
+    "userid": "zjoka",
+    "friendly_name": "Serhii Halun"
+  },
+  "last_author_id": 230996,
+  "user_ids": [],
+  "space_role_ids": [],
+  "translated_slugs": [],
+  "localized_paths": [
+    {
+      "path": "services/digital-advertising",
+      "name": null,
+      "lang": "en",
+      "published": null
+    }
+  ],
+  "position": -100,
+  "translated_stories": [],
+  "can_not_view": false,
+  "is_scheduled": null,
+  "scheduled_dates": null,
+  "ideas": [],
+  "current_version_id": null,
+  "variant_type": null,
+  "experiment_ids": [],
+  "stage": null,
+  "favourite_for_user_ids": []
+}

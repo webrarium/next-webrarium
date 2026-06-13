@@ -1,0 +1,127 @@
+{
+  "name": "Header",
+  "parent_id": null,
+  "group_id": "f525d4d3-b545-45f4-90ea-70ae07f84407",
+  "alternates": [],
+  "created_at": "2024-02-21T15:14:32.609Z",
+  "deleted_at": null,
+  "sort_by_date": null,
+  "tag_list": [],
+  "updated_at": "2024-09-09T11:13:48.044Z",
+  "published_at": "2024-02-21T15:45:54.263Z",
+  "id": 447938112,
+  "uuid": "2c99486a-0ec7-419e-a1ca-afdb18ed0400",
+  "is_folder": false,
+  "content": {
+    "nav": [
+      {
+        "_uid": "27aae495-c696-4d92-a54f-85353524eba3",
+        "nav_link": {
+          "id": "",
+          "url": "/services",
+          "linktype": "url",
+          "fieldtype": "multilink",
+          "cached_url": "/services"
+        },
+        "nav_text": "послуги",
+        "component": "nav_link",
+        "nav_text__i18n__en": "services"
+      },
+      {
+        "_uid": "c43fd19b-0105-4810-8a92-56594de43c4e",
+        "nav_link": {
+          "id": "",
+          "url": "/projects",
+          "linktype": "url",
+          "fieldtype": "multilink",
+          "cached_url": "/projects"
+        },
+        "nav_text": "проєкти",
+        "component": "nav_link",
+        "nav_text__i18n__en": "projects"
+      },
+      {
+        "_uid": "57eb223e-8838-49b0-8ae8-a31cb7ce5c51",
+        "nav_link": {
+          "id": "",
+          "url": "/#contact",
+          "linktype": "url",
+          "fieldtype": "multilink",
+          "cached_url": "/#contact"
+        },
+        "nav_text": "контакти",
+        "component": "nav_link",
+        "nav_text__i18n__en": "contact"
+      }
+    ],
+    "_uid": "a6f38b0f-072d-409a-9ac9-1b04f2341542",
+    "logo": {
+      "id": 15781982,
+      "alt": "webrarium logo",
+      "name": "",
+      "focus": "",
+      "title": "",
+      "source": "",
+      "filename": "https://a.storyblok.com/f/276513/423x60/959031a73c/webrarium-logo.svg",
+      "copyright": "",
+      "fieldtype": "asset",
+      "meta_data": {
+        "alt": "webrarium logo",
+        "title": "",
+        "source": "",
+        "copyright": ""
+      },
+      "is_external_url": false
+    },
+    "component": "header"
+  },
+  "published": true,
+  "slug": "header",
+  "path": "/",
+  "full_slug": "header",
+  "default_root": null,
+  "disble_fe_editor": false,
+  "disable_fe_editor": false,
+  "parent": null,
+  "is_startpage": false,
+  "unpublished_changes": true,
+  "meta_data": null,
+  "imported_at": null,
+  "preview_token": {
+    "token": "ca1947e24ed2cb30a624268457a513a79965ee50",
+    "timestamp": "1781338279"
+  },
+  "pinned": false,
+  "breadcrumbs": [],
+  "publish_at": null,
+  "expire_at": null,
+  "first_published_at": "2024-02-21T15:45:54.263Z",
+  "last_author": {
+    "id": 230996,
+    "userid": "zjoka",
+    "friendly_name": "Serhii Halun"
+  },
+  "last_author_id": 230996,
+  "user_ids": [],
+  "space_role_ids": [],
+  "translated_slugs": [],
+  "localized_paths": [
+    {
+      "path": "header",
+      "name": null,
+      "lang": "en",
+      "published": null
+    }
+  ],
+  "position": 0,
+  "translated_stories": [],
+  "can_not_view": false,
+  "is_scheduled": null,
+  "scheduled_dates": null,
+  "ideas": [],
+  "current_version_id": null,
+  "variant_type": null,
+  "experiment_ids": [],
+  "stage": null,
+  "favourite_for_user_ids": []
+}

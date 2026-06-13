@@ -1,0 +1,336 @@
+{
+  "name": "Website Development for a Nonprofit Organization",
+  "parent_id": 488037327,
+  "group_id": "d2d7d96a-e722-450a-b06c-f1d742995c05",
+  "alternates": [],
+  "created_at": "2024-09-03T13:58:45.971Z",
+  "deleted_at": null,
+  "sort_by_date": null,
+  "tag_list": [],
+  "updated_at": "2025-06-04T14:10:11.910Z",
+  "published_at": "2025-06-04T14:10:11.893Z",
+  "id": 543428983,
+  "uuid": "42acd9f9-71b9-4dab-9350-906c555bb815",
+  "is_folder": false,
+  "content": {
+    "_uid": "68552e16-333c-4144-bdcf-dcbec0654b34",
+    "cover": {
+      "id": 17508423,
+      "alt": "Вишиті болем",
+      "name": "",
+      "focus": "",
+      "title": "",
+      "source": "",
+      "filename": "https://a.storyblok.com/f/276513/1200x630/4f08cfe2a0/vyshuti-bolem.webp",
+      "copyright": "",
+      "fieldtype": "asset",
+      "meta_data": {
+        "alt": "Вишиті болем",
+        "title": "",
+        "source": "",
+        "copyright": ""
+      },
+      "content_type": "webp",
+      "is_external_url": false
+    },
+    "title": "Розробка вебсайту для громадської організації",
+    "blocks": [
+      {
+        "_uid": "12fbb94f-008e-4945-8abc-dcf6eec1d8df",
+        "text": {
+          "type": "doc",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Проте зло має бути покаране і наше завдання очевидно просте - фіксувати злочини і розповідати справжні історії.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        "headline": "Рано чи пізно, але російсько-українська війна закінчиться, і всі повернуться до кращого життя. ",
+        "component": "project_headline",
+        "text__i18n__en": {
+          "type": "doc",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "However, evil must be punished, and our task is clearly straightforward—documenting the crimes and sharing the true stories.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        "headline__i18n__en": "Sooner or Later, the russian-Ukrainian War will End, and Everyone will Return to a Better Life."
+      },
+      {
+        "_uid": "f0766db6-0e63-4e22-a4fa-fd3742e7a12f",
+        "component": "project_challenge_and_instruments",
+        "challenge_txt": {
+          "type": "doc",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Короткі терміни реалізації проєкту. Інтерактивність: Розробка інтерактивних елементів, таких як анімація рушників або інтерактивні історії, може вимагати значних технічних ресурсів. Забезпечення швидкого завантаження сторінок і коректної роботи інтерактивних елементів на різних пристроях і платформах.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        "challenge_title": "Виклики",
+        "instruments_txt": "",
+        "instruments_title": "",
+        "challenge_txt__i18n__en": "Short project timelines: meeting tight deadlines for project delivery without compromising quality.\nInteractivity:\n\nDeveloping interactive elements such as animated towels or interactive stories, which may require significant technical resources and expertise.\nPerformance optimization: ensuring fast page load times and proper functionality of interactive elements across various devices and platforms.",
+        "challenge_title__i18n__en": "Challenges"
+      },
+      {
+        "_uid": "d94cb2cc-d1e3-4873-ba15-30c97e25249d",
+        "title": "Ключові результати",
+        "component": "project_results",
+        "title__i18n__en": "Key Results",
+        "project_results_cards": [
+          {
+            "_uid": "2ded5604-5501-4dfe-b693-b033b2d6d5df",
+            "text": "Котре продожує зростати органічно",
+            "title": "Сайт отримав чимале охоплення",
+            "component": "project_results_card",
+            "text__i18n__en": "Which continues to grow organically.",
+            "title__i18n__en": "The Website Achieved Substantial Reach"
+          },
+          {
+            "_uid": "cad2d37d-eefd-4b5f-a78e-941fcbf19dde",
+            "text": "Соціальний вплив",
+            "title": " Взаємодія з контентом",
+            "component": "project_results_card",
+            "text__i18n__en": "Social Impact",
+            "title__i18n__en": "Content Interaction"
+          },
+          {
+            "_uid": "6bf39058-794d-4d43-978d-716b04e1add9",
+            "text": "90% сторінок переглянуті користувачами",
+            "title": "Час перебування та глибина відвідування",
+            "component": "project_results_card",
+            "text__i18n__en": "90% of pages were viewed by users",
+            "title__i18n__en": " Time on Site and Depth of Visit"
+          }
+        ]
+      },
+      {
+        "_uid": "6fd519d7-b400-403b-9e2a-f57843f556d1",
+        "cards": [
+          {
+            "_uid": "d347b216-9322-4261-bced-183d4cdd96e2",
+            "text": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "адаптація візуальної концепції, яка включає традиційні українські елементи (рушники, вишивка) з сучасними візуальними підходами",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            "title": "Дизайн та UX/UI",
+            "component": "project_implementation_card",
+            "text__i18n__en": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "adaptation of the visual concept, which includes traditional Ukrainian elements (towels, embroidery) with modern visual approaches",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            "title__i18n__en": "UX/UI Design"
+          },
+          {
+            "_uid": "e312b80c-cc5b-4fa0-9f41-abebd7fe65f4",
+            "text": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "впровадження інтерактивних елементів, таких як анімації рушників, що розповідають історії під час перегляду, інтеграція мультимедійних матеріалів (відео, аудіо)",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            "title": " Розробка",
+            "component": "project_implementation_card",
+            "text__i18n__en": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "introduction of interactive elements, such as towel animations that tell stories while viewing, integration of multimedia materials (video, audio)",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            "title__i18n__en": "Development"
+          },
+          {
+            "_uid": "fdbd2c7f-4071-4387-926d-9beda710888e",
+            "text": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "тестування сайту, перевірка роботи на різних пристроях і браузерах. Підготовка функціоналу просування сайту через соц. мережі, медіа-партнерства та SEO",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            "title": "Запуск та підтримка",
+            "component": "project_implementation_card",
+            "text__i18n__en": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "testing the website, checking its performance on different devices and browsers. Preparation of website promotion functionality through social networks, media partnerships and SEO",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            "title__i18n__en": "Launch and support"
+          }
+        ],
+        "title": "Реалізація",
+        "component": "project_implementation",
+        "button_text": "Переглянути Веб Сайт",
+        "title__i18n__en": "Realization",
+        "button_text__i18n__en": "View Website"
+      },
+      {
+        "_uid": "6151ec3e-c443-44fd-8639-914932e99e78",
+        "title": "Інші проєкти",
+        "component": "projects_grid",
+        "button_txt": "Переглянути кейс",
+        "button2_txt": "Переглянути сайт",
+        "projects_list": [
+          "79aa4ea5-f41a-43f8-96e4-368af6477536",
+          "55a8d19c-babf-4e12-b142-6a2ba090d65c",
+          "87b9c021-466d-4d37-9a95-7dc081b4d0b9",
+          "fc71ed4c-ee73-42a9-ad26-7c74d7f815ac"
+        ],
+        "title__i18n__en": " Other Projects",
+        "button_txt__i18n__en": "View Case",
+        "button2_txt__i18n__en": "View SIte"
+      }
+    ],
+    "subtitle": "Громадська організація поставила перед собою завдання створити інтернет-платформу, яка передавала б глибоку емоційну та соціальну значимість теми сексуального насильства, зкоєного російськими окупантами під час війни в Україні. Основою для цього стали вишиті рушники, які символізують непридумані, але узагальнені історії людей, які постраждали від жорстокості.",
+    "component": "project",
+    "description": "Розробка унікального сайту для громадської організації, що переповідає історії через вишиті рушники. Сайт поєднує емоційний контент, сучасний дизайн та інтерактивні елементи, допомагаючи привернути увагу до теми сексуального насильства, скоєного російськими окупантами.",
+    "title__i18n__en": "Website Development for a Nonprofit Organization",
+    "project_site_link": {
+      "id": "",
+      "url": "https://vyshyti-bolem.in.ua/#home",
+      "linktype": "url",
+      "fieldtype": "multilink",
+      "cached_url": "https://vyshyti-bolem.in.ua/#home"
+    },
+    "subtitle__i18n__en": "The nonprofit organization set out to create an online platform that conveys the deep emotional and social significance of sexual violence committed by russian occupiers during the war in Ukraine. The foundation of this project is embroidered towels, which symbolize real, yet generalized stories of individuals who have suffered from brutality.",
+    "description__i18n__en": "Develop a unique website for a nonprofit organization that tells stories through embroidered towels. The site combines emotional content, modern design, and interactive elements to draw attention to the issue of sexual violence committed by Russian occupiers. The goal is to engage the audience in supporting and spreading important information through our innovative web project."
+  },
+  "published": true,
+  "slug": "website-development-for-a-nonprofit-organization",
+  "path": null,
+  "full_slug": "projects/website-development-for-a-nonprofit-organization",
+  "default_root": null,
+  "disble_fe_editor": false,
+  "disable_fe_editor": false,
+  "parent": {
+    "id": 488037327,
+    "uuid": "4d89644d-6011-41db-8e49-af619af0d34e",
+    "name": "Projects",
+    "slug": "projects",
+    "disble_fe_editor": false
+  },
+  "is_startpage": false,
+  "unpublished_changes": false,
+  "meta_data": null,
+  "imported_at": null,
+  "preview_token": {
+    "token": "9827378512fb32cac38aa8ba1663db822a68c644",
+    "timestamp": "1781338276"
+  },
+  "pinned": false,
+  "breadcrumbs": [
+    {
+      "id": 488037327,
+      "name": "Projects",
+      "parent_id": null,
+      "disble_fe_editor": false,
+      "disable_fe_editor": false,
+      "path": null,
+      "slug": "projects",
+      "translated_slugs": []
+    }
+  ],
+  "publish_at": null,
+  "expire_at": null,
+  "first_published_at": "2024-09-03T17:57:10.955Z",
+  "last_author": {
+    "id": 230996,
+    "userid": "zjoka",
+    "friendly_name": "Serhii Halun"
+  },
+  "last_author_id": 230996,
+  "user_ids": [],
+  "space_role_ids": [],
+  "translated_slugs": [],
+  "localized_paths": [
+    {
+      "path": "projects/website-development-for-a-nonprofit-organization",
+      "name": null,
+      "lang": "en",
+      "published": null
+    }
+  ],
+  "position": -40,
+  "translated_stories": [],
+  "can_not_view": false,
+  "is_scheduled": null,
+  "scheduled_dates": null,
+  "ideas": [],
+  "current_version_id": null,
+  "variant_type": null,
+  "experiment_ids": [],
+  "stage": null,
+  "favourite_for_user_ids": []
+}

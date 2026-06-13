@@ -1,0 +1,1581 @@
+{
+  "name": "Сompany websites",
+  "parent_id": 502332440,
+  "group_id": "19ecddc7-22a2-41a9-ad92-6499bbee3761",
+  "alternates": [],
+  "created_at": "2024-08-23T11:51:11.332Z",
+  "deleted_at": null,
+  "sort_by_date": null,
+  "tag_list": [],
+  "updated_at": "2024-10-02T18:01:08.048Z",
+  "published_at": "2024-10-02T18:01:08.015Z",
+  "id": 539625943,
+  "uuid": "476fe48c-5fe3-4525-8e8e-83ed5daec94c",
+  "is_folder": false,
+  "content": {
+    "_uid": "0c238a75-3059-4dd6-9d62-d0edc71c8db2",
+    "body": [
+      {
+        "_uid": "759facf2-5e63-445c-bebd-4fcbf3b299c4",
+        "title": "Етапи розробки корпоративного вебсайту",
+        "component": "service_details",
+        "title__i18n__en": "Stages of Corporate Website Development",
+        "service_details_cards": [
+          {
+            "_uid": "b75fd137-a0a9-42b9-ba24-615042e682e0",
+            "title": "Збір вимог та аналіз",
+            "component": "service_details_card",
+            "description": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Ретельно вивчаємо ваші бізнес-потреби та цілі, аналізуємо конкурентів і визначаємо ключові функціональні можливості сайту.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            "title__i18n__en": "Requirements Gathering and Analysis",
+            "description__i18n__en": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "We thoroughly study your business needs and goals, analyze competitors, and identify the key functional features of the website.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "_uid": "2bbc5c68-0449-48a1-ba1f-2a9093ed2304",
+            "title": "Проєктування та дизайн",
+            "component": "service_details_card",
+            "description": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Створюємо макети та прототипи, погоджуємо дизайн-концепції, щоб ваш сайт відповідав найвищим стандартам якості.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            "title__i18n__en": "Design and Prototyping",
+            "description__i18n__en": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "We create mockups and prototypes, refining design concepts to ensure your website meets the highest quality standards.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "_uid": "966958ed-2678-4295-ac7d-130794d8fde4",
+            "title": "Розробка та інтеграція",
+            "component": "service_details_card",
+            "description": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Програмуємо функціональність сайту, інтегруємо необхідні сервіси та плагіни, проводимо тестування на всіх етапах розробки.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            "title__i18n__en": "Development and Integration",
+            "description__i18n__en": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "We code the website's functionality, integrate necessary services and plugins, and conduct testing at every stage of development.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "_uid": "5761daf1-dc5b-4bbb-8ed5-cf46fb94f1f9",
+            "title": "Запуск та тестування",
+            "component": "service_details_card",
+            "description": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Проводимо фінальне тестування, запускаємо сайт та надаємо детальні інструкції з управління.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            "title__i18n__en": "Launch and Testing",
+            "description__i18n__en": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "We perform final testing, launch the website, and provide detailed management instructions.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "_uid": "2e35e346-3290-4fd2-9d7a-a0ab600ae1c7",
+            "title": "Підтпримка та обслуговування ",
+            "component": "service_details_card",
+            "description": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Надаємо послуги з підтримки та оновлення сайту, забезпечуємо технічну підтримку та консультації.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            "title__i18n__en": "Support and Maintenance",
+            "description__i18n__en": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "We provide website support and updates, offering technical assistance and consultations.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "_uid": "51cb714c-f1e7-4ca5-b47a-094dad1242c1",
+        "cards": [
+          {
+            "_uid": "d3ef7206-5d20-497a-8c1b-505bfb6f58a3",
+            "title": "Онлайн-присутність",
+            "component": "service_need_card",
+            "description": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Доступність 24/7",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ]
+                    },
+                    {
+                      "text": ": Веб-сайт дозволяє вашим клієнтам отримувати інформацію про ваші продукти та послуги у будь-який час і з будь-якого місця світу.",
+                      "type": "text"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Глобальне охоплення",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ]
+                    },
+                    {
+                      "text": ":  бізнес може охоплювати міжнародну аудиторію, розширюючи ринок збуту.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            "title__i18n__en": "Online Presence",
+            "description__i18n__en": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "24/7 Accessibility",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ]
+                    },
+                    {
+                      "text": ": A website allows your customers to access information about your products and services anytime, from anywhere in the world.",
+                      "type": "text"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Global Reach",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ]
+                    },
+                    {
+                      "text": ": Your business can reach an international audience, expanding your market beyond local or regional boundaries.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "_uid": "9b616940-0312-43d6-a699-2105eaf52977",
+            "title": "Конкурентна перевага",
+            "component": "service_need_card",
+            "description": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Відсутність веб-сайту",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ]
+                    },
+                    {
+                      "text": ": Якщо ваші конкуренти мають веб-сайти, а ви ні, це може поставити вас у невигідне становище на ринку.",
+                      "type": "text"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Унікальні пропозиції",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ]
+                    },
+                    {
+                      "text": ": Веб-сайт дозволяє ефективно комунікувати унікальні переваги вашої компанії та відрізнятися від конкурентів.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            "title__i18n__en": "Competitive Advantage",
+            "description__i18n__en": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Absence of a Website",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ]
+                    },
+                    {
+                      "text": ": If your competitors have websites and you don't, it could put you at a disadvantage in the market.",
+                      "type": "text"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Unique Offerings",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ]
+                    },
+                    {
+                      "text": ": A website allows you to effectively communicate your company's unique advantages and distinguish yourself from competitors.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "_uid": "9750ea01-098d-442a-9a3c-5027e2f82928",
+            "title": "Підтримка партнерств та B2B",
+            "component": "service_need_card",
+            "description": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Співпраця",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ]
+                    },
+                    {
+                      "text": ": Веб-сайт може бути інструментом для встановлення та підтримки партнерських відносин, надання інформації про умови співпраці та обмін ресурсами.",
+                      "type": "text"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "B2B комунікації",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ]
+                    },
+                    {
+                      "text": ": Для бізнесів, що працюють у B2B-секторі, веб-сайт є важливим каналом для взаємодії з партнерами, постачальниками та іншими бізнесами.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            "title__i18n__en": "Support for Partnerships and B2B",
+            "description__i18n__en": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Collaboration",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ]
+                    },
+                    {
+                      "text": ": A website can be a tool for establishing and maintaining partnerships, providing information about collaboration terms, and sharing resources.",
+                      "type": "text"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "B2B Communication",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ]
+                    },
+                    {
+                      "text": ": For businesses in the B2B sector, a website is an essential channel for interacting with partners, suppliers, and other businesses.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "_uid": "deab6a98-7e57-4163-ac50-bcafc0c2e481",
+            "title": "Мобільний доступ",
+            "component": "service_need_card",
+            "description": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Адаптивний дизайн",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ]
+                    },
+                    {
+                      "text": ": Сучасні веб-сайти оптимізовані для мобільних пристроїв, забезпечуючи зручний доступ для користувачів з різних платформ.",
+                      "type": "text"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Мобільні користувачі",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ]
+                    },
+                    {
+                      "text": ": Зростання кількості мобільних користувачів робить адаптивний веб-сайт критично важливим для розширення аудиторії.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            "title__i18n__en": "Mobile Accessibility",
+            "description__i18n__en": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Responsive Design",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ]
+                    },
+                    {
+                      "text": ": Modern websites are optimized for mobile devices, ensuring convenient access for users across different platforms.",
+                      "type": "text"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Mobile Users",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ]
+                    },
+                    {
+                      "text": ": The increasing number of mobile users makes a responsive website critically important for expanding your audience.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        ],
+        "media": "",
+        "title": "Навіщо компанії веб сайт?",
+        "component": "service_need",
+        "title__i18n__en": "Why Does a Company Need a Website?"
+      },
+      {
+        "_uid": "0e0c6841-97bd-4dca-b408-be4f790f1651",
+        "cards": [
+          {
+            "_uid": "19b4780d-5767-4c3c-95d8-6d80503921f5",
+            "title": "Технології Front-End",
+            "component": "service_instruments_card",
+            "title__i18n__en": "Front-End Technologies",
+            "instruments_list": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "HTML5/CSS3: Основні мови розмітки та стилізації, що забезпечують структуру та візуальне оформлення веб-сайту.",
+                      "type": "text"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "JavaScript: Мова програмування для динамічної взаємодії з користувачем. Використовується для додавання інтерактивних елементів, анімацій, валідації форм тощо.",
+                      "type": "text"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Фреймворки та бібліотеки: React.js: Популярна бібліотека для побудови інтерактивних користувацьких інтерфейсів.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            "instruments_logos": [
+              {
+                "id": 17036331,
+                "alt": "HTML5 Logo",
+                "name": "",
+                "focus": "",
+                "title": "",
+                "source": "",
+                "filename": "https://a.storyblok.com/f/276513/150x150/ea839d2a10/html5_logo.svg",
+                "copyright": "",
+                "fieldtype": "asset",
+                "meta_data": {
+                  "alt": "HTML5 Logo",
+                  "title": "",
+                  "source": "",
+                  "copyright": ""
+                },
+                "content_type": "svg"
+              },
+              {
+                "id": 17036330,
+                "alt": "CSS3 Logo",
+                "name": "",
+                "focus": "",
+                "title": "",
+                "source": "",
+                "filename": "https://a.storyblok.com/f/276513/512x512/026bdf93f4/css3_logo.svg",
+                "copyright": "",
+                "fieldtype": "asset",
+                "meta_data": {
+                  "alt": "CSS3 Logo",
+                  "title": "",
+                  "source": "",
+                  "copyright": ""
+                },
+                "content_type": "svg"
+              },
+              {
+                "id": 17126131,
+                "alt": "React Logo",
+                "name": "",
+                "focus": "",
+                "title": "",
+                "source": "",
+                "filename": "https://a.storyblok.com/f/276513/169x150/f29328c999/react_logo.svg",
+                "copyright": "",
+                "fieldtype": "asset",
+                "meta_data": {
+                  "alt": "React Logo",
+                  "title": "",
+                  "source": "",
+                  "copyright": ""
+                },
+                "content_type": "svg"
+              },
+              {
+                "id": 17036329,
+                "alt": "Js Logo",
+                "name": "",
+                "focus": "",
+                "title": "",
+                "source": "",
+                "filename": "https://a.storyblok.com/f/276513/150x150/d34a92bbd4/js_logo.svg",
+                "copyright": "",
+                "fieldtype": "asset",
+                "meta_data": {
+                  "alt": "Js Logo",
+                  "title": "",
+                  "source": "",
+                  "copyright": ""
+                },
+                "content_type": "svg"
+              }
+            ],
+            "instruments_list__i18n__en": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "HTML5/CSS3",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ]
+                    },
+                    {
+                      "text": ": The fundamental markup and styling languages that provide the structure and visual design of a website.",
+                      "type": "text"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "JavaScript",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ]
+                    },
+                    {
+                      "text": ": A programming language for dynamic user interaction. It is used to add interactive elements, animations, form validation, and more.",
+                      "type": "text"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Frameworks and Libraries",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ]
+                    },
+                    {
+                      "text": ": ",
+                      "type": "text"
+                    },
+                    {
+                      "text": "React.js",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ]
+                    },
+                    {
+                      "text": ": A popular library for building interactive user interfaces.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "_uid": "dfc992c5-47bb-45d8-b220-253cdf89a32e",
+            "title": "Технології Back-End",
+            "component": "service_instruments_card",
+            "title__i18n__en": "Back-End Technologies",
+            "instruments_list": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Серверні мови програмування:",
+                      "type": "text"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "PHP: Широко використовується для розробки динамічних веб-сайтів. Часто застосовується разом з CMS, такими як WordPress або Drupal.",
+                      "type": "text"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Python: Використовується для створення веб-додатків за допомогою фреймворків, таких як Django або Flask.",
+                      "type": "text"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Node.js: Використовується для серверного програмування на JavaScript, що дозволяє використовувати одну мову як на клієнтській, так і на серверній стороні.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            "instruments_logos": [
+              {
+                "id": 17036372,
+                "alt": "PHP-logo",
+                "name": "",
+                "focus": "",
+                "title": "",
+                "source": "",
+                "filename": "https://a.storyblok.com/f/276513/711x384/c290c45712/php-logo.svg",
+                "copyright": "",
+                "fieldtype": "asset",
+                "meta_data": {
+                  "alt": "PHP-logo",
+                  "title": "",
+                  "source": "",
+                  "copyright": ""
+                },
+                "content_type": "svg"
+              },
+              {
+                "id": 17126331,
+                "alt": "Python-logo",
+                "name": "",
+                "focus": "",
+                "title": "",
+                "source": "",
+                "filename": "https://a.storyblok.com/f/276513/519x154/34bdc0b722/python_logo.svg",
+                "copyright": "",
+                "fieldtype": "asset",
+                "meta_data": {
+                  "alt": "Python-logo",
+                  "title": "",
+                  "source": "",
+                  "copyright": ""
+                },
+                "content_type": "svg"
+              },
+              {
+                "id": 17126205,
+                "alt": "Node Js Logo",
+                "name": "",
+                "focus": "",
+                "title": "",
+                "source": "",
+                "filename": "https://a.storyblok.com/f/276513/590x362/b8063cff3a/node-js_logo.svg",
+                "copyright": "",
+                "fieldtype": "asset",
+                "meta_data": {
+                  "alt": "Node Js Logo",
+                  "title": "",
+                  "source": "",
+                  "copyright": ""
+                },
+                "content_type": "svg"
+              }
+            ],
+            "instruments_list__i18n__en": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Server-Side Programming Languages:",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "PHP",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ]
+                    },
+                    {
+                      "text": ": Widely used for developing dynamic websites. Often used with CMS platforms such as WordPress or Drupal.",
+                      "type": "text"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Python",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ]
+                    },
+                    {
+                      "text": ": Used for creating web applications with frameworks such as Django or Flask.",
+                      "type": "text"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Node.js",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ]
+                    },
+                    {
+                      "text": ": Used for server-side programming in JavaScript, allowing you to use the same language on both the client and server sides.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "_uid": "df7ec921-4764-4d2a-9bc5-79f22fe26ad0",
+            "title": "Фреймворки",
+            "component": "service_instruments_card",
+            "title__i18n__en": "Frameworks",
+            "instruments_list": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Django (Python): Високорівневий фреймворк для швидкої розробки та зосередження на компонентах, необхідних для веб-розробки.",
+                      "type": "text"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Express (Node.js): Мінімалістичний фреймворк для Node.js, який забезпечує гнучкість у побудові веб-додатків та API.",
+                      "type": "text"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Next.js: популярний фреймворк для розробки React-додатків, який надає потужні інструменти для створення серверного рендерингу (SSR) і статичного генерації сайтів (SSG).",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            "instruments_logos": [
+              {
+                "id": 17126205,
+                "alt": "Node Js Logo",
+                "name": "",
+                "focus": "",
+                "title": "",
+                "source": "",
+                "filename": "https://a.storyblok.com/f/276513/590x362/b8063cff3a/node-js_logo.svg",
+                "copyright": "",
+                "fieldtype": "asset",
+                "meta_data": {
+                  "alt": "Node Js Logo",
+                  "title": "",
+                  "source": "",
+                  "copyright": ""
+                },
+                "content_type": "svg"
+              },
+              {
+                "id": 17126216,
+                "alt": "Next Js Logo",
+                "name": "",
+                "focus": "",
+                "title": "",
+                "source": "",
+                "filename": "https://a.storyblok.com/f/276513/394x80/3ed5fbf69b/nextjs-logo.svg",
+                "copyright": "",
+                "fieldtype": "asset",
+                "meta_data": {
+                  "alt": "Next Js Logo",
+                  "title": "",
+                  "source": "",
+                  "copyright": ""
+                },
+                "content_type": "svg"
+              },
+              {
+                "id": 17126393,
+                "alt": "Django Logo",
+                "name": "",
+                "focus": "",
+                "title": "",
+                "source": "",
+                "filename": "https://a.storyblok.com/f/276513/601x210/f273ec6c7e/django-logo.svg",
+                "copyright": "",
+                "fieldtype": "asset",
+                "meta_data": {
+                  "alt": "Django Logo",
+                  "title": "",
+                  "source": "",
+                  "copyright": ""
+                },
+                "content_type": "svg"
+              }
+            ],
+            "instruments_list__i18n__en": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Django (Python)",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ]
+                    },
+                    {
+                      "text": ": A high-level framework for rapid development, focusing on the components needed for web development.",
+                      "type": "text"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Express (Node.js)",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ]
+                    },
+                    {
+                      "text": ": A minimalist framework for Node.js that provides flexibility in building web applications and APIs.",
+                      "type": "text"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Next.js",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ]
+                    },
+                    {
+                      "text": ": A popular framework for developing React applications, offering powerful tools for server-side rendering (SSR) and static site generation (SSG).",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "_uid": "926387a6-56d1-464b-b35a-82ec6285c196",
+            "title": "Системи управління контентом (CMS)",
+            "component": "service_instruments_card",
+            "title__i18n__en": "Content Management Systems (CMS)",
+            "instruments_list": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "WordPress: Найпопулярніша платформа для створення веб-сайтів, яка пропонує безліч плагінів і тем для швидкої реалізації проєкту.",
+                      "type": "text"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Webflow – це платформа для створення веб-сайтів, яка дозволяє користувачам створювати професійні та адаптивні веб-сайти без необхідності писати код.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            "instruments_logos": [
+              {
+                "id": 17126234,
+                "alt": "Webflow Logo",
+                "name": "",
+                "focus": "",
+                "title": "",
+                "source": "",
+                "filename": "https://a.storyblok.com/f/276513/764x154/8899b8050a/webflow-logo.svg",
+                "copyright": "",
+                "fieldtype": "asset",
+                "meta_data": {
+                  "alt": "Webflow Logo",
+                  "title": "",
+                  "source": "",
+                  "copyright": ""
+                },
+                "content_type": "svg"
+              },
+              {
+                "id": 17036097,
+                "alt": "Wordpress Logo",
+                "name": "",
+                "focus": "",
+                "title": "",
+                "source": "",
+                "filename": "https://a.storyblok.com/f/276513/540x123/f1c7fd8b3c/wordpress_logo.svg",
+                "copyright": "",
+                "fieldtype": "asset",
+                "meta_data": {
+                  "alt": "Wordpress Logo",
+                  "title": "",
+                  "source": "",
+                  "copyright": ""
+                },
+                "content_type": "svg"
+              }
+            ],
+            "instruments_list__i18n__en": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "WordPress",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ]
+                    },
+                    {
+                      "text": ": The most popular platform for creating websites, offering a wide range of plugins and themes for rapid project implementation.",
+                      "type": "text"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Webflow",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ]
+                    },
+                    {
+                      "text": ": A platform for building websites that allows users to create professional and responsive websites without the need to write code.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "_uid": "497e6db8-4d15-4ce3-8d76-2ebe6e1dd0f5",
+            "title": "Бази даних",
+            "component": "service_instruments_card",
+            "title__i18n__en": "Databases",
+            "instruments_list": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "MySQL/MariaDB: Відкриті реляційні бази даних, що часто використовуються в поєднанні з PHP.",
+                      "type": "text"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "PostgreSQL: Потужна реляційна база даних з підтримкою складних запитів і високої надійності.",
+                      "type": "text"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "MongoDB: NoSQL база даних, що підходить для зберігання великих обсягів неструктурованих даних.",
+                      "type": "text"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Firebase: Хмарна база даних від Google, яка забезпечує реальний час синхронізації даних між клієнтами.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            "instruments_logos": [
+              {
+                "id": 17126285,
+                "alt": "MySQL Logo",
+                "name": "",
+                "focus": "",
+                "title": "",
+                "source": "",
+                "filename": "https://a.storyblok.com/f/276513/800x800/6a112f87df/mysql-logo.svg",
+                "copyright": "",
+                "fieldtype": "asset",
+                "meta_data": {
+                  "alt": "MySQL Logo",
+                  "title": "",
+                  "source": "",
+                  "copyright": ""
+                },
+                "content_type": "svg"
+              },
+              {
+                "id": 17126287,
+                "alt": "Postgresql logo",
+                "name": "",
+                "focus": "",
+                "title": "",
+                "source": "",
+                "filename": "https://a.storyblok.com/f/276513/576x594/ce7a81176c/postgresql_elephant.svg",
+                "copyright": "",
+                "fieldtype": "asset",
+                "meta_data": {
+                  "alt": "Postgresql logo",
+                  "title": "",
+                  "source": "",
+                  "copyright": ""
+                },
+                "content_type": "svg"
+              },
+              {
+                "id": 17126286,
+                "alt": "MongoDB Logo",
+                "name": "",
+                "focus": "",
+                "title": "",
+                "source": "",
+                "filename": "https://a.storyblok.com/f/276513/1113x300/89356ab52d/mongodb_logo.svg",
+                "copyright": "",
+                "fieldtype": "asset",
+                "meta_data": {
+                  "alt": "MongoDB Logo",
+                  "title": "",
+                  "source": "",
+                  "copyright": ""
+                },
+                "content_type": "svg"
+              },
+              {
+                "id": 17126284,
+                "alt": "Fire Base Logo",
+                "name": "",
+                "focus": "",
+                "title": "",
+                "source": "",
+                "filename": "https://a.storyblok.com/f/276513/469x132/da2bc91cd8/firebase_logo.svg",
+                "copyright": "",
+                "fieldtype": "asset",
+                "meta_data": {
+                  "alt": "Fire Base Logo",
+                  "title": "",
+                  "source": "",
+                  "copyright": ""
+                },
+                "content_type": "svg"
+              }
+            ],
+            "instruments_list__i18n__en": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "MySQL/MariaDB",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ]
+                    },
+                    {
+                      "text": ": Open-source relational databases commonly used in conjunction with PHP.",
+                      "type": "text"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "PostgreSQL",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ]
+                    },
+                    {
+                      "text": ": A powerful relational database supporting complex queries and high reliability.",
+                      "type": "text"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "MongoDB",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ]
+                    },
+                    {
+                      "text": ": A NoSQL database suitable for storing large volumes of unstructured data.",
+                      "type": "text"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Firebase",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ]
+                    },
+                    {
+                      "text": ": A cloud database by Google that provides real-time data synchronization between clients.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "_uid": "bf6d82a9-189d-4521-9730-6d26e9fe22a3",
+            "title": " Інструменти для дизайну та прототипування",
+            "component": "service_instruments_card",
+            "title__i18n__en": "Design and Prototyping Tools",
+            "instruments_list": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Figma: Веб-застосунок для спільного дизайну, прототипування та комунікації в реальному часі.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            "instruments_logos": [
+              {
+                "id": 17126299,
+                "alt": "Figma Logo",
+                "name": "",
+                "focus": "",
+                "title": "",
+                "source": "",
+                "filename": "https://a.storyblok.com/f/276513/1667x2500/fe9afd4f1b/figma-logo.svg",
+                "copyright": "",
+                "fieldtype": "asset",
+                "meta_data": {
+                  "alt": "Figma Logo",
+                  "title": "",
+                  "source": "",
+                  "copyright": ""
+                },
+                "content_type": "svg"
+              }
+            ],
+            "instruments_list__i18n__en": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Figma",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ]
+                    },
+                    {
+                      "text": ": A web application for collaborative design, prototyping, and real-time communication.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        ],
+        "title": "Що використовуємо",
+        "component": "service_instruments",
+        "title__i18n__en": " What we Use"
+      },
+      {
+        "_uid": "00a505da-5e4d-417f-9dd4-37f919a8e00f",
+        "title": "Нещодавні проєкти",
+        "component": "projects_grid",
+        "button_txt": "Переглянути кейс",
+        "button2_txt": "Переглянути сайт",
+        "projects_list": [
+          "79aa4ea5-f41a-43f8-96e4-368af6477536",
+          "fc71ed4c-ee73-42a9-ad26-7c74d7f815ac",
+          "42acd9f9-71b9-4dab-9350-906c555bb815"
+        ],
+        "title__i18n__en": "Recent Projects",
+        "button_txt__i18n__en": "View Case",
+        "button2_txt__i18n__en": "View Site"
+      }
+    ],
+    "title": "Вебсайт компанії",
+    "subtitle": "Розробляємо потужний онлайн-інструмент для залучення нових клієнтів і підвищення впізнаваності бренду.  Від високоякісного UI/UX до стратегічної навігації. Створюємо веб-сайти, які відображають вашу компанію відповідно до споживчих цінностей.",
+    "component": "service",
+    "description": {
+      "type": "doc",
+      "content": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "text": "Розробляємо потужний онлайн-інструмент для залучення нових клієнтів і підвищення впізнаваності бренду.",
+              "type": "text"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "text": "Від високоякісного UI/UX до стратегічної навігації, створюємо вебсайт компанії, який відображає вашу компанію відповідно до споживчих цінностей.",
+              "type": "text"
+            }
+          ]
+        }
+      ]
+    },
+    "title__i18n__en": "Corporate Websites",
+    "subtitle__i18n__en": "We develop a powerful online tool for attracting new clients and increasing brand recognition. From high-quality UI/UX design to strategic navigation, we create a company website that reflects your brand in alignment with consumer values.",
+    "description__i18n__en": {
+      "type": "doc",
+      "content": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "text": "We develop a powerful online tool for attracting new clients and increasing brand recognition.",
+              "type": "text"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "text": "From high-quality UI/UX design to strategic navigation, we create a company website that reflects your brand in alignment with consumer values.",
+              "type": "text"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "published": true,
+  "slug": "company-websites",
+  "path": null,
+  "full_slug": "services/company-websites",
+  "default_root": null,
+  "disble_fe_editor": false,
+  "disable_fe_editor": false,
+  "parent": {
+    "id": 502332440,
+    "uuid": "b365af73-57b4-48b9-b679-98c33aba1ab7",
+    "name": "Services",
+    "slug": "services",
+    "disble_fe_editor": false
+  },
+  "is_startpage": false,
+  "unpublished_changes": false,
+  "meta_data": null,
+  "imported_at": null,
+  "preview_token": {
+    "token": "9827378512fb32cac38aa8ba1663db822a68c644",
+    "timestamp": "1781338276"
+  },
+  "pinned": false,
+  "breadcrumbs": [
+    {
+      "id": 502332440,
+      "name": "Services",
+      "parent_id": null,
+      "disble_fe_editor": false,
+      "disable_fe_editor": false,
+      "path": null,
+      "slug": "services",
+      "translated_slugs": []
+    }
+  ],
+  "publish_at": null,
+  "expire_at": null,
+  "first_published_at": "2024-08-26T14:02:21.257Z",
+  "last_author": {
+    "id": 230996,
+    "userid": "zjoka",
+    "friendly_name": "Serhii Halun"
+  },
+  "last_author_id": 230996,
+  "user_ids": [],
+  "space_role_ids": [],
+  "translated_slugs": [],
+  "localized_paths": [
+    {
+      "path": "services/company-websites",
+      "name": null,
+      "lang": "en",
+      "published": null
+    }
+  ],
+  "position": -80,
+  "translated_stories": [],
+  "can_not_view": false,
+  "is_scheduled": null,
+  "scheduled_dates": null,
+  "ideas": [],
+  "current_version_id": null,
+  "variant_type": null,
+  "experiment_ids": [],
+  "stage": null,
+  "favourite_for_user_ids": []
+}

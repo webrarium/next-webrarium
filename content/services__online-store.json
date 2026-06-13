@@ -1,0 +1,1254 @@
+{
+  "name": "Online Store",
+  "parent_id": 502332440,
+  "group_id": "27ce3864-4021-4416-b523-368b15213780",
+  "alternates": [],
+  "created_at": "2024-08-16T10:35:07.574Z",
+  "deleted_at": null,
+  "sort_by_date": null,
+  "tag_list": [],
+  "updated_at": "2024-10-02T18:09:35.064Z",
+  "published_at": "2024-10-02T18:09:35.035Z",
+  "id": 536495355,
+  "uuid": "7c2295e6-3f58-44fd-8370-13bd848dacd9",
+  "is_folder": false,
+  "content": {
+    "_uid": "49218936-8a96-4c78-863b-351ef33e28dc",
+    "body": [
+      {
+        "_uid": "dbd6c1c3-5810-4324-89e1-b3f7bdf51651",
+        "title": "Послуги",
+        "component": "service_details",
+        "title__i18n__en": "Services",
+        "service_details_cards": [
+          {
+            "_uid": "cecf3d94-3269-4805-9495-80a92bd32299",
+            "title": "Консультація та планування",
+            "component": "service_details_card",
+            "description": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Аналіз ваших потреб і цілей. Розробка стратегії для вашого онлайн магазину. Вибір оптимальних платформ і інструментів для вашого бізнесу.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            "title__i18n__en": "Consultation and Planning",
+            "description__i18n__en": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Analysis of your needs and goals. Development of a strategy for your online store. Selection of the optimal platforms and tools for your business.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "_uid": "3d56ccb3-4591-4192-8cc5-271dd09867d0",
+            "title": "Адаптивний Дизайн ",
+            "component": "service_details_card",
+            "description": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Створення унікального дизайну, що відповідає вашому бренду. Розробка інтуїтивно зрозумілого інтерфейсу для зручного користування. Адаптивний дизайн, що забезпечує коректне відображення на будь-яких пристроях.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            "title__i18n__en": "Responsive Design",
+            "description__i18n__en": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Creating a unique design that reflects your brand. Developing an intuitive interface for easy navigation. Responsive design that ensures proper display on all devices.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "_uid": "24210632-c22e-47e1-be01-1066e919e748",
+            "title": "Налаштування інтеграцій",
+            "component": "service_details_card",
+            "description": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Налаштування системи управління контентом (CMS). Інтеграція платіжних систем. Налаштування модулів для управління товарами, замовленнями і клієнтами. Інтеграція з системами аналітики для відстеження ефективності вашого магазину.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            "title__i18n__en": "Integration Setup",
+            "description__i18n__en": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Configuration of the Content Management System (CMS). Integration of payment systems. Setup of modules for managing products, orders, and customers. Integration with analytics systems to monitor the performance of your store.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "_uid": "48d4a2c3-d313-402f-b7df-40542dc275ac",
+            "title": "Оптимізація і SEO",
+            "component": "service_details_card",
+            "description": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Оптимізація сайту для пошукових систем для покращення видимості в інтернеті. Налаштування мета-тегів, ключових слів і контенту для підвищення рейтингів.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            "title__i18n__en": "Optimization and SEO",
+            "description__i18n__en": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Website optimization for search engines to improve online visibility. Setting up meta tags, keywords, and content to boost rankings.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "_uid": "24342c3f-8373-4051-a944-5431011dbf4a",
+            "title": "Тестування та запуск",
+            "component": "service_details_card",
+            "description": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Перевірка всіх функцій і елементів сайту. Тестування на різних пристроях і браузерах для забезпечення стабільної роботи. Запуск сайту і моніторинг його роботи на початкових етапах.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            "title__i18n__en": "Testing and Launch",
+            "description__i18n__en": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Checking all functions and elements of the website. Testing on various devices and browsers to ensure stable performance. Launching the site and monitoring its operation during the initial stages.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "_uid": "80ab4f5c-c55e-45e8-be30-99695e435d44",
+            "title": "Підтримка і обслуговування",
+            "component": "service_details_card",
+            "description": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Надання технічної підтримки і обслуговування сайту. Оновлення системи і компонентів за потреби. Рекомендації з покращення і розвитку функціоналу вашого онлайн магазину.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            "title__i18n__en": "Support and Maintenance",
+            "description__i18n__en": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Providing technical support and site maintenance. Updating systems and components as needed. Offering recommendations for improving and developing the functionality of your online store.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "_uid": "33f21210-a572-4cd1-817e-dcaac702a36a",
+        "cards": [
+          {
+            "_uid": "ff481707-f819-4e19-b4cf-5272a404a863",
+            "title": "Зручність для покупців",
+            "component": "service_need_card",
+            "description": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Онлайн-магазини дозволяють покупцям робити покупки з будь-якого місця і в будь-який час, що знижує необхідність фізичного відвідування магазинів і економить час.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            "title__i18n__en": "Convenience for Customers",
+            "description__i18n__en": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Online stores allow customers to shop from anywhere and at any time, reducing the need for physical store visits and saving time.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "_uid": "9e5d01bd-7e8e-41eb-a0fe-8ec843350cc3",
+            "title": "Зниження витрат",
+            "component": "service_need_card",
+            "description": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Віртуальний магазин зазвичай має менші витрати на оренду приміщення, оплату праці персоналу та інші витрати, пов’язані з фізичними магазинами.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            "title__i18n__en": "Cost Reduction",
+            "description__i18n__en": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "A virtual store typically has lower expenses for rent, staff salaries, and other costs associated with physical stores.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "_uid": "cfa786a5-894a-4e88-9332-f1570ac42218",
+            "title": "Можливість автоматизації",
+            "component": "service_need_card",
+            "description": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Онлайн-магазини можуть використовувати автоматизовані системи для обробки замовлень, управління запасами і навіть маркетингу, що спрощує операційні процеси.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            "title__i18n__en": "Automation Capabilities",
+            "description__i18n__en": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Online stores can use automated systems for order processing, inventory management, and even marketing, simplifying operational processes.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "_uid": "63680e9f-3c9f-4d2c-8648-5e91d6b271a6",
+            "title": "Маркетингові можливості",
+            "component": "service_need_card",
+            "description": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Інтернет дозволяє використовувати різні канали для просування товарів, включаючи соціальні мережі, SEO (пошукову оптимізацію), контекстну рекламу та електронну пошту.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            "title__i18n__en": "Marketing Opportunities",
+            "description__i18n__en": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Allows for the use of various channels to promote products, including social media, SEO (search engine optimization), pay-per-click advertising, and email marketing.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        ],
+        "media": "",
+        "title": "Навіщо будувати online магазин?",
+        "component": "service_need",
+        "title__i18n__en": "Why Build an Online Store?"
+      },
+      {
+        "_uid": "fd6136d8-c95b-411d-9317-0059334a15ea",
+        "cards": [
+          {
+            "_uid": "ebdc1c06-f271-4796-990a-77410aa67873",
+            "title": "CMS-платформи (Content Management Systems)",
+            "component": "service_instruments_card",
+            "title__i18n__en": "CMS Platforms (Content Management Systems)",
+            "instruments_list": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "WooCommerce: Плагін для WordPress, що дозволяє створювати і управляти інтернет-магазином.",
+                      "type": "text"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Shopify: Зручна платформа, що пропонує швидкий запуск магазину і просту інтеграцію з різними сервісами.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            "instruments_logos": [
+              {
+                "id": 17035994,
+                "alt": "woocommerce logo",
+                "name": "",
+                "focus": "",
+                "index": 0,
+                "title": "",
+                "source": "",
+                "filename": "https://a.storyblok.com/f/276513/251x150/0c3fa2b7f1/woocommerce_logo.svg",
+                "copyright": "",
+                "fieldtype": "asset",
+                "meta_data": {
+                  "alt": "woocommerce logo",
+                  "title": "",
+                  "source": "",
+                  "copyright": ""
+                },
+                "is_private": false,
+                "content_type": "svg"
+              },
+              {
+                "id": 17036015,
+                "alt": "shopify logo",
+                "name": "",
+                "focus": "",
+                "title": "",
+                "source": "",
+                "filename": "https://a.storyblok.com/f/276513/612x192/8c7e34a65e/shopify_logo.svg",
+                "copyright": "",
+                "fieldtype": "asset",
+                "meta_data": {
+                  "alt": "shopify logo",
+                  "title": "",
+                  "source": "",
+                  "copyright": ""
+                },
+                "is_private": false,
+                "content_type": "svg"
+              },
+              {
+                "id": 17036097,
+                "alt": "wordpress",
+                "name": "",
+                "focus": "",
+                "title": "",
+                "source": "",
+                "filename": "https://a.storyblok.com/f/276513/540x123/f1c7fd8b3c/wordpress_logo.svg",
+                "copyright": "",
+                "fieldtype": "asset",
+                "meta_data": {
+                  "alt": "wordpress",
+                  "title": "",
+                  "source": "",
+                  "copyright": ""
+                },
+                "is_private": false,
+                "content_type": "svg"
+              }
+            ],
+            "instruments_list__i18n__en": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "WooCommerce:",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ]
+                    },
+                    {
+                      "text": " A plugin for WordPress that allows you to create and manage an online store.",
+                      "type": "text"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Shopify:",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ]
+                    },
+                    {
+                      "text": " A user-friendly platform that offers quick store setup and easy integration with various services.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "_uid": "f9800a43-6767-465e-b97d-535e46ff3ce4",
+            "title": "Технології фронтенду",
+            "component": "service_instruments_card",
+            "title__i18n__en": "Frontend Technologies",
+            "instruments_list": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "HTML/CSS: Основні технології для створення структури і стилізації веб-сторінок.",
+                      "type": "text"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "JavaScript: Для інтерактивних елементів і покращення користувацького досвіду.",
+                      "type": "text"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "JavaScript-фреймворки та бібліотеки:",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            "instruments_logos": [
+              {
+                "id": 17036331,
+                "alt": "HTML5 logo",
+                "name": "",
+                "focus": "",
+                "title": "",
+                "source": "",
+                "filename": "https://a.storyblok.com/f/276513/150x150/ea839d2a10/html5_logo.svg",
+                "copyright": "",
+                "fieldtype": "asset",
+                "meta_data": {
+                  "alt": "HTML5 logo",
+                  "title": "",
+                  "source": "",
+                  "copyright": ""
+                },
+                "is_private": false,
+                "content_type": "svg"
+              },
+              {
+                "id": 17036330,
+                "alt": "CSS3  logo",
+                "name": "",
+                "focus": "",
+                "title": "",
+                "source": "",
+                "filename": "https://a.storyblok.com/f/276513/512x512/026bdf93f4/css3_logo.svg",
+                "copyright": "",
+                "fieldtype": "asset",
+                "meta_data": {
+                  "alt": "CSS3  logo",
+                  "title": "",
+                  "source": "",
+                  "copyright": ""
+                },
+                "is_private": false,
+                "content_type": "svg"
+              },
+              {
+                "id": 17036329,
+                "alt": "Js logo",
+                "name": "",
+                "focus": "",
+                "title": "",
+                "source": "",
+                "filename": "https://a.storyblok.com/f/276513/150x150/d34a92bbd4/js_logo.svg",
+                "copyright": "",
+                "fieldtype": "asset",
+                "meta_data": {
+                  "alt": "Js logo",
+                  "title": "",
+                  "source": "",
+                  "copyright": ""
+                },
+                "is_private": false,
+                "content_type": "svg"
+              }
+            ],
+            "instruments_list__i18n__en": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "HTML/CSS:",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ]
+                    },
+                    {
+                      "text": " Core technologies for creating the structure and styling of web pages.",
+                      "type": "text"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "JavaScript:",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ]
+                    },
+                    {
+                      "text": " Used for interactive elements and enhancing the user experience.",
+                      "type": "text"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "JavaScript Frameworks and Libraries",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "_uid": "5d34708c-69b1-4f62-b0be-d5a3b784c93f",
+            "title": "Технології бекенду",
+            "component": "service_instruments_card",
+            "title__i18n__en": "Backend Technologies",
+            "instruments_list": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Серверні мови програмування:",
+                      "type": "text"
+                    },
+                    {
+                      "type": "hard_break"
+                    },
+                    {
+                      "text": "PHP: Використовується в багатьох CMS-платформах, таких як WordPress.",
+                      "type": "text"
+                    },
+                    {
+                      "type": "hard_break"
+                    },
+                    {
+                      "text": "Liquid: мова шаблонів з відкритим кодом, створена Shopify і написана на Ruby.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            "instruments_logos": [
+              {
+                "id": 17036372,
+                "alt": "php logo",
+                "name": "",
+                "focus": "",
+                "title": "",
+                "source": "",
+                "filename": "https://a.storyblok.com/f/276513/711x384/c290c45712/php-logo.svg",
+                "copyright": "",
+                "fieldtype": "asset",
+                "meta_data": {
+                  "alt": "php logo",
+                  "title": "",
+                  "source": "",
+                  "copyright": ""
+                },
+                "is_private": false,
+                "content_type": "svg"
+              },
+              {
+                "id": 17037352,
+                "alt": "",
+                "name": "",
+                "focus": "",
+                "title": "",
+                "source": "",
+                "filename": "https://a.storyblok.com/f/276513/558x558/08d783fb02/liquid_logo.svg",
+                "copyright": "",
+                "fieldtype": "asset",
+                "meta_data": {},
+                "is_private": false
+              }
+            ],
+            "instruments_list__i18n__en": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Server-Side Programming Languages:",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "PHP:",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ]
+                    },
+                    {
+                      "text": " Used in many CMS platforms, such as WordPress.",
+                      "type": "text"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Liquid:",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ]
+                    },
+                    {
+                      "text": " An open-source template language created by Shopify, written in Ruby.",
+                      "type": "text"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "4o mini",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "_uid": "bc514162-3f88-4019-8f81-ce85ec5fc6d0",
+            "title": "API та інтеграції",
+            "component": "service_instruments_card",
+            "title__i18n__en": "APIs and Integrations",
+            "instruments_list": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Платіжні шлюзи:",
+                      "type": "text"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Stripe, Liqpay: Для обробки онлайн-платежів і забезпечення безпечних транзакцій.",
+                      "type": "text"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Інтеграції з CRM-системами:",
+                      "type": "text"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Salesforce, HubSpot: Для управління відносинами з клієнтами та автоматизації маркетингу.",
+                      "type": "text"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Інтеграції з системами доставки",
+                      "type": "text"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph"
+                }
+              ]
+            },
+            "instruments_logos": [
+              {
+                "id": 17036480,
+                "alt": "Salasforce logo",
+                "name": "",
+                "focus": "",
+                "title": "",
+                "source": "",
+                "filename": "https://a.storyblok.com/f/276513/214x150/d059819744/salesforce_logo.svg",
+                "copyright": "",
+                "fieldtype": "asset",
+                "meta_data": {
+                  "alt": "Salasforce logo",
+                  "title": "",
+                  "source": "",
+                  "copyright": ""
+                },
+                "content_type": "svg"
+              },
+              {
+                "id": 17036479,
+                "alt": "Liqpay logo",
+                "name": "",
+                "focus": "",
+                "title": "",
+                "source": "",
+                "filename": "https://a.storyblok.com/f/276513/610x127/7ba868a484/liqpay_logo.svg",
+                "copyright": "",
+                "fieldtype": "asset",
+                "meta_data": {
+                  "alt": "Liqpay logo",
+                  "title": "",
+                  "source": "",
+                  "copyright": ""
+                },
+                "content_type": "svg"
+              },
+              {
+                "id": 17036478,
+                "alt": "Stripe logo",
+                "name": "",
+                "focus": "",
+                "title": "",
+                "source": "",
+                "filename": "https://a.storyblok.com/f/276513/300x143/ad5b38adff/stripe_logo.svg",
+                "copyright": "",
+                "fieldtype": "asset",
+                "meta_data": {
+                  "alt": "Stripe logo",
+                  "title": "",
+                  "source": "",
+                  "copyright": ""
+                },
+                "content_type": "svg"
+              },
+              {
+                "id": 17036476,
+                "alt": "Hubspot logo",
+                "name": "",
+                "focus": "",
+                "title": "",
+                "source": "",
+                "filename": "https://a.storyblok.com/f/276513/106x31/b70dc8288f/hubspot_logo.svg",
+                "copyright": "",
+                "fieldtype": "asset",
+                "meta_data": {
+                  "alt": "Hubspot logo",
+                  "title": "",
+                  "source": "",
+                  "copyright": ""
+                },
+                "content_type": "svg"
+              }
+            ],
+            "instruments_list__i18n__en": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Payment Gateways:",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Stripe, Liqpay, Fondy:",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ]
+                    },
+                    {
+                      "text": " For processing online payments and ensuring secure transactions.",
+                      "type": "text"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "CRM Integrations:",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Salesforce, HubSpot:",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ]
+                    },
+                    {
+                      "text": " For managing customer relationships and automating marketing.",
+                      "type": "text"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Shipping System Integrations",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "_uid": "c6504df1-64e2-42a0-8eec-687bda547ccf",
+            "title": "Інструменти для аналізу і моніторингу",
+            "component": "service_instruments_card",
+            "title__i18n__en": "Analytics and Monitoring Tools",
+            "instruments_list": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Google Analytics: Для аналізу трафіку та поведінки користувачів на сайті.",
+                      "type": "text"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Hotjar для відстеження взаємодії користувачів з сайтом через теплові карти та записи сеансів.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            "instruments_logos": [
+              {
+                "id": 17036587,
+                "alt": "Hotjar logo",
+                "name": "",
+                "focus": "",
+                "title": "",
+                "source": "",
+                "filename": "https://a.storyblok.com/f/276513/2146x1028/568e81e495/hotjar_logo.svg",
+                "copyright": "",
+                "fieldtype": "asset",
+                "meta_data": {
+                  "alt": "Hotjar logo",
+                  "title": "",
+                  "source": "",
+                  "copyright": ""
+                },
+                "content_type": "svg"
+              },
+              {
+                "id": 17036625,
+                "alt": "Google Analytics Logo",
+                "name": "",
+                "focus": "",
+                "title": "",
+                "source": "",
+                "filename": "https://a.storyblok.com/f/276513/600x207/afdc790473/google_analytics_logo.svg",
+                "copyright": "",
+                "fieldtype": "asset",
+                "meta_data": {
+                  "alt": "Google Analytics Logo",
+                  "title": "",
+                  "source": "",
+                  "copyright": ""
+                },
+                "content_type": "svg"
+              }
+            ],
+            "instruments_list__i18n__en": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Google Analytics:",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ]
+                    },
+                    {
+                      "text": " For analyzing traffic and user behavior on the website.",
+                      "type": "text"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Hotjar:",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ]
+                    },
+                    {
+                      "text": " For tracking user interactions with the site through heatmaps and session recordings.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        ],
+        "title": "Що використовуємо",
+        "component": "service_instruments",
+        "title__i18n__en": "What We Use"
+      },
+      {
+        "_uid": "83b9ed20-a21e-4177-817b-8fe2c39cee97",
+        "title": "Нещодавні проєкти",
+        "component": "projects_grid",
+        "button_txt": "Переглянути кейс",
+        "button2_txt": "Переглянути сайт",
+        "projects_list": [
+          "79aa4ea5-f41a-43f8-96e4-368af6477536",
+          "fc71ed4c-ee73-42a9-ad26-7c74d7f815ac"
+        ],
+        "title__i18n__en": "Recent Projects",
+        "button_txt__i18n__en": "View Case",
+        "button2_txt__i18n__en": "View Site"
+      }
+    ],
+    "title": "Онлайн-магазин",
+    "subtitle": "Надаємо усі необхідні інструменти для успішного ведення електронної комерції.",
+    "component": "service",
+    "description": {
+      "type": "doc",
+      "content": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "text": "Надаємо усі необхідні інструменти для успішного ведення електронної комерції.",
+              "type": "text"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "text": "Від зручного інтерфейсу до безпеки платежів. Зробимо ваш інтернет-магазин ефективним та зручним для клієнтів.",
+              "type": "text"
+            }
+          ]
+        }
+      ]
+    },
+    "title__i18n__en": "Online Store",
+    "subtitle__i18n__en": "We provide all the necessary tools for successful e-commerce.",
+    "description__i18n__en": {
+      "type": "doc",
+      "content": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "text": "We provide all the necessary tools for successful e-commerce.",
+              "type": "text"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "text": "From a user-friendly interface to payment security, we make your online store efficient and convenient for customers.",
+              "type": "text"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "published": true,
+  "slug": "online-store",
+  "path": null,
+  "full_slug": "services/online-store",
+  "default_root": null,
+  "disble_fe_editor": false,
+  "disable_fe_editor": false,
+  "parent": {
+    "id": 502332440,
+    "uuid": "b365af73-57b4-48b9-b679-98c33aba1ab7",
+    "name": "Services",
+    "slug": "services",
+    "disble_fe_editor": false
+  },
+  "is_startpage": false,
+  "unpublished_changes": false,
+  "meta_data": null,
+  "imported_at": null,
+  "preview_token": {
+    "token": "9827378512fb32cac38aa8ba1663db822a68c644",
+    "timestamp": "1781338276"
+  },
+  "pinned": false,
+  "breadcrumbs": [
+    {
+      "id": 502332440,
+      "name": "Services",
+      "parent_id": null,
+      "disble_fe_editor": false,
+      "disable_fe_editor": false,
+      "path": null,
+      "slug": "services",
+      "translated_slugs": []
+    }
+  ],
+  "publish_at": null,
+  "expire_at": null,
+  "first_published_at": "2024-08-16T10:37:04.165Z",
+  "last_author": {
+    "id": 230996,
+    "userid": "zjoka",
+    "friendly_name": "Serhii Halun"
+  },
+  "last_author_id": 230996,
+  "user_ids": [],
+  "space_role_ids": [],
+  "translated_slugs": [],
+  "localized_paths": [
+    {
+      "path": "services/online-store",
+      "name": null,
+      "lang": "en",
+      "published": null
+    }
+  ],
+  "position": -40,
+  "translated_stories": [],
+  "can_not_view": false,
+  "is_scheduled": null,
+  "scheduled_dates": null,
+  "ideas": [],
+  "current_version_id": null,
+  "variant_type": null,
+  "experiment_ids": [],
+  "stage": null,
+  "favourite_for_user_ids": []
+}

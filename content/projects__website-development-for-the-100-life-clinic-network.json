@@ -1,0 +1,636 @@
+{
+  "name": "Website development for the 100% LIFE clinic network",
+  "parent_id": 488037327,
+  "group_id": "518d6ee6-fe0c-4a69-bd96-712e2c29c339",
+  "alternates": [],
+  "created_at": "2025-05-29T10:25:28.862Z",
+  "deleted_at": null,
+  "sort_by_date": null,
+  "tag_list": [],
+  "updated_at": "2025-06-04T15:17:21.569Z",
+  "published_at": "2025-06-04T15:17:21.555Z",
+  "id": 679487827,
+  "uuid": "698b91de-ffe5-411c-8cf9-1873994a784c",
+  "is_folder": false,
+  "content": {
+    "_uid": "14e23787-e208-44e3-9125-8780271503b2",
+    "cover": {
+      "id": 22746858,
+      "alt": "100% Life Clinic",
+      "name": "",
+      "focus": "",
+      "title": "",
+      "source": "",
+      "filename": "https://a.storyblok.com/f/276513/531x354/8472fa2adb/100-life-clinic.webp",
+      "copyright": "",
+      "fieldtype": "asset",
+      "meta_data": {
+        "alt": "100% Life Clinic",
+        "title": "",
+        "source": "",
+        "copyright": ""
+      },
+      "is_external_url": false
+    },
+    "title": "Розробка сайту для мережі клінік 100% ЖИТТЯ",
+    "blocks": [
+      {
+        "_uid": "1780bbf9-b752-4be8-991a-13c6e8d1613b",
+        "text": {
+          "type": "doc",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Фонд має широку присутність у регіонах і фокусується на наданні медичних послуг із людяним підходом: тестування, консультації, супровід пацієнтів з ВІЛ, вірусними гепатитами, туберкульозом тощо.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        "headline": "«100% ЖИТТЯ» — найбільша в Україні мережа клінік, орієнтованих на допомогу вразливим групам населення",
+        "component": "project_headline",
+        "text__i18n__en": {
+          "type": "doc",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "The Foundation has a wide presence in the regions and focuses on providing medical services with a human approach: testing, counseling, and support for patients with HIV, viral hepatitis, tuberculosis, etc.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        "headline__i18n__en": "100% LIFE is the largest network of clinics in Ukraine focused on helping vulnerable groups"
+      },
+      {
+        "_uid": "2ad65c42-c7ff-4cb6-82c4-3f7e8931e3e2",
+        "component": "project_challenge_and_instruments",
+        "challenge_txt": {
+          "type": "doc",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Розробити сучасний сайт для мережі клінік із зручною навігацією",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Об'єднати регіональні відділення в єдиній системі",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Провести повну SEO-оптимізацію під запити в медичній тематиці",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Запустити Google Ads кампанії для залучення звернень у різних містах України",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        "challenge_title": "🙌 Виклики",
+        "instruments_txt": {
+          "type": "doc",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Webflow, ",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Figma, ",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Ahrefs, ",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Google Ads, ",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Google Analytics",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        "instruments_title": "🧠 Що використвовували?",
+        "challenge_txt__i18n__en": {
+          "type": "doc",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Develop a modern website for the clinic network with easy navigation",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Combine regional offices in a single system",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Conduct full SEO optimization for medical queries",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Launch Google Ads campaigns to attract requests in different cities of Ukraine",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        "challenge_title__i18n__en": "🙌 Challenges",
+        "instruments_txt__i18n__en": {
+          "type": "doc",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Webflow, ",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Figma, ",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Ahrefs, ",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Google Ads, ",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Google Analytics",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        "instruments_title__i18n__en": "🧠 What did you use?"
+      },
+      {
+        "_uid": "535d461b-f36e-42f6-806f-57cda1748caa",
+        "title": "Ключові результати",
+        "component": "project_results",
+        "title__i18n__en": "Key results",
+        "project_results_cards": [
+          {
+            "_uid": "3e610536-960d-45e6-b828-20d3f4d69348",
+            "text": "",
+            "title": "4700+ звернень за перші 6 місяців через сайт",
+            "component": "project_results_card",
+            "title__i18n__en": "4700+ applications in the first 6 months through the site"
+          },
+          {
+            "_uid": "2eb20cd5-87e7-4691-bef8-c571d23bac7f",
+            "text": "",
+            "title": "1000+ пацієнтів записалися на консультації онлайн",
+            "component": "project_results_card",
+            "title__i18n__en": "1000+ patients signed up for online consultations"
+          },
+          {
+            "_uid": "7ea5d2be-1d72-47ce-aecb-d671864ef906",
+            "text": "",
+            "title": "CTR понад 8% у пошукових кампаніях",
+            "component": "project_results_card",
+            "title__i18n__en": "CTR over 8% in search campaigns"
+          },
+          {
+            "_uid": "aa32e4c7-6188-4bfe-ba1b-fbd3e94f610c",
+            "text": "",
+            "title": "Середня вартість залучення одного пацієнта — $1.20",
+            "component": "project_results_card",
+            "title__i18n__en": "The average cost of attracting one patient is $1.20"
+          },
+          {
+            "_uid": "a4160d8b-02dd-4ee5-977e-5f00ecb88387",
+            "text": "",
+            "title": "Ріст органічного трафіку на 180% протягом 3 місяців",
+            "component": "project_results_card",
+            "title__i18n__en": "Organic traffic growth by 180% within 3 months"
+          }
+        ]
+      },
+      {
+        "_uid": "37b6f2c8-3c06-4979-a5d1-6a3421115e9c",
+        "cards": [
+          {
+            "_uid": "48490cd4-c110-4883-8759-3d03c6dfc3c6",
+            "text": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "з каталогом, фільтрацією за містом і послугами, мапою, формою онлайн-запису та адаптивною мобільною версією — повністю орієнтований на  масштабування мережі",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            "title": "Масштабований сайт на Webflow +",
+            "component": "project_implementation_card",
+            "text__i18n__en": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "with a catalog, filtering by city and service, map, online registration form and adaptive mobile version - fully focused on network scaling",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            "title__i18n__en": "A scalable website on Webflow+"
+          },
+          {
+            "_uid": "f4b90159-757e-4437-b76d-e2a2a7cda142",
+            "text": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "та сформували семантичне ядро для кожного регіону, оптимізували сторінки послуг, впровадили розмітку, підготували цільовий контент і забезпечили високі показники швидкості з Core Web Vitals",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            "title": "Заклали потужний SEO-фундамент",
+            "component": "project_implementation_card",
+            "text__i18n__en": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "and formed a semantic core for each region, optimized service pages, implemented markup, prepared targeted content, and ensured high speed performance with Core Web Vitals",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            "title__i18n__en": "Laid a strong SEO foundation"
+          },
+          {
+            "_uid": "6ef4a48c-44d2-4133-b49c-5f65ec1cb364",
+            "text": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "для кожного регіону з геотаргетингом, фокусом на вузькі запити типу «безкоштовне тестування на ВІЛ». Відтестовано 70 кампаній та 3400 ключів",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            "title": "Запустили окремі Google Ads кампанії",
+            "component": "project_implementation_card",
+            "text__i18n__en": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "for each region with geotargeting, focusing on narrow queries such as “free HIV testing”. Tested 70 campaigns and 3400 keys",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            "title__i18n__en": "Launched separate Google Ads campaigns"
+          }
+        ],
+        "title": "Реалізація",
+        "component": "project_implementation",
+        "button_text": "Переглянути Веб Сайт",
+        "title__i18n__en": "Realization",
+        "button_text__i18n__en": "View Website"
+      },
+      {
+        "_uid": "3f5a80fe-bacf-42fc-b2a2-f67386e23598",
+        "title": "🗣️Відгук клієнта",
+        "component": "testimonials",
+        "testimonials": [
+          {
+            "ava": {
+              "id": 22744246,
+              "alt": "",
+              "name": "",
+              "focus": "",
+              "title": "",
+              "source": "",
+              "filename": "https://a.storyblok.com/f/276513/281x281/176d803d6c/mykola-taborovets.webp",
+              "copyright": "",
+              "fieldtype": "asset",
+              "meta_data": {},
+              "is_external_url": false
+            },
+            "_uid": "1c065c44-a9b0-40aa-8d24-f865ad19e692",
+            "name": "Микола Таборовець",
+            "fb_link": {
+              "id": "",
+              "url": "https://www.facebook.com/profile.php?id=100007169715864&sk=%D1%84about",
+              "linktype": "url",
+              "fieldtype": "multilink",
+              "cached_url": "https://www.facebook.com/profile.php?id=100007169715864&sk=%D1%84about"
+            },
+            "component": "testimonial_card",
+            "description": "Директор мережі клінік 100% ЖИТТЯ",
+            "testimonial": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Команда Webrarium розробляла для нашого медичного центру вебсайт 100percentlife.clinic. ",
+                      "type": "text"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph"
+                },
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Відмічу ряд надважливих для мене, як директора, позитивних речей при роботі з розробником. Перше - комунікація, що на мою думку, є найважливіше. Сергій, керівник команди розробників, в процесі усієї нашої співпраці, практично безперервно, був на звʼязку. ",
+                      "type": "text"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph"
+                },
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Друге - це якісно розроблений проєкт. Отримали повноцінний сайт медичного центру, який закрив нам практично всі потреби. ",
+                      "type": "text"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph"
+                },
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Команда Webrarium виконала більшу кількість робіт, ніж було обумовлено договором, за це окрема вдячність. Надалі продовжуємо нашу співпрацю по цьому, а також по інших проєктах. Бажаємо сталого розвитку та нових проєктів!",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            "name__i18n__en": "Mykola Taborovets",
+            "description__i18n__en": "Director of the 100% LIFE clinic network",
+            "testimonial__i18n__en": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "The Webrarium team developed the 100percentlife.clinic website for our medical center.",
+                      "type": "text"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "I would like to note a number of positive things that are extremely important for me as a director when working with a developer. The first is communication, which I think is the most important thing. Sergiy, the head of the development team, was in touch almost continuously throughout our cooperation.",
+                      "type": "text"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "The second is a well-designed project. We received a full-fledged medical center website that covered almost all our needs.",
+                      "type": "text"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "The Webrarium team did more work than was stipulated in the contract, and we are very grateful for that. In the future, we will continue our cooperation on this and other projects. We wish you sustainable development and new projects!",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        ],
+        "title__i18n__en": "🗣️ Customer review"
+      },
+      {
+        "_uid": "0d8b6983-3181-40ed-9df3-4fa357cda3f4",
+        "title": "Схожі проєкти",
+        "component": "projects_grid",
+        "button_txt": "Переглянути Кейс",
+        "button2_txt": "Переглянути Сайт",
+        "projects_list": [
+          "55a8d19c-babf-4e12-b142-6a2ba090d65c",
+          "79aa4ea5-f41a-43f8-96e4-368af6477536",
+          "87b9c021-466d-4d37-9a95-7dc081b4d0b9"
+        ]
+      }
+    ],
+    "subtitle": "Сайт для мережі клінік 100% ЖИТТЯ — повний цикл: дизайн, розробка на Webflow, SEO та Google-реклама з результатом у 4700 звернень",
+    "component": "project",
+    "description": "Розробка сайту для мережі клінік 100% ЖИТТЯ: дизайн, Webflow, SEO та реклама, що принесла понад 4700 звернень через сайт",
+    "title__i18n__en": "Website development for the network of clinics 100% LIFE",
+    "project_site_link": {
+      "id": "",
+      "url": "https://www.100percentlife.clinic",
+      "linktype": "url",
+      "fieldtype": "multilink",
+      "cached_url": "https://www.100percentlife.clinic"
+    },
+    "subtitle__i18n__en": "Website for the 100% LIFE clinic chain - full cycle: design, development on Webflow, SEO, and Google advertising with a result of 4700 visits",
+    "description__i18n__en": "Website development for the 100% LIFE clinic network: design, Webflow, SEO, and advertising, which brought more than 4700 requests through the site"
+  },
+  "published": true,
+  "slug": "website-development-for-the-100-life-clinic-network",
+  "path": null,
+  "full_slug": "projects/website-development-for-the-100-life-clinic-network",
+  "default_root": null,
+  "disble_fe_editor": false,
+  "disable_fe_editor": false,
+  "parent": {
+    "id": 488037327,
+    "uuid": "4d89644d-6011-41db-8e49-af619af0d34e",
+    "name": "Projects",
+    "slug": "projects",
+    "disble_fe_editor": false
+  },
+  "is_startpage": false,
+  "unpublished_changes": false,
+  "meta_data": null,
+  "imported_at": null,
+  "preview_token": {
+    "token": "e26193665586952ddb05f4d4b984f820209e30f7",
+    "timestamp": "1781338274"
+  },
+  "pinned": false,
+  "breadcrumbs": [
+    {
+      "id": 488037327,
+      "name": "Projects",
+      "parent_id": null,
+      "disble_fe_editor": false,
+      "disable_fe_editor": false,
+      "path": null,
+      "slug": "projects",
+      "translated_slugs": []
+    }
+  ],
+  "publish_at": null,
+  "expire_at": null,
+  "first_published_at": "2025-05-29T15:26:43.617Z",
+  "last_author": {
+    "id": 230996,
+    "userid": "zjoka",
+    "friendly_name": "Serhii Halun"
+  },
+  "last_author_id": 230996,
+  "user_ids": [],
+  "space_role_ids": [],
+  "translated_slugs": [],
+  "localized_paths": [
+    {
+      "path": "projects/website-development-for-the-100-life-clinic-network",
+      "name": null,
+      "lang": "en",
+      "published": null
+    }
+  ],
+  "position": -120,
+  "translated_stories": [],
+  "can_not_view": false,
+  "is_scheduled": null,
+  "scheduled_dates": null,
+  "ideas": [],
+  "current_version_id": null,
+  "variant_type": null,
+  "experiment_ids": [],
+  "stage": null,
+  "favourite_for_user_ids": []
+}

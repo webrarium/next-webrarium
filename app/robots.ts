@@ -4,16 +4,9 @@ export default function robots(): MetadataRoute.Robots {
   return {
     rules: [
       {
-        userAgent: "Googlebot",
-        allow: "/",
-      },
-      {
-        userAgent: "Bingbot",
-        allow: "/",
-      },
-      {
         userAgent: "*",
-        disallow: "/",
+        allow: "/",
+        disallow: ["/uikit", "/en/uikit"],
       },
     ],
     sitemap: "https://webrarium.com/sitemap.xml",

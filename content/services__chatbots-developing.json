@@ -1,0 +1,892 @@
+{
+  "name": "Chatbots Developing",
+  "parent_id": 502332440,
+  "group_id": "819aa846-602b-41e2-89a4-ac0a8646d75c",
+  "alternates": [],
+  "created_at": "2025-05-30T12:29:37.695Z",
+  "deleted_at": null,
+  "sort_by_date": null,
+  "tag_list": [],
+  "updated_at": "2025-08-06T09:01:15.051Z",
+  "published_at": "2025-08-06T09:01:15.034Z",
+  "id": 680109695,
+  "uuid": "f6041b97-5acc-416c-9751-80ce6af78197",
+  "is_folder": false,
+  "content": {
+    "_uid": "49786d08-ec98-43e2-9161-efc6a079deea",
+    "body": [
+      {
+        "_uid": "900ce8a4-eaab-42e8-a288-2c3d3508f6d3",
+        "text": {
+          "type": "doc",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Розробка чат-ботів — це процес створення віртуальних помічників, які можуть спілкуватися з користувачами через текст або голос. Боти можуть відповідати на запитання, допомагати з вибором, оформляти замовлення, збирати дані або виконувати внутрішні завдання. Їх можна інтегрувати на сайти, у Telegram, WhatsApp, Facebook Messenger, CRM або голосові сервіси",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        "headline": "🔍 Що таке розробка чат-ботів?",
+        "component": "project_headline",
+        "text__i18n__en": {
+          "type": "doc",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Chatbot development is the process of creating virtual assistants that can communicate with users via text or voice. Bots can answer questions, help with choices, place orders, collect data, or perform internal tasks. They can be integrated into websites, Telegram, WhatsApp, Facebook Messenger, CRM, or voice services",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        "headline__i18n__en": "🔍 What is chatbot development?"
+      },
+      {
+        "_uid": "3619c828-bafb-46e9-9854-a3a237765cd1",
+        "title": "🧩 Чат-боти корисні для бізнесів у сферах",
+        "component": "service_details",
+        "title__i18n__en": "🧩 Chatbots are useful for businesses in the following areas",
+        "service_details_cards": [
+          {
+            "_uid": "e08aa16a-ddba-4d9e-96e0-c5f8e951f78b",
+            "title": "Підтримка клієнтів",
+            "component": "service_details_card",
+            "description": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Автоматизовані чати та голосові боти обробляють типові звернення 24/7: відстеження статусу замовлення, відповіді на часті запитання, заповнення форм",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            "title__i18n__en": "Customer support",
+            "description__i18n__en": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Automated chats and voice bots handle typical requests 24/7: tracking order status, answering frequently asked questions, filling out forms",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "_uid": "ad36f13d-8216-40cb-abb7-52bae33cd135",
+            "title": "E-commerce",
+            "component": "service_details_card",
+            "description": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Чат-боти можуть виступати як персональні асистенти: допомагають користувачам знайти потрібний товар за параметрами, пояснюють умови оплати та доставки, формують замовлення та надсилають трекінг-інформацію",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            "title__i18n__en": "E-commerce",
+            "description__i18n__en": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Chatbots can act as personal assistants: they help users find the right product by parameters, explain payment and delivery terms, place orders, and send tracking information",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "_uid": "927b2cca-81d3-4e43-bf76-e2f6e2800e2e",
+            "title": "Медицина",
+            "component": "service_details_card",
+            "description": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Цифрові помічники автоматизують запис на прийом до лікаря, нагадування про візити та надають пацієнтам базову інформацію: години роботи, послуги, підготовка до процедур",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            "title__i18n__en": "Medicine",
+            "description__i18n__en": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Digital assistants automate doctor appointments, reminders, and provide patients with basic information such as opening hours, services, and preparation for procedures",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "_uid": "6422b1fd-97b1-4001-9767-ef11e84446a2",
+            "title": "Освіта",
+            "component": "service_details_card",
+            "description": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Боти в освітніх проєктах допомагають з навігацією по курсу, відповідають на адміністративні запити, проводять міні-тести або опитування для перевірки знань і збирають фідбек",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            "title__i18n__en": "Education",
+            "description__i18n__en": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Bots in educational projects help with course navigation, answer administrative queries, conduct mini-tests or surveys to test knowledge, and collect feedback",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "_uid": "ddf54da2-93f8-4c54-b007-fcec9299ed23",
+            "title": "Нерухомість",
+            "component": "service_details_card",
+            "description": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Автоматизовані сценарії дозволяють швидко зібрати контактні дані потенційного клієнта, з’ясувати потреби (локація, бюджет, тип нерухомості) й автоматично призначити зустріч або показ",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            "title__i18n__en": "Real estate",
+            "description__i18n__en": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Automated scenarios allow you to quickly collect contact details of a potential client, find out their needs (location, budget, type of property), and automatically schedule a meeting or a showing",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "_uid": "a4400920-e773-4e4c-9bcb-4f74699fbdab",
+            "title": "HR",
+            "component": "service_details_card",
+            "description": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "HR-боти супроводжують новачків у перші дні: надсилають інструкції, знайомлять із політиками компанії, дають відповіді на поширені запитання щодо лікарняних, відпусток, документів",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            "title__i18n__en": "HR",
+            "description__i18n__en": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "HR bots accompany newcomers in their first days: they send instructions, introduce company policies, and answer frequently asked questions about sick leave, vacations, and documents",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "_uid": "8ecd9ffe-3ae0-4d1c-bd4f-71cafb875860",
+        "cards": [
+          {
+            "_uid": "437dbb41-f6e9-4d67-b805-e9e017e8bad2",
+            "title": "Аналіз бізнес-процесів і цілей компанії",
+            "component": "service_need_card",
+            "description": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Починаємо з детального вивчення бізнесу: визначаємо задачі, розуміємо аудиторію, аналізуємо типові сценарії комунікації. Формуємо перелік функцій, які можна автоматизувати, та описуємо, як бот покращить взаємодію з клієнтами, підвищить ефективність і заощадить ресурси.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            "title__i18n__en": "Analysis of business processes and company goals",
+            "description__i18n__en": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "We start with a detailed study of the business: we define tasks, understand the audience, and analyze typical communication scenarios. We create a list of functions that can be automated and describe how the bot will improve customer interaction, increase efficiency, and save resources.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "_uid": "072e9a35-8baf-4c9f-9b94-e2b3d235de46",
+            "title": "Розробка ботів для сайтів і месенджерів",
+            "component": "service_need_card",
+            "description": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Створюємо ботів під Telegram, WhatsApp, Facebook Messenger, Instagram, а також для впровадження на сайті. Обираємо найкращу платформу під задачі: від простого конструктора до повністю кастомного рішення з гнучкою логікою, серверною частиною та інтеграціями.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            "title__i18n__en": "Development of bots for websites and messengers",
+            "description__i18n__en": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "We create bots for Telegram, WhatsApp, Facebook Messenger, Instagram, as well as for implementation on a website. We choose the best platform for the task: from a simple constructor to a fully custom solution with flexible logic, backend, and integrations.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "_uid": "30d94e7a-ca9a-402b-aa6c-bb4ef41061b4",
+            "title": "Інтеграція з CRM, Google Таблицями та API",
+            "component": "service_need_card",
+            "description": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Під’єднуємо ботів до внутрішніх систем: CRM, Google Sheets, ERP, сервісів оплати або сторонніх API. Завдяки цьому заявки з чату одразу фіксуються, обробляються автоматично або передаються потрібному співробітнику. Бот стає частиною бізнес-процесу.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            "title__i18n__en": "Integration with CRM, Google Sheets, and APIs",
+            "description__i18n__en": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "We connect bots to internal systems: CRM, Google Sheets, ERP, payment services, or third-party APIs. Thanks to this, chat requests are immediately recorded, processed automatically, or transferred to the right employee. The bot becomes part of the business process.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "_uid": "6b7cb202-7303-4782-91b7-f6dad0ae10a7",
+            "title": "Використання платформ або індивідуальна розробка",
+            "component": "service_need_card",
+            "description": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Для швидкого запуску реалізовуємо рішення на базі ManyChat, Chatfuel або Dialogflow. Для складних завдань створюємо кастомних ботів з унікальним функціоналом. Враховуємо бюджет, строки та вимоги до масштабування, безпеки й майбутньої підтримки.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            "title__i18n__en": "Using platforms or custom development",
+            "description__i18n__en": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "For a quick launch, we implement solutions based on ManyChat, Chatfuel, or Dialogflow. For complex tasks, we create custom bots with unique functionality. We take into account the budget, timeframe, and requirements for scaling, security, and future support.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        ],
+        "media": "",
+        "title": "⚙️ Повний цикл створення чат-ботів",
+        "component": "service_need",
+        "title__i18n__en": "⚙️ Full cycle of chatbot development"
+      },
+      {
+        "_uid": "067fde40-7f97-44e9-8f80-12cb09f32f3d",
+        "title": "✅ Замовляючи розробку чат-бота у нас, ви отримуєте:",
+        "component": "project_results",
+        "title__i18n__en": "✅ When you order chatbot development from us, you get:",
+        "project_results_cards": [
+          {
+            "_uid": "4e475b7e-9006-4030-8dac-e2a08c5b93a3",
+            "text": "бот під ваш бізнес, без шаблонів",
+            "title": "🧠 Індивідуальне рішення",
+            "component": "project_results_card",
+            "text__i18n__en": "a bot for your business, without templates",
+            "title__i18n__en": "🧠 Customized solution"
+          },
+          {
+            "_uid": "1d42383b-7ab0-40ea-92e8-81ec5d351609",
+            "text": "логічний, простий, орієнтований на UX",
+            "title": "💬 Зручний сценарій діалогу",
+            "component": "project_results_card",
+            "text__i18n__en": "logical, simple, UX-oriented",
+            "title__i18n__en": "💬 Convenient dialog script"
+          },
+          {
+            "_uid": "91474eb6-0a10-494d-9eab-1ef88fef53c6",
+            "text": "без відпусток, перерв і вихідних.",
+            "title": "🤖 Працює 24/7",
+            "component": "project_results_card",
+            "text__i18n__en": "without vacations, breaks or days off.",
+            "title__i18n__en": "🤖 Available 24/7"
+          },
+          {
+            "_uid": "5612526f-e154-4a58-abfe-426f563bf64b",
+            "text": "CRM, API, форми, таблиці, пошта",
+            "title": "🔗 Інтеграція з системами",
+            "component": "project_results_card",
+            "text__i18n__en": "CRM, API, forms, tables, email",
+            "title__i18n__en": "🔗 Integration with systems"
+          },
+          {
+            "_uid": "933c4bc6-bea9-4b04-a2c1-a5b05f9eecad",
+            "text": "відстеження дій користувачів",
+            "title": "📊 Збір і аналітика даних",
+            "component": "project_results_card",
+            "text__i18n__en": "tracking user actions",
+            "title__i18n__en": "📊 Data collection and analytics"
+          },
+          {
+            "_uid": "818815a3-2374-4e09-b12f-eaa15c39ac4b",
+            "text": "перевірка роботи на помилки",
+            "title": "🧪 Тестування перед запуском",
+            "component": "project_results_card",
+            "text__i18n__en": "checking the work for errors",
+            "title__i18n__en": "🧪 Testing before launch"
+          },
+          {
+            "_uid": "78c0b773-d27b-42a6-ae4a-74bd94de014a",
+            "text": "допомога після запуску бота",
+            "title": "🛠 Підтримка та оновлення",
+            "component": "project_results_card",
+            "text__i18n__en": "help after launching the bot",
+            "title__i18n__en": "🛠 Support and updates"
+          },
+          {
+            "_uid": "d8793b14-69c2-4a59-b3b9-3a499c1b983d",
+            "text": "легко додаємо функціонал",
+            "title": "🌐 Можливість масштабування ",
+            "component": "project_results_card",
+            "text__i18n__en": "easy to add functionality",
+            "title__i18n__en": "🌐 Scalability"
+          }
+        ]
+      },
+      {
+        "_uid": "62d4bd28-6939-4475-929f-d9f7c6c8535c",
+        "cards": [
+          {
+            "_uid": "f68d2d46-48f1-486b-be92-c3ba77f8714e",
+            "title": "Платформи",
+            "component": "service_instruments_card",
+            "title__i18n__en": "Platforms",
+            "instruments_list": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Dialogflow, OpenAI (GPT),  Rasa,  ManyChat, Chatfuel",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            "instruments_logos": [
+              {
+                "id": 22765788,
+                "alt": "rasa logo",
+                "name": "",
+                "focus": "",
+                "title": "",
+                "source": "",
+                "filename": "https://a.storyblok.com/f/276513/413x188/8734eb9100/rasa-logo.webp",
+                "copyright": "",
+                "fieldtype": "asset",
+                "meta_data": {
+                  "alt": "rasa logo",
+                  "title": "",
+                  "source": "",
+                  "copyright": ""
+                }
+              },
+              {
+                "id": 22765787,
+                "alt": "openAI-logo",
+                "name": "",
+                "focus": "",
+                "title": "",
+                "source": "",
+                "filename": "https://a.storyblok.com/f/276513/1180x320/f23ca2dea4/openai-logo.webp",
+                "copyright": "",
+                "fieldtype": "asset",
+                "meta_data": {
+                  "alt": "openAI-logo",
+                  "title": "",
+                  "source": "",
+                  "copyright": ""
+                }
+              },
+              {
+                "id": 22765786,
+                "alt": "DialogFlow Logo",
+                "name": "",
+                "focus": "",
+                "title": "",
+                "source": "",
+                "filename": "https://a.storyblok.com/f/276513/353x116/396506bec2/dialogflow.webp",
+                "copyright": "",
+                "fieldtype": "asset",
+                "meta_data": {
+                  "alt": "DialogFlow Logo",
+                  "title": "",
+                  "source": "",
+                  "copyright": ""
+                }
+              },
+              {
+                "id": 22765785,
+                "alt": "chatfuel Logo",
+                "name": "",
+                "focus": "",
+                "title": "",
+                "source": "",
+                "filename": "https://a.storyblok.com/f/276513/667x140/68e49e712c/chatfuel-logo.webp",
+                "copyright": "",
+                "fieldtype": "asset",
+                "meta_data": {
+                  "alt": "chatfuel Logo",
+                  "title": "",
+                  "source": "",
+                  "copyright": ""
+                }
+              },
+              {
+                "id": 22765784,
+                "alt": "manychat logo",
+                "name": "",
+                "focus": "",
+                "title": "",
+                "source": "",
+                "filename": "https://a.storyblok.com/f/276513/354x116/6735d372ed/manychat-logo.webp",
+                "copyright": "",
+                "fieldtype": "asset",
+                "meta_data": {
+                  "alt": "manychat logo",
+                  "title": "",
+                  "source": "",
+                  "copyright": ""
+                }
+              }
+            ],
+            "instruments_list__i18n__en": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Dialogflow, OpenAI (GPT),  Rasa,  ManyChat, Chatfuel",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "_uid": "fc1f95b0-0bda-43fd-a7e5-a9aa0e7222ff",
+            "title": "Мови програмування",
+            "component": "service_instruments_card",
+            "title__i18n__en": "Programming languages",
+            "instruments_list": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "JavaScript, Python",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            "instruments_logos": [
+              {
+                "id": 17036329,
+                "alt": "",
+                "name": "",
+                "focus": "",
+                "title": "",
+                "source": "",
+                "filename": "https://a.storyblok.com/f/276513/150x150/d34a92bbd4/js_logo.svg",
+                "copyright": "",
+                "fieldtype": "asset",
+                "meta_data": {}
+              },
+              {
+                "id": 17126331,
+                "alt": "",
+                "name": "",
+                "focus": "",
+                "title": "",
+                "source": "",
+                "filename": "https://a.storyblok.com/f/276513/519x154/34bdc0b722/python_logo.svg",
+                "copyright": "",
+                "fieldtype": "asset",
+                "meta_data": {}
+              }
+            ],
+            "instruments_list__i18n__en": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "JavaScript, Python",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "_uid": "7f2a2900-dd13-42b1-82fe-df7a845b3cf8",
+            "title": "Канали",
+            "component": "service_instruments_card",
+            "title__i18n__en": "Channels",
+            "instruments_list": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Telegram, WhatsApp, Viber, Messenger, віджет на сайт",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            "instruments_logos": [
+              {
+                "id": 22765947,
+                "alt": "Telegram Logo",
+                "name": "",
+                "focus": "",
+                "title": "",
+                "source": "",
+                "filename": "https://a.storyblok.com/f/276513/512x512/7bcf04b90b/telegram_app-logo.webp",
+                "copyright": "",
+                "fieldtype": "asset",
+                "meta_data": {
+                  "alt": "Telegram Logo",
+                  "title": "",
+                  "source": "",
+                  "copyright": ""
+                }
+              },
+              {
+                "id": 22765949,
+                "alt": "WhatsApp Logo",
+                "name": "",
+                "focus": "",
+                "title": "",
+                "source": "",
+                "filename": "https://a.storyblok.com/f/276513/512x513/957ab8be1d/whatsapp-logo.webp",
+                "copyright": "",
+                "fieldtype": "asset",
+                "meta_data": {
+                  "alt": "WhatsApp Logo",
+                  "title": "",
+                  "source": "",
+                  "copyright": ""
+                }
+              },
+              {
+                "id": 22765948,
+                "alt": "Viber Logo",
+                "name": "",
+                "focus": "",
+                "title": "",
+                "source": "",
+                "filename": "https://a.storyblok.com/f/276513/632x666/4097ba1978/viber-logo.webp",
+                "copyright": "",
+                "fieldtype": "asset",
+                "meta_data": {
+                  "alt": "Viber Logo",
+                  "title": "",
+                  "source": "",
+                  "copyright": ""
+                }
+              },
+              {
+                "id": 22765951,
+                "alt": "Messenger Logo",
+                "name": "",
+                "focus": "",
+                "title": "",
+                "source": "",
+                "filename": "https://a.storyblok.com/f/276513/512x512/2e37a96054/messenger-logo.webp",
+                "copyright": "",
+                "fieldtype": "asset",
+                "meta_data": {
+                  "alt": "Messenger Logo",
+                  "title": "",
+                  "source": "",
+                  "copyright": ""
+                }
+              },
+              {
+                "id": 22765950,
+                "alt": "Dialog Logo",
+                "name": "",
+                "focus": "",
+                "title": "",
+                "source": "",
+                "filename": "https://a.storyblok.com/f/276513/397x397/7b53ca043b/dialog-widget.webp",
+                "copyright": "",
+                "fieldtype": "asset",
+                "meta_data": {
+                  "alt": "Dialog Logo",
+                  "title": "",
+                  "source": "",
+                  "copyright": ""
+                }
+              }
+            ],
+            "instruments_list__i18n__en": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Telegram, WhatsApp, Viber, Messenger, віджет на сайт",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        ],
+        "title": "Інстументи, що використовуємо",
+        "component": "service_instruments",
+        "title__i18n__en": "Tools we use"
+      }
+    ],
+    "title": "Розробка чат-ботів",
+    "subtitle": "Автоматизуйте комунікацію, заощаджуйте час і покращуйте клієнтський досвід. Від простих ботів із кнопками до розумних асистентів на ШІ — ми створюємо рішення, що відповідають вашим бізнес-цілям",
+    "component": "service",
+    "description": {
+      "type": "doc",
+      "content": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "text": "Чат-боти допомагають бізнесу відповідати на типові запитання, підтримувати користувачів 24/7 і оптимізувати комунікацію на сайті, у месенджерах та соцмережах",
+              "type": "text"
+            }
+          ]
+        }
+      ]
+    },
+    "title__i18n__en": "Chatbot development",
+    "subtitle__i18n__en": "Automate communication, save time, and improve customer experience. From simple push-button bots to AI-powered smart assistants, we create solutions that meet your business goals",
+    "description__i18n__en": {
+      "type": "doc",
+      "content": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "text": "Chatbots help businesses answer common questions, support users 24/7, and optimize communication on their websites, messengers, and social networks",
+              "type": "text"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "published": true,
+  "slug": "chatbots-developing",
+  "path": null,
+  "full_slug": "services/chatbots-developing",
+  "default_root": null,
+  "disble_fe_editor": false,
+  "disable_fe_editor": false,
+  "parent": {
+    "id": 502332440,
+    "uuid": "b365af73-57b4-48b9-b679-98c33aba1ab7",
+    "name": "Services",
+    "slug": "services",
+    "disble_fe_editor": false
+  },
+  "is_startpage": false,
+  "unpublished_changes": false,
+  "meta_data": null,
+  "imported_at": null,
+  "preview_token": {
+    "token": "c08a8ca0691d2070ab32459a469e1efa9a0e2ed0",
+    "timestamp": "1781338273"
+  },
+  "pinned": false,
+  "breadcrumbs": [
+    {
+      "id": 502332440,
+      "name": "Services",
+      "parent_id": null,
+      "disble_fe_editor": false,
+      "disable_fe_editor": false,
+      "path": null,
+      "slug": "services",
+      "translated_slugs": []
+    }
+  ],
+  "publish_at": null,
+  "expire_at": null,
+  "first_published_at": "2025-05-30T12:35:31.874Z",
+  "last_author": {
+    "id": 230996,
+    "userid": "zjoka",
+    "friendly_name": "Serhii Halun"
+  },
+  "last_author_id": 230996,
+  "user_ids": [],
+  "space_role_ids": [],
+  "translated_slugs": [],
+  "localized_paths": [
+    {
+      "path": "services/chatbots-developing",
+      "name": null,
+      "lang": "en",
+      "published": null
+    }
+  ],
+  "position": -180,
+  "translated_stories": [],
+  "can_not_view": false,
+  "is_scheduled": null,
+  "scheduled_dates": null,
+  "ideas": [],
+  "current_version_id": null,
+  "variant_type": null,
+  "experiment_ids": [],
+  "stage": null,
+  "favourite_for_user_ids": []
+}

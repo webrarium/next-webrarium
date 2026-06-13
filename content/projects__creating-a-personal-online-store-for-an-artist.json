@@ -1,0 +1,471 @@
+{
+  "name": "Creating a personal online store for an artist",
+  "parent_id": 488037327,
+  "group_id": "d831dbc7-7613-4e4c-973f-a38a86b2e1f7",
+  "alternates": [],
+  "created_at": "2024-08-20T14:35:56.822Z",
+  "deleted_at": null,
+  "sort_by_date": null,
+  "tag_list": [],
+  "updated_at": "2025-04-08T15:20:25.205Z",
+  "published_at": "2024-09-05T17:58:30.735Z",
+  "id": 537864435,
+  "uuid": "79aa4ea5-f41a-43f8-96e4-368af6477536",
+  "is_folder": false,
+  "content": {
+    "_uid": "237153cd-b55b-4276-9b79-20759a06ab00",
+    "cover": {
+      "id": 21756388,
+      "alt": "Balbyshev Oleksandr",
+      "name": "",
+      "focus": "",
+      "title": "",
+      "source": "",
+      "filename": "https://a.storyblok.com/f/276513/1200x630/e0c6fe5596/hands_of_god_nebula.webp",
+      "copyright": "",
+      "fieldtype": "asset",
+      "meta_data": {
+        "alt": "Balbyshev Oleksandr",
+        "title": "",
+        "source": "",
+        "copyright": ""
+      },
+      "content_type": "webp",
+      "is_external_url": false
+    },
+    "title": "Створення персонального інтернет-магазину для художника",
+    "blocks": [
+      {
+        "_uid": "84f66780-6b33-425e-9082-2994705e7295",
+        "text": {
+          "type": "doc",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Розробка інтернет-магазину на Shopify",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ]
+                },
+                {
+                  "text": " – це ефективне рішення для тих, хто хоче створити потужний онлайн-бізнес. Shopify є однією з найпопулярніших платформ для електронної комерції, яка забезпечує простий та зручний процес створення, налаштування та управління інтернет-магазином.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        "headline": "Розробка інтернет-магазину на Shopify: Професійний підхід до створення успішного онлайн-бізнесу",
+        "component": "project_headline",
+        "text__i18n__en": {
+          "type": "doc",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "This is an effective solution for those looking to build a powerful online business. Shopify is one of the most popular e-commerce platforms, offering a simple and convenient process for creating, customizing, and managing an online store.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        "headline__i18n__en": "Developing an Online Store on Shopify: A Professional Approach to Building a Successful Online Business"
+      },
+      {
+        "_uid": "59af44fa-85f6-4c19-a5a7-f3c8c89b978f",
+        "component": "project_challenge_and_instruments",
+        "challenge_txt": " Міграція даних. Збереження SEO-результатів. Інтеграція з існуючими системами. Редизайн. Підвищення продуктивності сайту. Навчання співробітників. Виправлення помилок.",
+        "challenge_title": "🙌 Виклики",
+        "instruments_txt": "Liquid, Shopify, G suite services, Ahrefs, Figma.  ",
+        "instruments_title": "🧠 Що використовували?",
+        "challenge_txt__i18n__en": "Data migration,\nPreserving SEO results,\nIntegration with existing systems,\nDesign changes,\nImproving site performance,\nStaff training, Custom Theme",
+        "challenge_title__i18n__en": "🙌Challenges",
+        "instruments_title__i18n__en": "🧠 What was Used?"
+      },
+      {
+        "_uid": "9c7d7c99-4c80-455d-b6d8-6a9aaebbf26f",
+        "title": "Ключові результати",
+        "component": "project_results",
+        "title__i18n__en": "Key Results",
+        "project_results_cards": [
+          {
+            "_uid": "a2af7f3a-b703-4297-a4bb-a0616fa05a42",
+            "text": "Оптимізували ресурс під ринок штатів та Європи",
+            "title": "Розширення функціоналу",
+            "component": "project_results_card",
+            "text__i18n__en": "Optimized the resource for the U.S. and European markets",
+            "title__i18n__en": "Expansion of Products and Market"
+          },
+          {
+            "_uid": "658bb1bb-75fb-4693-be2a-b546c6d9324a",
+            "text": "Збільшили органічний трафік в чотири рази",
+            "title": "4x",
+            "component": "project_results_card",
+            "text__i18n__en": "Increased organic traffic fourfold",
+            "title__i18n__en": "4x"
+          },
+          {
+            "_uid": "5de19422-49b7-4fc8-a591-85ea07768e28",
+            "text": "Без жодного платного охоплення - продажі зросли. ",
+            "title": "Збільшення продажів",
+            "component": "project_results_card",
+            "text__i18n__en": "Without any paid reach, sales increased",
+            "title__i18n__en": "Sales Increased"
+          }
+        ]
+      },
+      {
+        "_uid": "e435ea4d-e9f4-4b52-9374-987608e0c02d",
+        "text": {
+          "type": "doc",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Проаналізували ринок та найбльші аукціони",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ]
+                },
+                {
+                  "text": ": визначили цільову аудиторії та вивчили конкурентів.",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Розробли тему та дизайн",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ]
+                },
+                {
+                  "text": ": перебудували бренд під потреби ринку.",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Налаштували функціональность",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ]
+                },
+                {
+                  "text": ": додали картини, налаштували кошик, доставку, платіжні методіи та інтегрували необхідних плагінів.",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Оптимізували контент",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ]
+                },
+                {
+                  "text": ": написання SEO-оптимізованих описів для товарів, налаштування мета-даних.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        "title": "🤭Реалізація",
+        "component": "project_realization",
+        "text__i18n__en": {
+          "type": "doc",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Market Analysis and Auction Research",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ]
+                },
+                {
+                  "text": ": identified the target audience and studied competitors.",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Custom Template and Design Development",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ]
+                },
+                {
+                  "text": ": rebranded to meet market needs.",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Functionality Setup",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ]
+                },
+                {
+                  "text": ": added artwork, configured the shopping cart, delivery options, and payment methods, and integrated necessary plugins.",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Content optimization",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ]
+                },
+                {
+                  "text": ": created SEO-optimized product descriptions and configured meta-data.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        "title__i18n__en": "🤭Implementation"
+      },
+      {
+        "_uid": "dbc8a689-338f-431b-bb63-d23ebb0918db",
+        "title": "🗣️Відгук клієнта",
+        "component": "testimonials",
+        "testimonials": [
+          {
+            "ava": {
+              "id": 15169816,
+              "alt": "",
+              "name": "",
+              "focus": "",
+              "title": "",
+              "source": "",
+              "filename": "https://a.storyblok.com/f/276513/296x296/0d3f6cba18/balbyshev.webp",
+              "copyright": "",
+              "fieldtype": "asset",
+              "meta_data": {},
+              "is_external_url": false
+            },
+            "_uid": "35fe185f-93c4-4782-a6a7-a27e039d1890",
+            "name": "Олександр Балбишев",
+            "fb_link": {
+              "id": "",
+              "url": "https://www.facebook.com/profile.php?id=100068682130392",
+              "linktype": "url",
+              "fieldtype": "multilink",
+              "cached_url": "https://www.facebook.com/profile.php?id=100068682130392"
+            },
+            "component": "testimonial_card",
+            "description": "Художник",
+            "testimonial": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Хочу подякувати команді за швидку та якісну співпрацю у створенні веб-сайту!",
+                      "type": "text"
+                    },
+                    {
+                      "type": "hard_break"
+                    },
+                    {
+                      "text": "Дуже вдячний за те, як оперативно реагували на всі мої запитання, пояснювали складні речі простими словами та ефективно вирішували завдання заздалегідь, що оптимізувало та прискорювало робочий процес.",
+                      "type": "text"
+                    },
+                    {
+                      "type": "hard_break"
+                    },
+                    {
+                      "type": "hard_break"
+                    },
+                    {
+                      "text": "Безумовно, у вас відмінна експертиза в розробці та у чудовий сервіс, що значно полегшує моє життя! Дякую за мій новий видатний веб-сайт!",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            "name__i18n__en": "Olexander Balbyshev",
+            "description__i18n__en": "Artist",
+            "testimonial__i18n__en": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "\"I want to thank the team for their quick and high-quality collaboration in creating the website! I am very grateful for how promptly you responded to all my questions, explained complex matters in simple terms, and effectively addressed tasks in advance, which optimized and accelerated the workflow.",
+                      "type": "text"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Without a doubt, you have excellent expertise in development and provide outstanding service, which significantly eases my life! Thank you for my new outstanding website!\"",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        ],
+        "title__i18n__en": "Client Feedback"
+      },
+      {
+        "_uid": "7b47cb5d-f496-42ea-95b8-5c1e0e51454a",
+        "title": "Інші проєкти",
+        "component": "projects_grid",
+        "button_txt": "Переглянути кейс",
+        "button2_txt": "Переглянути сайт",
+        "projects_list": [
+          "55a8d19c-babf-4e12-b142-6a2ba090d65c",
+          "87b9c021-466d-4d37-9a95-7dc081b4d0b9",
+          "fc71ed4c-ee73-42a9-ad26-7c74d7f815ac",
+          "42acd9f9-71b9-4dab-9350-906c555bb815"
+        ],
+        "title__i18n__en": "Other Projects",
+        "button_txt__i18n__en": "View Case",
+        "button2_txt__i18n__en": "View Site"
+      }
+    ],
+    "subtitle": "Власник сучасної арт-галереї прагнув розширити свою аудиторію та покращити онлайн-присутність, створивши витончену онлайн-галерею за допомогою Shopify. Метою було створення візуально привабливої та зручної платформи для демонстрації мистецтв і безперебійного здійснення продажів.",
+    "component": "project",
+    "description": "Власник сучасної арт-галереї розширив свою онлайн-присутність, створивши елегантний інтернет-магазин на платформі Shopify. Мета полягала в розробці зручного та візуально привабливого магазину для ефективної презентації і продажу картин та скульптур.",
+    "title__i18n__en": "Creating a Personal Online Store for an Artist",
+    "project_site_link": {
+      "id": "",
+      "url": "https://balbyshev.com",
+      "linktype": "url",
+      "fieldtype": "multilink",
+      "cached_url": "https://balbyshev.com"
+    },
+    "subtitle__i18n__en": "The owner of a modern art gallery sought to broaden their audience and strengthen their online presence by building a sophisticated online gallery with Shopify. The objective was to craft a visually stunning and easy-to-navigate platform for displaying art and ensuring smooth transactions.",
+    "description__i18n__en": "The owner of a contemporary art gallery expanded their online presence by creating an elegant online store on the Shopify platform. The goal was to design a user-friendly and visually appealing store to effectively showcase and sell art."
+  },
+  "published": true,
+  "slug": "creating-a-personal-online-store-for-an-artist",
+  "path": null,
+  "full_slug": "projects/creating-a-personal-online-store-for-an-artist",
+  "default_root": null,
+  "disble_fe_editor": false,
+  "disable_fe_editor": false,
+  "parent": {
+    "id": 488037327,
+    "uuid": "4d89644d-6011-41db-8e49-af619af0d34e",
+    "name": "Projects",
+    "slug": "projects",
+    "disble_fe_editor": false
+  },
+  "is_startpage": false,
+  "unpublished_changes": true,
+  "meta_data": null,
+  "imported_at": null,
+  "preview_token": {
+    "token": "ef1424d6f14c6c20f0027ba281c916aad13cbf42",
+    "timestamp": "1781338277"
+  },
+  "pinned": false,
+  "breadcrumbs": [
+    {
+      "id": 488037327,
+      "name": "Projects",
+      "parent_id": null,
+      "disble_fe_editor": false,
+      "disable_fe_editor": false,
+      "path": null,
+      "slug": "projects",
+      "translated_slugs": []
+    }
+  ],
+  "publish_at": null,
+  "expire_at": null,
+  "first_published_at": "2024-08-22T13:11:43.312Z",
+  "last_author": {
+    "id": 230996,
+    "userid": "zjoka",
+    "friendly_name": "Serhii Halun"
+  },
+  "last_author_id": 230996,
+  "user_ids": [],
+  "space_role_ids": [],
+  "translated_slugs": [],
+  "localized_paths": [
+    {
+      "path": "projects/creating-a-personal-online-store-for-an-artist",
+      "name": null,
+      "lang": "en",
+      "published": null
+    }
+  ],
+  "position": -20,
+  "translated_stories": [],
+  "can_not_view": false,
+  "is_scheduled": null,
+  "scheduled_dates": null,
+  "ideas": [],
+  "current_version_id": null,
+  "variant_type": null,
+  "experiment_ids": [],
+  "stage": null,
+  "favourite_for_user_ids": []
+}

@@ -1,0 +1,1376 @@
+{
+  "name": "Product design",
+  "parent_id": 502332440,
+  "group_id": "a1647bed-397c-4694-8960-74e311da26f8",
+  "alternates": [],
+  "created_at": "2024-08-29T09:47:07.510Z",
+  "deleted_at": null,
+  "sort_by_date": null,
+  "tag_list": [],
+  "updated_at": "2024-10-03T10:50:39.565Z",
+  "published_at": "2024-10-03T10:50:39.528Z",
+  "id": 541559269,
+  "uuid": "26eaca58-ff97-4bbc-a047-f45e4ddc2d9c",
+  "is_folder": false,
+  "content": {
+    "_uid": "9a07f656-6e1c-49cc-b33c-433caab15d99",
+    "body": [
+      {
+        "_uid": "2d6321de-80f1-4336-9f02-783bcc30700f",
+        "title": "Послуга дизайн продукту включає",
+        "component": "service_details",
+        "title__i18n__en": "The product design service includes",
+        "service_details_cards": [
+          {
+            "_uid": "fcfd8f96-9398-4d16-bc67-282e8b084eb6",
+            "title": "Дослідження ринку та користувачів",
+            "component": "service_details_card",
+            "description": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Аналіз потреб цільової аудиторії, конкурентного середовища, вивчення тенденцій ринку та збір вимог до продукту.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            "title__i18n__en": "Market and User Research",
+            "description__i18n__en": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Analyzing the needs of the target audience, and the competitive landscape, studying market trends, and gathering product requirements.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "_uid": "94547f09-baa2-405a-a697-7e7ecc2838b5",
+            "title": "Ідеація та концептуальний дизайн",
+            "component": "service_details_card",
+            "description": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Створення концептів і прототипів, що відображають можливі рішення для продукту. На цьому етапі формуються початкові ескізи та макети.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            "title__i18n__en": "Ideation and Conceptual Design",
+            "description__i18n__en": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Creating concepts and prototypes that reflect possible solutions for the product. At this stage, initial sketches and mockups are developed.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "_uid": "2fd0db77-cf22-4404-8076-f84dcb12e037",
+            "title": "Розробка UX/UI дизайну",
+            "component": "service_details_card",
+            "description": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Створення зручного і функціонального інтерфейсу користувача, який забезпечує позитивний досвід взаємодії з продуктом. Цей етап включає розробку навігації, структури контенту, вибір кольорів і стилів.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            "title__i18n__en": "UX/UI Design Development",
+            "description__i18n__en": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Creating a user-friendly and functional interface that ensures a positive interaction experience with the product. This stage includes developing navigation, content structure, and choosing colors and styles.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "_uid": "e1503810-4e16-4ee9-9efd-d194c08a73a9",
+            "title": "Впровадження та підтримка",
+            "component": "service_details_card",
+            "description": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Перехід від прототипів до робочого продукту, співпраця з розробниками для реалізації дизайну, а також подальша підтримка та оновлення продукту.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            "title__i18n__en": "Implementation and Support",
+            "description__i18n__en": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Transitioning from prototypes to the working product, collaborating with developers to implement the design, as well as providing ongoing support and updates for the product.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "_uid": "8ce09485-eafd-40a6-8e90-79eb124b6e90",
+            "title": "Тестування та ітерації",
+            "component": "service_details_card",
+            "description": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Проведення тестувань прототипів з користувачами, збір зворотного зв’язку і внесення коригувань для поліпшення дизайну.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            "title__i18n__en": "Testing and Iteration",
+            "description__i18n__en": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Conducting prototype tests with users, gathering feedback, and making adjustments to improve the design.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "_uid": "451e40a8-59e5-4a81-a345-fd7a4f141d1b",
+            "title": "Моніторинг",
+            "component": "service_details_card",
+            "description": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "охоплює весь життєвий цикл розробки продукту, забезпечуючи створення функціонального, естетичного і затребуваного ринку продукту.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            "title__i18n__en": "Monitoring",
+            "description__i18n__en": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Covers the entire product development lifecycle, ensuring the creation of a functional, aesthetically pleasing, and market-demanded product.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "_uid": "e4608597-f05b-4b44-b54a-96fc35acd022",
+        "cards": [
+          {
+            "_uid": "304fc1a2-7ea0-4e98-9a76-3316c55d3d32",
+            "title": "Відповідність потребам користувачів",
+            "component": "service_need_card",
+            "description": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Грамотно розроблений дизайн продукту забезпечує глибоке розуміння потреб і очікувань цільової аудиторії, що дозволяє створити продукт, який задовольняє реальні запити користувачів.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            "title__i18n__en": "Meeting User Needs",
+            "description__i18n__en": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "A well-designed product provides a deep understanding of the target audience's needs and expectations, allowing for the creation of a product that addresses real user demands.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "_uid": "fa32ac59-e4a3-41fa-84ad-83bd842dc725",
+            "title": "Ефективна реалізація бізнес-цілей",
+            "component": "service_need_card",
+            "description": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Ретельно спланований дизайн враховує бізнес-цілі, такі як підвищення конверсій, збільшення продажів або покращення взаємодії з брендом, що допомагає досягати бажаних результатів.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            "title__i18n__en": "Effective Achievement of Business Goals",
+            "description__i18n__en": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "A carefully planned design takes into account business objectives, such as increasing conversions, boosting sales, or enhancing brand interaction, helping to achieve the desired results.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "_uid": "f602df3d-9031-4896-a0b8-51801bd180ef",
+            "title": "Зменшення витрат і часу на розробку",
+            "component": "service_need_card",
+            "description": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Впровадження дизайну на ранніх етапах розробки продукту допомагає виявити потенційні проблеми і вчасно їх вирішити, що знижує ризики і зменшує витрати на виправлення помилок на пізніших стадіях.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            "title__i18n__en": "Reducing Development Costs and Time",
+            "description__i18n__en": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Implementing design at early stages of product development helps identify potential issues and address them in a timely manner, reducing risks and decreasing the costs associated with fixing errors at later stages.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "_uid": "05161160-face-4717-8a28-1464abfe31b7",
+            "title": "Забезпечення довгострокового успіху",
+            "component": "service_need_card",
+            "description": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Інвестиції в якісний дизайн продукту сприяють створенню довгострокової цінності для користувачів і бізнесу, оскільки добре спроектований продукт легше адаптується до змін на ринку і може ефективніше розвиватися в майбутньому.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            "title__i18n__en": "Ensuring Long-Term Success",
+            "description__i18n__en": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Investing in high-quality product design contributes to creating long-term value for both users and the business, as a well-designed product is more adaptable to market changes and can evolve more effectively in the future.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        ],
+        "media": "",
+        "title": "Ось чому обирають розробку дизайну продукту",
+        "component": "service_need",
+        "title__i18n__en": "Here’s Why Product Design Development is Chosen"
+      },
+      {
+        "_uid": "a67c203c-07a2-4d15-9137-cf532f1e2e0e",
+        "cards": [
+          {
+            "_uid": "e76b1be7-953a-4eeb-abc6-dfa2b92feca3",
+            "title": "Інструменти для дослідження та аналізу",
+            "component": "service_instruments_card",
+            "title__i18n__en": "Tools for Research and Analysis",
+            "instruments_list": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Google Analytics",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ]
+                    },
+                    {
+                      "text": ": Для аналізу поведінки користувачів на сайті або в додатку.",
+                      "type": "text"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Hotjar",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ]
+                    },
+                    {
+                      "text": ": Для збору даних про взаємодію користувачів з інтерфейсом (теплові карти, опитування, записи сесій).",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            "instruments_logos": [
+              {
+                "id": 17036625,
+                "alt": "",
+                "name": "",
+                "focus": "",
+                "title": "",
+                "source": "",
+                "filename": "https://a.storyblok.com/f/276513/600x207/afdc790473/google_analytics_logo.svg",
+                "copyright": "",
+                "fieldtype": "asset",
+                "meta_data": {}
+              },
+              {
+                "id": 17036587,
+                "alt": "",
+                "name": "",
+                "focus": "",
+                "title": "",
+                "source": "",
+                "filename": "https://a.storyblok.com/f/276513/2146x1028/568e81e495/hotjar_logo.svg",
+                "copyright": "",
+                "fieldtype": "asset",
+                "meta_data": {}
+              }
+            ],
+            "instruments_list__i18n__en": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Google Analytics",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ]
+                    },
+                    {
+                      "text": ": For analyzing user behavior on a website or app.",
+                      "type": "text"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Hotjar",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ]
+                    },
+                    {
+                      "text": ": For collecting data on user interaction with the interface (heatmaps, surveys, session recordings).",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "_uid": "43619919-ebd0-4167-8f32-0e6f36e4aae2",
+            "title": "Інструменти для ідеації та прототипування",
+            "component": "service_instruments_card",
+            "title__i18n__en": "Tools for Ideation and Prototyping",
+            "instruments_list": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Figma",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ]
+                    },
+                    {
+                      "text": ": Популярний інструмент для дизайну інтерфейсів і спільної роботи над дизайном у реальному часі.",
+                      "type": "text"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "hard_break"
+                    },
+                    {
+                      "text": "Coggle",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ]
+                    },
+                    {
+                      "text": ": онлайн-інструмент для створення ментальних карт і діаграм.",
+                      "type": "text"
+                    },
+                    {
+                      "type": "hard_break"
+                    },
+                    {
+                      "type": "hard_break"
+                    },
+                    {
+                      "text": "Miro",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ]
+                    },
+                    {
+                      "text": ": Онлайн-дошка для спільної роботи над ідеями, брейнштормінгом і створенням ментальних карт.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            "instruments_logos": [
+              {
+                "id": 17126299,
+                "alt": "Figma Logo",
+                "name": "",
+                "focus": "",
+                "title": "",
+                "source": "",
+                "filename": "https://a.storyblok.com/f/276513/1667x2500/fe9afd4f1b/figma-logo.svg",
+                "copyright": "",
+                "fieldtype": "asset",
+                "meta_data": {
+                  "alt": "Figma Logo",
+                  "title": "",
+                  "source": "",
+                  "copyright": ""
+                },
+                "content_type": "svg"
+              },
+              {
+                "id": 17165481,
+                "alt": "Miro Logo",
+                "name": "",
+                "focus": "",
+                "title": "",
+                "source": "",
+                "filename": "https://a.storyblok.com/f/276513/2373x2058/60318d761a/miro_logo.svg",
+                "copyright": "",
+                "fieldtype": "asset",
+                "meta_data": {
+                  "alt": "Miro Logo",
+                  "title": "",
+                  "source": "",
+                  "copyright": ""
+                },
+                "content_type": "svg"
+              },
+              {
+                "id": 17165459,
+                "alt": "Coogle Logo",
+                "name": "",
+                "focus": "",
+                "title": "",
+                "source": "",
+                "filename": "https://a.storyblok.com/f/276513/361x171/b0143bd182/coogle_logo.webp",
+                "copyright": "",
+                "fieldtype": "asset",
+                "meta_data": {
+                  "alt": "Coogle Logo",
+                  "title": "",
+                  "source": "",
+                  "copyright": ""
+                },
+                "content_type": "webp"
+              }
+            ],
+            "instruments_list__i18n__en": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Figma",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ]
+                    },
+                    {
+                      "text": ": A popular tool for interface design and real-time collaborative design work.",
+                      "type": "text"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Coggle",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ]
+                    },
+                    {
+                      "text": ": An online tool for creating mind maps and diagrams.",
+                      "type": "text"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Miro",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ]
+                    },
+                    {
+                      "text": ": An online whiteboard for collaborative brainstorming and creating mind maps.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "_uid": "7fb2cf4f-cee1-4be3-90e0-4cea6d5efe45",
+            "title": "Інструменти для створення графічного дизайну",
+            "component": "service_instruments_card",
+            "title__i18n__en": "Tools for Graphic Design",
+            "instruments_list": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Adobe Photoshop",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ]
+                    },
+                    {
+                      "text": ": Широкофункціональний інструмент для редагування зображень і створення графіки.",
+                      "type": "text"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Adobe Illustrator",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ]
+                    },
+                    {
+                      "text": ": Інструмент для створення векторної графіки, логотипів, іконок та інших елементів дизайну.",
+                      "type": "text"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Spline",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ]
+                    },
+                    {
+                      "text": ": інструмент для створення тривимірної (3D) графіки та анімацій, орієнтований на веб-дизайн та інтерактивні інтерфейси.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            "instruments_logos": [
+              {
+                "id": 17165531,
+                "alt": "Photoshop Logo",
+                "name": "",
+                "focus": "",
+                "title": "",
+                "source": "",
+                "filename": "https://a.storyblok.com/f/276513/154x150/dc99710096/adobe_photoshop_logo.svg",
+                "copyright": "",
+                "fieldtype": "asset",
+                "meta_data": {
+                  "alt": "Photoshop Logo",
+                  "title": "",
+                  "source": "",
+                  "copyright": ""
+                },
+                "content_type": "svg"
+              },
+              {
+                "id": 17165530,
+                "alt": "Illustrator Logo",
+                "name": "",
+                "focus": "",
+                "title": "",
+                "source": "",
+                "filename": "https://a.storyblok.com/f/276513/154x150/b3630d4c77/adobe_illustrator_logo.svg",
+                "copyright": "",
+                "fieldtype": "asset",
+                "meta_data": {
+                  "alt": "Illustrator Logo",
+                  "title": "",
+                  "source": "",
+                  "copyright": ""
+                },
+                "content_type": "svg"
+              },
+              {
+                "id": 17165529,
+                "alt": "Spline Logo",
+                "name": "",
+                "focus": "",
+                "title": "",
+                "source": "",
+                "filename": "https://a.storyblok.com/f/276513/128x128/5bc178b81f/spline_logo.webp",
+                "copyright": "",
+                "fieldtype": "asset",
+                "meta_data": {
+                  "alt": "Spline Logo",
+                  "title": "",
+                  "source": "",
+                  "copyright": ""
+                },
+                "content_type": "webp"
+              }
+            ],
+            "instruments_list__i18n__en": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Adobe Photoshop",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ]
+                    },
+                    {
+                      "text": ": A versatile tool for image editing and graphic creation.",
+                      "type": "text"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Adobe Illustrator",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ]
+                    },
+                    {
+                      "text": ": A tool for creating vector graphics, logos, icons, and other design elements.",
+                      "type": "text"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Spline",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ]
+                    },
+                    {
+                      "text": ": A tool for creating three-dimensional (3D) graphics and animations, focused on web design and interactive interfaces.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "_uid": "db559074-22e7-4827-a25f-61b2cb28e90f",
+            "title": "Інструменти для анімації та мікровзаємодій",
+            "component": "service_instruments_card",
+            "title__i18n__en": "Tools for Animation and Microinteractions",
+            "instruments_list": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Framer",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ]
+                    },
+                    {
+                      "text": ": Інструмент для прототипування з можливістю додавання складних анімацій.",
+                      "type": "text"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "After Effects",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ]
+                    },
+                    {
+                      "text": ": Інструмент для створення анімацій та відео, зокрема для презентацій дизайну.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            "instruments_logos": [
+              {
+                "id": 17165562,
+                "alt": "Framer Logo",
+                "name": "",
+                "focus": "",
+                "title": "",
+                "source": "",
+                "filename": "https://a.storyblok.com/f/276513/800x800/711c8d75ee/framer-logo.svg",
+                "copyright": "",
+                "fieldtype": "asset",
+                "meta_data": {
+                  "alt": "Framer Logo",
+                  "title": "",
+                  "source": "",
+                  "copyright": ""
+                },
+                "content_type": "svg"
+              },
+              {
+                "id": 16821836,
+                "alt": "Adobe After Effects Logo",
+                "name": "",
+                "focus": "",
+                "title": "",
+                "source": "",
+                "filename": "https://a.storyblok.com/f/276513/58x56/8e9f78fbc1/adobe_after_effects_cc_icon.svg",
+                "copyright": "",
+                "fieldtype": "asset",
+                "meta_data": {
+                  "alt": "Adobe After Effects Logo",
+                  "title": "",
+                  "source": "",
+                  "copyright": ""
+                },
+                "content_type": "svg"
+              }
+            ],
+            "instruments_list__i18n__en": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Framer",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ]
+                    },
+                    {
+                      "text": ": A tool for prototyping with the ability to add complex animations.",
+                      "type": "text"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "After Effects",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ]
+                    },
+                    {
+                      "text": ": A tool for creating animations and videos, particularly for design presentations.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "_uid": "745c93a8-34e2-408c-866f-5b6165ade64d",
+            "title": "Інструменти для співпраці та управління проєктами",
+            "component": "service_instruments_card",
+            "title__i18n__en": "Tools for Collaboration and Project Management",
+            "instruments_list": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Discord",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ]
+                    },
+                    {
+                      "text": ": платформа для спілкування, яка надає можливість текстового, голосового та відеозв'язку.",
+                      "type": "text"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "hard_break"
+                    },
+                    {
+                      "text": "ClickUp",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ]
+                    },
+                    {
+                      "text": ": інструмент для управління проектами та завданнями, який надає всеосяжний набір функцій для організації роботи команд та окремих користувачів.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            "instruments_logos": [
+              {
+                "id": 17165697,
+                "alt": "Discord Logo",
+                "name": "",
+                "focus": "",
+                "title": "",
+                "source": "",
+                "filename": "https://a.storyblok.com/f/276513/800x800/5d5c7e159c/discord_logo.svg",
+                "copyright": "",
+                "fieldtype": "asset",
+                "meta_data": {
+                  "alt": "Discord Logo",
+                  "title": "",
+                  "source": "",
+                  "copyright": ""
+                },
+                "content_type": "svg"
+              },
+              {
+                "id": 17165696,
+                "alt": "ClickUp Logo",
+                "name": "",
+                "focus": "",
+                "title": "",
+                "source": "",
+                "filename": "https://a.storyblok.com/f/276513/2500x651/323558b6a4/clickup_logo.svg",
+                "copyright": "",
+                "fieldtype": "asset",
+                "meta_data": {
+                  "alt": "ClickUp Logo",
+                  "title": "",
+                  "source": "",
+                  "copyright": ""
+                },
+                "content_type": "svg"
+              }
+            ],
+            "instruments_list__i18n__en": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Discord",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ]
+                    },
+                    {
+                      "text": ": A communication platform that provides text, voice, and video chat capabilities.",
+                      "type": "text"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "ClickUp",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ]
+                    },
+                    {
+                      "text": ": A project and task management tool that offers a comprehensive set of features for organizing team and individual work.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "_uid": "830294d8-3889-4b60-8124-092b8d2a0a67",
+            "title": " Інструменти для дизайн-систем",
+            "component": "service_instruments_card",
+            "title__i18n__en": "Tools for Design Systems",
+            "instruments_list": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Zeplin",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ]
+                    },
+                    {
+                      "text": ": Платформа для передачі дизайнів розробникам і створення дизайн-систем.",
+                      "type": "text"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Storybook",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ]
+                    },
+                    {
+                      "text": ": Інструмент для розробки UI-компонентів і підтримки дизайн-системи.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            "instruments_logos": [
+              {
+                "id": 17165739,
+                "alt": "zeplin Logo",
+                "name": "",
+                "focus": "",
+                "title": "",
+                "source": "",
+                "filename": "https://a.storyblok.com/f/276513/188x150/7501d156d9/zeplin-logo.svg",
+                "copyright": "",
+                "fieldtype": "asset",
+                "meta_data": {
+                  "alt": "zeplin Logo",
+                  "title": "",
+                  "source": "",
+                  "copyright": ""
+                },
+                "content_type": "svg"
+              },
+              {
+                "id": 17165738,
+                "alt": "Storyblock Logo",
+                "name": "",
+                "focus": "",
+                "title": "",
+                "source": "",
+                "filename": "https://a.storyblok.com/f/276513/2500x538/b9800e6dfe/storyblok-logo.svg",
+                "copyright": "",
+                "fieldtype": "asset",
+                "meta_data": {
+                  "alt": "Storyblock Logo",
+                  "title": "",
+                  "source": "",
+                  "copyright": ""
+                },
+                "content_type": "svg"
+              }
+            ],
+            "instruments_list__i18n__en": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Zeplin",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ]
+                    },
+                    {
+                      "text": ": A platform for handing off designs to developers and creating design systems.",
+                      "type": "text"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Storybook",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ]
+                    },
+                    {
+                      "text": ": A tool for developing UI components and maintaining design systems.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        ],
+        "title": "Що використовуємо",
+        "component": "service_instruments",
+        "title__i18n__en": "What Tools Do We Use?"
+      },
+      {
+        "_uid": "6e2bda28-510b-4dbd-b04b-455cc87ffc16",
+        "title": "Інші проєкти",
+        "component": "projects_grid",
+        "button_txt": "Переглянути кейс",
+        "button2_txt": "Переглянут сайт",
+        "projects_list": [
+          "79aa4ea5-f41a-43f8-96e4-368af6477536"
+        ],
+        "title__i18n__en": "Recent Projects",
+        "button_txt__i18n__en": "View Case",
+        "button2_txt__i18n__en": "View Site"
+      }
+    ],
+    "title": "Дизайн продукту",
+    "subtitle": "Це комплексний процес створення продукту, що включає етапи від генерації ідей до розробки кінцевого продукту.",
+    "component": "service",
+    "description": {
+      "type": "doc",
+      "content": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "text": "Створення зручного користувацького інтерфейсу (UX). Розробка дизайну інтерфейсу користувача (UI).",
+              "type": "text"
+            },
+            {
+              "type": "hard_break"
+            },
+            {
+              "type": "hard_break"
+            },
+            {
+              "text": "Ми зосереджуємося на створенні інтуїтивно зрозумілих інтерфейсів, які покращують досвід користувачів.",
+              "type": "text"
+            }
+          ]
+        }
+      ]
+    },
+    "title__i18n__en": "Product Design",
+    "subtitle__i18n__en": "This is a comprehensive process of creating a product, which includes stages from idea generation to the development of the final product",
+    "description__i18n__en": {
+      "type": "doc",
+      "content": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "text": "Market and User Research. Creating a User-Friendly Interface (UX). User Interface Design (UI). Prototyping and Testing.",
+              "type": "text"
+            },
+            {
+              "type": "hard_break"
+            },
+            {
+              "type": "hard_break"
+            },
+            {
+              "text": "We focus on creating intuitive interfaces that enhance user experiences, ensuring that every interaction is smooth and engaging.",
+              "type": "text"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "published": true,
+  "slug": "product-design",
+  "path": null,
+  "full_slug": "services/product-design",
+  "default_root": null,
+  "disble_fe_editor": false,
+  "disable_fe_editor": false,
+  "parent": {
+    "id": 502332440,
+    "uuid": "b365af73-57b4-48b9-b679-98c33aba1ab7",
+    "name": "Services",
+    "slug": "services",
+    "disble_fe_editor": false
+  },
+  "is_startpage": false,
+  "unpublished_changes": false,
+  "meta_data": null,
+  "imported_at": null,
+  "preview_token": {
+    "token": "3d75a9e85c25715a11d9c3af1c87f577fef8ac97",
+    "timestamp": "1781338275"
+  },
+  "pinned": false,
+  "breadcrumbs": [
+    {
+      "id": 502332440,
+      "name": "Services",
+      "parent_id": null,
+      "disble_fe_editor": false,
+      "disable_fe_editor": false,
+      "path": null,
+      "slug": "services",
+      "translated_slugs": []
+    }
+  ],
+  "publish_at": null,
+  "expire_at": null,
+  "first_published_at": "2024-08-29T12:52:19.252Z",
+  "last_author": {
+    "id": 230996,
+    "userid": "zjoka",
+    "friendly_name": "Serhii Halun"
+  },
+  "last_author_id": 230996,
+  "user_ids": [],
+  "space_role_ids": [],
+  "translated_slugs": [],
+  "localized_paths": [
+    {
+      "path": "services/product-design",
+      "name": null,
+      "lang": "en",
+      "published": null
+    }
+  ],
+  "position": -120,
+  "translated_stories": [],
+  "can_not_view": false,
+  "is_scheduled": null,
+  "scheduled_dates": null,
+  "ideas": [],
+  "current_version_id": null,
+  "variant_type": null,
+  "experiment_ids": [],
+  "stage": null,
+  "favourite_for_user_ids": []
+}

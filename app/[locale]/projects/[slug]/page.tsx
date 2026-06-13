@@ -8,20 +8,25 @@ import { notFound } from "next/navigation";
 export async function generateMetadata({ params }: any) {
   const locale = params.locale || "uk";
   const projectData = await fetch(
-    `https://api.storyblok.com/v2/cdn/stories/projects/${params.slug}/?version=draft&token=${process.env.STORYBLOK_ACCESS_TOKEN}&language=${locale}`
+    `https://api.storyblok.com/v2/cdn/stories/projects/${params.slug}/?version=published&token=${process.env.STORYBLOK_ACCESS_TOKEN}&language=${locale}`
   );
   if (projectData.status === 404) {
     return {};
   }
   const project = await projectData.json();
+  const coverImage = project.story.content.cover?.filename || (locale === "en" ? "/OpenGraph_Eng.jpg" : "/OpenGraph_UA.jpg");
   const metadata: Metadata = {
     title: project.story.content.title + " | Webrarium",
     description: project.story.content.subtitle,
     openGraph: {
-      images: project.story.content.cover.filename,
+      images: coverImage,
+    },
+    twitter: {
+      card: "summary_large_image",
+      images: coverImage,
     },
     alternates: {
-      canonical: `/${project.story.full_slug}`,
+      canonical: locale === "en" ? `/en/${project.story.full_slug}` : `/${project.story.full_slug}`,
       languages: {
         uk: `/${project.story.full_slug}`,
         en: `/en/${project.story.full_slug}`,
@@ -42,7 +47,7 @@ export const dynamicParams = true; // or false, to 404 on unknown paths
 
 export async function generateStaticParams() {
   const projects = await fetch(
-    `https://api.storyblok.com/v2/cdn/stories/projects/?version=draft&token=${process.env.STORYBLOK_ACCESS_TOKEN}&resolve_relations=projects_grid.projects_list`,
+    `https://api.storyblok.com/v2/cdn/stories/projects/?version=published&token=${process.env.STORYBLOK_ACCESS_TOKEN}&resolve_relations=projects_grid.projects_list`,
     { next: { revalidate: 600 } }
   ).then((res) => res.json());
 
@@ -81,7 +86,7 @@ async function fetchData(locale: string, slug: string) {
     language: any;
     resolve_relations: any;
   } = {
-    version: "draft",
+    version: "published",
     language: locale,
     resolve_relations: [
       "services_grid.services_list,projects_grid.projects_list",

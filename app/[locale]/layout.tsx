@@ -30,15 +30,15 @@ export const metadata: Metadata = {
   openGraph: {
     images: "/OpenGraph_UA.jpg",
   },
+  twitter: {
+    card: "summary_large_image",
+    images: "/OpenGraph_UA.jpg",
+  },
 };
 
 export const viewport: Viewport = {
   width: "device-width",
   initialScale: 1,
-  maximumScale: 1,
-  userScalable: false,
-  // Also supported by less commonly used
-  // interactiveWidget: 'resizes-visual',
 };
 
 const jsonLd = {
@@ -174,7 +174,7 @@ const jsonLdEn = {
 export async function generateStaticParams(): Promise<PageParams[]> {
   return i18nConfig.locales.map((locale) => ({ locale }));
 }
-export const revalidate = 6000;
+export const revalidate = 600;
 
 export default function RootLayout({
   children,

@@ -1,0 +1,123 @@
+{
+  "name": "Services List",
+  "parent_id": 502332440,
+  "group_id": "3435a17e-4870-4c17-ae44-95759a2fcdbc",
+  "alternates": [],
+  "created_at": "2024-05-23T14:22:04.095Z",
+  "deleted_at": null,
+  "sort_by_date": null,
+  "tag_list": [],
+  "updated_at": "2025-05-30T14:51:49.570Z",
+  "published_at": "2025-05-30T14:51:49.556Z",
+  "id": 502428664,
+  "uuid": "e1583d01-ae84-4d1d-8486-cad1d0d91ca8",
+  "is_folder": false,
+  "content": {
+    "_uid": "2b27dbeb-028c-450c-a28e-bd7c75c92b89",
+    "body": [
+      {
+        "_uid": "f93b1695-9122-4de4-9fc8-14f26cd08062",
+        "title": "Послуги",
+        "component": "h1_heading",
+        "title__i18n__en": "Services"
+      },
+      {
+        "_uid": "ffc5c372-fdf3-46e6-9def-9abb882e42a4",
+        "title": "",
+        "component": "services_grid",
+        "services_list": [
+          "476fe48c-5fe3-4525-8e8e-83ed5daec94c",
+          "7c2295e6-3f58-44fd-8370-13bd848dacd9",
+          "26eaca58-ff97-4bbc-a047-f45e4ddc2d9c",
+          "7ceba478-dbb3-4206-878e-0ac15f083451",
+          "177850d2-a46f-4582-87b9-39aa6e215026",
+          "f6041b97-5acc-416c-9751-80ce6af78197"
+        ],
+        "title__i18n__en": ""
+      }
+    ],
+    "title": "Професійна розробка сайтів, веб-дизайн та реклама | Webrarium",
+    "og_image": {
+      "id": null,
+      "alt": null,
+      "name": "",
+      "focus": null,
+      "title": null,
+      "source": null,
+      "filename": "",
+      "copyright": null,
+      "fieldtype": "asset",
+      "meta_data": {}
+    },
+    "component": "page",
+    "description": "Розробка сайтів, дизайну, оптимізація для пошукових систем (SEO). Створюємо ефективний онлайн-простір, що приверне увагу клієнтів.",
+    "title__i18n__en": "Professional Website Development, Web Design, and Digital Advertising | Webrarium",
+    "description__i18n__en": "Website Development, Design, and Search Engine Optimization (SEO). We create an effective online space that captures customers' attention."
+  },
+  "published": true,
+  "slug": "services",
+  "path": null,
+  "full_slug": "services/",
+  "default_root": null,
+  "disble_fe_editor": false,
+  "disable_fe_editor": false,
+  "parent": {
+    "id": 502332440,
+    "uuid": "b365af73-57b4-48b9-b679-98c33aba1ab7",
+    "name": "Services",
+    "slug": "services",
+    "disble_fe_editor": false
+  },
+  "is_startpage": true,
+  "unpublished_changes": false,
+  "meta_data": null,
+  "imported_at": null,
+  "preview_token": {
+    "token": "c08a8ca0691d2070ab32459a469e1efa9a0e2ed0",
+    "timestamp": "1781338273"
+  },
+  "pinned": false,
+  "breadcrumbs": [
+    {
+      "id": 502332440,
+      "name": "Services",
+      "parent_id": null,
+      "disble_fe_editor": false,
+      "disable_fe_editor": false,
+      "path": null,
+      "slug": "services",
+      "translated_slugs": []
+    }
+  ],
+  "publish_at": null,
+  "expire_at": null,
+  "first_published_at": "2024-05-23T14:44:47.429Z",
+  "last_author": {
+    "id": 230996,
+    "userid": "zjoka",
+    "friendly_name": "Serhii Halun"
+  },
+  "last_author_id": 230996,
+  "user_ids": [],
+  "space_role_ids": [],
+  "translated_slugs": [],
+  "localized_paths": [
+    {
+      "path": "services/",
+      "name": null,
+      "lang": "en",
+      "published": true
+    }
+  ],
+  "position": -190,
+  "translated_stories": [],
+  "can_not_view": false,
+  "is_scheduled": null,
+  "scheduled_dates": null,
+  "ideas": [],
+  "current_version_id": null,
+  "variant_type": null,
+  "experiment_ids": [],
+  "stage": null,
+  "favourite_for_user_ids": []
+}

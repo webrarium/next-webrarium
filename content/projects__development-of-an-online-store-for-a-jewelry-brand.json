@@ -1,0 +1,603 @@
+{
+  "name": "Development of an Online Store for a Jewelry Brand",
+  "parent_id": 488037327,
+  "group_id": "ea664557-a335-431b-bd5f-702a9cd872d1",
+  "alternates": [],
+  "created_at": "2024-09-03T16:12:04.235Z",
+  "deleted_at": null,
+  "sort_by_date": null,
+  "tag_list": [],
+  "updated_at": "2024-11-04T16:59:31.618Z",
+  "published_at": "2024-09-03T17:57:07.262Z",
+  "id": 543501274,
+  "uuid": "fc71ed4c-ee73-42a9-ad26-7c74d7f815ac",
+  "is_folder": false,
+  "content": {
+    "_uid": "e5ce25c9-14c3-4892-afbd-6fa46936fa59",
+    "cover": {
+      "id": 17253246,
+      "alt": "",
+      "name": "",
+      "focus": "",
+      "title": "",
+      "source": "",
+      "filename": "https://a.storyblok.com/f/276513/1200x630/7d9ee9e302/development-of-an-online-store-for-a-jewelry-brand.webp",
+      "copyright": "",
+      "fieldtype": "asset",
+      "meta_data": {},
+      "is_external_url": false
+    },
+    "title": "Розробка онлайн-магазину для ювелірного бренду",
+    "blocks": [
+      {
+        "_uid": "9bdc04ff-068a-466e-935f-b3209e04b563",
+        "text": {
+          "type": "doc",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "\"ТОБІ МОЖНА\"",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "bold"
+                    },
+                    {
+                      "type": "italic"
+                    }
+                  ]
+                },
+                {
+                  "text": " — це маніфест прийняття себе та відкритості. Кожна людина має право бути такою, якою вона є, незалежно від гендеру, кольору шкіри чи сексуальної орієнтації. Ми прагнемо руйнувати стереотипи та підсилювати життя, а не упередження. Наші прикраси — це символи цінностей, яких ми дотримуємося.",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "italic"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "headline": "Тобі Можна - це маніфест. І ми обожнююємо співпрацювати із такими брендами, тільки прочитайте їх опис! ⬇️ ",
+        "component": "project_headline",
+        "text__i18n__en": {
+          "type": "doc",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "\"ТОБІ МОЖНА\" is a manifesto of self-acceptance and openness. Every person has the right to be who they are, regardless of gender, skin color, or sexual orientation. We strive to break stereotypes and enhance life, not prejudice. Our jewelry is a symbol of the values we uphold.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        "headline__i18n__en": "\"Tobi Mozhna\" is a Manifesto. We love Collaborating With Such Brands. Just Read Their Description! ⬇️"
+      },
+      {
+        "_uid": "d7eadc8c-f7df-40e8-9de2-f43a10907c78",
+        "component": "project_challenge_and_instruments",
+        "challenge_txt": {
+          "type": "doc",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Презентація продукту: cтворити візуально привабливий онлайн-магазин, який підкреслює красу та майстерність ювелірних виробів.",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Поліпшення досвіду користувачів: розробити інтуїтивно зрозумілий та безшовний процес покупок для користувачів, від перегляду до оформлення замовлення. Збільшення продажів: оптимізація процесу покупки та оплати для підвищення конверсій та продажів.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        "challenge_title": "Виклики",
+        "instruments_txt": "Liquid, Shopify\nGoogle Analytics\nGoogle Search Console\nGoogle Ads,\nAhrefs,\nKeyword Planner,\nFigma,\nHTML, CSS, JavaScript.",
+        "instruments_title": "Що використовували?",
+        "challenge_txt__i18n__en": {
+          "type": "doc",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Product presentation: create a visually appealing online store that highlights the beauty and craftsmanship of the jewelry.",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Improving User Experience: Develop an intuitive and seamless shopping process for users, from browsing to checkout. Increasing Sales: Optimize purchasing and payment processes to boost conversion rates and overall sales.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        "challenge_title__i18n__en": "Challenges",
+        "instruments_txt__i18n__en": "Liquid, Shopify\nGoogle Analytics.\nGoogle Search Console,\nGoogle Ads,\nAhrefs,\nKeyword Planner,\nFigma,\nHTML, CSS, JavaScript.",
+        "instruments_title__i18n__en": "What we Use"
+      },
+      {
+        "_uid": "7c15fb78-21e6-4846-936a-51d552921e60",
+        "title": "Ключові результати",
+        "component": "project_results",
+        "title__i18n__en": "Key Results",
+        "project_results_cards": [
+          {
+            "_uid": "5db8b6e8-5703-4837-82f9-b9beadd269ad",
+            "text": "Ріст органічного та платного трафіку на сайті завдяки оптимізації контенту і рекламним кампаніям.",
+            "title": "Збільшення трафіку",
+            "component": "project_results_card",
+            "text__i18n__en": "Increase in organic and paid traffic to the site through content optimization and advertising campaigns.",
+            "title__i18n__en": "Increasing Traffic"
+          },
+          {
+            "_uid": "4c64af1a-e457-471a-b556-e49562b74912",
+            "text": "Від 0 до 120 000uah оборотних коштів, проведених через вебсайт. ",
+            "title": "Збільшення продажів",
+            "component": "project_results_card",
+            "text__i18n__en": "From 0 to 120,000 UAH in turnover conducted through the website.",
+            "title__i18n__en": "Increasing Sales"
+          },
+          {
+            "_uid": "9f7af4bb-2486-459b-b058-91260541acbf",
+            "text": "Збільшення кількості покупок або запитів через сайт завдяки ефективному дизайну та оптимізації процесу покупки.",
+            "title": "Покращення конверсій",
+            "component": "project_results_card",
+            "text__i18n__en": "Increase the number of purchases or inquiries through the site by implementing effective design and optimizing the purchasing process.",
+            "title__i18n__en": "Improving Conversions"
+          }
+        ]
+      },
+      {
+        "_uid": "5c249df6-ba38-424d-92ac-419cf0b91d95",
+        "text": {
+          "type": "doc",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Дослідження та планування: ",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ]
+                },
+                {
+                  "text": "Вивчення цільової аудиторії та конкурентного середовища. Визначення цілей проєкту та створення технічного завдання. Розробка плану реалізації та розподіл ресурсів.",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Дизайн та UX/UI: ",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ]
+                },
+                {
+                  "text": "Розробка візуальної концепції та створення прототипів сторінок. Адаптація дизайну для відображення стилю бренду і забезпечення зручності навігації.",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Розробка та технічна реалізація: ",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ]
+                },
+                {
+                  "text": "Розробка функціоналу сайту, включаючи інтерактивні елементи, анімації та мультимедійні компоненти. Інтеграція платіжних систем та систем управління замовленнями. Забезпечення мобільної адаптивності та крос-браузерної сумісності.",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Запуск та тестування: ",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ]
+                },
+                {
+                  "text": "Проведення всебічного тестування сайту для перевірки його роботи на різних пристроях і браузерах. Налаштування аналітичних інструментів для моніторингу продуктивності. ",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Запуск та просування: ",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ]
+                },
+                {
+                  "text": "Офіційний запуск сайту і реалізація маркетингових кампаній для привернення трафіку. Оптимізація сайту для пошукових систем (SEO) і налаштування платної реклами.",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Підтримка та оновлення: ",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ]
+                },
+                {
+                  "text": "Регулярне оновлення контенту та технічне обслуговування сайту. Відстеження результатів та внесення корективів на основі аналітичних даних. Неперервна підтримка користувачів і вдосконалення функціоналу сайту.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        "title": "Процес розробки",
+        "component": "project_realization",
+        "text__i18n__en": {
+          "type": "doc",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Research and Planning: ",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ]
+                },
+                {
+                  "text": "study the target audience and competitive landscape. Define project goals and create a technical specification. Develop an implementation plan and allocate resources. ",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Design and UX/UI: ",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ]
+                },
+                {
+                  "text": "develop a visual concept and create page prototypes. Adapt the design to reflect the brand's style and ensure easy navigation.",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Development and Technical Implementation: ",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ]
+                },
+                {
+                  "text": "build site functionality, including interactive elements, animations, and multimedia components. Integrate payment systems and order management systems. Ensure mobile responsiveness and cross-browser compatibility. ",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Launch and Testing: ",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ]
+                },
+                {
+                  "text": "conduct comprehensive testing of the site to ensure proper functionality across various devices and browsers. Set up analytical tools to monitor performance. ",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Launch and Promotion: ",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ]
+                },
+                {
+                  "text": "Officially launch the site and implement marketing campaigns to drive traffic. Optimize the site for search engines (SEO) and set up paid advertising. ",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Maintenance and Updates: ",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ]
+                },
+                {
+                  "text": "regularly update content and perform technical maintenance. Track results and make adjustments based on analytical data. Provide ongoing user support and enhance site functionality.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        "title__i18n__en": "Development Process"
+      },
+      {
+        "_uid": "16377276-6955-48c5-9c8d-1227e6b84fa1",
+        "title": "Відгук засновника",
+        "component": "testimonials",
+        "testimonials": [
+          {
+            "ava": {
+              "id": 15169818,
+              "alt": "",
+              "name": "",
+              "focus": "",
+              "title": "",
+              "source": "",
+              "filename": "https://a.storyblok.com/f/276513/296x296/1dff453b0f/taras.webp",
+              "copyright": "",
+              "fieldtype": "asset",
+              "meta_data": {},
+              "is_external_url": false
+            },
+            "_uid": "780405b6-1dea-4214-86c2-8777c4656cef",
+            "name": "Тарас Буздиган",
+            "fb_link": {
+              "id": "",
+              "url": "https://www.facebook.com/TarasBuzdygan",
+              "linktype": "url",
+              "fieldtype": "multilink",
+              "cached_url": "https://www.facebook.com/TarasBuzdygan"
+            },
+            "component": "testimonial_card",
+            "description": "Власник бренду ",
+            "testimonial": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Команда Webrarium розробляла сайт для мого магазину tobimozhna.com.",
+                      "type": "text"
+                    },
+                    {
+                      "type": "hard_break"
+                    },
+                    {
+                      "type": "hard_break"
+                    },
+                    {
+                      "text": "Я ставив непрості задачі, було багато вимог, але справились на всі 100 і навіть більше! Тож рекомендую від щирого серця! Також раджу скористатись послугою супроводу, бо на початкових етапах роботи виникатиме багато питань - це заощадить ваш час!",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            "name__i18n__en": "Taras Buzdygan",
+            "description__i18n__en": "Brand owner of \"Tobі Mozhna\"",
+            "testimonial__i18n__en": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "The Webrarium team developed a website for my store ",
+                      "type": "text"
+                    },
+                    {
+                      "text": "tobimozhna.com",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "link",
+                          "attrs": {
+                            "href": "http://tobimozhna.com/",
+                            "uuid": null,
+                            "anchor": null,
+                            "target": null,
+                            "linktype": "url"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "text": ".",
+                      "type": "text"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "I had challenging tasks and many requirements, but they handled everything with flying colors and even more! So, I wholeheartedly recommend them! I also advise using their support service because there will be many questions at the initial stages of work - it will save you time!",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        ],
+        "title__i18n__en": "Feedback from the Founder"
+      },
+      {
+        "_uid": "ccdf9de6-4543-47ad-93e4-a3b8ddacad11",
+        "title": "Інші проєкти",
+        "component": "projects_grid",
+        "button_txt": " Переглянути кейс",
+        "button2_txt": "Переглянути сайт",
+        "projects_list": [
+          "79aa4ea5-f41a-43f8-96e4-368af6477536",
+          "55a8d19c-babf-4e12-b142-6a2ba090d65c",
+          "87b9c021-466d-4d37-9a95-7dc081b4d0b9",
+          "42acd9f9-71b9-4dab-9350-906c555bb815"
+        ],
+        "title__i18n__en": "Other Projects",
+        "button_txt__i18n__en": "View Case",
+        "button2_txt__i18n__en": "View Site"
+      }
+    ],
+    "subtitle": "Створення зручного онлайн-магазину для бренду якісної ювелірної продукції. Метою було розробити платформу, яка продемонструє колекцію ювелірних виробів бренду, покращить досвід покупок та сприятиме збільшенню продажів.",
+    "component": "project",
+    "description": "Розробка зручного онлайн-магазину для бренду ювелірної продукції. Створення платформи, що демонструє вишукану колекцію ювелірних прекрас, покращує досвід покупок і сприяє збільшенню продажів.",
+    "title__i18n__en": "Development of an Online Store for a Jewelry Brand",
+    "project_site_link": {
+      "id": "",
+      "url": "https://tobimozhna.com",
+      "linktype": "url",
+      "fieldtype": "multilink",
+      "cached_url": "https://tobimozhna.com"
+    },
+    "subtitle__i18n__en": "Creation of an elegant and user-friendly online store for a high-quality jewelry brand. The goal was to develop a platform that showcases the brand's exquisite jewelry collection, enhances the shopping experience, and boosts sales.",
+    "description__i18n__en": "Development of a user-friendly online store for a high-end jewelry brand. Creating a platform that showcases an exquisite jewelry collection, enhances the shopping experience, and drives sales."
+  },
+  "published": true,
+  "slug": "development-of-an-online-store-for-a-jewelry-brand",
+  "path": null,
+  "full_slug": "projects/development-of-an-online-store-for-a-jewelry-brand",
+  "default_root": null,
+  "disble_fe_editor": false,
+  "disable_fe_editor": false,
+  "parent": {
+    "id": 488037327,
+    "uuid": "4d89644d-6011-41db-8e49-af619af0d34e",
+    "name": "Projects",
+    "slug": "projects",
+    "disble_fe_editor": false
+  },
+  "is_startpage": false,
+  "unpublished_changes": true,
+  "meta_data": null,
+  "imported_at": null,
+  "preview_token": {
+    "token": "3d75a9e85c25715a11d9c3af1c87f577fef8ac97",
+    "timestamp": "1781338275"
+  },
+  "pinned": false,
+  "breadcrumbs": [
+    {
+      "id": 488037327,
+      "name": "Projects",
+      "parent_id": null,
+      "disble_fe_editor": false,
+      "disable_fe_editor": false,
+      "path": null,
+      "slug": "projects",
+      "translated_slugs": []
+    }
+  ],
+  "publish_at": null,
+  "expire_at": null,
+  "first_published_at": "2024-09-03T17:57:07.262Z",
+  "last_author": {
+    "id": 230996,
+    "userid": "zjoka",
+    "friendly_name": "Serhii Halun"
+  },
+  "last_author_id": 230996,
+  "user_ids": [],
+  "space_role_ids": [],
+  "translated_slugs": [],
+  "localized_paths": [
+    {
+      "path": "projects/development-of-an-online-store-for-a-jewelry-brand",
+      "name": null,
+      "lang": "en",
+      "published": null
+    }
+  ],
+  "position": -80,
+  "translated_stories": [],
+  "can_not_view": false,
+  "is_scheduled": null,
+  "scheduled_dates": null,
+  "ideas": [],
+  "current_version_id": null,
+  "variant_type": null,
+  "experiment_ids": [],
+  "stage": null,
+  "favourite_for_user_ids": []
+}

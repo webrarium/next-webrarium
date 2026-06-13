@@ -1,0 +1,1381 @@
+{
+  "name": "Home",
+  "parent_id": 0,
+  "group_id": "4bd34599-e0dd-4ca2-afe9-cfd70d3a0577",
+  "alternates": [],
+  "created_at": "2024-02-19T13:43:01.690Z",
+  "deleted_at": null,
+  "sort_by_date": null,
+  "tag_list": [],
+  "updated_at": "2025-08-06T09:01:30.720Z",
+  "published_at": "2025-08-06T09:01:30.705Z",
+  "id": 445737404,
+  "uuid": "853b53e4-1141-4b00-a37b-294ec7b32891",
+  "is_folder": false,
+  "content": {
+    "_uid": "3312d102-2144-4bed-85b6-30c2785a9bb0",
+    "body": [
+      {
+        "_uid": "4b3433eb-6a85-49ed-930d-bd0c9dd1535f",
+        "title": "Webrarium.",
+        "hero_cta": {
+          "id": "",
+          "url": "getstarted",
+          "linktype": "url",
+          "fieldtype": "multilink",
+          "cached_url": "getstarted"
+        },
+        "subtitle": "Створюємо цифрові рішення, що допомагають вашому бізнесу зростати",
+        "component": "hero",
+        "hero_cta2": {
+          "id": "",
+          "url": "contact",
+          "linktype": "url",
+          "fieldtype": "multilink",
+          "cached_url": "contact"
+        },
+        "hero_cta_txt": "Показуйте",
+        "hero_cta_txt2": "Контакти",
+        "subtitle__i18n__en": "We create digital solutions that help your business grow",
+        "hero_cta_txt__i18n__en": "Get Started",
+        "hero_cta_txt2__i18n__en": "Let's Talk"
+      },
+      {
+        "_uid": "fada769b-42cc-48c1-86bc-5f0041a8a600",
+        "component": "work_tl",
+        "work_tl_cards": [
+          {
+            "_uid": "c3abb26d-a101-439c-a566-e0a28d9ffe8e",
+            "title": "Визначити",
+            "component": "work_tl_card",
+            "description": "Досліджуємо потреби вашого бізнесу, визначаємо цілі та оптимальні шляхи їх досягнення",
+            "title__i18n__en": "Determine",
+            "description__i18n__en": "We research the needs of your business, determine goals and optimal ways to achieve them"
+          },
+          {
+            "_uid": "8b174070-489c-4daf-a11c-563e5d074208",
+            "title": "Спроектувати",
+            "component": "work_tl_card",
+            "description": "Створюємо зручне для користувача середовище, що забезпечує позитивний досвід взаємодії з продуктом",
+            "title__i18n__en": "Design",
+            "description__i18n__en": "We create a user-friendly environment that provides a positive experience of interaction with the product"
+          },
+          {
+            "_uid": "18fd9a56-83c3-4d1f-8935-2a028c3a640d",
+            "title": "Розробити",
+            "component": "work_tl_card",
+            "description": "Будуємо надійні ресурси, що відповідатимуть вашим бізнес-цілям",
+            "title__i18n__en": "Develop",
+            "description__i18n__en": "We build reliable resources that will meet your business goals"
+          },
+          {
+            "_uid": "9b691ea1-5274-4675-9bda-528e82f28b50",
+            "title": "Передати",
+            "component": "work_tl_card",
+            "description": "Завджди підтримуємо проєкти розроблені нами",
+            "title__i18n__en": "Deliver",
+            "description__i18n__en": "We support projects developed by us"
+          }
+        ]
+      },
+      {
+        "_uid": "77ae19f1-a9dc-4b46-81ab-4b19b8d857e0",
+        "title": "Ми створюємо та підтримуємо найкращі технічні рішення для розробки сайтів та цифрових рекламних кампаній",
+        "subtitle": "Технології не є кінцевою метою продукту, тож ми зосереджуємось на досвіді користувача та потребах бізнесу.",
+        "component": "stack",
+        "title__i18n__en": "We create and support the best technical solutions for website development and digital advertising campaigns",
+        "subtitle__i18n__en": "Technology is not the end goal of the product.  We focus on user experience and business needs"
+      },
+      {
+        "_uid": "422d2ba2-b549-4aa1-8107-3122aef1b45b",
+        "title": "Послуги",
+        "component": "services_grid",
+        "services_list": [
+          "476fe48c-5fe3-4525-8e8e-83ed5daec94c",
+          "7c2295e6-3f58-44fd-8370-13bd848dacd9",
+          "7ceba478-dbb3-4206-878e-0ac15f083451",
+          "f6041b97-5acc-416c-9751-80ce6af78197",
+          "177850d2-a46f-4582-87b9-39aa6e215026",
+          "26eaca58-ff97-4bbc-a047-f45e4ddc2d9c"
+        ],
+        "title__i18n__en": "We Focus On"
+      },
+      {
+        "_uid": "43865425-4b1e-40e3-a305-289f48c04be3",
+        "title": "Нещодавні проєкти",
+        "component": "projects_grid",
+        "button_txt": "Переглянути кейс",
+        "button2_txt": "Переглянути сайт",
+        "projects_list": [
+          "55a8d19c-babf-4e12-b142-6a2ba090d65c",
+          "79aa4ea5-f41a-43f8-96e4-368af6477536",
+          "87b9c021-466d-4d37-9a95-7dc081b4d0b9",
+          "fc71ed4c-ee73-42a9-ad26-7c74d7f815ac",
+          "42acd9f9-71b9-4dab-9350-906c555bb815",
+          "698b91de-ffe5-411c-8cf9-1873994a784c"
+        ],
+        "title__i18n__en": "Recent Projects",
+        "button_txt__i18n__en": "View Case",
+        "button2_txt__i18n__en": "View Site"
+      },
+      {
+        "_uid": "bfe29e49-32d6-40fb-abee-dfd3043fa3c8",
+        "title": "Обговоримо ваш проєкт?",
+        "wa_link": {
+          "id": "",
+          "url": " https://wa.me/+380739797954",
+          "linktype": "url",
+          "fieldtype": "multilink",
+          "cached_url": " https://wa.me/+380739797954"
+        },
+        "component": "cta",
+        "title__i18n__en": "Let's discuss your project"
+      },
+      {
+        "_uid": "9ac4b7c7-4c6d-4dda-a48c-62259c3c18c5",
+        "title": "Нам 💚 зростати разом із",
+        "component": "partners",
+        "partners_logos": [
+          {
+            "_uid": "f6cf4917-146e-41a2-90be-101ad4f82b6c",
+            "icon": "💚",
+            "logo_img": {
+              "id": 15224191,
+              "alt": "PSPOH",
+              "name": "",
+              "focus": "",
+              "title": "",
+              "source": "",
+              "filename": "https://a.storyblok.com/f/276513/300x121/d66ee3f224/pspoh.svg",
+              "copyright": "",
+              "fieldtype": "asset",
+              "meta_data": {
+                "alt": "PSPOH",
+                "title": "",
+                "source": "",
+                "copyright": ""
+              },
+              "is_private": false,
+              "is_external_url": false
+            },
+            "component": "partner_logo"
+          },
+          {
+            "_uid": "3d29941b-0701-49a8-ac76-5ff424f95eb5",
+            "icon": "💚",
+            "logo_img": {
+              "id": 15224196,
+              "alt": "UCU Business School",
+              "name": "",
+              "focus": "",
+              "title": "",
+              "source": "",
+              "filename": "https://a.storyblok.com/f/276513/231x75/7e648dde53/lvbs.svg",
+              "copyright": "",
+              "fieldtype": "asset",
+              "meta_data": {
+                "alt": "UCU Business School",
+                "title": "",
+                "source": "",
+                "copyright": ""
+              },
+              "is_private": false,
+              "is_external_url": false
+            },
+            "component": "partner_logo"
+          },
+          {
+            "_uid": "a53f71d8-5ff3-45e2-8f35-c83c23d132be",
+            "icon": "💚",
+            "logo_img": {
+              "id": 15224237,
+              "alt": "Олександр Балбишев",
+              "name": "",
+              "focus": "",
+              "title": "",
+              "source": "",
+              "filename": "https://a.storyblok.com/f/276513/400x72/400e91b32e/olexandr-balbyshev.svg",
+              "copyright": "",
+              "fieldtype": "asset",
+              "meta_data": {
+                "alt": "Олександр Балбишев",
+                "title": "",
+                "source": "",
+                "copyright": ""
+              },
+              "is_private": false,
+              "is_external_url": false
+            },
+            "component": "partner_logo"
+          },
+          {
+            "_uid": "c85b58a2-bc23-4422-baa4-df66efc24621",
+            "icon": "💚",
+            "logo_img": {
+              "id": 15224239,
+              "alt": "100% Життя",
+              "name": "",
+              "focus": "",
+              "title": "",
+              "source": "",
+              "filename": "https://a.storyblok.com/f/276513/300x149/4abf9dc274/100life.svg",
+              "copyright": "",
+              "fieldtype": "asset",
+              "meta_data": {
+                "alt": "100% Життя",
+                "title": "",
+                "source": "",
+                "copyright": ""
+              },
+              "is_private": false,
+              "is_external_url": false
+            },
+            "component": "partner_logo"
+          },
+          {
+            "_uid": "0e86525a-35b0-47d6-a108-c97ef54e3c0e",
+            "icon": "💚",
+            "logo_img": {
+              "id": 15224193,
+              "alt": "Діємо для здоров'я",
+              "name": "",
+              "focus": "",
+              "title": "",
+              "source": "",
+              "filename": "https://a.storyblok.com/f/276513/300x99/991389118a/act-for-health-logo.svg",
+              "copyright": "",
+              "fieldtype": "asset",
+              "meta_data": {
+                "alt": "Діємо для здоров'я",
+                "title": "",
+                "source": "",
+                "copyright": ""
+              },
+              "is_private": false,
+              "is_external_url": false
+            },
+            "component": "partner_logo"
+          },
+          {
+            "_uid": "4824957f-144a-4f30-8f23-3d3c28f2bdca",
+            "icon": "💚",
+            "logo_img": {
+              "id": 15224197,
+              "alt": "Центр соціології права та кримінології",
+              "name": "",
+              "focus": "",
+              "title": "",
+              "source": "",
+              "filename": "https://a.storyblok.com/f/276513/300x67/5af0444e0d/uclcr.svg",
+              "copyright": "",
+              "fieldtype": "asset",
+              "meta_data": {
+                "alt": "Центр соціології права та кримінології",
+                "title": "",
+                "source": "",
+                "copyright": ""
+              },
+              "is_private": false,
+              "is_external_url": false
+            },
+            "component": "partner_logo"
+          },
+          {
+            "_uid": "a99fe43c-413d-4a5d-8606-7041dbf048fc",
+            "icon": "💚",
+            "logo_img": {
+              "id": 15224192,
+              "alt": "Arterium",
+              "name": "",
+              "focus": "",
+              "title": "",
+              "source": "",
+              "filename": "https://a.storyblok.com/f/276513/300x55/14a9871e99/arterium.svg",
+              "copyright": "",
+              "fieldtype": "asset",
+              "meta_data": {
+                "alt": "Arterium",
+                "title": "",
+                "source": "",
+                "copyright": ""
+              },
+              "is_private": false,
+              "is_external_url": false
+            },
+            "component": "partner_logo"
+          },
+          {
+            "_uid": "b91535aa-853b-489b-8638-7d5d1e0880ad",
+            "icon": "💚",
+            "logo_img": {
+              "id": 15224195,
+              "alt": "Центр громадського здоров'я МОЗ України",
+              "name": "",
+              "focus": "",
+              "title": "",
+              "source": "",
+              "filename": "https://a.storyblok.com/f/276513/220x70/673e4ecd20/moz.svg",
+              "copyright": "",
+              "fieldtype": "asset",
+              "meta_data": {
+                "alt": "Центр громадського здоров'я МОЗ України",
+                "title": "",
+                "source": "",
+                "copyright": ""
+              },
+              "is_private": false,
+              "is_external_url": false
+            },
+            "component": "partner_logo"
+          },
+          {
+            "_uid": "24b61b37-651c-4c9b-adc7-780eb098b0ae",
+            "icon": "💚",
+            "logo_img": {
+              "id": 15224236,
+              "alt": "Institute of Mass Information",
+              "name": "",
+              "focus": "",
+              "title": "",
+              "source": "",
+              "filename": "https://a.storyblok.com/f/276513/116x54/e7f6531595/imi.svg",
+              "copyright": "",
+              "fieldtype": "asset",
+              "meta_data": {
+                "alt": "Institute of Mass Information",
+                "title": "",
+                "source": "",
+                "copyright": ""
+              },
+              "is_private": false,
+              "is_external_url": false
+            },
+            "component": "partner_logo"
+          },
+          {
+            "_uid": "4f71766b-0788-4733-971c-6c8010cfb65c",
+            "icon": "💚",
+            "logo_img": {
+              "id": 15224238,
+              "alt": "Tobi mozhna",
+              "name": "",
+              "focus": "",
+              "title": "",
+              "source": "",
+              "filename": "https://a.storyblok.com/f/276513/255x34/3149a08a3d/tobi-mozhna.svg",
+              "copyright": "",
+              "fieldtype": "asset",
+              "meta_data": {
+                "alt": "Tobi mozhna",
+                "title": "",
+                "source": "",
+                "copyright": ""
+              },
+              "is_private": false,
+              "is_external_url": false
+            },
+            "component": "partner_logo"
+          },
+          {
+            "_uid": "8d679098-b4ad-40c8-bd55-93f109ad6039",
+            "icon": "💚",
+            "logo_img": {
+              "id": 15224190,
+              "alt": "OneHealth",
+              "name": "",
+              "focus": "",
+              "title": "",
+              "source": "",
+              "filename": "https://a.storyblok.com/f/276513/223x43/c22ab67a74/onehealth.svg",
+              "copyright": "",
+              "fieldtype": "asset",
+              "meta_data": {
+                "alt": "OneHealth",
+                "title": "",
+                "source": "",
+                "copyright": ""
+              },
+              "is_private": false,
+              "is_external_url": false
+            },
+            "component": "partner_logo"
+          },
+          {
+            "_uid": "acaaa258-2618-4b72-a99b-af553937b7a6",
+            "icon": "💚",
+            "logo_img": {
+              "id": 21903603,
+              "alt": "Luxury Retreat NM",
+              "name": "",
+              "focus": "",
+              "title": "",
+              "source": "",
+              "filename": "https://a.storyblok.com/f/276513/294x88/9eedf1e192/luxury-retreat.svg",
+              "copyright": "",
+              "fieldtype": "asset",
+              "meta_data": {
+                "alt": "Luxury Retreat NM",
+                "title": "",
+                "source": "",
+                "copyright": ""
+              },
+              "is_external_url": false
+            },
+            "component": "partner_logo"
+          }
+        ],
+        "title__i18n__en": "We 💚 to grow together with"
+      },
+      {
+        "_uid": "3d1f7bef-f46e-4e6a-9bac-2ce58c717365",
+        "title": "🗣️ І ось, що  вони про нас кажуть",
+        "component": "testimonials",
+        "testimonials": [
+          {
+            "ava": {
+              "id": 15169815,
+              "alt": "",
+              "name": "",
+              "focus": "",
+              "title": "",
+              "source": "",
+              "filename": "https://a.storyblok.com/f/276513/296x296/14aa627808/julia.webp",
+              "copyright": "",
+              "fieldtype": "asset",
+              "meta_data": {},
+              "is_private": false,
+              "is_external_url": false
+            },
+            "_uid": "153274c6-cba6-43ee-aa66-23eeb7f0918e",
+            "name": "Юлія Маруняк",
+            "fb_link": {
+              "id": "",
+              "url": "https://www.facebook.com/julimaruniak",
+              "linktype": "url",
+              "fieldtype": "multilink",
+              "cached_url": "https://www.facebook.com/julimaruniak"
+            },
+            "component": "testimonial_card",
+            "description": "Співзасновник у The Digital State",
+            "testimonial": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Працювали із Webrarium, щодо SEO-оптимізації та запуску рекламних кампаній для сайту бізнес-школи УКУ. Співпрацею задоволена, адже все було із стратегічного погляду, міркування про пріоритети для закриття нашого запиту. ",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "textStyle",
+                          "attrs": {
+                            "color": ""
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "type": "hard_break",
+                      "marks": [
+                        {
+                          "type": "textStyle",
+                          "attrs": {
+                            "color": ""
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "type": "hard_break",
+                      "marks": [
+                        {
+                          "type": "textStyle",
+                          "attrs": {
+                            "color": ""
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Ми рухались короткими спринтами - було відчуття, що все на пульсі. В результаті за кілька місяців роботи сайт покращив свої позиції в пошуковій видачі за ключовими запитами, також прослідкували динаміку збільшення трафіку та конверсій на навчальні програми - і відповідно збільшення продажів на ключові продукти, які ставили за ціль.",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "textStyle",
+                          "attrs": {
+                            "color": ""
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            "name__i18n__en": "Yulia Maruniak",
+            "description__i18n__en": "Co-founder at “The Digital State”",
+            "testimonial__i18n__en": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "We worked with Webrarium on SEO optimization and launching advertising campaigns for the UCU Business School website. I am satisfied with the cooperation because everything was strategically aligned, considering priorities to fulfill our request.",
+                      "type": "text"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "We progressed in short sprints - there was a feeling that everything was on point. As a result, over a few months of work, the website improved its positions in search engine results for key queries. We also tracked the dynamics of increasing traffic and conversions for educational programs - and accordingly, there was an increase in sales for key products that were set as goals.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "ava": {
+              "id": 15169817,
+              "alt": "",
+              "name": "",
+              "focus": "",
+              "title": "",
+              "source": "",
+              "filename": "https://a.storyblok.com/f/276513/296x296/16f6132a24/serhii.webp",
+              "copyright": "",
+              "fieldtype": "asset",
+              "meta_data": {},
+              "is_private": false,
+              "is_external_url": false
+            },
+            "_uid": "e305d1d5-ad04-46e2-a368-e51af014ac61",
+            "name": "Сергій Баглай",
+            "fb_link": {
+              "id": "",
+              "url": "https://www.facebook.com/s.bahlai",
+              "linktype": "url",
+              "fieldtype": "multilink",
+              "cached_url": "https://www.facebook.com/s.bahlai"
+            },
+            "component": "testimonial_card",
+            "description": "Співзасновник Центру соціології права та кримінології",
+            "testimonial": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Найперше, команда, ефективно комунікує. З вами було напрочуд легко погодити ідею, пропрацювати її “від” і “до” реалізації. Разом знаходили кращі рішення в наявних умовах обмежених ресурсів, а Сергій проактивно описував варіанти, які, зрештою, задовільнити запит нашої команди на всі 100%. ",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "textStyle",
+                          "attrs": {
+                            "color": ""
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "type": "hard_break",
+                      "marks": [
+                        {
+                          "type": "textStyle",
+                          "attrs": {
+                            "color": ""
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "type": "hard_break",
+                      "marks": [
+                        {
+                          "type": "textStyle",
+                          "attrs": {
+                            "color": ""
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Сайт вийшов функціональним та зі смаком! У Webrarium завжди готові допомогти і постійно на зв’язку, що робить підтримку нашої компанії зручною в адмініструванні для нас.",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "textStyle",
+                          "attrs": {
+                            "color": ""
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            "name__i18n__en": "Serhiy Bahlay",
+            "description__i18n__en": "Co-founder of the Center for Sociology of Law and Criminology",
+            "testimonial__i18n__en": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "First and foremost, the team effectively communicates. It was incredibly easy to agree on the idea with you and work on it \"from\" and \"to\" implementation. Together, we found the best solutions within the limitations of available resources, and Serhiy proactively described options that ultimately met our team's request 100%.",
+                      "type": "text"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "The website turned out functional and tasteful! At Webrarium, they are always ready to help and constantly in touch, making support for our company convenient in administration for us.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "ava": {
+              "id": 15169818,
+              "alt": "",
+              "name": "",
+              "focus": "",
+              "title": "",
+              "source": "",
+              "filename": "https://a.storyblok.com/f/276513/296x296/1dff453b0f/taras.webp",
+              "copyright": "",
+              "fieldtype": "asset",
+              "meta_data": {},
+              "is_private": false,
+              "is_external_url": false
+            },
+            "_uid": "a6513332-0027-4627-8197-3588c832fc24",
+            "name": "Тарас Буздиган",
+            "fb_link": {
+              "id": "",
+              "url": "https://www.facebook.com/TarasBuzdygan",
+              "linktype": "url",
+              "fieldtype": "multilink",
+              "cached_url": "https://www.facebook.com/TarasBuzdygan"
+            },
+            "component": "testimonial_card",
+            "description": "Власник бренду “Тобі Можна”",
+            "testimonial": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Команда Webrarium розробляла сайт для мого магазину ",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "textStyle",
+                          "attrs": {
+                            "color": ""
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "text": "tobimozhna.com",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "link",
+                          "attrs": {
+                            "href": "http://tobimozhna.com",
+                            "uuid": null,
+                            "anchor": null,
+                            "target": "_self",
+                            "linktype": "url"
+                          }
+                        },
+                        {
+                          "type": "textStyle",
+                          "attrs": {
+                            "color": ""
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "text": ".",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "textStyle",
+                          "attrs": {
+                            "color": ""
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "type": "hard_break",
+                      "marks": [
+                        {
+                          "type": "textStyle",
+                          "attrs": {
+                            "color": ""
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "type": "hard_break",
+                      "marks": [
+                        {
+                          "type": "textStyle",
+                          "attrs": {
+                            "color": ""
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Я ставив непрості задачі, було багато вимог, але справились на всі 100 і навіть більше! Тож рекомендую від щирого серця! Також раджу скористатись послугою супроводу, бо на початкових етапах роботи виникатиме багато питань - це заощадить ваш час!",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "textStyle",
+                          "attrs": {
+                            "color": ""
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            "name__i18n__en": "Taras Buzdygan",
+            "description__i18n__en": " Brand owner of \"Tobі Mozhna\"",
+            "testimonial__i18n__en": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "The Webrarium team developed a website for my store ",
+                      "type": "text"
+                    },
+                    {
+                      "text": "tobimozhna.com",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "link",
+                          "attrs": {
+                            "href": "http://tobimozhna.com",
+                            "uuid": null,
+                            "anchor": null,
+                            "target": null,
+                            "linktype": "url"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "text": ".",
+                      "type": "text"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "I had challenging tasks and many requirements, but they handled everything with flying colors and even more! So, I wholeheartedly recommend them! I also advise using their support service because there will be many questions at the initial stages of work - it will save you time!",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "ava": {
+              "id": 15169816,
+              "alt": "",
+              "name": "",
+              "focus": "",
+              "title": "",
+              "source": "",
+              "filename": "https://a.storyblok.com/f/276513/296x296/0d3f6cba18/balbyshev.webp",
+              "copyright": "",
+              "fieldtype": "asset",
+              "meta_data": {},
+              "is_private": false,
+              "is_external_url": false
+            },
+            "_uid": "77f8fde3-9c57-4bab-be96-3be89d730807",
+            "name": "Олександр Балбишев",
+            "fb_link": {
+              "id": "",
+              "url": "https://www.facebook.com/profile.php?id=100068682130392",
+              "linktype": "url",
+              "fieldtype": "multilink",
+              "cached_url": "https://www.facebook.com/profile.php?id=100068682130392"
+            },
+            "component": "testimonial_card",
+            "description": "Художник",
+            "testimonial": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Хочу подякувати команді за швидку та якісну співпрацю у створенні веб-сайту!",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "textStyle",
+                          "attrs": {
+                            "color": ""
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "type": "hard_break",
+                      "marks": [
+                        {
+                          "type": "textStyle",
+                          "attrs": {
+                            "color": ""
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Дуже вдячний за те, як оперативно реагували на всі мої запитання, пояснювали складні речі простими словами та ефективно вирішували завдання заздалегідь, що оптимізувало та прискорювало робочий процес.",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "textStyle",
+                          "attrs": {
+                            "color": ""
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "type": "hard_break",
+                      "marks": [
+                        {
+                          "type": "textStyle",
+                          "attrs": {
+                            "color": ""
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "type": "hard_break",
+                      "marks": [
+                        {
+                          "type": "textStyle",
+                          "attrs": {
+                            "color": ""
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Безумовно, у вас відмінна експертиза в розробці та у чудовий сервіс, що значно полегшує моє життя! Дякую за мій новий видатний веб-сайт!",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "textStyle",
+                          "attrs": {
+                            "color": ""
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            "name__i18n__en": "Alexander Balbishev",
+            "description__i18n__en": "Artist",
+            "testimonial__i18n__en": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "I want to express my sincere gratitude to the team for the fast and high-quality cooperation in creating the website! I am very grateful for the prompt responses to all my questions, explanations of complex things in simple words, and efficient solving of tasks in advance, which significantly optimized and accelerated the work process.",
+                      "type": "text"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Undoubtedly, you have excellent expertise in development and excellent service, which greatly facilitates my life! Thank you for my outstanding new website!",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "ava": {
+              "id": 15169814,
+              "alt": "",
+              "name": "",
+              "focus": "",
+              "title": "",
+              "source": "",
+              "filename": "https://a.storyblok.com/f/276513/296x296/fcc00e8745/oleks.webp",
+              "copyright": "",
+              "fieldtype": "asset",
+              "meta_data": {
+                "alt": "",
+                "title": "",
+                "source": "",
+                "copyright": ""
+              },
+              "is_private": false,
+              "is_external_url": false
+            },
+            "_uid": "8167e6be-2d98-45d3-bc1d-7464afebf823",
+            "name": "Олександр Істомін",
+            "fb_link": {
+              "id": "",
+              "url": "https://www.facebook.com/alexandr.istomin.39",
+              "linktype": "url",
+              "fieldtype": "multilink",
+              "cached_url": "https://www.facebook.com/alexandr.istomin.39"
+            },
+            "component": "testimonial_card",
+            "description": "Українська Асоціація Дитячої Онкології та Гематології",
+            "testimonial": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Робота з Webrarium змінила докорінно моє уявлення як про себе, в якості замовника, так і про розробку в цілому. В очікуванні технічного «хаосу», термінів, яких я не розумію, та колючих цін, я побачив людей які передусім запитали: «А про що це? Якими Вас мають бачити інші, і як бачите Ви себе?».",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "textStyle",
+                          "attrs": {
+                            "color": ""
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Без пафосу, без відчуття особистої digital регресивності, 2 місяці роботи разом з Webrarium відчувались не роботою, а якимось сеансом, де вдавалось не лише працювати над сайтом, але й відкривати свій продукт наново.",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "textStyle",
+                          "attrs": {
+                            "color": ""
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            "name__i18n__en": "Alexander Istomin",
+            "description__i18n__en": "Ukrainian Association of Pediatric Oncology and Hematology",
+            "testimonial__i18n__en": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Working with Webrarium has fundamentally changed my perception as a client and my understanding of development as a whole. Instead of expecting technical \"chaos,\" terms I don't understand, and high prices, I encountered people who first and foremost asked, \"What is this about? How do others see you, and how do you see yourself?\"",
+                      "type": "text"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Without pomposity, without a sense of personal digital regressiveness, two months of working together with Webrarium felt not like work, but like some kind of session where we managed not only to work on the website but also to rediscover our product.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "ava": {
+              "id": 15747228,
+              "alt": "Karuna Lazaryk Photo",
+              "name": "",
+              "focus": "",
+              "title": "Karyna Lazaruk",
+              "source": "",
+              "filename": "https://a.storyblok.com/f/276513/296x296/6abe7586c0/karuna-lazaryk.webp",
+              "copyright": "",
+              "fieldtype": "asset",
+              "meta_data": {
+                "alt": "Karuna Lazaryk Photo",
+                "title": "Karyna Lazaruk",
+                "source": "",
+                "copyright": ""
+              },
+              "is_private": false,
+              "is_external_url": false
+            },
+            "_uid": "2c8a653d-828b-4d9b-b3fd-d50995641e4d",
+            "name": "Карина Лазарук",
+            "fb_link": {
+              "id": "",
+              "url": "https://www.facebook.com/karyna.mazover/about",
+              "linktype": "url",
+              "fieldtype": "multilink",
+              "cached_url": "https://www.facebook.com/karyna.mazover/about"
+            },
+            "component": "testimonial_card",
+            "description": "Дослідниця медіа ",
+            "testimonial": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Якщо ви хочете прозорої та чіткої комунікації під час роботи над проектом дуже раджу цю студію. Ми робили разом сайт для спецпроєкту, який я вважаю одніє зі своїх професійних візитівок. ",
+                      "type": "text"
+                    },
+                    {
+                      "type": "hard_break"
+                    },
+                    {
+                      "type": "hard_break"
+                    },
+                    {
+                      "text": "Для мене цінно, щоб в робочі процеси були включені лише компетентні люди, це економить час та нерви, а зараз це особливо важливо.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            "name__i18n__en": "Karyna Lazaruk",
+            "description__i18n__en": "Media Researcher",
+            "testimonial__i18n__en": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "If you want transparent and clear communication while working on a project, I highly recommend this company. We worked together on a website for a special project, which I consider one of my professional calling cards.",
+                      "type": "text"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "It's valuable to me to have only competent people involved in the workflow; it saves time and nerves, which is especially important now.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "ava": {
+              "id": 22744246,
+              "alt": "",
+              "name": "",
+              "focus": "",
+              "title": "",
+              "source": "",
+              "filename": "https://a.storyblok.com/f/276513/281x281/176d803d6c/mykola-taborovets.webp",
+              "copyright": "",
+              "fieldtype": "asset",
+              "meta_data": {},
+              "is_external_url": false
+            },
+            "_uid": "91828f22-be31-41b3-a72d-ccde77a8dea5",
+            "name": "Микола Таборовець",
+            "fb_link": {
+              "id": "",
+              "url": "https://www.facebook.com/profile.php?id=100007169715864&sk=%D1%84about",
+              "linktype": "url",
+              "fieldtype": "multilink",
+              "cached_url": "https://www.facebook.com/profile.php?id=100007169715864&sk=%D1%84about"
+            },
+            "component": "testimonial_card",
+            "description": "Директор мережі клінік 100% ЖИТТЯ",
+            "testimonial": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Команда Webrarium розробляла для нашого медичного центру вебсайт 100percentlife.clinic. ",
+                      "type": "text"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Відмічу ряд надважливих для мене, як директора, позитивних речей при роботі з розробником. Перше - комунікація, що на мою думку, є найважливіше. Сергій, керівник команди розробників, в процесі усієї нашої співпраці, практично безперервно, був на звʼязку. ",
+                      "type": "text"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Друге - це якісно розроблений проєкт. Отримали повноцінний сайт медичного центру, який закрив нам практично всі потреби. ",
+                      "type": "text"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Команда Webrarium виконала більшу кількість робіт, ніж було обумовлено договором, за це окрема вдячність. Надалі продовжуємо нашу співпрацю по цьому, а також по інших проєктах. Бажаємо сталого розвитку та нових проєктів!",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            "name__i18n__en": "Mykola Taborovets",
+            "description__i18n__en": "Director of the 100% LIFE Clinic Network",
+            "testimonial__i18n__en": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "The Webrarium team developed the website 100percentlife.clinic for our medical center.",
+                      "type": "text"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "I would like to highlight several things that were very important to me as a director. First — communication, which I believe is the most critical factor. Serhiy, the team lead, was practically always available throughout our entire collaboration.",
+                      "type": "text"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Second — the quality of the project itself. We received a fully functional medical center website that covered virtually all of our needs.",
+                      "type": "text"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "The Webrarium team delivered more work than was specified in the contract, and we are especially grateful for that. We are continuing our collaboration on this and other projects. Wishing you steady growth and new projects!",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        ],
+        "title__i18n__en": "🗣️ And this is what they say about us"
+      },
+      {
+        "_uid": "7ed6928e-6510-4ea7-88a5-f205e9da0bac",
+        "logos": [
+          {
+            "id": 22745246,
+            "alt": "",
+            "name": "",
+            "focus": "",
+            "title": "",
+            "source": "",
+            "filename": "https://a.storyblok.com/f/276513/407x440/3d647da080/clutch1.webp",
+            "copyright": "",
+            "fieldtype": "asset",
+            "meta_data": {}
+          },
+          {
+            "id": 22745245,
+            "alt": "",
+            "name": "",
+            "focus": "",
+            "title": "",
+            "source": "",
+            "filename": "https://a.storyblok.com/f/276513/407x440/840507feac/clutch2.webp",
+            "copyright": "",
+            "fieldtype": "asset",
+            "meta_data": {}
+          }
+        ],
+        "title": "Дякуємо за визнання! ",
+        "component": "clutch",
+        "title__i18n__en": "Thanks for the recognition!"
+      },
+      {
+        "_uid": "054187d3-206e-4e1d-a1dd-5f372755a44c",
+        "title": "Давайте працювати разом!",
+        "wa_link": {
+          "id": "",
+          "url": " https://wa.me/+380674614067",
+          "linktype": "url",
+          "fieldtype": "multilink",
+          "cached_url": " https://wa.me/+380674614067"
+        },
+        "call_num": "+38 067 46 14 067",
+        "call_txt": "Дзвоніть",
+        "wa_label": "Кажіть",
+        "component": "contact",
+        "button_txt": "Надіслати",
+        "mail_label": "Пишіть",
+        "name_label": "Ім'я",
+        "description": "Об’єднавши наші зусилля та досвід, ми зможемо досягти спільної мети.",
+        "email_label": "Email",
+        "mail_address": "wewebrarium@gmail.com",
+        "message_label": "Повідомлення",
+        "message_sending": "Надсилання...",
+        "success_message": "Дякуємо! Повідомлення відправлено.",
+        "title__i18n__en": "Let's Work Together!",
+        "call_txt__i18n__en": "Call us",
+        "wa_label__i18n__en": "Send a message",
+        "button_txt__i18n__en": "send message",
+        "mail_label__i18n__en": "Write us",
+        "name_label__i18n__en": "Name",
+        "description__i18n__en": "Uniting our efforts and expertise, we can achieve a common goal.",
+        "message_label__i18n__en": "Message",
+        "message_sending__i18n__en": "Sending...",
+        "success_message__i18n__en": "Thanks! Message sent."
+      }
+    ],
+    "title": "Webrarium | Створюємо цифрові рішення",
+    "og_image": {
+      "id": 17515518,
+      "alt": "",
+      "name": "",
+      "focus": "",
+      "title": "",
+      "source": "",
+      "filename": "https://a.storyblok.com/f/276513/1200x630/4872760595/opengraph_ua.jpg",
+      "copyright": "",
+      "fieldtype": "asset",
+      "meta_data": {},
+      "is_external_url": false
+    },
+    "component": "page",
+    "description": "Створення сайтів, розробка чат-ботів, автоматизація маркетингу, продуктовий дизайн, цифрова реклама",
+    "title__i18n__en": "Webrarium | We create digital solutions",
+    "og_image__i18n__en": {
+      "id": 17515519,
+      "alt": "",
+      "name": "",
+      "focus": "",
+      "title": "",
+      "source": "",
+      "filename": "https://a.storyblok.com/f/276513/1200x630/8772fc64d8/opengraph_eng.jpg",
+      "copyright": "",
+      "fieldtype": "asset",
+      "meta_data": {},
+      "is_external_url": false
+    },
+    "description__i18n__en": "Website development, chatbot development, marketing automation, product design, digital advertising."
+  },
+  "published": true,
+  "slug": "home",
+  "path": "/",
+  "full_slug": "home",
+  "default_root": null,
+  "disble_fe_editor": false,
+  "disable_fe_editor": false,
+  "parent": null,
+  "is_startpage": false,
+  "unpublished_changes": false,
+  "meta_data": null,
+  "imported_at": null,
+  "preview_token": {
+    "token": "ca1947e24ed2cb30a624268457a513a79965ee50",
+    "timestamp": "1781338279"
+  },
+  "pinned": false,
+  "breadcrumbs": [],
+  "publish_at": null,
+  "expire_at": null,
+  "first_published_at": "2024-02-19T16:01:32.235Z",
+  "last_author": {
+    "id": 230996,
+    "userid": "zjoka",
+    "friendly_name": "Serhii Halun"
+  },
+  "last_author_id": 230996,
+  "user_ids": [],
+  "space_role_ids": [],
+  "translated_slugs": [],
+  "localized_paths": [
+    {
+      "path": "home",
+      "name": null,
+      "lang": "en",
+      "published": null
+    }
+  ],
+  "position": 0,
+  "translated_stories": [],
+  "can_not_view": false,
+  "is_scheduled": null,
+  "scheduled_dates": null,
+  "ideas": [],
+  "current_version_id": null,
+  "variant_type": null,
+  "experiment_ids": [],
+  "stage": null,
+  "favourite_for_user_ids": []
+}

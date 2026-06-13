@@ -1,6 +1,14 @@
+import type { Metadata } from "next";
 import styles from "./uikit.module.css";
 import Image from "next/image";
 import Delta from "@/app/components/Delta/Delta";
+
+export const metadata: Metadata = {
+  robots: {
+    index: false,
+    follow: false,
+  },
+};
 
 export async function generateStaticParams() {
   const staticParams = [{ locale: "en" }, { locale: "uk" }];

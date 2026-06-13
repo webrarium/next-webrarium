@@ -9,7 +9,7 @@ async function fetchData(locale: string) {
   let sbParams: {
     version: "published" | "draft";
     language: any;
-  } = { version: "draft", language: locale };
+  } = { version: "published", language: locale };
 
   const storyblokApi = getStoryblokApi();
   return storyblokApi.get(`cdn/stories/header`, sbParams, {

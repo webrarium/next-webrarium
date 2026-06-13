@@ -1,0 +1,2102 @@
+{
+  "name": "Data Deletion",
+  "parent_id": 0,
+  "group_id": "e7778550-f5ae-4c54-ade6-fbc5b7bc8bd0",
+  "alternates": [],
+  "created_at": "2026-03-10T15:52:27.236Z",
+  "deleted_at": null,
+  "sort_by_date": null,
+  "tag_list": [],
+  "updated_at": "2026-03-10T15:59:49.212Z",
+  "published_at": "2026-03-10T15:59:49.182Z",
+  "id": 153470350359149,
+  "uuid": "357a5939-14a9-4954-8bd6-72c3c69f9dc5",
+  "is_folder": false,
+  "content": {
+    "_uid": "b2445305-0ae7-4e10-a5ac-b795905c85ed",
+    "body": [
+      {
+        "_uid": "d94acac0-db6a-4b70-a961-8efc45c03c6c",
+        "title": "Webrarium – Видалення даних",
+        "content": {
+          "type": "doc",
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "textAlign": null
+              },
+              "content": [
+                {
+                  "text": "!doctype html>",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "attrs": {
+                "textAlign": null
+              },
+              "content": [
+                {
+                  "text": "<html lang=\"uk\">",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "attrs": {
+                "textAlign": null
+              },
+              "content": [
+                {
+                  "text": "<head>",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "attrs": {
+                "textAlign": null
+              },
+              "content": [
+                {
+                  "text": "  <meta charset=\"utf-8\">",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "attrs": {
+                "textAlign": null
+              },
+              "content": [
+                {
+                  "text": "  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "attrs": {
+                "textAlign": null
+              },
+              "content": [
+                {
+                  "text": "  <style>",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "attrs": {
+                "textAlign": null
+              },
+              "content": [
+                {
+                  "text": "    body { font-family: Arial, sans-serif; max-width: 720px; margin: 48px auto; padding: 0 16px; line-height: 1.6; color: #0f172a; }",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "attrs": {
+                "textAlign": null
+              },
+              "content": [
+                {
+                  "text": "    h1 { margin-bottom: 12px; }",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "attrs": {
+                "textAlign": null
+              },
+              "content": [
+                {
+                  "text": "    h2 { margin-top: 32px; }",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "attrs": {
+                "textAlign": null
+              },
+              "content": [
+                {
+                  "text": "    code { background: #f1f5f9; padding: 2px 6px; border-radius: 4px; }",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "attrs": {
+                "textAlign": null
+              },
+              "content": [
+                {
+                  "text": "    .card { border: 1px solid #e2e8f0; padding: 16px; border-radius: 8px; background: #f8fafc; }",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "attrs": {
+                "textAlign": null
+              },
+              "content": [
+                {
+                  "text": "  </style>",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "attrs": {
+                "textAlign": null
+              },
+              "content": [
+                {
+                  "text": "</head>",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "attrs": {
+                "textAlign": null
+              },
+              "content": [
+                {
+                  "text": "<body>",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "attrs": {
+                "textAlign": null
+              },
+              "content": [
+                {
+                  "text": "  <h1>Інструкції з видалення даних</h1>",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "attrs": {
+                "textAlign": null
+              },
+              "content": [
+                {
+                  "text": "  <p>Якщо ви використовували сервіси Webrarium (включно з інтеграціями Threads) і бажаєте видалити свої персональні дані, скористайтеся одним із варіантів нижче.</p>",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "attrs": {
+                "textAlign": null
+              },
+              "content": [
+                {
+                  "text": "  <div class=\"card\">",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "attrs": {
+                "textAlign": null
+              },
+              "content": [
+                {
+                  "text": "    <h2>Варіант A — самостійно через Threads/Instagram</h2>",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "attrs": {
+                "textAlign": null
+              },
+              "content": [
+                {
+                  "text": "    <ol>",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "attrs": {
+                "textAlign": null
+              },
+              "content": [
+                {
+                  "text": "      <li>Відкрийте додаток Threads або Instagram, де надавали доступ.</li>",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "attrs": {
+                "textAlign": null
+              },
+              "content": [
+                {
+                  "text": "      <li>Перейдіть у <strong>Налаштування → Безпека → Apps and Websites</strong>.</li>",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "attrs": {
+                "textAlign": null
+              },
+              "content": [
+                {
+                  "text": "      <li>Знайдіть <strong>Webrarium</strong> у списку Active та натисніть <strong>Remove</strong>. Це відкликає токени й блокує подальший доступ.</li>",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "attrs": {
+                "textAlign": null
+              },
+              "content": [
+                {
+                  "text": "    </ol>",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "attrs": {
+                "textAlign": null
+              },
+              "content": [
+                {
+                  "text": "  </div>",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "attrs": {
+                "textAlign": null
+              },
+              "content": [
+                {
+                  "text": "  <div class=\"card\">",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "attrs": {
+                "textAlign": null
+              },
+              "content": [
+                {
+                  "text": "    <h2>Варіант B — запит на видалення</h2>",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "attrs": {
+                "textAlign": null
+              },
+              "content": [
+                {
+                  "text": "    <p>Надішліть лист на <a href=\"mailto:privacy@webrarium.com\">privacy@webrarium.com</a> з темою <code>Видалити мої дані</code> і вкажіть:</p>",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "attrs": {
+                "textAlign": null
+              },
+              "content": [
+                {
+                  "text": "    <ul>",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "attrs": {
+                "textAlign": null
+              },
+              "content": [
+                {
+                  "text": "      <li>Ваш Threads/Instagram username.</li>",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "attrs": {
+                "textAlign": null
+              },
+              "content": [
+                {
+                  "text": "      <li>Електронну пошту, яку використовували з нашими сервісами (якщо інша).</li>",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "attrs": {
+                "textAlign": null
+              },
+              "content": [
+                {
+                  "text": "      <li>Обсяг запиту (наприклад: видалити аналітику, видалити історію листування).</li>",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "attrs": {
+                "textAlign": null
+              },
+              "content": [
+                {
+                  "text": "    </ul>",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "attrs": {
+                "textAlign": null
+              },
+              "content": [
+                {
+                  "text": "    <p>Ми видаляємо відповідні записи (токени, логи, аналітику) протягом 30 днів і підтверджуємо виконання.</p>",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "attrs": {
+                "textAlign": null
+              },
+              "content": [
+                {
+                  "text": "  </div>",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "attrs": {
+                "textAlign": null
+              },
+              "content": [
+                {
+                  "text": "  <div class=\"card\">",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "attrs": {
+                "textAlign": null
+              },
+              "content": [
+                {
+                  "text": "    <h2>Що саме видаляємо</h2>",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "attrs": {
+                "textAlign": null
+              },
+              "content": [
+                {
+                  "text": "    <ul>",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "attrs": {
+                "textAlign": null
+              },
+              "content": [
+                {
+                  "text": "      <li>Access tokens та refresh tokens, видані Webrarium.</li>",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "attrs": {
+                "textAlign": null
+              },
+              "content": [
+                {
+                  "text": "      <li>Метадані постів/відповідей, збережені для автоматизацій.</li>",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "attrs": {
+                "textAlign": null
+              },
+              "content": [
+                {
+                  "text": "      <li>Операційні логи, пов’язані з вашим обліковим записом.</li>",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "attrs": {
+                "textAlign": null
+              },
+              "content": [
+                {
+                  "text": "    </ul>",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "attrs": {
+                "textAlign": null
+              },
+              "content": [
+                {
+                  "text": "    <p>Ми не зберігаємо платіжні дані; оплати обробляють сторонні процесори.</p>",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "attrs": {
+                "textAlign": null
+              },
+              "content": [
+                {
+                  "text": "  </div>",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "attrs": {
+                "textAlign": null
+              },
+              "content": [
+                {
+                  "text": "  <p>Питання? Напишіть на <a href=\"mailto:privacy@webrarium.com\">privacy@webrarium.com</a>.</p>",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "attrs": {
+                "textAlign": null
+              },
+              "content": [
+                {
+                  "text": "</body>",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "attrs": {
+                "textAlign": null
+              },
+              "content": [
+                {
+                  "text": "</html>",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        "component": "privacy-policy",
+        "title__i18n__en": "Privacy Policy dated April 17, 2024",
+        "content__i18n__en": {
+          "type": "doc",
+          "content": [
+            {
+              "type": "heading",
+              "attrs": {
+                "level": 2
+              },
+              "content": [
+                {
+                  "text": "General Provisions",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "These Privacy Terms are an official document that is an integral part of the Terms of Use of the website ",
+                  "type": "text"
+                },
+                {
+                  "text": "webrarium.com",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "link",
+                      "attrs": {
+                        "href": "http://webrarium.com",
+                        "uuid": null,
+                        "anchor": null,
+                        "target": null,
+                        "linktype": "url"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "text": ", regulating the relationship between the Owner of the website ",
+                  "type": "text"
+                },
+                {
+                  "text": "webrarium.com",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "link",
+                      "attrs": {
+                        "href": "http://webrarium.com",
+                        "uuid": null,
+                        "anchor": null,
+                        "target": null,
+                        "linktype": "url"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "text": " and its Users regarding the list of confidential information, methods of its collection, storage, processing, disclosure, disclosure processing, ensuring security in connection with, and in the process of using the website ",
+                  "type": "text"
+                },
+                {
+                  "text": "webrarium.com",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "link",
+                      "attrs": {
+                        "href": "http://webrarium.com",
+                        "uuid": null,
+                        "anchor": null,
+                        "target": null,
+                        "linktype": "url"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "text": ".",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "We strongly recommend that Users carefully read the presented Privacy Terms before beginning to use the ",
+                  "type": "text"
+                },
+                {
+                  "text": "webrarium.com",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "link",
+                      "attrs": {
+                        "href": "http://webrarium.com",
+                        "uuid": null,
+                        "anchor": null,
+                        "target": null,
+                        "linktype": "url"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "text": " website, its content, or any other related products, as by starting to use the mentioned products, you confirm your consent to the use of the ",
+                  "type": "text"
+                },
+                {
+                  "text": "webrarium.com",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "link",
+                      "attrs": {
+                        "href": "http://webrarium.com",
+                        "uuid": null,
+                        "anchor": null,
+                        "target": null,
+                        "linktype": "url"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "text": " website under the conditions outlined below.",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "If Users do not fully or partially agree with these Privacy Terms, please refrain from starting or discontinue the use of the ",
+                  "type": "text"
+                },
+                {
+                  "text": "webrarium.com",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "link",
+                      "attrs": {
+                        "href": "http://webrarium.com",
+                        "uuid": null,
+                        "anchor": null,
+                        "target": null,
+                        "linktype": "url"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "text": " website.",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "heading",
+              "attrs": {
+                "level": 2
+              },
+              "content": [
+                {
+                  "text": "List of Confidential Information",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "The following types of information belong to personal information collected, stored, or processed during the use of the ",
+                  "type": "text"
+                },
+                {
+                  "text": "webrarium.com",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "link",
+                      "attrs": {
+                        "href": "http://webrarium.com",
+                        "uuid": null,
+                        "anchor": null,
+                        "target": null,
+                        "linktype": "url"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "text": " website:",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "bullet_list",
+              "content": [
+                {
+                  "type": "list_item",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "text": "Contact information: This includes, in particular, email address, username by which the User can identify themselves and submit an application on the ",
+                          "type": "text"
+                        },
+                        {
+                          "text": "webrarium.com",
+                          "type": "text",
+                          "marks": [
+                            {
+                              "type": "link",
+                              "attrs": {
+                                "href": "http://webrarium.com",
+                                "uuid": null,
+                                "anchor": null,
+                                "target": null,
+                                "linktype": "url"
+                              }
+                            }
+                          ]
+                        },
+                        {
+                          "text": " website.",
+                          "type": "text"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "text": "User information: This includes any information created and uploaded directly by the User, transmitted and received, distributed in any way by the User during and through the use of the ",
+                          "type": "text"
+                        },
+                        {
+                          "text": "webrarium.com",
+                          "type": "text",
+                          "marks": [
+                            {
+                              "type": "link",
+                              "attrs": {
+                                "href": "http://webrarium.com",
+                                "uuid": null,
+                                "anchor": null,
+                                "target": null,
+                                "linktype": "url"
+                              }
+                            }
+                          ]
+                        },
+                        {
+                          "text": " website, as well as direct information about the User.",
+                          "type": "text"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "text": "Information about the User's account/profile: This includes, in particular, information obtained/collected in any way about IP addresses, types of devices used to access the ",
+                          "type": "text"
+                        },
+                        {
+                          "text": "webrarium.com",
+                          "type": "text",
+                          "marks": [
+                            {
+                              "type": "link",
+                              "attrs": {
+                                "href": "http://webrarium.com",
+                                "uuid": null,
+                                "anchor": null,
+                                "target": null,
+                                "linktype": "url"
+                              }
+                            }
+                          ]
+                        },
+                        {
+                          "text": " website, time and frequency of visits to the ",
+                          "type": "text"
+                        },
+                        {
+                          "text": "webrarium.com",
+                          "type": "text",
+                          "marks": [
+                            {
+                              "type": "link",
+                              "attrs": {
+                                "href": "http://webrarium.com",
+                                "uuid": null,
+                                "anchor": null,
+                                "target": null,
+                                "linktype": "url"
+                              }
+                            }
+                          ]
+                        },
+                        {
+                          "text": " website, User and device geolocation, metadata, feedback, ratings, feedback posted by the User, content received from other Users/third parties.",
+                          "type": "text"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "heading",
+              "attrs": {
+                "level": 2
+              },
+              "content": [
+                {
+                  "text": "Purposes of Information Collection",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Information is collected to ensure:",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "bullet_list",
+              "content": [
+                {
+                  "type": "list_item",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "text": "Fulfillment of tasks by the User.",
+                          "type": "text"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "text": "Detection, investigation, and combating fraudulent, unauthorized, or other illegal activities within and in connection with the use of the ",
+                          "type": "text"
+                        },
+                        {
+                          "text": "webrarium.com",
+                          "type": "text",
+                          "marks": [
+                            {
+                              "type": "link",
+                              "attrs": {
+                                "href": "http://webrarium.com",
+                                "uuid": null,
+                                "anchor": null,
+                                "target": null,
+                                "linktype": "url"
+                              }
+                            }
+                          ]
+                        },
+                        {
+                          "text": " website.",
+                          "type": "text"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "text": "Provision of technical support to users in the process of using the ",
+                          "type": "text"
+                        },
+                        {
+                          "text": "webrarium.com",
+                          "type": "text",
+                          "marks": [
+                            {
+                              "type": "link",
+                              "attrs": {
+                                "href": "http://webrarium.com",
+                                "uuid": null,
+                                "anchor": null,
+                                "target": null,
+                                "linktype": "url"
+                              }
+                            }
+                          ]
+                        },
+                        {
+                          "text": " website.",
+                          "type": "text"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "text": "Administration of the ",
+                          "type": "text"
+                        },
+                        {
+                          "text": "webrarium.com",
+                          "type": "text",
+                          "marks": [
+                            {
+                              "type": "link",
+                              "attrs": {
+                                "href": "http://webrarium.com",
+                                "uuid": null,
+                                "anchor": null,
+                                "target": null,
+                                "linktype": "url"
+                              }
+                            }
+                          ]
+                        },
+                        {
+                          "text": " website.",
+                          "type": "text"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "text": "Compliance with the Terms of Use of the ",
+                          "type": "text"
+                        },
+                        {
+                          "text": "webrarium.com",
+                          "type": "text",
+                          "marks": [
+                            {
+                              "type": "link",
+                              "attrs": {
+                                "href": "http://webrarium.com",
+                                "uuid": null,
+                                "anchor": null,
+                                "target": null,
+                                "linktype": "url"
+                              }
+                            }
+                          ]
+                        },
+                        {
+                          "text": " website.",
+                          "type": "text"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "text": "Analytics of aggregated, depersonalized, and anonymized information to improve and optimize service quality, the results of which may be used by the Owner of the ",
+                          "type": "text"
+                        },
+                        {
+                          "text": "webrarium.com",
+                          "type": "text",
+                          "marks": [
+                            {
+                              "type": "link",
+                              "attrs": {
+                                "href": "http://webrarium.com",
+                                "uuid": null,
+                                "anchor": null,
+                                "target": null,
+                                "linktype": "url"
+                              }
+                            }
+                          ]
+                        },
+                        {
+                          "text": " website to optimize the ",
+                          "type": "text"
+                        },
+                        {
+                          "text": "webrarium.com",
+                          "type": "text",
+                          "marks": [
+                            {
+                              "type": "link",
+                              "attrs": {
+                                "href": "http://webrarium.com",
+                                "uuid": null,
+                                "anchor": null,
+                                "target": null,
+                                "linktype": "url"
+                              }
+                            }
+                          ]
+                        },
+                        {
+                          "text": " website and improve the service.",
+                          "type": "text"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "The Owner of the ",
+                  "type": "text"
+                },
+                {
+                  "text": "webrarium.com",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "link",
+                      "attrs": {
+                        "href": "http://webrarium.com",
+                        "uuid": null,
+                        "anchor": null,
+                        "target": null,
+                        "linktype": "url"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "text": " website undertakes to obtain from the User full, express, and comprehensive consent to the collection and processing of requested data. By using the ",
+                  "type": "text"
+                },
+                {
+                  "text": "webrarium.com",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "link",
+                      "attrs": {
+                        "href": "http://webrarium.com",
+                        "uuid": null,
+                        "anchor": null,
+                        "target": null,
+                        "linktype": "url"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "text": " website and submitting corresponding tasks on the ",
+                  "type": "text"
+                },
+                {
+                  "text": "webrarium.com",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "link",
+                      "attrs": {
+                        "href": "http://webrarium.com",
+                        "uuid": null,
+                        "anchor": null,
+                        "target": null,
+                        "linktype": "url"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "text": " website, including tasks to transfer data, the User expresses their full and comprehensive consent to the collection and processing of the aforementioned personal data of the User. By accepting these Privacy Terms, the User confirms and agrees that the aforementioned data will be collected, processed, and stored on servers owned by the Owner of the ",
+                  "type": "text"
+                },
+                {
+                  "text": "webrarium.com",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "link",
+                      "attrs": {
+                        "href": "http://webrarium.com",
+                        "uuid": null,
+                        "anchor": null,
+                        "target": null,
+                        "linktype": "url"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "text": " website.",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Collection, storage, processing, or any use of information for purposes other than those provided for by these Privacy Terms is strictly prohibited. No one may distribute, publish, or otherwise use User information in any way that violates or potentially violates the rights of third parties or other users.",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "heading",
+              "attrs": {
+                "level": 2
+              },
+              "content": [
+                {
+                  "text": "Moment of Information Collection",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "The Owner of the ",
+                  "type": "text"
+                },
+                {
+                  "text": "webrarium.com",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "link",
+                      "attrs": {
+                        "href": "http://webrarium.com",
+                        "uuid": null,
+                        "anchor": null,
+                        "target": null,
+                        "linktype": "url"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "text": " website collects information at the moment:",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "bullet_list",
+              "content": [
+                {
+                  "type": "list_item",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "text": "of direct use by Users of the interfaces of the ",
+                          "type": "text"
+                        },
+                        {
+                          "text": "webrarium.com",
+                          "type": "text",
+                          "marks": [
+                            {
+                              "type": "link",
+                              "attrs": {
+                                "href": "http://webrarium.com",
+                                "uuid": null,
+                                "anchor": null,
+                                "target": null,
+                                "linktype": "url"
+                              }
+                            }
+                          ]
+                        },
+                        {
+                          "text": " website;",
+                          "type": "text"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "text": "of creation, uploading, and transmission of data between Users or conducting other communications with their participation;",
+                          "type": "text"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "text": "of communication between the User and the Owner of the ",
+                          "type": "text"
+                        },
+                        {
+                          "text": "webrarium.com",
+                          "type": "text",
+                          "marks": [
+                            {
+                              "type": "link",
+                              "attrs": {
+                                "href": "http://webrarium.com",
+                                "uuid": null,
+                                "anchor": null,
+                                "target": null,
+                                "linktype": "url"
+                              }
+                            }
+                          ]
+                        },
+                        {
+                          "text": " website through the ",
+                          "type": "text"
+                        },
+                        {
+                          "text": "webrarium.com",
+                          "type": "text",
+                          "marks": [
+                            {
+                              "type": "link",
+                              "attrs": {
+                                "href": "http://webrarium.com",
+                                "uuid": null,
+                                "anchor": null,
+                                "target": null,
+                                "linktype": "url"
+                              }
+                            }
+                          ]
+                        },
+                        {
+                          "text": " website.",
+                          "type": "text"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "heading",
+              "attrs": {
+                "level": 2
+              },
+              "content": [
+                {
+                  "text": "Disclosure of Personal Data",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "The owners of the ",
+                  "type": "text"
+                },
+                {
+                  "text": "webrarium.com",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "link",
+                      "attrs": {
+                        "href": "http://webrarium.com",
+                        "uuid": null,
+                        "anchor": null,
+                        "target": null,
+                        "linktype": "url"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "text": " website reserve the right to disclose the personal data of their users to the following individuals:",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "bullet_list",
+              "content": [
+                {
+                  "type": "list_item",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "text": "Third parties who are partners of the owners of the ",
+                          "type": "text"
+                        },
+                        {
+                          "text": "webrarium.com",
+                          "type": "text",
+                          "marks": [
+                            {
+                              "type": "link",
+                              "attrs": {
+                                "href": "http://webrarium.com",
+                                "uuid": null,
+                                "anchor": null,
+                                "target": null,
+                                "linktype": "url"
+                              }
+                            }
+                          ]
+                        },
+                        {
+                          "text": " website and contribute to the provision of the service (maintenance, support, hosting, database management, etc.). In this case, the information is disclosed solely for the purpose of providing the service, and the individuals who have access to it are obligated not to disclose or use it beyond the scope of these Privacy Terms.",
+                          "type": "text"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "text": "Representatives of governmental authorities in response to their duly formalized and justified request in connection with the conduct of official procedures, investigations if the obligation to disclose information is provided by applicable law.",
+                          "type": "text"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "text": "Professional advisors (lawyers, auditors, etc.) for the purposes of conducting independent audits, corporate governance.",
+                          "type": "text"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "heading",
+              "attrs": {
+                "level": 2
+              },
+              "content": [
+                {
+                  "text": "Disclosure, Transfer, Exchange of Personal Information",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "This occurs only with the full, express, and comprehensive consent of the User. The User has the opportunity at any time to prevent, stop further transfer, exchange of personal information.",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "heading",
+              "attrs": {
+                "level": 2
+              },
+              "content": [
+                {
+                  "text": "Data Storage and Security",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "The Owner of the ",
+                  "type": "text"
+                },
+                {
+                  "text": "webrarium.com",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "link",
+                      "attrs": {
+                        "href": "http://webrarium.com",
+                        "uuid": null,
+                        "anchor": null,
+                        "target": null,
+                        "linktype": "url"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "text": " website takes all necessary and objectively justified measures to protect users' information from leaks, loss, unauthorized and unlawful use.",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "However, Users should also be aware that:",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "bullet_list",
+              "content": [
+                {
+                  "type": "list_item",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "text": "The ",
+                          "type": "text"
+                        },
+                        {
+                          "text": "webrarium.com",
+                          "type": "text",
+                          "marks": [
+                            {
+                              "type": "link",
+                              "attrs": {
+                                "href": "http://webrarium.com",
+                                "uuid": null,
+                                "anchor": null,
+                                "target": null,
+                                "linktype": "url"
+                              }
+                            }
+                          ]
+                        },
+                        {
+                          "text": " website is available online, and therefore, it may be susceptible to cyber-attacks, viruses, and other similar negative occurrences, which do not guarantee Users absolute security of the service used.",
+                          "type": "text"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "text": "The ",
+                          "type": "text"
+                        },
+                        {
+                          "text": "webrarium.com",
+                          "type": "text",
+                          "marks": [
+                            {
+                              "type": "link",
+                              "attrs": {
+                                "href": "http://webrarium.com",
+                                "uuid": null,
+                                "anchor": null,
+                                "target": null,
+                                "linktype": "url"
+                              }
+                            }
+                          ]
+                        },
+                        {
+                          "text": " website is used at the User's own risk, and the owners of the ",
+                          "type": "text"
+                        },
+                        {
+                          "text": "webrarium.com",
+                          "type": "text",
+                          "marks": [
+                            {
+                              "type": "link",
+                              "attrs": {
+                                "href": "http://webrarium.com",
+                                "uuid": null,
+                                "anchor": null,
+                                "target": null,
+                                "linktype": "url"
+                              }
+                            }
+                          ]
+                        },
+                        {
+                          "text": " website do not bear any responsibility for damages/losses resulting from information and cybersecurity threats.",
+                          "type": "text"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Users also realize that the information security measures and data protection do not guarantee absolute protection of any transmitted information.",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "The owners of the ",
+                  "type": "text"
+                },
+                {
+                  "text": "webrarium.com",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "link",
+                      "attrs": {
+                        "href": "http://webrarium.com",
+                        "uuid": null,
+                        "anchor": null,
+                        "target": null,
+                        "linktype": "url"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "text": " website are also not responsible for the actions of third parties to whom the User discloses or otherwise transmits information.",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "As the ",
+                  "type": "text"
+                },
+                {
+                  "text": "webrarium.com",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "link",
+                      "attrs": {
+                        "href": "http://webrarium.com",
+                        "uuid": null,
+                        "anchor": null,
+                        "target": null,
+                        "linktype": "url"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "text": " website operates globally, the User acknowledges and agrees that personal information may be transferred to devices located in any other country worldwide, with varying levels of data protection. By using the ",
+                  "type": "text"
+                },
+                {
+                  "text": "webrarium.com",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "link",
+                      "attrs": {
+                        "href": "http://webrarium.com",
+                        "uuid": null,
+                        "anchor": null,
+                        "target": null,
+                        "linktype": "url"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "text": " website, the User confirms and consents to such data transfers.",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "heading",
+              "attrs": {
+                "level": 2
+              },
+              "content": [
+                {
+                  "text": "Changes to Personal Data",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Users have the right to change, update, correct, and delete personal information at any time using the ",
+                  "type": "text"
+                },
+                {
+                  "text": "webrarium.com",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "link",
+                      "attrs": {
+                        "href": "http://webrarium.com",
+                        "uuid": null,
+                        "anchor": null,
+                        "target": null,
+                        "linktype": "url"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "text": " website.",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Users agree that after deleting their data/content, copies of such data may continue to be stored on the server as a result of data backup for some time.",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "However, the Owner of the ",
+                  "type": "text"
+                },
+                {
+                  "text": "webrarium.com",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "link",
+                      "attrs": {
+                        "href": "http://webrarium.com",
+                        "uuid": null,
+                        "anchor": null,
+                        "target": null,
+                        "linktype": "url"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "text": " website is not obliged to retain such data after the expiration of the data Privacy Terms, and the User understands that upon cessation of service usage, their data and content may not be retained.",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "heading",
+              "attrs": {
+                "level": 2
+              },
+              "content": [
+                {
+                  "text": "Cookies",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Cookies may be used to monitor the usage of the ",
+                  "type": "text"
+                },
+                {
+                  "text": "webrarium.com",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "link",
+                      "attrs": {
+                        "href": "http://webrarium.com",
+                        "uuid": null,
+                        "anchor": null,
+                        "target": null,
+                        "linktype": "url"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "text": " website and web traffic to optimize and improve the service.",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Users are aware that cookies may collect certain personal information about Users, including information about Users' IP addresses, types of devices, operating systems used, and the time and frequency of visits.",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Users can change their browser settings to block the automatic use of such cookies. The collected information may be used solely for the analysis of aggregated, depersonalized, and anonymized information, the results of which may be used by the Owner of the ",
+                  "type": "text"
+                },
+                {
+                  "text": "webrarium.com",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "link",
+                      "attrs": {
+                        "href": "http://webrarium.com",
+                        "uuid": null,
+                        "anchor": null,
+                        "target": null,
+                        "linktype": "url"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "text": " website to optimize the functionality of the ",
+                  "type": "text"
+                },
+                {
+                  "text": "webrarium.com",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "link",
+                      "attrs": {
+                        "href": "http://webrarium.com",
+                        "uuid": null,
+                        "anchor": null,
+                        "target": null,
+                        "linktype": "url"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "text": " website and improve the provided service.",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "However, opting out of using cookies may affect the ability to access certain functionalities of the ",
+                  "type": "text"
+                },
+                {
+                  "text": "webrarium.com",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "link",
+                      "attrs": {
+                        "href": "http://webrarium.com",
+                        "uuid": null,
+                        "anchor": null,
+                        "target": null,
+                        "linktype": "url"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "text": " website.",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "heading",
+              "attrs": {
+                "level": 2
+              },
+              "content": [
+                {
+                  "text": "Changes to Privacy Terms",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "The owners of the ",
+                  "type": "text"
+                },
+                {
+                  "text": "webrarium.com",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "link",
+                      "attrs": {
+                        "href": "http://webrarium.com",
+                        "uuid": null,
+                        "anchor": null,
+                        "target": null,
+                        "linktype": "url"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "text": " website reserve the right to revoke the validity of these Privacy Terms at any time, make changes, and additions to them without the prior consent or prior notification of Users.",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "If certain provisions of these Privacy Terms are deemed invalid, or their invalidity is recognized within one jurisdiction or another, this does not invalidate the Privacy Terms as a whole, nor does it invalidate individual provisions within specific jurisdictions.",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Upon making relevant changes to these Privacy Terms, they will be published on the platform where the ",
+                  "type": "text"
+                },
+                {
+                  "text": "webrarium.com",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "link",
+                      "attrs": {
+                        "href": "http://webrarium.com",
+                        "uuid": null,
+                        "anchor": null,
+                        "target": null,
+                        "linktype": "url"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "text": " website is located, as well as indicated at the top of the text with the announcement date.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "title": "Webrarium | Політика конфіденційності",
+    "og_image": {
+      "id": null,
+      "alt": null,
+      "name": "",
+      "focus": null,
+      "title": null,
+      "source": null,
+      "filename": "",
+      "copyright": null,
+      "fieldtype": "asset",
+      "meta_data": {}
+    },
+    "component": "page",
+    "description": "Політика конфіденційності",
+    "title__i18n__en": "Webrarium | Privacy Policy",
+    "description__i18n__en": "Privacy Policy"
+  },
+  "published": true,
+  "slug": "data-deletion",
+  "path": null,
+  "full_slug": "data-deletion",
+  "default_root": null,
+  "disble_fe_editor": false,
+  "disable_fe_editor": false,
+  "parent": null,
+  "is_startpage": false,
+  "unpublished_changes": false,
+  "meta_data": null,
+  "imported_at": null,
+  "preview_token": {
+    "token": "70d303723ee26d692faa3d79af5c07961e9b46b3",
+    "timestamp": "1781338278"
+  },
+  "pinned": false,
+  "breadcrumbs": [],
+  "publish_at": null,
+  "expire_at": null,
+  "first_published_at": "2026-03-10T15:54:53.318Z",
+  "last_author": {
+    "id": 230996,
+    "userid": "zjoka",
+    "friendly_name": "Serhii Halun"
+  },
+  "last_author_id": 230996,
+  "user_ids": [],
+  "space_role_ids": [],
+  "translated_slugs": [],
+  "localized_paths": [
+    {
+      "path": "data-deletion",
+      "name": null,
+      "lang": "en",
+      "published": null
+    }
+  ],
+  "position": -10,
+  "translated_stories": [],
+  "can_not_view": false,
+  "is_scheduled": null,
+  "scheduled_dates": null,
+  "ideas": [],
+  "current_version_id": 153472160250091,
+  "variant_type": null,
+  "experiment_ids": [],
+  "stage": null,
+  "favourite_for_user_ids": []
+}

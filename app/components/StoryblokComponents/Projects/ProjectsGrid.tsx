@@ -10,7 +10,7 @@ export default function ProjectsGrid({ blok }: { blok: any }) {
     const fetchResolvedData = async () => {
       const storyblokApi = getStoryblokApi();
       const { data } = await storyblokApi.get(`cdn/stories/${blok.slug}`, {
-        version: "draft",
+        version: "published",
         resolve_relations: ["projects_grid.projects_list"],
       });
 

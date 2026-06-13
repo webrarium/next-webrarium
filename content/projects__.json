@@ -1,0 +1,127 @@
+{
+  "name": "ProjectsList",
+  "parent_id": 488037327,
+  "group_id": "c2814b24-d7c9-455b-9216-fa5173925fb4",
+  "alternates": [],
+  "created_at": "2024-05-01T12:45:39.338Z",
+  "deleted_at": null,
+  "sort_by_date": null,
+  "tag_list": [],
+  "updated_at": "2025-06-05T14:52:13.049Z",
+  "published_at": "2025-06-05T14:52:13.036Z",
+  "id": 488037730,
+  "uuid": "83fed0f7-c2d2-41d9-b629-5cbacb5f4f82",
+  "is_folder": false,
+  "content": {
+    "_uid": "60e2bab0-55a6-4728-9ece-332a910c8716",
+    "body": [
+      {
+        "_uid": "977135c1-364e-44b3-9d01-31644a38447b",
+        "title": "Проєкти",
+        "component": "h1_heading",
+        "title__i18n__en": "Projects"
+      },
+      {
+        "_uid": "5078a8f9-af8b-404b-a2d4-4ecc3cf3a2a1",
+        "title": "",
+        "component": "projects_grid",
+        "button_txt": "Переглянути кейс",
+        "button2_txt": "Переглянути сайт",
+        "projects_list": [
+          "55a8d19c-babf-4e12-b142-6a2ba090d65c",
+          "79aa4ea5-f41a-43f8-96e4-368af6477536",
+          "42acd9f9-71b9-4dab-9350-906c555bb815",
+          "fc71ed4c-ee73-42a9-ad26-7c74d7f815ac",
+          "87b9c021-466d-4d37-9a95-7dc081b4d0b9",
+          "698b91de-ffe5-411c-8cf9-1873994a784c",
+          "53d2605a-86c0-4d30-b021-54c88780978d"
+        ],
+        "button_txt__i18n__en": "View Case",
+        "button2_txt__i18n__en": "View Site"
+      }
+    ],
+    "title": "Наші проєкти - розробка сайтів, електронна комерція та 3D Дизайн | Webrarium",
+    "og_image": {
+      "id": null,
+      "alt": null,
+      "name": "",
+      "focus": null,
+      "title": null,
+      "source": null,
+      "filename": "",
+      "copyright": null,
+      "fieldtype": "asset",
+      "meta_data": {}
+    },
+    "component": "page",
+    "description": "Проєкти Webrarium у сфері розробки сайтів, електронної комерції та 3D дизайну! Досліджуйте наші кейси, щоб дізнатися, як ми допомагаємо бізнесам досягати своїх цілей за допомогою інноваційних рішень.",
+    "title__i18n__en": "Our Projects - Website Development, E-commerce, and 3D Design | Webrarium",
+    "description__i18n__en": "Webrarium Projects in Website Development, E-commerce, and 3D Design! Explore our case studies to discover how we help businesses achieve their goals with innovative solutions"
+  },
+  "published": true,
+  "slug": "projects",
+  "path": null,
+  "full_slug": "projects/",
+  "default_root": null,
+  "disble_fe_editor": false,
+  "disable_fe_editor": false,
+  "parent": {
+    "id": 488037327,
+    "uuid": "4d89644d-6011-41db-8e49-af619af0d34e",
+    "name": "Projects",
+    "slug": "projects",
+    "disble_fe_editor": false
+  },
+  "is_startpage": true,
+  "unpublished_changes": false,
+  "meta_data": null,
+  "imported_at": null,
+  "preview_token": {
+    "token": "e26193665586952ddb05f4d4b984f820209e30f7",
+    "timestamp": "1781338274"
+  },
+  "pinned": false,
+  "breadcrumbs": [
+    {
+      "id": 488037327,
+      "name": "Projects",
+      "parent_id": null,
+      "disble_fe_editor": false,
+      "disable_fe_editor": false,
+      "path": null,
+      "slug": "projects",
+      "translated_slugs": []
+    }
+  ],
+  "publish_at": null,
+  "expire_at": null,
+  "first_published_at": "2024-05-01T12:54:10.862Z",
+  "last_author": {
+    "id": 230996,
+    "userid": "zjoka",
+    "friendly_name": "Serhii Halun"
+  },
+  "last_author_id": 230996,
+  "user_ids": [],
+  "space_role_ids": [],
+  "translated_slugs": [],
+  "localized_paths": [
+    {
+      "path": "projects/",
+      "name": null,
+      "lang": "en",
+      "published": true
+    }
+  ],
+  "position": -150,
+  "translated_stories": [],
+  "can_not_view": false,
+  "is_scheduled": null,
+  "scheduled_dates": null,
+  "ideas": [],
+  "current_version_id": null,
+  "variant_type": null,
+  "experiment_ids": [],
+  "stage": null,
+  "favourite_for_user_ids": []
+}

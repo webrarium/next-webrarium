@@ -1,0 +1,732 @@
+{
+  "name": "+146 registrations from the advertising campaign for the UCU business school",
+  "parent_id": 488037327,
+  "group_id": "2118c1c7-9148-406d-80b9-10c0ff9d5bdd",
+  "alternates": [],
+  "created_at": "2024-05-01T12:25:34.981Z",
+  "deleted_at": null,
+  "sort_by_date": null,
+  "tag_list": [],
+  "updated_at": "2024-09-09T11:34:57.598Z",
+  "published_at": "2024-05-01T12:54:06.905Z",
+  "id": 488037519,
+  "uuid": "55a8d19c-babf-4e12-b142-6a2ba090d65c",
+  "is_folder": false,
+  "content": {
+    "_uid": "f9e1a335-c6e5-4c45-92e7-256489cc4bbd",
+    "cover": {
+      "id": 15314499,
+      "alt": "UCU Business School",
+      "name": "",
+      "focus": "",
+      "title": "",
+      "source": "",
+      "filename": "https://a.storyblok.com/f/276513/664x449/8b057651c4/ucu-business-school.webp",
+      "copyright": "",
+      "fieldtype": "asset",
+      "meta_data": {
+        "alt": "UCU Business School",
+        "title": "",
+        "source": "",
+        "copyright": ""
+      },
+      "is_external_url": false
+    },
+    "title": "+146 реєстрацій з рекламної кампанії для бізнес-школи УКУ",
+    "blocks": [
+      {
+        "_uid": "ec18eb6e-09ec-41bb-bc68-109f5b438d26",
+        "text": {
+          "type": "doc",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Бізнес-освіта в Україні є досить активною галуззю, оскільки бізнес-школи, тренінгові центри та інші освітні установи надають різноманітні програми для підвищення кваліфікації та розвитку професійних навичок.",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "textStyle",
+                      "attrs": {
+                        "color": ""
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "headline": "🍿Захопленість онлайн-освітою вибухає, як попкорн у мікрохвильовці, але ми змогли вибитися з толоки завдяки нашій рекламній стратегії!",
+        "component": "project_headline",
+        "text__i18n__en": {
+          "type": "doc",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Business education in Ukraine is a highly active sector, with business schools, training centers, and other educational institutions offering a wide range of programs to enhance qualifications and develop professional skills.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        "headline__i18n__en": "🍿 Enthusiasm for Online Education is Popping Like Popcorn in a Microwave, But We've Managed to Stand Out from the Crowd Thanks to Our Marketing Strategy!"
+      },
+      {
+        "_uid": "5f175ea7-cb70-48ab-a683-5004927e8d5a",
+        "component": "project_challenge_and_instruments",
+        "challenge_txt": "Конкурентне середовище в сфері освітніх курсів, школи активно рекламуються онлайн. Короткі терміни для досягнення бізнес цілей: досягнення ефективного ROI, оптимізація рекламного бюджету.",
+        "challenge_title": "🙌 Виклики",
+        "instruments_txt": "Google Analytics, Google Search Console, Google Ads, Ahrefs, Keyword Planner, Систему управління вмістом, мізки ppc-фахівця та seo-приятеля і одного меркетинг-менеджера. ",
+        "instruments_title": "🧠 Що використовували?",
+        "challenge_txt__i18n__en": "Competitive Environment: The educational course sector is highly competitive, with schools actively advertising online. Short Timelines: Achieving business goals quickly, including effective ROI and optimizing the advertising budget.",
+        "challenge_title__i18n__en": "🙌 Challenges",
+        "instruments_txt__i18n__en": "Google Analytics, Google Search Console, Google Ads, Ahrefs, Keyword Planner, Content Management System, the brains of a PPC specialist and an SEO friend.",
+        "instruments_title__i18n__en": " 🧠 What was Used?"
+      },
+      {
+        "_uid": "327035cd-0c60-4cc0-8a1f-82b194ea26b3",
+        "title": "Ключові результати",
+        "component": "project_results",
+        "title__i18n__en": "Key Results",
+        "project_results_cards": [
+          {
+            "_uid": "6287c983-d787-4ca2-8e42-4267eb75bac4",
+            "text": "Реєстрацій на курс",
+            "title": "146",
+            "component": "project_results_card",
+            "text__i18n__en": "Course Registrations",
+            "title__i18n__en": "146"
+          },
+          {
+            "_uid": "6a9e1737-d2f1-45d7-a075-4f32a3387c64",
+            "text": "Дзвінків",
+            "title": "305",
+            "component": "project_results_card",
+            "text__i18n__en": "Calls",
+            "title__i18n__en": "305"
+          },
+          {
+            "_uid": "591b0cd1-54e5-4e94-8f2a-dbcb0c4dd27d",
+            "text": "Студенти особисто зустрілись із представником курсу",
+            "title": "73",
+            "component": "project_results_card",
+            "text__i18n__en": "Students met in person with a course representative",
+            "title__i18n__en": "73"
+          }
+        ]
+      },
+      {
+        "_uid": "eb9dd9e1-24ba-4f53-85dd-9729ac9d76bf",
+        "text": {
+          "type": "doc",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Визначили цілі кампанії та аудиторію. Стратегія спрямована на збільшення залучення через форми реєстрації, дзвінки та особисті зустрічі з представником курсу. ",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "textStyle",
+                      "attrs": {
+                        "color": ""
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "hard_break",
+                  "marks": [
+                    {
+                      "type": "textStyle",
+                      "attrs": {
+                        "color": ""
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "hard_break",
+                  "marks": [
+                    {
+                      "type": "textStyle",
+                      "attrs": {
+                        "color": ""
+                      }
+                    }
+                  ]
+                },
+                {
+                  "text": "Досліджено конкурентів. Використані інструменти: Google Keyword, Ahrefs та SemRush.",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "textStyle",
+                      "attrs": {
+                        "color": ""
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "hard_break",
+                  "marks": [
+                    {
+                      "type": "textStyle",
+                      "attrs": {
+                        "color": ""
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "hard_break",
+                  "marks": [
+                    {
+                      "type": "textStyle",
+                      "attrs": {
+                        "color": ""
+                      }
+                    }
+                  ]
+                },
+                {
+                  "text": "Додано пул заголовків та описів з унікальними описами та закликами до дії. Зібрано контент для реклами в партнерських мережах. ",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "textStyle",
+                      "attrs": {
+                        "color": ""
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "hard_break",
+                  "marks": [
+                    {
+                      "type": "textStyle",
+                      "attrs": {
+                        "color": ""
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "hard_break",
+                  "marks": [
+                    {
+                      "type": "textStyle",
+                      "attrs": {
+                        "color": ""
+                      }
+                    }
+                  ]
+                },
+                {
+                  "text": "Проаналізовано та оптимізовано цільові сторінки сайту. Важливо мати якісні сторінки, на які перейдуть користувачі після кліку по оголошенню.",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "textStyle",
+                      "attrs": {
+                        "color": ""
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Використали різні толоки аудиторій за географічним демографічними ознаками. Налаштували Таргетинг для YouTube мережі.",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "textStyle",
+                      "attrs": {
+                        "color": ""
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "hard_break",
+                  "marks": [
+                    {
+                      "type": "textStyle",
+                      "attrs": {
+                        "color": ""
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "hard_break",
+                  "marks": [
+                    {
+                      "type": "textStyle",
+                      "attrs": {
+                        "color": ""
+                      }
+                    }
+                  ]
+                },
+                {
+                  "text": "Створили декілька “розумних” пошукових кампаній Google Ads. Безліч рекламних відео-кампаній та декілька геолокаційних.",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "textStyle",
+                      "attrs": {
+                        "color": ""
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "hard_break",
+                  "marks": [
+                    {
+                      "type": "textStyle",
+                      "attrs": {
+                        "color": ""
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "hard_break",
+                  "marks": [
+                    {
+                      "type": "textStyle",
+                      "attrs": {
+                        "color": ""
+                      }
+                    }
+                  ]
+                },
+                {
+                  "text": "Оптимізували та регулярно відстежували результати рекламної кампанії в Google Ads та вносили корективи для покращення її ефективності.",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "textStyle",
+                      "attrs": {
+                        "color": ""
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "hard_break",
+                  "marks": [
+                    {
+                      "type": "textStyle",
+                      "attrs": {
+                        "color": ""
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "hard_break",
+                  "marks": [
+                    {
+                      "type": "textStyle",
+                      "attrs": {
+                        "color": ""
+                      }
+                    }
+                  ]
+                },
+                {
+                  "text": "Досягли результатів за 21 днів від старту кампанії. Використали дані про конверсії для прийняття рішень щодо оптимізації кампанії.",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "textStyle",
+                      "attrs": {
+                        "color": ""
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "title": "🤭Реалізація",
+        "component": "project_realization",
+        "text__i18n__en": {
+          "type": "doc",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Campaign Goals and Audience",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ]
+                },
+                {
+                  "text": ": defined campaign objectives and target audience. The strategy focused on increasing engagement through registration forms, phone calls, and in-person meetings with a course representative.",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Competitor Research",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ]
+                },
+                {
+                  "text": ": analyzed competitors using tools like Google Keyword Planner, Ahrefs, and SemRush.",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Content Creation",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ]
+                },
+                {
+                  "text": ": developed a pool of headlines and descriptions with unique content and calls to action. Collected content for advertising in partner networks.",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Landing Page Optimization",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ]
+                },
+                {
+                  "text": ": analyzed and optimized the website's landing pages. Ensured high-quality pages for users to land on after clicking ads.",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Audience Targeting",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ]
+                },
+                {
+                  "text": ": Employed various audience segments based on geographic and demographic characteristics. Set up targeting for the YouTube network.",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Google ads campaigns",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ]
+                },
+                {
+                  "text": ": created multiple “smart” Google Ads search campaigns, numerous video ads, and several geo-targeted campaigns.",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Ongoing Optimization",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ]
+                },
+                {
+                  "text": ": regularly monitored and optimized the Google Ads campaigns, making adjustments to improve performance.",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Results Achieved",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ]
+                },
+                {
+                  "text": ": Results were achieved within 21 days of the campaign's launch. Utilized conversion data to make decisions for campaign optimization.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        "title__i18n__en": "🤭 Implementation"
+      },
+      {
+        "_uid": "70580883-7bf0-4cca-93fd-d4ec68db913d",
+        "title": "🗣️Відгук клієнта ",
+        "component": "testimonials",
+        "testimonials": [
+          {
+            "ava": {
+              "id": 15169815,
+              "alt": "",
+              "name": "",
+              "focus": "",
+              "title": "",
+              "source": "",
+              "filename": "https://a.storyblok.com/f/276513/296x296/14aa627808/julia.webp",
+              "copyright": "",
+              "fieldtype": "asset",
+              "meta_data": {},
+              "is_external_url": false
+            },
+            "_uid": "99aea732-80d1-4795-8f89-6df7a8576cc1",
+            "name": "Юлія Маруняк",
+            "fb_link": {
+              "id": "",
+              "url": "https://www.facebook.com/julimaruniak",
+              "linktype": "url",
+              "fieldtype": "multilink",
+              "cached_url": "https://www.facebook.com/julimaruniak"
+            },
+            "component": "testimonial_card",
+            "description": "Співзасновник у The Digital State",
+            "testimonial": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Працювали із Webrarium, щодо оптимізації та запуску рекламних кампаній для сайту бізнес-школи УКУ. Співпрацею задоволена, адже все було із стратегічного погляду, міркування про пріоритети для закриття нашого запиту. ",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "textStyle",
+                          "attrs": {
+                            "color": ""
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "type": "hard_break",
+                      "marks": [
+                        {
+                          "type": "textStyle",
+                          "attrs": {
+                            "color": ""
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "type": "hard_break",
+                      "marks": [
+                        {
+                          "type": "textStyle",
+                          "attrs": {
+                            "color": ""
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Ми рухались короткими спринтами - було відчуття, що все на пульсі. В результаті за кілька місяців роботи сайт покращив свої позиції в пошуковій видачі за ключовими запитами, також прослідкували динаміку збільшення трафіку та конверсій на навчальні програми - і відповідно збільшення продажів на ключові продукти, які ставили за ціль.",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "textStyle",
+                          "attrs": {
+                            "color": ""
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            "name__i18n__en": "Yulia Marunyak",
+            "testimonial__i18n__en": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "We worked with Webrarium on optimizing and launching advertising campaigns for the UCU Business School website. I am very satisfied with the collaboration, as everything was approached strategically, with careful consideration of priorities to address our needs.",
+                      "type": "text"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "We operated in short sprints, which gave a sense of being closely monitored. As a result, within a few months, the website improved its search engine rankings for key queries. We also observed an increase in traffic and conversions for our educational programs, which correspondingly led to higher sales of the key products we aimed to promote.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        ],
+        "title__i18n__en": "🗣️ Client Feedback"
+      },
+      {
+        "_uid": "87b5c952-de04-4a2d-8a4c-2102419e150a",
+        "title": "Інші проєкти",
+        "component": "projects_grid",
+        "button_txt": "Переглянути кейс",
+        "button2_txt": "Переглянути сайт",
+        "projects_list": [
+          "79aa4ea5-f41a-43f8-96e4-368af6477536",
+          "87b9c021-466d-4d37-9a95-7dc081b4d0b9",
+          "fc71ed4c-ee73-42a9-ad26-7c74d7f815ac",
+          "42acd9f9-71b9-4dab-9350-906c555bb815"
+        ],
+        "title__i18n__en": "Other Projects",
+        "button_txt__i18n__en": "View Case",
+        "button2_txt__i18n__en": "View Site"
+      }
+    ],
+    "subtitle": "Бізнес-школа розвиває відкриту й відповідальну бізнес-спільноту в Україні вже більше 15 років. Однією із ключових цілей було - збільшити кількість слухачів програм та отримати реєстрації для нових навчальних напрямків ",
+    "component": "project",
+    "description": "Розробили та впровадили стратегію збільшення кількості учасників курсів для Бізнес-школи Українського католицького університету (LvBS) за допомогою контекстної реклами",
+    "title__i18n__en": "+146 registrations from the Advertising Campaign for the UCU Business School",
+    "project_site_link": {
+      "id": "",
+      "url": "",
+      "linktype": "story",
+      "fieldtype": "multilink",
+      "cached_url": ""
+    },
+    "subtitle__i18n__en": "The business school has been developing an open and responsible business community in Ukraine for more than 15 years. One of the key goals was to increase the number of program listeners and get registrations for new educational areas",
+    "description__i18n__en": "Our team devised a tailoIncreasing the Number of Courses Participants for Ukrainian Catholic University Business School (LvBS) through Contextual Advertising and community building."
+  },
+  "published": true,
+  "slug": "146-registrations-from-the-advertising-campaign-for-the-ucu-business-school",
+  "path": null,
+  "full_slug": "projects/146-registrations-from-the-advertising-campaign-for-the-ucu-business-school",
+  "default_root": null,
+  "disble_fe_editor": false,
+  "disable_fe_editor": false,
+  "parent": {
+    "id": 488037327,
+    "uuid": "4d89644d-6011-41db-8e49-af619af0d34e",
+    "name": "Projects",
+    "slug": "projects",
+    "disble_fe_editor": false
+  },
+  "is_startpage": false,
+  "unpublished_changes": true,
+  "meta_data": null,
+  "imported_at": null,
+  "preview_token": {
+    "token": "70d303723ee26d692faa3d79af5c07961e9b46b3",
+    "timestamp": "1781338278"
+  },
+  "pinned": false,
+  "breadcrumbs": [
+    {
+      "id": 488037327,
+      "name": "Projects",
+      "parent_id": null,
+      "disble_fe_editor": false,
+      "disable_fe_editor": false,
+      "path": null,
+      "slug": "projects",
+      "translated_slugs": []
+    }
+  ],
+  "publish_at": null,
+  "expire_at": null,
+  "first_published_at": "2024-05-01T12:54:06.905Z",
+  "last_author": {
+    "id": 230996,
+    "userid": "zjoka",
+    "friendly_name": "Serhii Halun"
+  },
+  "last_author_id": 230996,
+  "user_ids": [],
+  "space_role_ids": [],
+  "translated_slugs": [],
+  "localized_paths": [
+    {
+      "path": "projects/146-registrations-from-the-advertising-campaign-for-the-ucu-business-school",
+      "name": null,
+      "lang": "en",
+      "published": null
+    }
+  ],
+  "position": 0,
+  "translated_stories": [],
+  "can_not_view": false,
+  "is_scheduled": null,
+  "scheduled_dates": null,
+  "ideas": [],
+  "current_version_id": null,
+  "variant_type": null,
+  "experiment_ids": [],
+  "stage": null,
+  "favourite_for_user_ids": []
+}

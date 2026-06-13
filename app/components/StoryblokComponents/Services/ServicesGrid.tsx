@@ -15,7 +15,7 @@ export default function ServicesGrid({ blok }: { blok: any }) {
     const fetchResolvedData = async () => {
       const storyblokApi = getStoryblokApi();
       const { data } = await storyblokApi.get(`cdn/stories/${blok.slug}`, {
-        version: "draft",
+        version: "published",
         resolve_relations: ["services_grid.services_list"],
         language: locale.toString() || "uk",
       });
