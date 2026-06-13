@@ -1264,7 +1264,7 @@
       },
       {
         "_uid": "054187d3-206e-4e1d-a1dd-5f372755a44c",
-        "title": "Давайте працювати разом!",
+        "title": "Розпочнімо спільний проєкт!",
         "wa_link": {
           "id": "",
           "url": " https://wa.me/+380674614067",
@@ -1297,7 +1297,7 @@
         "success_message__i18n__en": "Thanks! Message sent."
       }
     ],
-    "title": "Webrarium | Створюємо цифрові рішення",
+    "title": "Веб-студія Webrarium — Розробка сайтів, реклама та автоматизація в Україні",
     "og_image": {
       "id": 17515518,
       "alt": "",
@@ -1312,8 +1312,8 @@
       "is_external_url": false
     },
     "component": "page",
-    "description": "Створення сайтів, розробка чат-ботів, автоматизація маркетингу, продуктовий дизайн, цифрова реклама",
-    "title__i18n__en": "Webrarium | We create digital solutions",
+    "description": "Замовити розробку сайту, чат-бота або рекламної кампанії в Україні. Веб-студія Webrarium — корпоративні сайти, інтернет-магазини, Google Ads, автоматизація бізнесу.",
+    "title__i18n__en": "Webrarium Web Studio — Website Development, Advertising & Automation in Ukraine",
     "og_image__i18n__en": {
       "id": 17515519,
       "alt": "",
@@ -1327,7 +1327,7 @@
       "meta_data": {},
       "is_external_url": false
     },
-    "description__i18n__en": "Website development, chatbot development, marketing automation, product design, digital advertising."
+    "description__i18n__en": "Order website development, chatbot or advertising campaign in Ukraine. Webrarium web studio — corporate websites, online stores, Google Ads, business automation."
   },
   "published": true,
   "slug": "home",

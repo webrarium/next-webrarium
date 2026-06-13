@@ -40,7 +40,7 @@
         "button2_txt__i18n__en": "View Site"
       }
     ],
-    "title": "Наші проєкти - розробка сайтів, електронна комерція та 3D Дизайн | Webrarium",
+    "title": "Портфоліо та кейси Webrarium — розробка сайтів, інтернет-магазинів та реклама",
     "og_image": {
       "id": null,
       "alt": null,
@@ -54,9 +54,9 @@
       "meta_data": {}
     },
     "component": "page",
-    "description": "Проєкти Webrarium у сфері розробки сайтів, електронної комерції та 3D дизайну! Досліджуйте наші кейси, щоб дізнатися, як ми допомагаємо бізнесам досягати своїх цілей за допомогою інноваційних рішень.",
-    "title__i18n__en": "Our Projects - Website Development, E-commerce, and 3D Design | Webrarium",
-    "description__i18n__en": "Webrarium Projects in Website Development, E-commerce, and 3D Design! Explore our case studies to discover how we help businesses achieve their goals with innovative solutions"
+    "description": "Кейси та портфоліо веб-студії Webrarium: розробка корпоративних сайтів, інтернет-магазинів, 3D-дизайн, рекламні кампанії. Реальні результати для бізнесу в Україні.",
+    "title__i18n__en": "Webrarium Portfolio & Case Studies — Website Development, E-commerce & Advertising",
+    "description__i18n__en": "Case studies and portfolio of Webrarium web studio: corporate websites, online stores, 3D design, advertising campaigns. Real results for businesses in Ukraine."
   },
   "published": true,
   "slug": "projects",

@@ -918,10 +918,154 @@
         "title": "Інструменти, які використовуємо",
         "component": "service_instruments",
         "title__i18n__en": "Tools we use"
+      },
+      {
+        "_uid": "81dfdfc4-da0b-440b-ba72-9acc98f5c3cb",
+        "component": "service_details",
+        "title": "Часті запитання",
+        "title__i18n__en": "Frequently Asked Questions",
+        "service_details_cards": [
+          {
+            "_uid": "6ec4ca7b-c552-41f2-bbd9-07e975961dd1",
+            "component": "service_details_card",
+            "title": "Скільки коштує автоматизація бізнес-процесів?",
+            "description": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Вартість залежить від кількості та складності процесів та інтеграцій. Розраховуємо індивідуально — залиште заявку для безкоштовного аналізу.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            "title__i18n__en": "How much does business process automation cost?",
+            "description__i18n__en": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "The cost depends on the number and complexity of processes and integrations. We calculate individually — leave a request for a free analysis.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "_uid": "ae3f88f4-05da-4899-a3ee-f0d04c351fa9",
+            "component": "service_details_card",
+            "title": "Які інструменти використовуєте?",
+            "description": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Make (Integromat), Zapier, n8n та кастомні рішення. Вибір інструменту залежить від ваших процесів та бюджету.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            "title__i18n__en": "What tools do you use?",
+            "description__i18n__en": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Make (Integromat), Zapier, n8n and custom solutions. The tool choice depends on your processes and budget.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "_uid": "2e6f5704-d15d-46df-a75d-4f199c6961c1",
+            "component": "service_details_card",
+            "title": "Які процеси можна автоматизувати?",
+            "description": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Обробка заявок, синхронізація даних, розсилки, звіти, виставлення рахунків, управління задачами, сповіщення — практично будь-які повторювані операції.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            "title__i18n__en": "What processes can be automated?",
+            "description__i18n__en": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Lead processing, data synchronization, newsletters, reports, invoicing, task management, notifications — virtually any repetitive operations.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "_uid": "b0b7b142-f4b7-49dd-9720-026b90cb0658",
+            "component": "service_details_card",
+            "title": "Скільки часу займає впровадження?",
+            "description": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Прості інтеграції налаштовуються за 1–2 тижні. Комплексна автоматизація кількох відділів — 1–2 місяці.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            "title__i18n__en": "How long does implementation take?",
+            "description__i18n__en": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Simple integrations are set up in 1–2 weeks. Comprehensive automation of multiple departments takes 1–2 months.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        ]
       }
     ],
-    "title": "Бізнес-автоматизація",
-    "subtitle": "Автоматизація бізнес-процесів — це спосіб зменшити витрати часу, підвищити точність виконання завдань і зосередитись на масштабуванні. Ми допомагаємо бізнесам оптимізувати щоденні операції завдяки кастомним цифровим рішенням.",
+    "title": "Автоматизація бізнес-процесів",
+    "subtitle": "Автоматизуємо рутинні задачі за допомогою Make, Zapier та n8n. Скорочуємо час на операції та масштабуємо ваш бізнес.",
     "component": "service",
     "description": {
       "type": "doc",
@@ -937,8 +1081,8 @@
         }
       ]
     },
-    "title__i18n__en": "Business automation",
-    "subtitle__i18n__en": "Automating business processes is a way to reduce time, improve task accuracy, and focus on scaling. We help businesses optimize their daily operations with custom digital solutions.",
+    "title__i18n__en": "Business Process Automation",
+    "subtitle__i18n__en": "We automate routine tasks using Make, Zapier, and n8n. Reduce time on operations and scale your business.",
     "description__i18n__en": {
       "type": "doc",
       "content": [

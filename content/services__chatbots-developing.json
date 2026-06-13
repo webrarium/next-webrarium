@@ -787,10 +787,154 @@
         "title": "Інстументи, що використовуємо",
         "component": "service_instruments",
         "title__i18n__en": "Tools we use"
+      },
+      {
+        "_uid": "f30390bb-3e3d-4609-ade1-005fbbe6be9f",
+        "component": "service_details",
+        "title": "Часті запитання",
+        "title__i18n__en": "Frequently Asked Questions",
+        "service_details_cards": [
+          {
+            "_uid": "bae4e8f9-b75a-48af-b4c6-17f6af765106",
+            "component": "service_details_card",
+            "title": "Скільки коштує розробка чат-бота?",
+            "description": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Вартість залежить від складності логіки, інтеграцій та платформи. Кожен проєкт розраховується індивідуально — залиште заявку для консультації.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            "title__i18n__en": "How much does chatbot development cost?",
+            "description__i18n__en": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "The cost depends on the complexity of logic, integrations, and platform. Each project is calculated individually — leave a request for a consultation.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "_uid": "07e09448-9865-4e8c-8412-d1d3e943ee9c",
+            "component": "service_details_card",
+            "title": "Які платформи підтримуєте?",
+            "description": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Telegram, Viber, Instagram, Facebook Messenger та вебсайти. Також інтегруємо з CRM, Google Sheets та іншими сервісами.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            "title__i18n__en": "What platforms do you support?",
+            "description__i18n__en": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Telegram, Viber, Instagram, Facebook Messenger and websites. We also integrate with CRM, Google Sheets and other services.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "_uid": "6d36d1e1-7cb2-487d-a2ec-0a6a1a4b13b5",
+            "component": "service_details_card",
+            "title": "Чи потрібні технічні знання для управління ботом?",
+            "description": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Ні. Ми розробляємо зручні інструменти для управління контентом бота без технічних знань та надаємо навчання після здачі проєкту.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            "title__i18n__en": "Are technical skills needed to manage the bot?",
+            "description__i18n__en": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "No. We develop user-friendly tools to manage bot content without technical knowledge and provide training after project delivery.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "_uid": "b944a880-e1e5-4a84-a2f0-5f08c0a83be5",
+            "component": "service_details_card",
+            "title": "Скільки часу займає розробка чат-бота?",
+            "description": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Простий чат-бот — 1–2 тижні. Складний бот з інтеграціями та кастомною логікою — 3–6 тижнів.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            "title__i18n__en": "How long does chatbot development take?",
+            "description__i18n__en": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "A simple chatbot takes 1–2 weeks. A complex bot with integrations and custom logic takes 3–6 weeks.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        ]
       }
     ],
-    "title": "Розробка чат-ботів",
-    "subtitle": "Автоматизуйте комунікацію, заощаджуйте час і покращуйте клієнтський досвід. Від простих ботів із кнопками до розумних асистентів на ШІ — ми створюємо рішення, що відповідають вашим бізнес-цілям",
+    "title": "Розробка чат-ботів для бізнесу",
+    "subtitle": "Автоматизуємо комунікацію з клієнтами в Telegram, Viber та Instagram. Чат-боти для продажів, підтримки та збору лідів 24/7.",
     "component": "service",
     "description": {
       "type": "doc",
@@ -806,8 +950,8 @@
         }
       ]
     },
-    "title__i18n__en": "Chatbot development",
-    "subtitle__i18n__en": "Automate communication, save time, and improve customer experience. From simple push-button bots to AI-powered smart assistants, we create solutions that meet your business goals",
+    "title__i18n__en": "Chatbot Development for Business",
+    "subtitle__i18n__en": "We automate client communication in Telegram, Viber, and Instagram. Chatbots for sales, support, and lead generation 24/7.",
     "description__i18n__en": {
       "type": "doc",
       "content": [

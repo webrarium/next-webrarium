@@ -373,7 +373,11 @@
       "cached_url": ""
     },
     "subtitle__i18n__en": "Development of a full-fledged product monitoring system on eBay, which consists of an asynchronous Python service for data collection and an integrated dashboard on Next.js 15 with live updates. The system allows you to track products according to the specified parameters, receive push notifications in Telegram with interactive buttons, and instantly interact with products via the web interface",
-    "description__i18n__en": "The client needed a comprehensive service for continuous monitoring of eBay ads according to the specified parameters: category, keywords, model, brand, price, seller, etc."
+    "description__i18n__en": "The client needed a comprehensive service for continuous monitoring of eBay ads according to the specified parameters: category, keywords, model, brand, price, seller, etc.",
+    "meta_title": "Система моніторингу eBay з Telegram-ботом — кейс Webrarium",
+    "meta_title__i18n__en": "eBay Monitoring System with Telegram Bot — Webrarium Case Study",
+    "meta_description": "Кейс розробки автоматизованої системи моніторингу товарів eBay: Telegram-сповіщення, аналітичний дашборд, автоматизація на Python. Webrarium — автоматизація бізнесу.",
+    "meta_description__i18n__en": "Case study: automated eBay product monitoring system with Telegram alerts, analytics dashboard, Python automation. Webrarium — business process automation."
   },
   "published": true,
   "slug": "ebay-product-monitoring-system-with-telegram-alerts-and-interactive-dashboard",

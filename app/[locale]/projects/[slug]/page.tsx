@@ -1,5 +1,4 @@
 import GlobalContacts from "@/app/components/GlobalContacts";
-import { getStoryblokApi } from "@storyblok/react/rsc";
 import StoryblokStory from "@storyblok/react/story";
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
@@ -81,22 +80,11 @@ export default async function ProjectPage({ params: { locale, slug } }: any) {
 }
 
 async function fetchData(locale: string, slug: string) {
-  let sbParams: {
-    version: "published" | "draft";
-    language: any;
-    resolve_relations: any;
-  } = {
-    version: "published",
-    language: locale,
-    resolve_relations: [
-      "services_grid.services_list,projects_grid.projects_list",
-    ],
-  };
-
-  const storyblokApi = getStoryblokApi();
-  return storyblokApi.get(`cdn/stories/projects/${slug}`, sbParams, {
-    next: {
-      revalidate: 600,
-    },
-  });
+  const res = await fetch(
+    `https://api.storyblok.com/v2/cdn/stories/projects/${slug}?version=published&token=${process.env.STORYBLOK_ACCESS_TOKEN}&language=${locale}&resolve_relations=services_grid.services_list,projects_grid.projects_list`,
+    { next: { revalidate: 600 } }
+  );
+  if (!res.ok) throw new Error(`Failed to fetch project: ${slug}`);
+  const data = await res.json();
+  return { data };
 }

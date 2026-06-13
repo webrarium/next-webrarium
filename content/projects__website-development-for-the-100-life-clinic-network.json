@@ -565,7 +565,11 @@
       "cached_url": "https://www.100percentlife.clinic"
     },
     "subtitle__i18n__en": "Website for the 100% LIFE clinic chain - full cycle: design, development on Webflow, SEO, and Google advertising with a result of 4700 visits",
-    "description__i18n__en": "Website development for the 100% LIFE clinic network: design, Webflow, SEO, and advertising, which brought more than 4700 requests through the site"
+    "description__i18n__en": "Website development for the 100% LIFE clinic network: design, Webflow, SEO, and advertising, which brought more than 4700 requests through the site",
+    "meta_title": "Сайт для мережі клінік 100% ЖИТТЯ — кейс Webrarium",
+    "meta_title__i18n__en": "Website for 100% LIFE Clinic Network — Webrarium Case Study",
+    "meta_description": "Кейс розробки вебсайту для мережі медичних клінік 100% ЖИТТЯ: UX/UI дизайн, онлайн-запис, SEO. Webrarium — розробка сайтів для медичних закладів в Україні.",
+    "meta_description__i18n__en": "Case study: website for 100% LIFE medical clinic network — UX/UI design, online booking, SEO optimization. Webrarium — medical website development in Ukraine."
   },
   "published": true,
   "slug": "website-development-for-the-100-life-clinic-network",
