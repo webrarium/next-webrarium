@@ -40,10 +40,6 @@ export async function generateMetadata({ params: { locale } }: any) {
   return Metadata;
 }
 
-storyblokInit({
-  accessToken: process.env.STORYBLOK_ACCESS_TOKEN,
-  use: [apiPlugin],
-});
 export default async function Services({ params: { locale } }: any) {
   const { data } = await fetchData(locale);
 

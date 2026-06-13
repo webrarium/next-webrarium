@@ -41,27 +41,12 @@ export async function generateMetadata({ params: { locale } }: any) {
   return Metadata;
 }
 
-storyblokInit({
-  accessToken: process.env.STORYBLOK_ACCESS_TOKEN,
-  use: [apiPlugin],
-});
-
 export default async function Projects({ params: { locale } }: any) {
   const { data } = await fetchData(locale);
 
   return <StoryblokStory story={data.story} locale={locale} />;
 }
 async function fetchData(locale: string) {
-  let sbParams: {
-    version: "published" | "draft";
-    language: any;
-    resolve_relations: any;
-  } = {
-    version: "published",
-    language: locale,
-    resolve_relations: ["projects_grid.projects_list"],
-  };
-
   const res = await fetch(
     `https://api.storyblok.com/v2/cdn/stories/projects?version=published&token=${process.env.STORYBLOK_ACCESS_TOKEN}&language=${locale}&resolve_relations=projects_grid.projects_list`,
     { next: { revalidate: 600 } }
