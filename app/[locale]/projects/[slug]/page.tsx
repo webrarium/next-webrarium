@@ -3,6 +3,23 @@ import StoryblokStory from "@storyblok/react/story";
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 
+function mergeRels(story: any, rels: any[]) {
+  if (!rels?.length) return story;
+  const relMap: Record<string, any> = {};
+  rels.forEach((rel: any) => { relMap[rel.uuid] = rel; });
+  function resolve(val: any): any {
+    if (typeof val === "string" && relMap[val]) return relMap[val];
+    if (Array.isArray(val)) return val.map(resolve);
+    if (val && typeof val === "object") {
+      const out: any = {};
+      for (const k of Object.keys(val)) out[k] = resolve(val[k]);
+      return out;
+    }
+    return val;
+  }
+  return { ...story, content: resolve(story.content) };
+}
+
 
 export async function generateMetadata({ params }: any) {
   const locale = params.locale || "uk";
@@ -85,6 +102,7 @@ async function fetchData(locale: string, slug: string) {
     { next: { revalidate: 600 } }
   );
   if (!res.ok) throw new Error(`Failed to fetch project: ${slug}`);
-  const data = await res.json();
-  return { data };
+  const json = await res.json();
+  const story = mergeRels(json.story, json.rels);
+  return { data: { story } };
 }
