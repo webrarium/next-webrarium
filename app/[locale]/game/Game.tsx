@@ -143,7 +143,7 @@ export default function Game() {
           } else {
             p.x=8; p.y=4; p.dx=1; p.dy=0; p.ndx=1; p.ndy=0;
             p.dead=false; p.deadTimer=0;
-            s.ghosts.forEach((g,i)=>{ g.x=[7,8,9,8][i]; g.y=[9,9,9,10][i]; g.home=true; g.homeTimer=60+i*30; g.scared=false; });
+            s.ghosts.forEach((g,i)=>{ g.x=[7,8,9,8][i]; g.y=[9,9,9,10][i]; g.home=true; g.homeTimer=3+i*2; g.scared=false; });
           }
           setDisplay(d => ({ ...d, lives: s.lives, phase: s.phase }));
         }
@@ -156,17 +156,12 @@ export default function Game() {
       // collision check after pac moves
       for (const g of s.ghosts) {
         if (g.x===p.x && g.y===p.y && !p.dead) {
-          if (g.scared) {
-            s.score+=200; g.scared=false; g.x=8; g.y=9; g.home=true; g.homeTimer=80;
-            setDisplay(d=>({...d,score:s.score}));
-          } else {
-            p.dead=true; p.deadTimer=50;
-          }
+          p.dead=true; p.deadTimer=20;
         }
       }
       const cell = s.map[p.y]?.[p.x];
       if (cell === DOT)   { s.map[p.y][p.x]=EMPTY; s.score+=10; }
-      if (cell === POWER) { s.map[p.y][p.x]=EMPTY; s.score+=50; s.powerTimer=120; s.ghosts.forEach(g=>g.scared=true); }
+      if (cell === POWER) { s.map[p.y][p.x]=EMPTY; s.score+=50; }
       p.mouth += 0.05 * p.mouthDir;
       if (p.mouth > 0.35 || p.mouth < 0.02) p.mouthDir *= -1;
       if (countDots(s.map) === 0) {
@@ -178,36 +173,24 @@ export default function Game() {
     }
 
     function updateGhosts(s: NonNullable<typeof stateRef.current>) {
-      if (s.powerTimer > 0) {
-        s.powerTimer--;
-        powerFlash.current = s.powerTimer < 60;
-        if (s.powerTimer === 0) s.ghosts.forEach(g=>g.scared=false);
-      }
       const dirs: [number,number][] = [[1,0],[-1,0],[0,1],[0,-1]];
       s.ghosts.forEach(g => {
         if (g.homeTimer > 0) { g.homeTimer--; return; }
         const valid = dirs.filter(([dx,dy]) => !(dx===-g.dx && dy===-g.dy) && canMove(s.map,g.x+dx,g.y+dy));
         const options = valid.length ? valid : dirs.filter(([dx,dy])=>canMove(s.map,g.x+dx,g.y+dy));
         let best: [number,number] = options[0] || [g.dx,g.dy];
-        if (!g.scared) {
+        {
           let bestD = Infinity;
           for (const [dx,dy] of options) {
             const d=(g.x+dx-s.pac.x)**2+(g.y+dy-s.pac.y)**2;
             if(d<bestD){bestD=d;best=[dx,dy];}
           }
-        } else {
-          best = options[Math.floor(Math.random()*options.length)] || best;
         }
         g.dx=best[0]; g.dy=best[1];
         const nx=g.x+g.dx, ny=g.y+g.dy;
         if (canMove(s.map,nx,ny)) { g.x=nx; g.y=ny; }
         if (g.x===s.pac.x && g.y===s.pac.y && !s.pac.dead) {
-          if (g.scared) {
-            s.score+=200; g.scared=false; g.x=8; g.y=9; g.home=true; g.homeTimer=80;
-            setDisplay(d=>({...d,score:s.score}));
-          } else {
-            s.pac.dead=true; s.pac.deadTimer=50;
-          }
+          s.pac.dead=true; s.pac.deadTimer=20;
         }
       });
     }
@@ -261,7 +244,7 @@ export default function Game() {
     function drawGhost(g: Ghost) {
       const cx=g.x*TILE+TILE/2, cy=g.y*TILE+TILE/2, r=TILE/2-3;
       const isFlash = powerFlash.current && Math.floor(Date.now()/150)%2;
-      const col = g.scared ? (isFlash ? "#ffffff" : "#3344cc") : g.color;
+      const col = g.color;
       ctx.fillStyle=col;
       ctx.beginPath();
       ctx.arc(cx,cy-2,r,Math.PI,0);
