@@ -28,10 +28,10 @@ export async function generateMetadata({ params }: any) {
       images: ogImage,
     },
     alternates: {
-      canonical: locale === "en" ? `/en/${service.story.full_slug}` : `/${service.story.full_slug}`,
+      canonical: locale === "en" ? `/en/services/${params.slug}` : `/services/${params.slug}`,
       languages: {
-        uk: `/${service.story.full_slug}`,
-        en: `/en/${service.story.full_slug}`,
+        uk: `/services/${params.slug}`,
+        en: `/en/services/${params.slug}`,
       },
     },
   };

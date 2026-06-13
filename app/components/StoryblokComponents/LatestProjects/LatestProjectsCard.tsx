@@ -12,8 +12,8 @@ export default function ProjectCard({
   return (
     <div {...storyblokEditable(blok)} className={styles.project_card}>
       <img
-        src={blok.cover.filename}
-        alt={blok.cover.alt}
+        src={blok.cover?.filename}
+        alt={blok.cover?.alt || ""}
         className={styles.bg}
         loading="lazy"
       />
@@ -21,9 +21,11 @@ export default function ProjectCard({
         <h3>{blok.title}</h3>
         <div className={styles.divider}></div>
         <div className={styles.description}>{blok.description}</div>
-        <Link href={blok.link.url} className={styles.case_btn} target="_blank">
-          {btntxt}
-        </Link>
+        {blok.link?.url && (
+          <Link href={blok.link.url} className={styles.case_btn} target="_blank">
+            {btntxt}
+          </Link>
+        )}
       </div>
     </div>
   );

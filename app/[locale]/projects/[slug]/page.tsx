@@ -25,10 +25,10 @@ export async function generateMetadata({ params }: any) {
       images: coverImage,
     },
     alternates: {
-      canonical: locale === "en" ? `/en/${project.story.full_slug}` : `/${project.story.full_slug}`,
+      canonical: locale === "en" ? `/en/projects/${params.slug}` : `/projects/${params.slug}`,
       languages: {
-        uk: `/${project.story.full_slug}`,
-        en: `/en/${project.story.full_slug}`,
+        uk: `/projects/${params.slug}`,
+        en: `/en/projects/${params.slug}`,
       },
     },
   };
