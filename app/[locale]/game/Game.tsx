@@ -141,7 +141,7 @@ export default function Game() {
             setFinalScore(s.score);
             setModal("submit");
           } else {
-            p.x=8; p.y=10; p.dx=0; p.dy=0; p.ndx=0; p.ndy=0;
+            p.x=8; p.y=4; p.dx=1; p.dy=0; p.ndx=1; p.ndy=0;
             p.dead=false; p.deadTimer=0;
             s.ghosts.forEach((g,i)=>{ g.x=[7,8,9,8][i]; g.y=[9,9,9,10][i]; g.home=true; g.homeTimer=60+i*30; g.scared=false; });
           }
