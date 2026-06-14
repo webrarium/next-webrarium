@@ -25,8 +25,9 @@ export default function HeaderS({ blok }: { blok: any }) {
             />
           </Link>
 
+          <LanguageChanger />
+
           <div className={styles.nav_wrp} id="menu">
-            <LanguageChanger />
             <nav className={styles.nav} onClick={openMenu}>
               {blok.nav.map((navlink: any) => (
                 <StoryblokComponent blok={navlink} key={navlink._uid} />
