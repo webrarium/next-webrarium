@@ -121,8 +121,24 @@ export default function Game() {
         if (!s || s.phase === "idle" || s.phase === "over" || s.phase === "win") initGame();
       }
     };
+    // swipe support
+    let tx=0, ty=0;
+    const onTouchStart = (e: TouchEvent) => { tx=e.touches[0].clientX; ty=e.touches[0].clientY; };
+    const onTouchEnd = (e: TouchEvent) => {
+      const dx=e.changedTouches[0].clientX-tx, dy=e.changedTouches[0].clientY-ty;
+      const adx=Math.abs(dx), ady=Math.abs(dy);
+      if (Math.max(adx,ady)<20) return;
+      if (adx>ady) handleDir(dx>0?1:-1, 0);
+      else handleDir(0, dy>0?1:-1);
+    };
     window.addEventListener("keydown", onKey);
-    return () => window.removeEventListener("keydown", onKey);
+    window.addEventListener("touchstart", onTouchStart, {passive:true});
+    window.addEventListener("touchend", onTouchEnd);
+    return () => {
+      window.removeEventListener("keydown", onKey);
+      window.removeEventListener("touchstart", onTouchStart);
+      window.removeEventListener("touchend", onTouchEnd);
+    };
   }, [handleDir, initGame]);
 
   // ─── Game loop ─────────────────────────────────────────────────────────────
@@ -180,7 +196,7 @@ export default function Game() {
         const valid = dirs.filter(([dx,dy]) => !(dx===-g.dx && dy===-g.dy) && canMove(s.map,g.x+dx,g.y+dy));
         const options = valid.length ? valid : dirs.filter(([dx,dy])=>canMove(s.map,g.x+dx,g.y+dy));
         let best: [number,number] = options[0] || [g.dx,g.dy];
-        if (Math.random() < 0.2) {
+        if (Math.random() < 0.4) {
           best = options[Math.floor(Math.random()*options.length)] || best;
         } else {
           let bestD = Infinity;

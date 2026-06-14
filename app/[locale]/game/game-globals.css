@@ -1,9 +1,11 @@
-/* Hide third-party chat widgets on the game page */
+/* Hide third-party chat/booking widgets on the game page */
 #tidio-chat,
 #crisp-chatbox,
 #fc_frame,
 #launcher,
 .intercom-lightweight-app,
-.mit-widget {
+.mit-widget,
+.calendly-badge-widget,
+.calendly-badge-content {
   display: none !important;
 }
