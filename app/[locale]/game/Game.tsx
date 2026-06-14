@@ -40,8 +40,8 @@ const MAP_TPL = [
 const GHOST_COLORS = ["#e74c3c","#e91e8c","#00bcd4","#ff9800"];
 
 interface Score { name: string; score: number; created_at: string }
-interface Ghost { x:number; y:number; dx:number; dy:number; color:string; scared:boolean; home:boolean; homeTimer:number }
-interface Pac   { x:number; y:number; dx:number; dy:number; ndx:number; ndy:number; mouth:number; mouthDir:number; dead:boolean; deadTimer:number }
+interface Ghost { x:number; y:number; ox:number; oy:number; dx:number; dy:number; color:string; scared:boolean; home:boolean; homeTimer:number }
+interface Pac   { x:number; y:number; ox:number; oy:number; dx:number; dy:number; ndx:number; ndy:number; mouth:number; mouthDir:number; dead:boolean; deadTimer:number }
 
 // ─── Helpers ─────────────────────────────────────────────────────────────────
 function canMove(map: number[][], x: number, y: number) {
@@ -88,12 +88,12 @@ export default function Game() {
   const initGame = useCallback(() => {
     stateRef.current = {
       map: MAP_TPL.map(r => [...r]),
-      pac: { x:8, y:4, dx:1, dy:0, ndx:1, ndy:0, mouth:0.15, mouthDir:1, dead:false, deadTimer:0 },
+      pac: { x:8, y:4, ox:8, oy:4, dx:1, dy:0, ndx:1, ndy:0, mouth:0.15, mouthDir:1, dead:false, deadTimer:0 },
       ghosts: [
-        { x:7,  y:9,  dx:1,  dy:0,  color:GHOST_COLORS[0], scared:false, home:true,  homeTimer:5   },
-        { x:8,  y:9,  dx:-1, dy:0,  color:GHOST_COLORS[1], scared:false, home:true,  homeTimer:10  },
-        { x:9,  y:9,  dx:0,  dy:1,  color:GHOST_COLORS[2], scared:false, home:true,  homeTimer:15  },
-        { x:8,  y:10, dx:0,  dy:-1, color:GHOST_COLORS[3], scared:false, home:true,  homeTimer:20  },
+        { x:7,  y:9,  ox:7,  oy:9,  dx:1,  dy:0,  color:GHOST_COLORS[0], scared:false, home:true,  homeTimer:5   },
+        { x:8,  y:9,  ox:8,  oy:9,  dx:-1, dy:0,  color:GHOST_COLORS[1], scared:false, home:true,  homeTimer:10  },
+        { x:9,  y:9,  ox:9,  oy:9,  dx:0,  dy:1,  color:GHOST_COLORS[2], scared:false, home:true,  homeTimer:15  },
+        { x:8,  y:10, ox:8,  oy:10, dx:0,  dy:-1, color:GHOST_COLORS[3], scared:false, home:true,  homeTimer:20  },
       ],
       score: 0, lives: 3, powerTimer: 0, phase: "playing", tick: 0,
     };
@@ -141,15 +141,16 @@ export default function Game() {
             setFinalScore(s.score);
             setModal("submit");
           } else {
-            p.x=8; p.y=4; p.dx=1; p.dy=0; p.ndx=1; p.ndy=0;
+            p.x=8; p.y=4; p.ox=8; p.oy=4; p.dx=1; p.dy=0; p.ndx=1; p.ndy=0;
             p.dead=false; p.deadTimer=0;
-            s.ghosts.forEach((g,i)=>{ g.x=[7,8,9,8][i]; g.y=[9,9,9,10][i]; g.home=true; g.homeTimer=3+i*2; g.scared=false; });
+            s.ghosts.forEach((g,i)=>{ g.x=[7,8,9,8][i]; g.y=[9,9,9,10][i]; g.ox=g.x; g.oy=g.y; g.home=true; g.homeTimer=3+i*2; g.scared=false; });
           }
           setDisplay(d => ({ ...d, lives: s.lives, phase: s.phase }));
         }
         return;
       }
       if (canMove(s.map, p.x+p.ndx, p.y+p.ndy)) { p.dx=p.ndx; p.dy=p.ndy; }
+      p.ox=p.x; p.oy=p.y;
       let nx=p.x+p.dx, ny=p.y+p.dy;
       if (nx<0) nx=COLS-1; if (nx>=COLS) nx=0;
       if (canMove(s.map, nx, ny)) { p.x=nx; p.y=ny; }
@@ -179,7 +180,9 @@ export default function Game() {
         const valid = dirs.filter(([dx,dy]) => !(dx===-g.dx && dy===-g.dy) && canMove(s.map,g.x+dx,g.y+dy));
         const options = valid.length ? valid : dirs.filter(([dx,dy])=>canMove(s.map,g.x+dx,g.y+dy));
         let best: [number,number] = options[0] || [g.dx,g.dy];
-        {
+        if (Math.random() < 0.2) {
+          best = options[Math.floor(Math.random()*options.length)] || best;
+        } else {
           let bestD = Infinity;
           for (const [dx,dy] of options) {
             const d=(g.x+dx-s.pac.x)**2+(g.y+dy-s.pac.y)**2;
@@ -187,6 +190,7 @@ export default function Game() {
           }
         }
         g.dx=best[0]; g.dy=best[1];
+        g.ox=g.x; g.oy=g.y;
         const nx=g.x+g.dx, ny=g.y+g.dy;
         if (canMove(s.map,nx,ny)) { g.x=nx; g.y=ny; }
         if (g.x===s.pac.x && g.y===s.pac.y && !s.pac.dead) {
@@ -200,30 +204,34 @@ export default function Game() {
       for (let r=0; r<ROWS; r++) {
         for (let c=0; c<COLS; c++) {
           const x=c*TILE, y=r*TILE, t=map[r][c];
-          ctx.fillStyle = t===WALL ? "#112211" : BG;
-          ctx.fillRect(x,y,TILE,TILE);
           if (t===WALL) {
-            ctx.strokeStyle = GREEN;
-            ctx.lineWidth = 1.5;
-            ctx.strokeRect(x+1,y+1,TILE-2,TILE-2);
-          }
-          if (t===DOT) {
-            ctx.fillStyle = "rgba(128,196,116,0.6)";
-            ctx.beginPath(); ctx.arc(x+TILE/2,y+TILE/2,3,0,Math.PI*2); ctx.fill();
-          }
-          if (t===POWER) {
-            const flash = powerFlash.current && Math.floor(Date.now()/150)%2;
-            ctx.fillStyle = flash ? "#fff" : GREEN_LT;
-            ctx.beginPath(); ctx.arc(x+TILE/2,y+TILE/2,7,0,Math.PI*2); ctx.fill();
+            ctx.fillStyle="#0d1f0d"; ctx.fillRect(x,y,TILE,TILE);
+            ctx.strokeStyle="#507a49"; ctx.lineWidth=2;
+            ctx.strokeRect(x+2,y+2,TILE-4,TILE-4);
+            ctx.strokeStyle="rgba(128,196,116,0.12)"; ctx.lineWidth=1;
+            ctx.strokeRect(x+4,y+4,TILE-8,TILE-8);
+          } else {
+            ctx.fillStyle=BG; ctx.fillRect(x,y,TILE,TILE);
+            if (t===DOT) {
+              ctx.fillStyle="#80c474";
+              ctx.beginPath(); ctx.arc(x+TILE/2,y+TILE/2,3.5,0,Math.PI*2); ctx.fill();
+            }
+            if (t===POWER) {
+              ctx.fillStyle=GREEN_LT;
+              ctx.shadowColor=GREEN_LT; ctx.shadowBlur=8;
+              ctx.beginPath(); ctx.arc(x+TILE/2,y+TILE/2,7,0,Math.PI*2); ctx.fill();
+              ctx.shadowBlur=0;
+            }
           }
         }
       }
     }
 
-    function drawPac(p: Pac) {
-      const cx=p.x*TILE+TILE/2, cy=p.y*TILE+TILE/2, r=TILE/2-3;
+    function drawPac(p: Pac, alpha: number) {
+      const ix=p.ox+(p.x-p.ox)*alpha, iy=p.oy+(p.y-p.oy)*alpha;
+      const cx=ix*TILE+TILE/2, cy=iy*TILE+TILE/2, r=TILE/2-2;
       if (p.dead) {
-        const t=Math.max(0,1-(p.deadTimer/50));
+        const t=Math.max(0,1-(p.deadTimer/20));
         ctx.fillStyle="#FFD700";
         ctx.beginPath(); ctx.moveTo(cx,cy);
         ctx.arc(cx,cy,r,-Math.PI*t,Math.PI+Math.PI*t); ctx.fill();
@@ -233,19 +241,20 @@ export default function Game() {
       if(p.dx===1)angle=0; else if(p.dx===-1)angle=Math.PI;
       else if(p.dy===1)angle=Math.PI/2; else if(p.dy===-1)angle=-Math.PI/2;
       ctx.fillStyle="#FFD700";
+      ctx.shadowColor="#FFD700"; ctx.shadowBlur=6;
       ctx.beginPath(); ctx.moveTo(cx,cy);
       ctx.arc(cx,cy,r,angle+p.mouth*Math.PI,angle+(2-p.mouth)*Math.PI);
       ctx.closePath(); ctx.fill();
-      // eye
+      ctx.shadowBlur=0;
       const ex=cx+Math.cos(angle-0.55)*r*0.55, ey=cy+Math.sin(angle-0.55)*r*0.55;
       ctx.fillStyle=BG; ctx.beginPath(); ctx.arc(ex,ey,2.5,0,Math.PI*2); ctx.fill();
     }
 
-    function drawGhost(g: Ghost) {
-      const cx=g.x*TILE+TILE/2, cy=g.y*TILE+TILE/2, r=TILE/2-3;
-      const isFlash = powerFlash.current && Math.floor(Date.now()/150)%2;
-      const col = g.color;
-      ctx.fillStyle=col;
+    function drawGhost(g: Ghost, alpha: number) {
+      const ix=g.ox+(g.x-g.ox)*alpha, iy=g.oy+(g.y-g.oy)*alpha;
+      const cx=ix*TILE+TILE/2, cy=iy*TILE+TILE/2, r=TILE/2-2;
+      ctx.fillStyle=g.color;
+      ctx.shadowColor=g.color; ctx.shadowBlur=5;
       ctx.beginPath();
       ctx.arc(cx,cy-2,r,Math.PI,0);
       ctx.lineTo(cx+r,cy+r);
@@ -255,14 +264,14 @@ export default function Game() {
         ctx.quadraticCurveTo(bx+ww/2,cy+r-r/3,bx,cy+r);
       }
       ctx.lineTo(cx-r,cy-2); ctx.fill();
-      if(!g.scared){
-        ctx.fillStyle="#fff";
-        ctx.beginPath(); ctx.ellipse(cx-r*0.32,cy-2,r*0.28,r*0.32,0,0,Math.PI*2); ctx.fill();
-        ctx.beginPath(); ctx.ellipse(cx+r*0.32,cy-2,r*0.28,r*0.32,0,0,Math.PI*2); ctx.fill();
-        ctx.fillStyle="#111";
-        ctx.beginPath(); ctx.arc(cx-r*0.32+1,cy-2,r*0.14,0,Math.PI*2); ctx.fill();
-        ctx.beginPath(); ctx.arc(cx+r*0.32+1,cy-2,r*0.14,0,Math.PI*2); ctx.fill();
-      }
+      ctx.shadowBlur=0;
+      ctx.fillStyle="#fff";
+      ctx.beginPath(); ctx.ellipse(cx-r*0.32,cy-3,r*0.28,r*0.34,0,0,Math.PI*2); ctx.fill();
+      ctx.beginPath(); ctx.ellipse(cx+r*0.32,cy-3,r*0.28,r*0.34,0,0,Math.PI*2); ctx.fill();
+      const edx=g.dx*r*0.12, edy=g.dy*r*0.12;
+      ctx.fillStyle="#111";
+      ctx.beginPath(); ctx.arc(cx-r*0.32+edx,cy-3+edy,r*0.15,0,Math.PI*2); ctx.fill();
+      ctx.beginPath(); ctx.arc(cx+r*0.32+edx,cy-3+edy,r*0.15,0,Math.PI*2); ctx.fill();
     }
 
     function drawIdle() {
@@ -275,11 +284,17 @@ export default function Game() {
         if(t===DOT){ctx.fillStyle="rgba(128,196,116,0.4)";ctx.beginPath();ctx.arc(x+TILE/2,y+TILE/2,3,0,Math.PI*2);ctx.fill();}
         if(t===POWER){ctx.fillStyle=GREEN_LT;ctx.beginPath();ctx.arc(x+TILE/2,y+TILE/2,7,0,Math.PI*2);ctx.fill();}
       }));
-      ctx.fillStyle=GREEN_LT; ctx.font=`bold 28px monospace`;
       ctx.textAlign="center";
-      ctx.fillText("WEBRARIUM",W/2,H/2-20);
-      ctx.fillStyle="rgba(255,255,255,0.5)"; ctx.font=`14px monospace`;
-      ctx.fillText("← → ↑ ↓  або кнопки нижче",W/2,H/2+16);
+      // backdrop
+      ctx.fillStyle="rgba(7,13,7,0.78)";
+      ctx.beginPath();
+      (ctx as CanvasRenderingContext2D & {roundRect:(x:number,y:number,w:number,h:number,r:number)=>void}).roundRect(W/2-130,H/2-52,260,110,14);
+      ctx.fill();
+      ctx.fillStyle=GREEN_LT; ctx.font=`bold 26px 'craftwork grotesk',sans-serif`;
+      ctx.fillText("WEBRARIUM",W/2,H/2-18);
+      ctx.fillStyle="rgba(255,255,255,0.6)"; ctx.font=`13px 'craftwork grotesk',sans-serif`;
+      ctx.fillText("← → ↑ ↓  або кнопки нижче",W/2,H/2+14);
+      ctx.fillStyle=GREEN_LT; ctx.font=`bold 14px 'craftwork grotesk',sans-serif`;
       ctx.fillText("натисни щоб почати",W/2,H/2+38);
       ctx.textAlign="left";
     }
@@ -291,15 +306,16 @@ export default function Game() {
       if (!s || s.phase==="idle") { drawIdle(); return; }
       if (s.phase==="over"||s.phase==="win") return;
       const tickRate = 170; // ms per game tick
-      if (ts - lastTick < tickRate) { /* draw only */ } else {
-        lastTick=ts; s.tick++;
+      let alpha = Math.min(1, (ts - lastTick) / tickRate);
+      if (ts - lastTick >= tickRate) {
+        lastTick=ts; s.tick++; alpha=0;
         updatePac(s);
         if(s.tick%2===0) updateGhosts(s);
       }
       ctx.fillStyle=BG; ctx.fillRect(0,0,W,H);
       drawMap(s.map);
-      s.ghosts.forEach(drawGhost);
-      drawPac(s.pac);
+      s.ghosts.forEach(g=>drawGhost(g,alpha));
+      drawPac(s.pac,alpha);
     }
     rafRef.current = requestAnimationFrame(frame);
     return () => cancelAnimationFrame(rafRef.current);
