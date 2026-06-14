@@ -70,9 +70,11 @@ export default function Game() {
   const [finalScore, setFinalScore] = useState(0);
   const [board, setBoard]   = useState<Score[]>([]);
   const [form, setForm]     = useState({ name: "", email: "" });
+  const [formErr, setFormErr] = useState({ name: "", email: "" });
   const [submitting, setSubmitting] = useState(false);
   const [joyVis, setJoyVis] = useState<{bx:number;by:number;sx:number;sy:number}|null>(null);
   const joyBase = useRef({x:0,y:0});
+  const modalRef = useRef<"none"|"submit"|"done">("none");
   const [submitErr, setSubmitErr]   = useState("");
   const rafRef = useRef<number>(0);
   const powerFlash = useRef(false);
@@ -85,6 +87,9 @@ export default function Game() {
   }, []);
 
   useEffect(() => { fetchBoard(); }, [fetchBoard]);
+
+  // keep modalRef in sync so event handlers can read it without stale closures
+  useEffect(() => { modalRef.current = modal; }, [modal]);
 
   // ─── Init game ─────────────────────────────────────────────────────────────
   const initGame = useCallback(() => {
@@ -106,6 +111,8 @@ export default function Game() {
   // ─── Input ─────────────────────────────────────────────────────────────────
   const handleDir = useCallback((dx: number, dy: number) => {
     const s = stateRef.current;
+    // never auto-start when the submit modal is open
+    if (modalRef.current === "submit" || modalRef.current === "done") return;
     if (!s || s.phase === "idle" || s.phase === "over" || s.phase === "win") { initGame(); return; }
     if (s.phase === "playing") {
       s.pac.ndx = dx; s.pac.ndy = dy;
@@ -125,6 +132,7 @@ export default function Game() {
       if (map[e.key]) { e.preventDefault(); const [dx,dy]=map[e.key]; handleDir(dx,dy); }
       if (e.key === "Enter" || e.key === " ") {
         e.preventDefault();
+        if (modalRef.current === "submit" || modalRef.current === "done") return;
         const s = stateRef.current;
         if (!s || s.phase === "idle" || s.phase === "over" || s.phase === "win") initGame();
       }
@@ -351,7 +359,12 @@ export default function Game() {
 
   // ─── Submit score ───────────────────────────────────────────────────────────
   async function submitScore() {
-    if (!form.name.trim() || !form.email.trim()) return;
+    const errs = { name: "", email: "" };
+    if (!form.name.trim()) errs.name = "Введи ім'я або нікнейм";
+    if (!form.email.trim()) errs.email = "Введи email";
+    else if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(form.email)) errs.email = "Невірний формат email";
+    setFormErr(errs);
+    if (errs.name || errs.email) return;
     setSubmitting(true); setSubmitErr("");
     try {
       const res = await fetch("/api/scores", {
@@ -401,27 +414,37 @@ export default function Game() {
         {modal==="submit" && (
           <div className={styles.overlay}>
             <div className={styles.overlayBox}>
+              <button
+                className={styles.closeBtn}
+                onClick={initGame}
+                aria-label="Закрити та грати ще раз"
+              >✕</button>
               <div className={styles.overlayIcon}>{isWin?"🏆":"📊"}</div>
               <h2>Рахунок: {finalScore}</h2>
               <p className={styles.modalSub}>Залиш ім&apos;я та email — потрапиш у таблицю рекордів</p>
-              <input
-                className={styles.input}
-                placeholder="Ім'я або нікнейм"
-                value={form.name}
-                onChange={e=>setForm(f=>({...f,name:e.target.value}))}
-              />
-              <input
-                className={styles.input}
-                placeholder="Email"
-                type="email"
-                value={form.email}
-                onChange={e=>setForm(f=>({...f,email:e.target.value}))}
-              />
+              <div className={styles.fieldWrap}>
+                <input
+                  className={`${styles.input}${formErr.name?" "+styles.inputErr:""}`}
+                  placeholder="Ім'я або нікнейм *"
+                  value={form.name}
+                  onChange={e=>{setForm(f=>({...f,name:e.target.value}));setFormErr(fe=>({...fe,name:""}));}}
+                />
+                {formErr.name && <p className={styles.fieldErrMsg}>{formErr.name}</p>}
+              </div>
+              <div className={styles.fieldWrap}>
+                <input
+                  className={`${styles.input}${formErr.email?" "+styles.inputErr:""}`}
+                  placeholder="Email *"
+                  type="email"
+                  value={form.email}
+                  onChange={e=>{setForm(f=>({...f,email:e.target.value}));setFormErr(fe=>({...fe,email:""}));}}
+                />
+                {formErr.email && <p className={styles.fieldErrMsg}>{formErr.email}</p>}
+              </div>
               {submitErr && <p className={styles.err}>{submitErr}</p>}
               <button className={styles.ctaBtn} onClick={submitScore} disabled={submitting}>
                 {submitting?"Зберігаємо...":"Зберегти результат"}
               </button>
-              <button className={styles.ghostBtn} onClick={initGame}>Пропустити та грати ще раз</button>
             </div>
           </div>
         )}
