@@ -208,16 +208,12 @@
 .refreshBtn:hover { color: rgba(255,255,255,0.5); }
 
 /* hide third-party chat widgets on game page */
-:global(#tidio-chat),
-:global(#crisp-chatbox),
-:global([id^="chat-widget"]),
-:global(.intercom-lightweight-app),
-:global([class*="chat-bubble"]),
-:global(#fc_frame),
-:global(#launcher),
-:global(.mit-widget) {
-  display: none !important;
-}
+:global(#tidio-chat) { display: none !important; }
+:global(#crisp-chatbox) { display: none !important; }
+:global(#fc_frame) { display: none !important; }
+:global(#launcher) { display: none !important; }
+:global(.intercom-lightweight-app) { display: none !important; }
+:global(.mit-widget) { display: none !important; }
 
 @media (max-width: 520px) {
   .wrapper { padding: 1rem 0.5rem 3rem; }
