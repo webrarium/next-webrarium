@@ -207,11 +207,6 @@
 }
 .refreshBtn:hover { color: rgba(255,255,255,0.5); }
 
-/* hide third-party chat widgets on game page */
-:global {
-  #tidio-chat, #crisp-chatbox, #fc_frame, #launcher,
-  .intercom-lightweight-app, .mit-widget { display: none !important; }
-}
 
 @media (max-width: 520px) {
   .wrapper { padding: 1rem 0.5rem 3rem; }

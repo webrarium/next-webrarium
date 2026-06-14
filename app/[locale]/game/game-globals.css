@@ -1,0 +1,9 @@
+/* Hide third-party chat widgets on the game page */
+#tidio-chat,
+#crisp-chatbox,
+#fc_frame,
+#launcher,
+.intercom-lightweight-app,
+.mit-widget {
+  display: none !important;
+}

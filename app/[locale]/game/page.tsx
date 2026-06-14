@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Game from "./Game";
+import "./game-globals.css";
 
 export const metadata: Metadata = {
   title: "Webrarium Game 🎮 — Таблиця рекордів",
