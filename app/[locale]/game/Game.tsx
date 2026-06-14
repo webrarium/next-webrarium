@@ -71,6 +71,8 @@ export default function Game() {
   const [board, setBoard]   = useState<Score[]>([]);
   const [form, setForm]     = useState({ name: "", email: "" });
   const [submitting, setSubmitting] = useState(false);
+  const [joyVis, setJoyVis] = useState<{bx:number;by:number;sx:number;sy:number}|null>(null);
+  const joyBase = useRef({x:0,y:0});
   const [submitErr, setSubmitErr]   = useState("");
   const rafRef = useRef<number>(0);
   const powerFlash = useRef(false);
@@ -90,10 +92,10 @@ export default function Game() {
       map: MAP_TPL.map(r => [...r]),
       pac: { x:8, y:4, ox:8, oy:4, dx:1, dy:0, ndx:1, ndy:0, mouth:0.15, mouthDir:1, dead:false, deadTimer:0 },
       ghosts: [
-        { x:7,  y:9,  ox:7,  oy:9,  dx:1,  dy:0,  color:GHOST_COLORS[0], scared:false, home:true,  homeTimer:5   },
-        { x:8,  y:9,  ox:8,  oy:9,  dx:-1, dy:0,  color:GHOST_COLORS[1], scared:false, home:true,  homeTimer:10  },
-        { x:9,  y:9,  ox:9,  oy:9,  dx:0,  dy:1,  color:GHOST_COLORS[2], scared:false, home:true,  homeTimer:15  },
-        { x:8,  y:10, ox:8,  oy:10, dx:0,  dy:-1, color:GHOST_COLORS[3], scared:false, home:true,  homeTimer:20  },
+        { x:7,  y:9,  ox:7,  oy:9,  dx:1,  dy:0,  color:GHOST_COLORS[0], scared:false, home:true,  homeTimer:0   },
+        { x:8,  y:9,  ox:8,  oy:9,  dx:-1, dy:0,  color:GHOST_COLORS[1], scared:false, home:true,  homeTimer:15  },
+        { x:9,  y:9,  ox:9,  oy:9,  dx:0,  dy:1,  color:GHOST_COLORS[2], scared:false, home:true,  homeTimer:30  },
+        { x:8,  y:10, ox:8,  oy:10, dx:0,  dy:-1, color:GHOST_COLORS[3], scared:false, home:true,  homeTimer:45  },
       ],
       score: 0, lives: 3, powerTimer: 0, phase: "playing", tick: 0,
     };
@@ -159,7 +161,7 @@ export default function Game() {
           } else {
             p.x=8; p.y=4; p.ox=8; p.oy=4; p.dx=1; p.dy=0; p.ndx=1; p.ndy=0;
             p.dead=false; p.deadTimer=0;
-            s.ghosts.forEach((g,i)=>{ g.x=[7,8,9,8][i]; g.y=[9,9,9,10][i]; g.ox=g.x; g.oy=g.y; g.home=true; g.homeTimer=3+i*2; g.scared=false; });
+            s.ghosts.forEach((g,i)=>{ g.x=[7,8,9,8][i]; g.y=[9,9,9,10][i]; g.ox=g.x; g.oy=g.y; g.home=true; g.homeTimer=i*10; g.scared=false; });
           }
           setDisplay(d => ({ ...d, lives: s.lives, phase: s.phase }));
         }
@@ -315,23 +317,27 @@ export default function Game() {
       ctx.textAlign="left";
     }
 
-    let lastTick=0;
+    let lastTick=0, lastGhostTick=0;
+    const PAC_RATE=170, GHOST_RATE=340;
     function frame(ts: number) {
       rafRef.current = requestAnimationFrame(frame);
       const s = stateRef.current;
       if (!s || s.phase==="idle") { drawIdle(); return; }
       if (s.phase==="over"||s.phase==="win") return;
-      const tickRate = 170; // ms per game tick
-      let alpha = Math.min(1, (ts - lastTick) / tickRate);
-      if (ts - lastTick >= tickRate) {
-        lastTick=ts; s.tick++; alpha=0;
+      let pacAlpha = Math.min(1, (ts - lastTick) / PAC_RATE);
+      let ghostAlpha = Math.min(1, (ts - lastGhostTick) / GHOST_RATE);
+      if (ts - lastTick >= PAC_RATE) {
+        lastTick=ts; s.tick++; pacAlpha=0;
         updatePac(s);
+      }
+      if (ts - lastGhostTick >= GHOST_RATE) {
+        lastGhostTick=ts; ghostAlpha=0;
         updateGhosts(s);
       }
       ctx.fillStyle=BG; ctx.fillRect(0,0,W,H);
       drawMap(s.map);
-      s.ghosts.forEach(g=>drawGhost(g,alpha));
-      drawPac(s.pac,alpha);
+      s.ghosts.forEach(g=>drawGhost(g,ghostAlpha));
+      drawPac(s.pac,pacAlpha);
     }
     rafRef.current = requestAnimationFrame(frame);
     return () => cancelAnimationFrame(rafRef.current);
@@ -427,7 +433,7 @@ export default function Game() {
         )}
       </div>
 
-      {/* D-Pad */}
+      {/* D-Pad (desktop) */}
       <div className={styles.dpad} aria-label="Контролі">
         <div />
         <button onClick={()=>handleDir(0,-1)} aria-label="Вгору">↑</button>
@@ -435,6 +441,39 @@ export default function Game() {
         <button onClick={()=>handleDir(-1,0)} aria-label="Ліво">←</button>
         <button onClick={()=>handleDir(0,1)}  aria-label="Вниз">↓</button>
         <button onClick={()=>handleDir(1,0)}  aria-label="Право">→</button>
+      </div>
+
+      {/* Joystick (mobile) */}
+      <div
+        className={styles.joystickZone}
+        onTouchStart={e=>{
+          e.preventDefault();
+          const r=e.currentTarget.getBoundingClientRect();
+          const x=e.touches[0].clientX-r.left, y=e.touches[0].clientY-r.top;
+          joyBase.current={x,y};
+          setJoyVis({bx:x,by:y,sx:x,sy:y});
+        }}
+        onTouchMove={e=>{
+          e.preventDefault();
+          const r=e.currentTarget.getBoundingClientRect();
+          const x=e.touches[0].clientX-r.left, y=e.touches[0].clientY-r.top;
+          const {x:bx,y:by}=joyBase.current;
+          const dx=x-bx, dy=y-by, dist=Math.sqrt(dx*dx+dy*dy);
+          const maxR=45, ang=Math.atan2(dy,dx);
+          const cDist=Math.min(dist,maxR);
+          setJoyVis({bx,by,sx:bx+Math.cos(ang)*cDist,sy:by+Math.sin(ang)*cDist});
+          if(dist>18){
+            if(Math.abs(dx)>Math.abs(dy)) handleDir(dx>0?1:-1,0);
+            else handleDir(0,dy>0?1:-1);
+          }
+        }}
+        onTouchEnd={()=>setJoyVis(null)}
+      >
+        {joyVis && <>
+          <div className={styles.joyBase} style={{left:joyVis.bx,top:joyVis.by}} />
+          <div className={styles.joyStick} style={{left:joyVis.sx,top:joyVis.sy}} />
+        </>}
+        <span className={styles.joyHint}>проведи пальцем</span>
       </div>
 
       {/* Leaderboard */}
