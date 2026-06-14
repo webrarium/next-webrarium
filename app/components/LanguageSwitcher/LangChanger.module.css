@@ -1,5 +1,7 @@
 .lang_wrp {
-  margin-inline: auto;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
   display: flex;
   align-items: center;
   gap: 15px;

@@ -22,9 +22,11 @@ export default async function Footer({ locale }: { locale: string }) {
                 <Link href={navlink.nav_link.url}>{navlink.nav_text}</Link>
               </li>
             ))}
-            {/* <li>
-              <Link href="/uikit">UIKit</Link>
-            </li> */}
+            <li>
+              <Link href={locale === "en" ? "/en/uikit" : "/uikit"}>
+                {locale === "en" ? "UI/UX Kit" : "UI/UX Kit"}
+              </Link>
+            </li>
           </ul>
         </nav>
         <p className={styles.copyright}>
