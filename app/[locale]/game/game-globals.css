@@ -6,6 +6,7 @@
 .intercom-lightweight-app,
 .mit-widget,
 .calendly-badge-widget,
-.calendly-badge-content {
+.calendly-badge-content,
+cal-floating-button {
   display: none !important;
 }
