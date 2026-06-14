@@ -310,7 +310,7 @@ export default function Game() {
       if (ts - lastTick >= tickRate) {
         lastTick=ts; s.tick++; alpha=0;
         updatePac(s);
-        if(s.tick%2===0) updateGhosts(s);
+        updateGhosts(s);
       }
       ctx.fillStyle=BG; ctx.fillRect(0,0,W,H);
       drawMap(s.map);
