@@ -107,7 +107,13 @@ export default function Game() {
   const handleDir = useCallback((dx: number, dy: number) => {
     const s = stateRef.current;
     if (!s || s.phase === "idle" || s.phase === "over" || s.phase === "win") { initGame(); return; }
-    if (s.phase === "playing") { s.pac.ndx = dx; s.pac.ndy = dy; }
+    if (s.phase === "playing") {
+      s.pac.ndx = dx; s.pac.ndy = dy;
+      // apply immediately if passable — no tick lag
+      if (canMove(s.map, s.pac.x + dx, s.pac.y + dy)) {
+        s.pac.dx = dx; s.pac.dy = dy;
+      }
+    }
   }, [initGame]);
 
   useEffect(() => {
@@ -436,11 +442,11 @@ export default function Game() {
       {/* D-Pad (desktop) */}
       <div className={styles.dpad} aria-label="Контролі">
         <div />
-        <button onClick={()=>handleDir(0,-1)} aria-label="Вгору">↑</button>
+        <button onPointerDown={()=>handleDir(0,-1)} aria-label="Вгору">↑</button>
         <div />
-        <button onClick={()=>handleDir(-1,0)} aria-label="Ліво">←</button>
-        <button onClick={()=>handleDir(0,1)}  aria-label="Вниз">↓</button>
-        <button onClick={()=>handleDir(1,0)}  aria-label="Право">→</button>
+        <button onPointerDown={()=>handleDir(-1,0)} aria-label="Ліво">←</button>
+        <button onPointerDown={()=>handleDir(0,1)}  aria-label="Вниз">↓</button>
+        <button onPointerDown={()=>handleDir(1,0)}  aria-label="Право">→</button>
       </div>
 
       {/* Joystick (mobile) */}
