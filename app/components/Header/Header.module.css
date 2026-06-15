@@ -21,6 +21,20 @@
 .nav_wrp {
   display: flex;
   justify-content: flex-end;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.gameLink {
+  display: flex;
+  align-items: center;
+  color: rgba(255,255,255,0.45);
+  transition: color 0.2s, transform 0.2s;
+  line-height: 1;
+}
+.gameLink:hover {
+  color: #507a49;
+  transform: scale(1.15);
 }
 .nav {
   display: flex;

@@ -33,6 +33,13 @@ export default function HeaderS({ blok }: { blok: any }) {
                 <StoryblokComponent blok={navlink} key={navlink._uid} />
               ))}
             </nav>
+            <Link href="/game" className={styles.gameLink} aria-label="Грати в гру">
+              {/* Pac-Man: circle with mouth open ~40° top/bottom, facing right */}
+              <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                <path d="M11 11 L19.5 7.1 A9 9 0 1 0 19.5 14.9 Z" fill="currentColor"/>
+                <circle cx="11" cy="5.5" r="1.3" fill="var(--bg,#070d07)"/>
+              </svg>
+            </Link>
           </div>
           <div className={styles.brg} id="brg" onClick={openMenu}>
             <div className={styles.line}></div>
