@@ -1,9 +1,13 @@
 .f_nav ul {
   list-style: none;
   display: flex;
-  gap: 3rem;
+  flex-wrap: wrap;
+  gap: 1.5rem 2rem;
   justify-content: center;
   margin: 4rem 0;
+}
+.f_nav ul li {
+  white-space: nowrap;
 }
 .f_nav ul li a:hover {
   text-decoration: 3px var(--main-color) solid underline;
