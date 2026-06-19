@@ -185,7 +185,10 @@ export default function RootLayout({
   return (
     <StoryblokProvider>
       <html lang={locale}>
-        <head />
+        <head>
+          <link rel="preload" href="/fonts/CraftworkGrotesk-Regular.woff" as="font" type="font/woff" crossOrigin="anonymous" />
+          <link rel="preload" href="/fonts/CraftworkGrotesk-Bold.woff" as="font" type="font/woff" crossOrigin="anonymous" />
+        </head>
         <body>
           <script
             type="application/ld+json"

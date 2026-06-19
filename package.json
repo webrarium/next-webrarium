@@ -35,7 +35,7 @@
     "production": [
       "chrome >= 90",
       "firefox >= 90",
-      "safari >= 14",
+      "safari >= 15.4",
       "edge >= 90"
     ],
     "development": [
