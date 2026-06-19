@@ -1,6 +1,7 @@
 import { storyblokEditable, getStoryblokApi } from "@storyblok/react/rsc";
 import styles from "@/app/components/StoryblokComponents/Projects/Projects.module.css";
 import Link from "next/link";
+import Image from "next/image";
 import { useEffect, useState } from "react";
 import { useParams } from "next/navigation";
 
@@ -78,12 +79,16 @@ function ProjectCard({
 
   return (
     <div className={styles.project_card}>
-      <img
-        src={blok.content?.cover?.filename}
-        alt={blok.content?.cover?.alt || ""}
-        className={styles.bg}
-        loading="lazy"
-      />
+      {blok.content?.cover?.filename && (
+        <Image
+          src={blok.content.cover.filename}
+          alt={blok.content.cover.alt || ""}
+          className={styles.bg}
+          fill
+          sizes="(max-width: 768px) 100vw, 50vw"
+          style={{ objectFit: "cover" }}
+        />
+      )}
       <div className={styles.pc_content}>
         <h3>{blok.content?.title}</h3>
         <div className={styles.divider}></div>

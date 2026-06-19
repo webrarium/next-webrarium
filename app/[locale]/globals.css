@@ -3,6 +3,7 @@
 	font-family: craftwork grotesk;
 	font-style: normal;
 	font-weight: 400;
+	font-display: swap;
 	src: local("Craftwork Grotesk"),
 		url(https://fonts.cdnfonts.com/s/88961/CraftworkGrotesk-Regular.woff)
 			format("woff");
@@ -35,6 +36,7 @@
 	font-family: craftwork grotesk;
 	font-style: normal;
 	font-weight: 700;
+	font-display: swap;
 	src: local("Craftwork Grotesk"),
 		url(https://fonts.cdnfonts.com/s/88961/CraftworkGrotesk-Bold.woff)
 			format("woff");
