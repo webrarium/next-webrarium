@@ -6,7 +6,7 @@ import { storyblokEditable } from "@storyblok/react/rsc";
 import { GoogleReCaptchaProvider } from "react-google-recaptcha-v3";
 import styles from "./Contact.module.css";
 import Link from "next/link";
-import { useState } from "react";
+import { useState, useEffect, useRef } from "react";
 import { sendGAEvent } from "@next/third-parties/google";
 import { useGoogleReCaptcha } from "react-google-recaptcha-v3";
 import axios from "axios";
@@ -177,10 +177,31 @@ const Contact = ({ blok }: { blok: any }) => {
 
 const recaptchaKey = process?.env?.NEXT_PUBLIC_RECAPTCHA_SITE_KEY ?? "NOT DEFINED";
 
+// Lazy-load reCAPTCHA only when contact section scrolls into view
 export default function ContactWithCaptcha({ blok }: { blok: any }) {
+  const [visible, setVisible] = useState(false);
+  const ref = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    const el = ref.current;
+    if (!el) return;
+    const observer = new IntersectionObserver(
+      ([entry]) => { if (entry.isIntersecting) { setVisible(true); observer.disconnect(); } },
+      { rootMargin: "200px" }
+    );
+    observer.observe(el);
+    return () => observer.disconnect();
+  }, []);
+
   return (
-    <GoogleReCaptchaProvider reCaptchaKey={recaptchaKey}>
-      <Contact blok={blok} />
-    </GoogleReCaptchaProvider>
+    <div ref={ref}>
+      {visible ? (
+        <GoogleReCaptchaProvider reCaptchaKey={recaptchaKey}>
+          <Contact blok={blok} />
+        </GoogleReCaptchaProvider>
+      ) : (
+        <Contact blok={blok} />
+      )}
+    </div>
   );
 }

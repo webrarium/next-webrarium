@@ -36,8 +36,9 @@ export default function Hero({ blok }: { blok: any }) {
                 height: "auto",
               }}
               src="/pupa.webp"
-              width={256}
-              height={137}
+              width={100}
+              height={54}
+              sizes="100px"
               alt="Pupa"
             />
           </div>
