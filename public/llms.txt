@@ -1,27 +1,48 @@
 # Webrarium
 
-> Webrarium is a Ukrainian web development and digital marketing agency. We build websites, online stores, chatbots, and run digital advertising for businesses.
+> Webrarium is a Ukrainian web studio specializing in website development, digital advertising, chatbot development, business automation, and UX/UI design. We help businesses grow through technology and digital marketing. Based in Ukraine, working with clients in Ukrainian and English.
 
 ## Services
 
-- [Website Development](https://webrarium.com/en/services/company-websites): Corporate and landing page websites with modern UI/UX design
-- [Online Store](https://webrarium.com/en/services/online-store): E-commerce solutions with payment integrations
-- [Digital Advertising](https://webrarium.com/en/services/digital-advertising): Google Ads, Meta Ads, and performance marketing
-- [Chatbot Development](https://webrarium.com/en/services/chatbot): Automated messaging and lead generation bots
-- [Event Websites](https://webrarium.com/en/services/event-websites): Websites for conferences, festivals, and events
+- [Corporate Website Development](https://webrarium.com/en/services/company-websites): Full-cycle corporate websites and landing pages. From UX/UI design to SEO-ready launch. Focus on lead generation and brand credibility.
+- [Online Store Development](https://webrarium.com/en/services/online-store): E-commerce on Shopify and WooCommerce. User-friendly catalog, secure payments, conversion optimization.
+- [Digital Advertising](https://webrarium.com/en/services/digital-advertising): Targeted ads on Google Ads, Meta (Facebook/Instagram), and LinkedIn. Performance marketing with measurable ROI.
+- [Chatbot Development](https://webrarium.com/en/services/chatbots-developing): Chatbots for Telegram, Viber, and Instagram. Automated 24/7 replies, customer support, lead generation on autopilot.
+- [Business Process Automation](https://webrarium.com/en/services/business-automation): Workflow automation using Make (Integromat), Zapier, and n8n. Reduces routine work and scales operations.
+- [UX/UI Product Design](https://webrarium.com/en/services/product-design): UX/UI design in Figma: user research, wireframes, prototypes, design systems. Interfaces that drive business results.
+- [Event Websites](https://webrarium.com/en/services/event-websites): Websites for conferences, festivals, and events with registration and ticketing integrations.
 
 ## Projects
 
-- [Projects Overview](https://webrarium.com/en/projects): Portfolio of completed work
+- [Projects Overview](https://webrarium.com/en/projects): Full portfolio of completed work
+
+### Selected Cases
+- [+146 Registrations in 21 Days — UCU Business School](https://webrarium.com/en/projects/146-registrations-from-the-advertising-campaign-for-the-ucu-business-school): Google Ads campaign for Ukrainian Catholic University Business School (LvBS) that generated 146 course registrations in 21 days through contextual advertising and community building.
+- [Shopify Store for Artist Balbyshev](https://webrarium.com/en/projects/creating-a-personal-online-store-for-an-artist): Online art gallery and store on Shopify for contemporary artist Oleksandr Balbyshev. Elegant design for worldwide art sales. Live: balbyshev.com
+- [3D Motion Animation for Jewelry Brand](https://webrarium.com/en/projects/creation-of-3d-motion-animation-for-a-jewelry-brand): 3D jewelry models and motion animation for Tobi Mozhna jewelry brand. Content that sells the beauty of the product.
+- [Online Store for Tobi Mozhna Jewelry Brand](https://webrarium.com/en/projects/development-of-an-online-store-for-a-jewelry-brand): User-friendly online store for a high-end Ukrainian jewelry brand. Exquisite catalog, enhanced shopping experience. Live: tobimozhna.com
+- [Website for Vyshyti Bolem Human Rights Organization](https://webrarium.com/en/projects/website-development-for-a-nonprofit-organization): Website for a nonprofit documenting sexual violence by Russian occupiers through embroidered towels. Emotional content, modern design, interactive elements. Live: vyshyti-bolem.in.ua
+- [4700+ Contacts in 6 Months — 100% LIFE Clinic](https://webrarium.com/en/projects/website-development-for-the-100-life-clinic-network): Website and advertising for the 100% LIFE medical clinic network. Design, Webflow, SEO, and ads generated 4700+ contacts. Live: 100percentlife.clinic
+
+## Partners & Clients
+
+Webrarium has worked with organizations including UCU Business School (LvBS), PSPOH (Ukrainian Association of Pediatric Oncology and Hematology), Arterium, 100% Життя (100% LIFE), Tobi Mozhna jewelry, Balbyshev artist, Act for Health (Діємо для здоров'я), Institute of Mass Information (IMI), Center for Sociology of Law and Criminology (UCLCR), OneHealth, Luxury Retreat NM.
+
+## Recognition
+
+Webrarium is listed on Clutch.co as a recognized web development and digital marketing agency in Ukraine.
 
 ## Contact
 
 - Email: wewebrarium@gmail.com
 - Phone: +38 067 46 14 067
+- WhatsApp: https://wa.me/+380739797954
 - [Contact Page](https://webrarium.com/en/contact)
 
 ## About
 
 - Location: Ukraine
 - Languages: Ukrainian, English
-- [UI/UX Kit](https://webrarium.com/en/uikit): Brand guidelines and design system
+- Founded: Active since at least 2023
+- [UI/UX Kit & Brand Guidelines](https://webrarium.com/en/uikit): Design system and brand guidelines for Webrarium
+- [Privacy Policy](https://webrarium.com/privacy-policy)
