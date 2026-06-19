@@ -3,6 +3,7 @@
 import { useForm } from "react-hook-form";
 import { sendEmail } from "@/app/utils/send-email";
 import { storyblokEditable } from "@storyblok/react/rsc";
+import { GoogleReCaptchaProvider } from "react-google-recaptcha-v3";
 import styles from "./Contact.module.css";
 import Link from "next/link";
 import { useState } from "react";
@@ -174,4 +175,12 @@ const Contact = ({ blok }: { blok: any }) => {
   );
 };
 
-export default Contact;
+const recaptchaKey = process?.env?.NEXT_PUBLIC_RECAPTCHA_SITE_KEY ?? "NOT DEFINED";
+
+export default function ContactWithCaptcha({ blok }: { blok: any }) {
+  return (
+    <GoogleReCaptchaProvider reCaptchaKey={recaptchaKey}>
+      <Contact blok={blok} />
+    </GoogleReCaptchaProvider>
+  );
+}

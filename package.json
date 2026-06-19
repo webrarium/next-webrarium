@@ -31,6 +31,19 @@
     "react-hook-form": "^7.51.2",
     "storyblok-rich-text-react-renderer": "^2.9.1"
   },
+  "browserslist": {
+    "production": [
+      "chrome >= 90",
+      "firefox >= 90",
+      "safari >= 14",
+      "edge >= 90"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
   "devDependencies": {
     "@types/node": "^20",
     "@types/nodemailer": "^6.4.14",

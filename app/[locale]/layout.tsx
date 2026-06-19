@@ -8,7 +8,6 @@ import { SpeedInsights } from "@vercel/speed-insights/next";
 import type { Viewport } from "next";
 import { GoogleAnalytics } from "@next/third-parties/google";
 import CalBlock from "@/app/components/CalBlock";
-import CaptchaProvider from "../components/CaptchaProvider";
 import { Analytics } from "@vercel/analytics/react";
 import { i18nConfig } from "@/i18nConfig";
 
@@ -197,7 +196,7 @@ export default function RootLayout({
           />
           <CalBlock />
           <Header locale={locale} />
-          <CaptchaProvider>{children}</CaptchaProvider>
+          {children}
           <Footer locale={locale} />
           <SpeedInsights />
           <Analytics />

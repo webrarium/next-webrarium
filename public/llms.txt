@@ -1,0 +1,27 @@
+# Webrarium
+
+> Webrarium is a Ukrainian web development and digital marketing agency. We build websites, online stores, chatbots, and run digital advertising for businesses.
+
+## Services
+
+- [Website Development](https://webrarium.com/en/services/company-websites): Corporate and landing page websites with modern UI/UX design
+- [Online Store](https://webrarium.com/en/services/online-store): E-commerce solutions with payment integrations
+- [Digital Advertising](https://webrarium.com/en/services/digital-advertising): Google Ads, Meta Ads, and performance marketing
+- [Chatbot Development](https://webrarium.com/en/services/chatbot): Automated messaging and lead generation bots
+- [Event Websites](https://webrarium.com/en/services/event-websites): Websites for conferences, festivals, and events
+
+## Projects
+
+- [Projects Overview](https://webrarium.com/en/projects): Portfolio of completed work
+
+## Contact
+
+- Email: wewebrarium@gmail.com
+- Phone: +38 067 46 14 067
+- [Contact Page](https://webrarium.com/en/contact)
+
+## About
+
+- Location: Ukraine
+- Languages: Ukrainian, English
+- [UI/UX Kit](https://webrarium.com/en/uikit): Brand guidelines and design system
