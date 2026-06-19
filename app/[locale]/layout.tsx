@@ -185,6 +185,9 @@ export default function RootLayout({
   return (
     <StoryblokProvider>
       <html lang={locale}>
+        <head>
+          <link rel="preconnect" href="https://fonts.cdnfonts.com" crossOrigin="anonymous" />
+        </head>
         <body>
           <script
             type="application/ld+json"
