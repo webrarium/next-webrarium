@@ -1,5 +1,6 @@
 
 import { alternates, ogLocale } from "@/app/lib/seo";
+import { applyOverrides } from "@/app/content/overrides";
 import StoryblokStory from "@storyblok/react/story";
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
@@ -72,6 +73,6 @@ async function fetchData(locale: string) {
     { next: { revalidate: 600 } }
   );
   const json = await res.json();
-  const story = mergeRels(json.story, json.rels);
+  const story = applyOverrides(mergeRels(json.story, json.rels), locale);
   return { data: { story } };
 }
