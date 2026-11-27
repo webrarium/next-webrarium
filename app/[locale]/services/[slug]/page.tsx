@@ -2,6 +2,16 @@ import StoryblokStory from "@storyblok/react/story";
 import { notFound } from "next/navigation";
 import GlobalContacts from "@/app/components/GlobalContacts";
 import { Metadata } from "next";
+import {
+  LABELS,
+  alternates,
+  breadcrumbLd,
+  defaultOgImage,
+  ldJson,
+  localized,
+  ogLocale,
+  serviceLd,
+} from "@/app/lib/seo";
 
 function mergeRels(story: any, rels: any[]) {
   if (!rels?.length) return story;
@@ -33,24 +43,31 @@ export async function generateMetadata({ params }: any) {
   }
   const service = await serviceData.json();
 
-  const ogImage = locale === "en" ? "/OpenGraph_Eng.jpg" : "/OpenGraph_UA.jpg";
+  const content = service.story.content;
+  const ogImage = defaultOgImage(locale);
+  const title =
+    localized(content.meta_title, locale) ||
+    (localized(content.title, locale) ?? content.title) + " | Webrarium";
+  const description =
+    localized(content.meta_description, locale) || localized(content.subtitle, locale) || content.subtitle;
   const metadata: Metadata = {
-    title: service.story.content.title + " | Webrarium",
-    description: service.story.content.subtitle,
+    title,
+    description,
     openGraph: {
+      title,
+      description,
       images: ogImage,
+      siteName: "Webrarium",
+      type: "website",
+      ...ogLocale(locale),
     },
     twitter: {
       card: "summary_large_image",
+      title,
+      description,
       images: ogImage,
     },
-    alternates: {
-      canonical: locale === "en" ? `/en/services/${params.slug}` : `/services/${params.slug}`,
-      languages: {
-        uk: `/services/${params.slug}`,
-        en: `/en/services/${params.slug}`,
-      },
-    },
+    alternates: alternates(`/services/${params.slug}`, locale),
   };
   return metadata;
 }
@@ -76,8 +93,32 @@ export async function generateStaticParams() {
 export default async function ServicePage({ params: { locale, slug } }: any) {
   try {
     const { data } = await fetchData(locale, slug);
+    const content = data.story.content;
+    const name = content.title;
+    const path = `/services/${slug}`;
+    const L = locale === "en" ? LABELS.en : LABELS.uk;
     return (
       <>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={ldJson([
+            serviceLd({
+              name,
+              description:
+                localized(content.meta_description, locale) || localized(content.subtitle, locale),
+              path,
+              locale,
+            }),
+            breadcrumbLd(
+              [
+                { name: L.home, path: "/" },
+                { name: L.services, path: "/services" },
+                { name, path },
+              ],
+              locale
+            ),
+          ])}
+        />
         <StoryblokStory story={data.story} />
         <GlobalContacts locale={locale} />
       </>
