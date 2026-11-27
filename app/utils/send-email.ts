@@ -6,6 +6,7 @@ export async function sendEmail(data: FormData) {
   try {
     const response = await fetch(apiEndpoint, {
       method: "POST",
+      headers: { "Content-Type": "application/json" },
       body: JSON.stringify(data),
     });
 

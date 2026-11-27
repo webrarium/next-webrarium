@@ -11,7 +11,7 @@ export default function Clutch({ blok }: { blok: any }) {
                     <div className={styles.logos_wrp}>
                         {blok.logos.map((logo: any, index: number) => (
                             <div className={styles.service_card} key={index}>
-                                <Image src={logo.filename} alt={logo.alt} width={250} height={250} />
+                                <Image src={logo.filename} alt={logo.alt || "Webrarium on Clutch"} width={250} height={250} />
                             </div>
                         ))}
                     </div>

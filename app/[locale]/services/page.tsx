@@ -1,4 +1,5 @@
 
+import { alternates, ogLocale } from "@/app/lib/seo";
 import StoryblokStory from "@storyblok/react/story";
 import type { Metadata } from "next";
 
@@ -39,12 +40,10 @@ export async function generateMetadata({ params: { locale } }: any) {
         ? "Website development, chatbot development, marketing automation, product design, digital advertising."
         : "Створення сайтів, розробка чат-ботів, автоматизація маркетингу, продуктовий дизайн, цифрова реклама"),
     openGraph: {
+      ...ogLocale(locale),
       images: seoData.story?.content?.og_image?.filename || (locale === "en" ? "/OpenGraph_Eng.jpg" : "/OpenGraph_UA.jpg"),
     },
-    alternates: {
-      canonical: locale === "en" ? `/en/${pageSlug}` : `/${pageSlug}`,
-      languages: { uk: `/${pageSlug}`, en: `/en/${pageSlug}` },
-    },
+    alternates: alternates("/services", locale),
   };
   return Metadata;
 }

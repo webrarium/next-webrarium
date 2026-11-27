@@ -3,26 +3,25 @@
 import { useForm } from "react-hook-form";
 import { sendEmail } from "@/app/utils/send-email";
 import { storyblokEditable } from "@storyblok/react/rsc";
-import { GoogleReCaptchaProvider } from "react-google-recaptcha-v3";
 import styles from "./Contact.module.css";
 import Link from "next/link";
-import { useState, useEffect, useRef } from "react";
+import { useState, useRef } from "react";
 import { sendGAEvent } from "@next/third-parties/google";
-import { useGoogleReCaptcha } from "react-google-recaptcha-v3";
-import axios from "axios";
 
 export type FormData = {
   name: string;
   email: string;
   message: string;
   honeypot: any;
+  startedAt?: number;
 };
 
 const Contact = ({ blok }: { blok: any }) => {
-  const [submitted, setSubmitted] = useState();
+  const [submitted, setSubmitted] = useState<string>();
   const [sending, setSending] = useState(false);
   const { register, handleSubmit, reset } = useForm<FormData>();
-  const { executeRecaptcha } = useGoogleReCaptcha();
+  // when the form was shown; the server rejects submissions faster than a human can type
+  const startedAt = useRef(Date.now());
 
   async function onSubmit(data: FormData) {
     if (data.honeypot) {
@@ -31,38 +30,24 @@ const Contact = ({ blok }: { blok: any }) => {
       return;
     }
     setSending(true);
-    if (!executeRecaptcha) {
-      console.error("Google reCaptcha not loaded");
-      return;
-    }
-
-    const token = await executeRecaptcha("contact");
-
-    const response = await axios({
-      method: "POST",
-      url: "/api/recaptcha",
-      data: {
-        token,
-      },
-      headers: {
-        Accept: "app;ication/json, text/plain, */*",
-        "Content-Type": "application/json",
-      },
-    });
-    if (!response?.data?.success === true) {
-      console.log(`score: ${response?.data?.score}`);
-      return;
-    }
-    console.log(`score: ${response?.data?.score}`);
     try {
-      const response = await sendEmail(data);
-      setSubmitted(response === "Email sent" ? blok.success_message : "error");
-      sendGAEvent("event", "cf_submit", { value: "contact_form_submit" });
+      const response = await sendEmail({ ...data, startedAt: startedAt.current });
+      if (response === "Email sent") {
+        setSubmitted(blok.success_message);
+        sendGAEvent("event", "cf_submit", { value: "contact_form_submit" });
+        reset();
+      } else {
+        setSubmitted((document.documentElement.lang === "en"
+        ? "Could not send the message. Please write to wewebrarium@gmail.com"
+        : "Не вдалося надіслати повідомлення. Напишіть нам на wewebrarium@gmail.com"));
+      }
     } catch (error) {
       console.error(error);
+      setSubmitted((document.documentElement.lang === "en"
+        ? "Could not send the message. Please write to wewebrarium@gmail.com"
+        : "Не вдалося надіслати повідомлення. Напишіть нам на wewebrarium@gmail.com"));
     } finally {
       setSending(false);
-      reset();
     }
   }
   return (
@@ -175,33 +160,4 @@ const Contact = ({ blok }: { blok: any }) => {
   );
 };
 
-const recaptchaKey = process?.env?.NEXT_PUBLIC_RECAPTCHA_SITE_KEY ?? "NOT DEFINED";
-
-// Lazy-load reCAPTCHA only when contact section scrolls into view
-export default function ContactWithCaptcha({ blok }: { blok: any }) {
-  const [visible, setVisible] = useState(false);
-  const ref = useRef<HTMLDivElement>(null);
-
-  useEffect(() => {
-    const el = ref.current;
-    if (!el) return;
-    const observer = new IntersectionObserver(
-      ([entry]) => { if (entry.isIntersecting) { setVisible(true); observer.disconnect(); } },
-      { rootMargin: "200px" }
-    );
-    observer.observe(el);
-    return () => observer.disconnect();
-  }, []);
-
-  return (
-    <div ref={ref}>
-      {visible ? (
-        <GoogleReCaptchaProvider reCaptchaKey={recaptchaKey}>
-          <Contact blok={blok} />
-        </GoogleReCaptchaProvider>
-      ) : (
-        <Contact blok={blok} />
-      )}
-    </div>
-  );
-}
+export default Contact;

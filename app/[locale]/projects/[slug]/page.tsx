@@ -1,4 +1,5 @@
 import GlobalContacts from "@/app/components/GlobalContacts";
+import { LABELS, alternates, breadcrumbLd, defaultOgImage, ldJson, localized, ogLocale } from "@/app/lib/seo";
 import StoryblokStory from "@storyblok/react/story";
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
@@ -30,24 +31,31 @@ export async function generateMetadata({ params }: any) {
     return {};
   }
   const project = await projectData.json();
-  const coverImage = project.story.content.cover?.filename || (locale === "en" ? "/OpenGraph_Eng.jpg" : "/OpenGraph_UA.jpg");
+  const content = project.story.content;
+  const coverImage = content.cover?.filename || defaultOgImage(locale);
+  const title =
+    localized(content.meta_title, locale) ||
+    (localized(content.title, locale) ?? content.title) + " | Webrarium";
+  const description =
+    localized(content.meta_description, locale) || localized(content.subtitle, locale) || content.subtitle;
   const metadata: Metadata = {
-    title: project.story.content.title + " | Webrarium",
-    description: project.story.content.subtitle,
+    title,
+    description,
     openGraph: {
+      title,
+      description,
       images: coverImage,
+      siteName: "Webrarium",
+      type: "article",
+      ...ogLocale(locale),
     },
     twitter: {
       card: "summary_large_image",
+      title,
+      description,
       images: coverImage,
     },
-    alternates: {
-      canonical: locale === "en" ? `/en/projects/${params.slug}` : `/projects/${params.slug}`,
-      languages: {
-        uk: `/projects/${params.slug}`,
-        en: `/en/projects/${params.slug}`,
-      },
-    },
+    alternates: alternates(`/projects/${params.slug}`, locale),
   };
   return metadata;
 }
@@ -83,8 +91,22 @@ export async function generateStaticParams() {
 export default async function ProjectPage({ params: { locale, slug } }: any) {
   try {
     const { data } = await fetchData(locale, slug);
+    const L = locale === "en" ? LABELS.en : LABELS.uk;
     return (
       <>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={ldJson(
+            breadcrumbLd(
+              [
+                { name: L.home, path: "/" },
+                { name: L.projects, path: "/projects" },
+                { name: data.story.content.title, path: `/projects/${slug}` },
+              ],
+              locale
+            )
+          )}
+        />
         <StoryblokStory story={data.story} />
         <GlobalContacts locale={locale} />
       </>

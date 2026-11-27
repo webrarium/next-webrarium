@@ -3,7 +3,27 @@ import nodemailer from "nodemailer";
 import Mail from "nodemailer/lib/mailer";
 
 export async function POST(request: NextRequest) {
-  const { email, name, message } = await request.json();
+  const { email, name, message, honeypot, startedAt } = await request.json();
+
+  if (honeypot) {
+    return NextResponse.json({ error: "Rejected" }, { status: 400 });
+  }
+  if (
+    typeof name !== "string" || !name.trim() || name.length > 200 ||
+    typeof email !== "string" || !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email) ||
+    typeof message !== "string" || !message.trim() || message.length > 5000
+  ) {
+    return NextResponse.json({ error: "Invalid form data" }, { status: 400 });
+  }
+
+  // Bots usually submit instantly; a person needs a few seconds to fill in the form.
+  if (typeof startedAt !== "number" || Date.now() - startedAt < 3000) {
+    return NextResponse.json({ error: "Too fast" }, { status: 400 });
+  }
+  // Links are the main payload of contact-form spam.
+  if ((message.match(/https?:\/\//g) || []).length > 3) {
+    return NextResponse.json({ error: "Too many links" }, { status: 400 });
+  }
 
   const transport = nodemailer.createTransport({
     service: "gmail",
@@ -26,7 +46,8 @@ export async function POST(request: NextRequest) {
     from: process.env.MY_EMAIL,
     to: process.env.MY_EMAIL,
     // cc: email, (uncomment this line if you want to send a copy to the sender)
-    subject: `Message from ${name} (${email})`,
+    replyTo: email,
+    subject: `Message from ${name.slice(0, 100)} (${email})`,
     text: message,
   };
 

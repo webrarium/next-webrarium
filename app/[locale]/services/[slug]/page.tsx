@@ -2,6 +2,33 @@ import StoryblokStory from "@storyblok/react/story";
 import { notFound } from "next/navigation";
 import GlobalContacts from "@/app/components/GlobalContacts";
 import { Metadata } from "next";
+import {
+  LABELS,
+  alternates,
+  breadcrumbLd,
+  defaultOgImage,
+  ldJson,
+  localized,
+  ogLocale,
+  serviceLd,
+} from "@/app/lib/seo";
+
+function mergeRels(story: any, rels: any[]) {
+  if (!rels?.length) return story;
+  const relMap: Record<string, any> = {};
+  rels.forEach((rel: any) => { relMap[rel.uuid] = rel; });
+  function resolve(val: any): any {
+    if (typeof val === "string" && relMap[val]) return relMap[val];
+    if (Array.isArray(val)) return val.map(resolve);
+    if (val && typeof val === "object") {
+      const out: any = {};
+      for (const k of Object.keys(val)) out[k] = resolve(val[k]);
+      return out;
+    }
+    return val;
+  }
+  return { ...story, content: resolve(story.content) };
+}
 
 export const revalidate = 600;
 
@@ -16,24 +43,31 @@ export async function generateMetadata({ params }: any) {
   }
   const service = await serviceData.json();
 
-  const ogImage = locale === "en" ? "/OpenGraph_Eng.jpg" : "/OpenGraph_UA.jpg";
+  const content = service.story.content;
+  const ogImage = defaultOgImage(locale);
+  const title =
+    localized(content.meta_title, locale) ||
+    (localized(content.title, locale) ?? content.title) + " | Webrarium";
+  const description =
+    localized(content.meta_description, locale) || localized(content.subtitle, locale) || content.subtitle;
   const metadata: Metadata = {
-    title: service.story.content.title + " | Webrarium",
-    description: service.story.content.subtitle,
+    title,
+    description,
     openGraph: {
+      title,
+      description,
       images: ogImage,
+      siteName: "Webrarium",
+      type: "website",
+      ...ogLocale(locale),
     },
     twitter: {
       card: "summary_large_image",
+      title,
+      description,
       images: ogImage,
     },
-    alternates: {
-      canonical: locale === "en" ? `/en/services/${params.slug}` : `/services/${params.slug}`,
-      languages: {
-        uk: `/services/${params.slug}`,
-        en: `/en/services/${params.slug}`,
-      },
-    },
+    alternates: alternates(`/services/${params.slug}`, locale),
   };
   return metadata;
 }
@@ -59,8 +93,32 @@ export async function generateStaticParams() {
 export default async function ServicePage({ params: { locale, slug } }: any) {
   try {
     const { data } = await fetchData(locale, slug);
+    const content = data.story.content;
+    const name = content.title;
+    const path = `/services/${slug}`;
+    const L = locale === "en" ? LABELS.en : LABELS.uk;
     return (
       <>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={ldJson([
+            serviceLd({
+              name,
+              description:
+                localized(content.meta_description, locale) || localized(content.subtitle, locale),
+              path,
+              locale,
+            }),
+            breadcrumbLd(
+              [
+                { name: L.home, path: "/" },
+                { name: L.services, path: "/services" },
+                { name, path },
+              ],
+              locale
+            ),
+          ])}
+        />
         <StoryblokStory story={data.story} />
         <GlobalContacts locale={locale} />
       </>
@@ -76,6 +134,7 @@ async function fetchData(locale: string, slug: string) {
     { next: { revalidate: 600 } }
   );
   if (!res.ok) throw new Error(`Failed to fetch service: ${slug}`);
-  const data = await res.json();
-  return { data };
+  const json = await res.json();
+  const story = mergeRels(json.story, json.rels);
+  return { data: { story } };
 }

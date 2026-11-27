@@ -37,12 +37,11 @@ Webrarium is listed on Clutch.co as a recognized web development and digital mar
 - Email: wewebrarium@gmail.com
 - Phone: +38 067 46 14 067
 - WhatsApp: https://wa.me/+380739797954
-- [Contact Page](https://webrarium.com/en/contact)
+- [Contact form](https://webrarium.com/en#contact)
 
 ## About
 
 - Location: Ukraine
 - Languages: Ukrainian, English
-- Founded: Active since at least 2023
 - [UI/UX Kit & Brand Guidelines](https://webrarium.com/en/uikit): Design system and brand guidelines for Webrarium
-- [Privacy Policy](https://webrarium.com/privacy-policy)
+- [Privacy Policy](https://webrarium.com/en/privacy-policy)
