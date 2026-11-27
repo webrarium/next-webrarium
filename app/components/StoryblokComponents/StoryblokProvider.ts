@@ -59,6 +59,8 @@ const components = {
 	testimonial_card: TestimonialCard,
 	contact: Contact,
 	privacy_policy: PrivacyPolicy,
+	// the Storyblok block is named "privacy-policy" (hyphen) in the privacy-policy and data-deletion stories
+	"privacy-policy": PrivacyPolicy,
 	project: ProjectPage,
 	projects_grid: ProjectsGrid,
 	project_headline: ProjectHeadline,

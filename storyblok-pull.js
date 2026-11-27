@@ -8,7 +8,11 @@
 const fs = require("fs");
 const path = require("path");
 
-const TOKEN = process.env.STORYBLOK_MANAGEMENT_TOKEN || "sb_pat_u6Ug6Ut7NRAxn8YtVOfxxNaxCfgtc8wUms7R4hSFul8";
+const TOKEN = process.env.STORYBLOK_MANAGEMENT_TOKEN;
+if (!TOKEN) {
+  console.error("Set STORYBLOK_MANAGEMENT_TOKEN (Storyblok → My account → Personal access tokens)");
+  process.exit(1);
+}
 const CONTENT_DIR = path.join(__dirname, "content");
 
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));

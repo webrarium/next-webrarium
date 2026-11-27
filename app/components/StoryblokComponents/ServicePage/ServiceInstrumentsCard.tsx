@@ -17,10 +17,21 @@ export default function ServiceInstrumentsCard({ blok }: { blok: any }) {
       <div className={styles.instruments_logos}>
         {blok.instruments_logos.map((logo: any) => (
           <div className={styles.instruments_logo_wrp} key={logo.filename}>
-            <img src={logo.filename} alt={logo.alt} height={55} />
+            <img
+              src={logo.filename}
+              alt={logo.alt || logoName(logo.filename)}
+              height={55}
+              loading="lazy"
+            />
           </div>
         ))}
       </div>
     </div>
   );
+}
+
+// "…/f29328c999/react_logo.svg" → "react"
+function logoName(filename: string = ""): string {
+  const base = filename.split("/").pop()?.replace(/\.[a-z0-9]+$/i, "") || "";
+  return base.replace(/[_-]?(logo|logotype|elephant)$/i, "").replace(/[_-]+/g, " ").trim();
 }

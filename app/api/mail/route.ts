@@ -3,7 +3,35 @@ import nodemailer from "nodemailer";
 import Mail from "nodemailer/lib/mailer";
 
 export async function POST(request: NextRequest) {
-  const { email, name, message } = await request.json();
+  const { email, name, message, token, honeypot } = await request.json();
+
+  if (honeypot) {
+    return NextResponse.json({ error: "Rejected" }, { status: 400 });
+  }
+  if (
+    typeof name !== "string" || !name.trim() || name.length > 200 ||
+    typeof email !== "string" || !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email) ||
+    typeof message !== "string" || !message.trim() || message.length > 5000
+  ) {
+    return NextResponse.json({ error: "Invalid form data" }, { status: 400 });
+  }
+
+  // Verify reCAPTCHA here, so the endpoint cannot be called directly by bots.
+  try {
+    const verify = await fetch("https://www.google.com/recaptcha/api/siteverify", {
+      method: "POST",
+      headers: { "Content-Type": "application/x-www-form-urlencoded" },
+      body: new URLSearchParams({
+        secret: process.env.RECAPTCHA_SECRET_KEY || "",
+        response: typeof token === "string" ? token : "",
+      }),
+    }).then((r) => r.json());
+    if (!verify?.success || (verify.score ?? 0) < 0.5) {
+      return NextResponse.json({ error: "reCAPTCHA failed" }, { status: 403 });
+    }
+  } catch {
+    return NextResponse.json({ error: "reCAPTCHA unavailable" }, { status: 503 });
+  }
 
   const transport = nodemailer.createTransport({
     service: "gmail",
@@ -26,7 +54,8 @@ export async function POST(request: NextRequest) {
     from: process.env.MY_EMAIL,
     to: process.env.MY_EMAIL,
     // cc: email, (uncomment this line if you want to send a copy to the sender)
-    subject: `Message from ${name} (${email})`,
+    replyTo: email,
+    subject: `Message from ${name.slice(0, 100)} (${email})`,
     text: message,
   };
 

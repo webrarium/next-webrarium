@@ -9,17 +9,17 @@ import Link from "next/link";
 import { useState, useEffect, useRef } from "react";
 import { sendGAEvent } from "@next/third-parties/google";
 import { useGoogleReCaptcha } from "react-google-recaptcha-v3";
-import axios from "axios";
 
 export type FormData = {
   name: string;
   email: string;
   message: string;
   honeypot: any;
+  token?: string;
 };
 
 const Contact = ({ blok }: { blok: any }) => {
-  const [submitted, setSubmitted] = useState();
+  const [submitted, setSubmitted] = useState<string>();
   const [sending, setSending] = useState(false);
   const { register, handleSubmit, reset } = useForm<FormData>();
   const { executeRecaptcha } = useGoogleReCaptcha();
@@ -31,38 +31,29 @@ const Contact = ({ blok }: { blok: any }) => {
       return;
     }
     setSending(true);
-    if (!executeRecaptcha) {
-      console.error("Google reCaptcha not loaded");
-      return;
-    }
-
-    const token = await executeRecaptcha("contact");
-
-    const response = await axios({
-      method: "POST",
-      url: "/api/recaptcha",
-      data: {
-        token,
-      },
-      headers: {
-        Accept: "app;ication/json, text/plain, */*",
-        "Content-Type": "application/json",
-      },
-    });
-    if (!response?.data?.success === true) {
-      console.log(`score: ${response?.data?.score}`);
-      return;
-    }
-    console.log(`score: ${response?.data?.score}`);
     try {
-      const response = await sendEmail(data);
-      setSubmitted(response === "Email sent" ? blok.success_message : "error");
-      sendGAEvent("event", "cf_submit", { value: "contact_form_submit" });
+      if (!executeRecaptcha) {
+        throw new Error("Google reCaptcha not loaded");
+      }
+      // The token is verified on the server in /api/mail before the email is sent.
+      const token = await executeRecaptcha("contact");
+      const response = await sendEmail({ ...data, token });
+      if (response === "Email sent") {
+        setSubmitted(blok.success_message);
+        sendGAEvent("event", "cf_submit", { value: "contact_form_submit" });
+        reset();
+      } else {
+        setSubmitted((document.documentElement.lang === "en"
+        ? "Could not send the message. Please write to wewebrarium@gmail.com"
+        : "Не вдалося надіслати повідомлення. Напишіть нам на wewebrarium@gmail.com"));
+      }
     } catch (error) {
       console.error(error);
+      setSubmitted((document.documentElement.lang === "en"
+        ? "Could not send the message. Please write to wewebrarium@gmail.com"
+        : "Не вдалося надіслати повідомлення. Напишіть нам на wewebrarium@gmail.com"));
     } finally {
       setSending(false);
-      reset();
     }
   }
   return (
