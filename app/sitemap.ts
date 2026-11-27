@@ -31,7 +31,12 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     listFolder("services"),
     listFolder("projects"),
   ]);
-  const dynamicRoutes = [...services, ...projects].map((s) => ({
+  const dynamicRoutes = [
+    // AI Automation lives in code; it replaces the old chatbot service
+    { full_slug: "services/ai-automation", is_startpage: false, published_at: now },
+    ...services.filter((s) => !s.full_slug.includes("chatbots-developing")),
+    ...projects,
+  ].map((s) => ({
     path: `/${s.full_slug.replace(/\/$/, "")}`,
     lastModified: s.published_at || now,
   }));

@@ -16,6 +16,17 @@ const nextConfig = {
         destination: "/uk",
         permanent: true,
       },
+      // Chatbot service merged into AI Automation
+      {
+        source: "/services/chatbots-developing",
+        destination: "/services/ai-automation",
+        permanent: true,
+      },
+      {
+        source: "/en/services/chatbots-developing",
+        destination: "/en/services/ai-automation",
+        permanent: true,
+      },
       {
         source: "/en/ua",
         destination: "/en",

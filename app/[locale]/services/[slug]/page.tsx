@@ -1,4 +1,5 @@
 import StoryblokStory from "@storyblok/react/story";
+import { AI_FAQ, AI_SLUG, aiRelatedProjectSlugs, aiServiceMeta, aiServiceStory } from "@/app/content/ai-automation";
 import { notFound } from "next/navigation";
 import GlobalContacts from "@/app/components/GlobalContacts";
 import { Metadata } from "next";
@@ -34,6 +35,21 @@ export const revalidate = 600;
 
 export async function generateMetadata({ params }: any) {
   const locale = params.locale || "uk";
+  if (params.slug === AI_SLUG) {
+    const m = aiServiceMeta(locale);
+    const ogImage = defaultOgImage(locale);
+    return {
+      title: m.title,
+      description: m.description,
+      keywords:
+        locale === "en"
+          ? "AI automation, AI agents for business, AI chatbot, chatbot development, Telegram bot, Instagram chatbot, Viber bot, WhatsApp bot, GPT integration, business process automation"
+          : "AI-автоматизація, AI-агенти для бізнесу, впровадження ШІ в бізнес, чат-бот, розробка чат-ботів, Telegram-бот, чат-бот для Instagram, Viber-бот, інтеграція GPT, автоматизація бізнес-процесів",
+      openGraph: { title: m.title, description: m.description, images: ogImage, siteName: "Webrarium", type: "website", ...ogLocale(locale) },
+      twitter: { card: "summary_large_image", title: m.title, description: m.description, images: ogImage },
+      alternates: alternates(`/services/${AI_SLUG}`, locale),
+    } as Metadata;
+  }
   const serviceData = await fetch(
     `https://api.storyblok.com/v2/cdn/stories/services/${params.slug}/?version=published&token=${process.env.STORYBLOK_ACCESS_TOKEN}&language=${locale}`,
     { next: { revalidate: 600 } }
@@ -86,7 +102,12 @@ export async function generateStaticParams() {
     slug: service.slug,
     locale: "en",
   }));
-  const statitParams = [...slugsUk, ...slugsEn];
+  const statitParams = [
+    ...slugsUk,
+    ...slugsEn,
+    { slug: AI_SLUG, locale: "uk" },
+    { slug: AI_SLUG, locale: "en" },
+  ];
   return statitParams;
 }
 
@@ -117,6 +138,19 @@ export default async function ServicePage({ params: { locale, slug } }: any) {
               ],
               locale
             ),
+            ...(slug === AI_SLUG
+              ? [
+                  {
+                    "@context": "https://schema.org",
+                    "@type": "FAQPage",
+                    mainEntity: AI_FAQ.map((f) => ({
+                      "@type": "Question",
+                      name: locale === "en" ? f.q.en : f.q.uk,
+                      acceptedAnswer: { "@type": "Answer", text: locale === "en" ? f.a.en : f.a.uk },
+                    })),
+                  },
+                ]
+              : []),
           ])}
         />
         <StoryblokStory story={data.story} />
@@ -129,6 +163,17 @@ export default async function ServicePage({ params: { locale, slug } }: any) {
   }
 }
 async function fetchData(locale: string, slug: string) {
+  if (slug === AI_SLUG) {
+    let projects: any[] = [];
+    try {
+      const r = await fetch(
+        `https://api.storyblok.com/v2/cdn/stories?version=published&token=${process.env.STORYBLOK_ACCESS_TOKEN}&language=${locale}&by_slugs=${aiRelatedProjectSlugs().join(",")}`,
+        { next: { revalidate: 600 } }
+      );
+      if (r.ok) projects = (await r.json()).stories || [];
+    } catch {}
+    return { data: { story: aiServiceStory(locale, projects) as any } };
+  }
   const res = await fetch(
     `https://api.storyblok.com/v2/cdn/stories/services/${slug}?version=published&token=${process.env.STORYBLOK_ACCESS_TOKEN}&language=${locale}&resolve_relations=services_grid.services_list,projects_grid.projects_list`,
     { next: { revalidate: 600 } }
