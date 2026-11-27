@@ -4,10 +4,10 @@
 
 ## Services
 
+- [AI Automation for Business](https://webrarium.com/en/services/ai-automation): AI agents and chatbots for Telegram, Instagram, Viber and WhatsApp; request, email and document processing with GPT/Claude; integrated with CRM, Shopify and Google Sheets.
 - [Corporate Website Development](https://webrarium.com/en/services/company-websites): Full-cycle corporate websites and landing pages. From UX/UI design to SEO-ready launch. Focus on lead generation and brand credibility.
 - [Online Store Development](https://webrarium.com/en/services/online-store): E-commerce on Shopify and WooCommerce. User-friendly catalog, secure payments, conversion optimization.
 - [Digital Advertising](https://webrarium.com/en/services/digital-advertising): Targeted ads on Google Ads, Meta (Facebook/Instagram), and LinkedIn. Performance marketing with measurable ROI.
-- [Chatbot Development](https://webrarium.com/en/services/chatbots-developing): Chatbots for Telegram, Viber, and Instagram. Automated 24/7 replies, customer support, lead generation on autopilot.
 - [Business Process Automation](https://webrarium.com/en/services/business-automation): Workflow automation using Make (Integromat), Zapier, and n8n. Reduces routine work and scales operations.
 - [UX/UI Product Design](https://webrarium.com/en/services/product-design): UX/UI design in Figma: user research, wireframes, prototypes, design systems. Interfaces that drive business results.
 - [Event Websites](https://webrarium.com/en/services/event-websites): Websites for conferences, festivals, and events with registration and ticketing integrations.
