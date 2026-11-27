@@ -1,0 +1,30 @@
+/* Eyes blink one after the other every few seconds; pupils glance now and then. */
+.animated .eyeL,
+.animated .eyeR {
+  transform-box: fill-box;
+  transform-origin: center;
+  animation: blink 6s infinite ease-in-out;
+}
+.animated .eyeR {
+  animation-delay: 0.35s;
+}
+.animated .pupil {
+  animation: glance 11s infinite ease-in-out;
+}
+
+@keyframes blink {
+  0%, 88%, 94%, 100% { transform: scaleY(1); }
+  91% { transform: scaleY(0.1); }
+}
+@keyframes glance {
+  0%, 40%, 62%, 100% { transform: translateX(0); }
+  45%, 57% { transform: translateX(1px); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .animated .eyeL,
+  .animated .eyeR,
+  .animated .pupil {
+    animation: none;
+  }
+}

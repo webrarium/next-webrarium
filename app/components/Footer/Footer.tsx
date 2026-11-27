@@ -1,5 +1,6 @@
 import Link from "next/link";
 import styles from "./Footer.module.css";
+import PupaIcon from "../PupaIcon/PupaIcon";
 
 export default async function Footer({ locale }: { locale: string }) {
   // get current year
@@ -14,7 +15,10 @@ export default async function Footer({ locale }: { locale: string }) {
     <footer>
       <div className="container">
         <div className="divider"></div>
-        <div className={styles.f_brand}>webrarium</div>
+        <div className={styles.f_brand} style={{ display: "flex", alignItems: "center", justifyContent: "center", gap: "0.35em" }}>
+          <PupaIcon size={40} />
+          webrarium
+        </div>
         <nav className={styles.f_nav}>
           <ul>
             {data.story.content.nav.map((navlink: any) => (

@@ -50,7 +50,7 @@ export function organizationLd(locale: string) {
     "@id": ORG_ID,
     name: "Webrarium",
     url: en ? `${BASEURL}/en` : BASEURL,
-    logo: "https://a.storyblok.com/f/276513/140x16/0ee6252073/webrarium-logo.svg",
+    logo: `${BASEURL}/logo-512.png`,
     image: `${BASEURL}${defaultOgImage(locale)}`,
     description: en
       ? "Ukrainian web studio: website and online store development, digital advertising, chatbots, business automation and UX/UI design."

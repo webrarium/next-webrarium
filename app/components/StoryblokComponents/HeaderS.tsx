@@ -3,6 +3,7 @@ import styles from "@/app/components/Header/Header.module.css";
 import Image from "next/image";
 import Link from "next/link";
 import LanguageChanger from "../LanguageSwitcher/LangChanger";
+import PupaIcon from "../PupaIcon/PupaIcon";
 
 export default function HeaderS({ blok }: { blok: any }) {
   function openMenu() {
@@ -15,7 +16,8 @@ export default function HeaderS({ blok }: { blok: any }) {
     <header {...storyblokEditable(blok)} className={styles.header}>
       <div className="container">
         <div className={styles.header_wrp}>
-          <Link href="/" className={styles.brand}>
+          <Link href="/" className={styles.brand} aria-label="Webrarium">
+            <PupaIcon size={34} animated />
             <Image
               src={blok.logo.filename}
               width={144}
