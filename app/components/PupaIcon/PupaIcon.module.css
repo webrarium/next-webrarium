@@ -38,8 +38,8 @@
 }
 @keyframes look {
   0%, 18%, 50%, 68%, 100% { transform: translateX(0); }
-  24%, 44% { transform: translateX(1.3px); }
-  74%, 94% { transform: translateX(-1.3px); }
+  24%, 44% { transform: translateX(1.6px); }
+  74%, 94% { transform: translateX(-2.4px); }
 }
 
 @media (prefers-reduced-motion: reduce) {

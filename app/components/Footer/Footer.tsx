@@ -16,7 +16,7 @@ export default async function Footer({ locale }: { locale: string }) {
       <div className="container">
         <div className="divider"></div>
         <Link href="/" className={styles.f_brand} aria-label="Webrarium">
-          <PupaIcon size={128} animated="lively" bigEyes />
+          <PupaIcon size={160} animated="lively" bigEyes />
           <span>webrarium</span>
         </Link>
         <nav className={styles.f_nav}>
