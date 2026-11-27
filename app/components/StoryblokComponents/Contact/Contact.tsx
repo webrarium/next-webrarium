@@ -3,26 +3,25 @@
 import { useForm } from "react-hook-form";
 import { sendEmail } from "@/app/utils/send-email";
 import { storyblokEditable } from "@storyblok/react/rsc";
-import { GoogleReCaptchaProvider } from "react-google-recaptcha-v3";
 import styles from "./Contact.module.css";
 import Link from "next/link";
-import { useState, useEffect, useRef } from "react";
+import { useState, useRef } from "react";
 import { sendGAEvent } from "@next/third-parties/google";
-import { useGoogleReCaptcha } from "react-google-recaptcha-v3";
 
 export type FormData = {
   name: string;
   email: string;
   message: string;
   honeypot: any;
-  token?: string;
+  startedAt?: number;
 };
 
 const Contact = ({ blok }: { blok: any }) => {
   const [submitted, setSubmitted] = useState<string>();
   const [sending, setSending] = useState(false);
   const { register, handleSubmit, reset } = useForm<FormData>();
-  const { executeRecaptcha } = useGoogleReCaptcha();
+  // when the form was shown; the server rejects submissions faster than a human can type
+  const startedAt = useRef(Date.now());
 
   async function onSubmit(data: FormData) {
     if (data.honeypot) {
@@ -32,12 +31,7 @@ const Contact = ({ blok }: { blok: any }) => {
     }
     setSending(true);
     try {
-      if (!executeRecaptcha) {
-        throw new Error("Google reCaptcha not loaded");
-      }
-      // The token is verified on the server in /api/mail before the email is sent.
-      const token = await executeRecaptcha("contact");
-      const response = await sendEmail({ ...data, token });
+      const response = await sendEmail({ ...data, startedAt: startedAt.current });
       if (response === "Email sent") {
         setSubmitted(blok.success_message);
         sendGAEvent("event", "cf_submit", { value: "contact_form_submit" });
@@ -166,33 +160,4 @@ const Contact = ({ blok }: { blok: any }) => {
   );
 };
 
-const recaptchaKey = process?.env?.NEXT_PUBLIC_RECAPTCHA_SITE_KEY ?? "NOT DEFINED";
-
-// Lazy-load reCAPTCHA only when contact section scrolls into view
-export default function ContactWithCaptcha({ blok }: { blok: any }) {
-  const [visible, setVisible] = useState(false);
-  const ref = useRef<HTMLDivElement>(null);
-
-  useEffect(() => {
-    const el = ref.current;
-    if (!el) return;
-    const observer = new IntersectionObserver(
-      ([entry]) => { if (entry.isIntersecting) { setVisible(true); observer.disconnect(); } },
-      { rootMargin: "200px" }
-    );
-    observer.observe(el);
-    return () => observer.disconnect();
-  }, []);
-
-  return (
-    <div ref={ref}>
-      {visible ? (
-        <GoogleReCaptchaProvider reCaptchaKey={recaptchaKey}>
-          <Contact blok={blok} />
-        </GoogleReCaptchaProvider>
-      ) : (
-        <Contact blok={blok} />
-      )}
-    </div>
-  );
-}
+export default Contact;

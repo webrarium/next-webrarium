@@ -3,7 +3,7 @@ import nodemailer from "nodemailer";
 import Mail from "nodemailer/lib/mailer";
 
 export async function POST(request: NextRequest) {
-  const { email, name, message, token, honeypot } = await request.json();
+  const { email, name, message, honeypot, startedAt } = await request.json();
 
   if (honeypot) {
     return NextResponse.json({ error: "Rejected" }, { status: 400 });
@@ -16,21 +16,13 @@ export async function POST(request: NextRequest) {
     return NextResponse.json({ error: "Invalid form data" }, { status: 400 });
   }
 
-  // Verify reCAPTCHA here, so the endpoint cannot be called directly by bots.
-  try {
-    const verify = await fetch("https://www.google.com/recaptcha/api/siteverify", {
-      method: "POST",
-      headers: { "Content-Type": "application/x-www-form-urlencoded" },
-      body: new URLSearchParams({
-        secret: process.env.RECAPTCHA_SECRET_KEY || "",
-        response: typeof token === "string" ? token : "",
-      }),
-    }).then((r) => r.json());
-    if (!verify?.success || (verify.score ?? 0) < 0.5) {
-      return NextResponse.json({ error: "reCAPTCHA failed" }, { status: 403 });
-    }
-  } catch {
-    return NextResponse.json({ error: "reCAPTCHA unavailable" }, { status: 503 });
+  // Bots usually submit instantly; a person needs a few seconds to fill in the form.
+  if (typeof startedAt !== "number" || Date.now() - startedAt < 3000) {
+    return NextResponse.json({ error: "Too fast" }, { status: 400 });
+  }
+  // Links are the main payload of contact-form spam.
+  if ((message.match(/https?:\/\//g) || []).length > 3) {
+    return NextResponse.json({ error: "Too many links" }, { status: 400 });
   }
 
   const transport = nodemailer.createTransport({

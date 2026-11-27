@@ -165,10 +165,6 @@ video {
 iframe {
 	max-width: 100%;
 }
-/* grecaptcha hiding */
-.grecaptcha-badge {
-	visibility: hidden;
-}
 @media (max-width: 980px) {
 	:root {
 		--card-padding: 1.5rem;
