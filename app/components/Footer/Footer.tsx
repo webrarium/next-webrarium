@@ -15,10 +15,10 @@ export default async function Footer({ locale }: { locale: string }) {
     <footer>
       <div className="container">
         <div className="divider"></div>
-        <div className={styles.f_brand} style={{ display: "flex", alignItems: "center", justifyContent: "center", gap: "0.35em" }}>
-          <PupaIcon size={40} />
-          webrarium
-        </div>
+        <Link href="/" className={styles.f_brand} aria-label="Webrarium">
+          <PupaIcon size={128} animated="lively" bigEyes />
+          <span>webrarium</span>
+        </Link>
         <nav className={styles.f_nav}>
           <ul>
             {data.story.content.nav.map((navlink: any) => (

@@ -13,10 +13,23 @@
   text-decoration: 3px var(--main-color) solid underline;
 }
 .f_brand {
-  text-align: center;
-  margin-top: 5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.75rem;
+  width: fit-content;
+  margin: 5rem auto 0;
   font-weight: 700;
-  font-size: 2rem;
+  font-size: 1.1rem;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  color: inherit;
+}
+.f_brand svg {
+  transition: transform 0.25s ease;
+}
+.f_brand:hover svg {
+  transform: translateY(-4px) rotate(-3deg);
 }
 .copyright {
   text-align: center;

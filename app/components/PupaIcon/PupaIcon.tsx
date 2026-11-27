@@ -7,12 +7,19 @@ import styles from "./PupaIcon.module.css";
 export default function PupaIcon({
   size = 32,
   animated = false,
+  bigEyes = false,
   title,
 }: {
   size?: number;
-  animated?: boolean;
+  /** "lively" blinks more often and looks around (for large placements) */
+  animated?: boolean | "lively";
+  bigEyes?: boolean;
   title?: string;
 }) {
+  const r = bigEyes ? 4.6 : 3.3;
+  const cy = bigEyes ? 41.5 : 42.81;
+  const pr = bigEyes ? [1.45, 3.6] : [1.06, 2.64];
+  const cls = animated === "lively" ? `${styles.animated} ${styles.lively}` : animated ? styles.animated : undefined;
   return (
     <svg
       width={size}
@@ -20,7 +27,7 @@ export default function PupaIcon({
       viewBox="0 0 64 64"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
-      className={animated ? styles.animated : undefined}
+      className={cls}
       {...(title ? { role: "img", "aria-label": title } : { "aria-hidden": true })}
     >
       <rect width="64" height="64" rx="16" fill="#507A49" />
@@ -31,12 +38,12 @@ export default function PupaIcon({
         />
       </g>
       <g className={styles.eyeL}>
-        <circle cx="25.72" cy="42.81" r="3.3" fill="#3d6b35" />
-        <ellipse className={styles.pupil} cx="25.72" cy="42.81" rx="1.06" ry="2.64" fill="#1d3019" />
+        <circle cx="25.72" cy={cy} r={r} fill="#3d6b35" />
+        <ellipse className={styles.pupil} cx="25.72" cy={cy} rx={pr[0]} ry={pr[1]} fill="#1d3019" />
       </g>
       <g className={styles.eyeR}>
-        <circle cx="38.2" cy="42.81" r="3.3" fill="#6FA8DC" />
-        <ellipse className={styles.pupil} cx="38.2" cy="42.81" rx="1.06" ry="2.64" fill="#1d3019" />
+        <circle cx="38.2" cy={cy} r={r} fill="#6FA8DC" />
+        <ellipse className={styles.pupil} cx="38.2" cy={cy} rx={pr[0]} ry={pr[1]} fill="#1d3019" />
       </g>
       <path d="M11 48h42" stroke="#fff" strokeWidth="3.4" strokeLinecap="round" />
     </svg>
