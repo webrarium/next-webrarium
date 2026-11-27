@@ -12,6 +12,7 @@
   align-items: center;
   padding: 2rem 0;
   position: relative;
+  gap: 1rem;
 }
 .brand {
   position: relative;
@@ -123,5 +124,33 @@
   .nav {
     flex-direction: column;
     font-size: 2rem;
+  }
+}
+
+/* Phones: smaller mark + wordmark so the language switch never overlaps the logo */
+@media (max-width: 600px) {
+  .header_wrp {
+    gap: 0.75rem;
+  }
+  .brand {
+    gap: 6px;
+    flex-shrink: 0;
+  }
+  .brand svg {
+    width: 26px;
+    height: 26px;
+  }
+  .brand img {
+    width: 100px;
+    height: auto;
+  }
+  .brg {
+    margin-left: 4px;
+    flex-shrink: 0;
+  }
+}
+@media (max-width: 360px) {
+  .brand img {
+    width: 84px;
   }
 }
