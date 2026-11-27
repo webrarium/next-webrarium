@@ -12,13 +12,18 @@
 .f_nav ul li a:hover {
   text-decoration: 3px var(--main-color) solid underline;
 }
+.f_top {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  gap: 2rem;
+  margin-top: 5rem;
+}
 .f_brand {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
   gap: 0.75rem;
-  width: fit-content;
-  margin: 5rem auto 0;
   font-weight: 700;
   font-size: 1.1rem;
   letter-spacing: 0.02em;
@@ -26,10 +31,32 @@
   color: inherit;
 }
 .f_brand svg {
+  display: block;
   transition: transform 0.25s ease;
 }
 .f_brand:hover svg {
   transform: translateY(-4px) rotate(-3deg);
+}
+.f_slogan {
+  margin: 0;
+  text-align: right;
+  font-weight: 700;
+  font-size: clamp(1.5rem, 3.2vw, 3rem);
+  line-height: 1.1;
+}
+@media (max-width: 600px) {
+  .f_top {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.5rem;
+  }
+  .f_brand svg {
+    width: 112px;
+    height: 112px;
+  }
+  .f_slogan {
+    text-align: left;
+  }
 }
 .copyright {
   text-align: center;

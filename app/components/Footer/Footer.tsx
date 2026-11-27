@@ -15,10 +15,19 @@ export default async function Footer({ locale }: { locale: string }) {
     <footer>
       <div className="container">
         <div className="divider"></div>
-        <Link href="/" className={styles.f_brand} aria-label="Webrarium">
-          <PupaIcon size={160} animated="lively" bigEyes />
-          <span>webrarium</span>
-        </Link>
+        <div className={styles.f_top}>
+          <Link href="/" className={styles.f_brand} aria-label="Webrarium">
+            <PupaIcon size={160} animated="lively" bigEyes />
+            <span>webrarium</span>
+          </Link>
+          <p className={styles.f_slogan}>
+            {locale === "en" ? (
+              <>Automate the boring.<br />Grow the rest.</>
+            ) : (
+              <>Автоматизуйте нудне.<br />Розвивайте решту.</>
+            )}
+          </p>
+        </div>
         <nav className={styles.f_nav}>
           <ul>
             {data.story.content.nav.map((navlink: any) => (
