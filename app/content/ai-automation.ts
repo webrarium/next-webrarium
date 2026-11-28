@@ -7,6 +7,8 @@
  *   автоматизація бізнес процесів за допомогою ші · впровадження ші в бізнес ·
  *   ai агенти для бізнесу · чат бот для бізнесу · розробка чат бота ·
  *   чат бот телеграм нова пошта / підтримка · чат бот для інстаграм
+ * Keyword Planner (UA, Nov 2025–Oct 2026): ai автоматизація 100–1K (+900% YoY), автоматизація бізнесу 100–1K,
+ *   ai агенти для бізнесу 10–100 (rising), чат бот для бізнесу / для сайту / розробка чат бота 10–100 (high CPC)
  * EN: ai automation for small businesses · ai automation for ecommerce · ai agent for business
  *
  * The story has the same shape as a Storyblok service story, so the existing
@@ -35,8 +37,8 @@ const C = {
     en: "AI Automation for Business — AI Agents, Chatbots & Integrations",
   },
   subtitle: {
-    uk: "AI-агенти й чат-боти на Claude, ChatGPT і Gemini, підключені до вашої CRM, магазину та месенджерів. Починаємо з одного процесу, який забирає найбільше часу.",
-    en: "AI agents and chatbots on Claude, ChatGPT and Gemini, wired into your CRM, store and messengers. We start with the one process that eats the most time.",
+    uk: "AI-агенти й чат-боти на Claude, ChatGPT і Gemini для автоматизації бізнесу: підключаємо до вашої CRM, магазину та месенджерів. Починаємо з одного процесу, який забирає найбільше часу.",
+    en: "AI agents and chatbots on Claude, ChatGPT and Gemini for business automation, wired into your CRM, store and messengers. We start with the one process that eats the most time.",
   },
   metaTitle: {
     uk: "AI-автоматизація для бізнесу: AI-агенти та чат-боти | Webrarium",
@@ -63,14 +65,14 @@ const INTRO = {
 // Use cases — one card per real search intent
 const USES: { title: T; text: T }[] = [
   {
-    title: { uk: "Чат-бот для бізнесу в Telegram та Instagram", en: "Business chatbot for Telegram and Instagram" },
+    title: { uk: "Чат-бот для бізнесу: Telegram, Instagram, сайт", en: "Business chatbot: Telegram, Instagram, website" },
     text: {
-      uk: "Відповідає своїми словами 24/7, розуміє голосові й довільні питання, приймає замовлення. Також Viber, WhatsApp і віджет на сайті.",
-      en: "Answers in plain language 24/7, understands voice and free-form questions, takes orders. Viber, WhatsApp and a website widget too.",
+      uk: "Розробка чат-ботів і Telegram-ботів під ваші сценарії: відповідають своїми словами 24/7, розуміють голосові й довільні питання, приймають замовлення. Також Viber і WhatsApp.",
+      en: "Chatbot and Telegram bot development for your scenarios: plain-language answers 24/7, voice and free-form questions, order taking. Viber and WhatsApp too.",
     },
   },
   {
-    title: { uk: "AI-агенти для продажів", en: "AI agents for sales" },
+    title: { uk: "AI-агенти для бізнесу та продажів", en: "AI agents for business and sales" },
     text: {
       uk: "Кваліфікують заявку, підбирають товар чи тариф, записують на дзвінок і створюють угоду в CRM з усією розмовою. Нагадують тим, хто не дописав.",
       en: "Qualify the lead, recommend a product or plan, book a call and create the CRM deal with the full conversation. Follow up with people who went quiet.",
