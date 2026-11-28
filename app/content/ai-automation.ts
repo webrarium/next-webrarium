@@ -28,78 +28,76 @@ const C = {
     en: "AI Automation for Business — AI Agents, Chatbots & Integrations",
   },
   subtitle: {
-    uk: "Вбудовуємо штучний інтелект у ваші процеси: AI-агенти та чат-боти для Telegram, Instagram, Viber і WhatsApp відповідають клієнтам, обробляють заявки й документи та працюють разом з вашою CRM і магазином.",
-    en: "We put AI to work inside your processes: AI agents and chatbots for Telegram, Instagram, Viber and WhatsApp that answer customers, process requests and documents, and work with your CRM and online store.",
+    uk: "AI-агенти й чат-боти на Claude, ChatGPT і Gemini, підключені до вашої CRM, магазину та месенджерів.",
+    en: "AI agents and chatbots on Claude, ChatGPT and Gemini, wired into your CRM, store and messengers.",
   },
   metaTitle: {
     uk: "AI-автоматизація бізнесу: AI-агенти та чат-боти | Webrarium",
     en: "AI Automation for Business: AI Agents & Chatbots | Webrarium",
   },
   metaDescription: {
-    uk: "Впровадження AI в бізнес: AI-агенти, чат-боти з GPT для Telegram, Instagram і Viber, обробка заявок і документів. Інтеграція з CRM, Shopify та Google Sheets.",
-    en: "AI automation for business: AI agents, GPT chatbots for Telegram, Instagram and Viber, request and document processing. Integrated with your CRM, Shopify and Google Sheets.",
+    uk: "AI-агенти й чат-боти на Claude та ChatGPT для Telegram, Instagram і Viber. Обробка заявок і документів, інтеграція з CRM, Shopify, Make, Zapier і n8n.",
+    en: "AI agents and chatbots on Claude and ChatGPT for Telegram, Instagram and Viber. Request and document processing, connected to your CRM, Shopify, Make, Zapier and n8n.",
   },
   card: {
-    uk: "AI-агенти та чат-боти для Telegram, Instagram і Viber: відповідають клієнтам 24/7, кваліфікують заявки й обробляють документи — разом з вашою CRM і магазином.",
-    en: "AI agents and chatbots for Telegram, Instagram and Viber: answer customers 24/7, qualify leads and process documents — connected to your CRM and online store.",
+    uk: "AI-агенти й чат-боти на Claude та ChatGPT для Telegram, Instagram і Viber: відповідають клієнтам, розбирають заявки й документи, працюють з вашою CRM і магазином.",
+    en: "AI agents and chatbots on Claude and ChatGPT for Telegram, Instagram and Viber: they answer customers, sort requests and documents, and work with your CRM and store.",
   },
 } satisfies Record<string, T>;
 
 const WHAT = {
-  headline: { uk: "🔍 Що таке AI-автоматизація", en: "🔍 What is AI automation?" },
+  headline: { uk: "🤖 AI всередині ваших процесів", en: "🤖 AI inside your processes" },
   text: {
     uk: [
-      "AI-автоматизація — це коли рутинну роботу, яка потребує «подумати», виконує штучний інтелект: відповісти клієнту своїми словами, зрозуміти, чого він хоче, витягти дані з листа чи PDF, написати опис товару. Звичайна автоматизація переносить дані за жорсткими правилами, а AI-агент розуміє текст і приймає прості рішення.",
-      "Ми не продаємо «окремого чат-бота». Ми вбудовуємо AI у ваші процеси: агент працює у Telegram, Instagram, Viber чи на сайті, бере відповіді з вашої бази знань, створює угоди в CRM, перевіряє статус замовлення і передає складні випадки менеджеру.",
+      "Підключаємо Claude, ChatGPT і Gemini до Shopify, CRM, Нової пошти й месенджерів. AI-агент відповідає клієнтам у Telegram, Instagram і Viber, розбирає заявки й документи, пише описи товарів, а Make, Zapier чи n8n розносять результат куди треба. Людина потрібна лише там, де без неї не обійтись.",
     ],
     en: [
-      "AI automation means handing routine work that needs a bit of thinking to artificial intelligence: answering a customer in natural language, understanding what they want, pulling data out of an email or a PDF, writing a product description. Classic automation moves data by fixed rules; an AI agent understands text and makes simple decisions.",
-      "We don't sell a standalone chatbot. We build AI into your processes: the agent works in Telegram, Instagram, Viber or on your website, answers from your own knowledge base, creates deals in your CRM, checks order status and hands complex cases over to a manager.",
+      "We connect Claude, ChatGPT and Gemini to your Shopify store, CRM, Nova Poshta and messengers. An AI agent answers customers in Telegram, Instagram and Viber, sorts requests and documents and writes product copy, while Make, Zapier or n8n send the results where they belong. People step in only where they're actually needed.",
     ],
   },
 };
 
 const USES: { title: T; text: T }[] = [
   {
-    title: { uk: "AI-чат-боти в месенджерах", en: "AI chatbots in messengers" },
+    title: { uk: "Чат-боти в Telegram, Instagram, Viber", en: "Chatbots in Telegram, Instagram, Viber" },
     text: {
-      uk: "Чат-боти для Telegram, Instagram, Viber, WhatsApp і віджет на сайті. Відповідають природною мовою 24/7, розуміють голосові й довільні запитання, а не лише кнопки.",
-      en: "Chatbots for Telegram, Instagram, Viber, WhatsApp and a website widget. They answer in natural language 24/7 and understand free-form and voice questions, not only buttons.",
+      uk: "Відповідають своїми словами 24/7, розуміють голосові та довільні питання. Ще WhatsApp і віджет на сайті.",
+      en: "Answer in plain language 24/7 and understand voice and free-form questions. WhatsApp and a website widget too.",
     },
   },
   {
-    title: { uk: "Продажі та кваліфікація лідів", en: "Sales and lead qualification" },
+    title: { uk: "Заявки → угоди в CRM", en: "Leads → deals in your CRM" },
     text: {
-      uk: "AI-агент уточнює потребу, бюджет і терміни, підбирає товар чи послугу, записує на дзвінок і створює угоду в CRM з усім контекстом розмови.",
-      en: "The AI agent clarifies needs, budget and timing, recommends a product or service, books a call and creates a deal in your CRM with the full conversation context.",
+      uk: "Агент уточнює потребу й бюджет, записує на дзвінок і створює угоду в CRM з усім контекстом розмови.",
+      en: "The agent qualifies need and budget, books a call and creates the deal in your CRM with the full conversation.",
     },
   },
   {
-    title: { uk: "Підтримка клієнтів 24/7", en: "24/7 customer support" },
+    title: { uk: "Підтримка без «де моє замовлення?»", en: "Support without “where's my order?”" },
     text: {
-      uk: "Статус замовлення, трекінг Нової пошти, повернення, типові запитання — бот відповідає з вашої бази знань і передає менеджеру лише те, що справді потребує людини.",
-      en: "Order status, Nova Poshta tracking, returns, typical questions — the bot answers from your knowledge base and passes on only what really needs a human.",
+      uk: "Статус замовлення в Shopify, трекінг Нової пошти, повернення — бот відповідає сам, складне передає менеджеру.",
+      en: "Shopify order status, Nova Poshta tracking, returns — the bot handles them and passes the tricky ones to a manager.",
     },
   },
   {
-    title: { uk: "Обробка заявок і листів", en: "Request and email processing" },
+    title: { uk: "Пошта й повідомлення", en: "Email and messages" },
     text: {
-      uk: "AI читає вхідні заявки, листи й повідомлення, визначає тип і пріоритет, витягує контакти й деталі та розносить їх у CRM, Google Sheets чи таск-трекер.",
-      en: "AI reads incoming requests, emails and messages, sets type and priority, extracts contacts and details and routes them to your CRM, Google Sheets or task tracker.",
+      uk: "AI сортує вхідні, витягує контакти й деталі та розносить їх у CRM, Google Sheets чи таск-трекер.",
+      en: "AI sorts the inbox, pulls out contacts and details and routes them to your CRM, Google Sheets or task tracker.",
     },
   },
   {
-    title: { uk: "Документи та дані", en: "Documents and data" },
+    title: { uk: "Рахунки, накладні, прайси", en: "Invoices, delivery notes, price lists" },
     text: {
-      uk: "Рахунки, накладні, договори, прайси від постачальників: AI розпізнає PDF і скани, перевіряє дані та заносить їх у таблиці чи облікову систему без ручного копіювання.",
-      en: "Invoices, delivery notes, contracts, supplier price lists: AI reads PDFs and scans, checks the data and puts it into spreadsheets or your accounting system with no copy-pasting.",
+      uk: "Розпізнаємо PDF і скани, перевіряємо дані та заносимо в таблиці чи облік — без ручного копіювання.",
+      en: "We read PDFs and scans, check the data and put it into spreadsheets or accounting — no copy-pasting.",
     },
   },
   {
-    title: { uk: "Контент для інтернет-магазину", en: "Content for online stores" },
+    title: { uk: "Тексти для магазину", en: "Copy for your store" },
     text: {
-      uk: "Описи товарів, переклади, SEO-тексти та відповіді на відгуки для Shopify чи WooCommerce — пачками, у вашому стилі, з перевіркою перед публікацією.",
-      en: "Product descriptions, translations, SEO copy and review replies for Shopify or WooCommerce — in batches, in your brand voice, reviewed before publishing.",
+      uk: "Описи товарів, переклади й відповіді на відгуки для Shopify чи WooCommerce — пачками, у вашому стилі.",
+      en: "Product descriptions, translations and review replies for Shopify or WooCommerce — in batches, in your voice.",
     },
   },
 ];
@@ -108,66 +106,82 @@ const STEPS: { title: T; text: T }[] = [
   {
     title: { uk: "Знаходимо нудне", en: "Spot the boring" },
     text: {
-      uk: "Розбираємо ваші процеси та рахуємо, де команда втрачає години: однакові відповіді, ручне перенесення заявок, документи. Обираємо задачі, де AI окупиться найшвидше.",
-      en: "We go through your processes and count where the team loses hours: repetitive answers, manual data entry, documents. We pick the tasks where AI pays off fastest.",
+      uk: "Рахуємо, де команда втрачає години, і беремо задачі, де AI окупиться найшвидше.",
+      en: "We count where the team loses hours and start with the tasks where AI pays off fastest.",
     },
   },
   {
-    title: { uk: "Проєктуємо сценарій", en: "Map the flow" },
+    title: { uk: "Проєктуємо процес", en: "Map the flow" },
     text: {
-      uk: "Описуємо, що робить AI, а що людина, звідки агент бере знання, з якими сервісами інтегрується і як виглядає передача менеджеру. Обираємо модель під задачу і бюджет.",
-      en: "We define what AI does and what a person does, where the agent gets its knowledge, which services it connects to and how hand-over to a manager works. We choose the model for the task and budget.",
+      uk: "Що робить AI, що людина, звідки агент бере знання і яку модель обрати під задачу й бюджет.",
+      en: "What AI does, what people do, where the agent gets its knowledge and which model fits the task and budget.",
     },
   },
   {
-    title: { uk: "Розробляємо та інтегруємо", en: "Build and integrate" },
+    title: { uk: "Автоматизуємо", en: "Automate" },
     text: {
-      uk: "Збираємо агента чи бота, підключаємо вашу базу знань, CRM, магазин, Google Sheets, Нову пошту чи Monobank. Тестуємо на реальних діалогах і документах.",
-      en: "We build the agent or bot and connect your knowledge base, CRM, store, Google Sheets, Nova Poshta or Monobank. We test it on real conversations and documents.",
+      uk: "Збираємо агента, підключаємо CRM, магазин, Нову пошту чи Monobank і тестуємо на реальних діалогах.",
+      en: "We build the agent, connect your CRM, store, Nova Poshta or Monobank and test it on real conversations.",
     },
   },
   {
-    title: { uk: "Запускаємо і вдосконалюємо", en: "Launch and improve" },
+    title: { uk: "Розвивайте решту", en: "Grow the rest" },
     text: {
-      uk: "Після запуску стежимо за якістю відповідей і витратами, доповнюємо базу знань і покращуємо сценарії. Ви бачите, скільки звернень і годин закриває AI.",
-      en: "After launch we monitor answer quality and costs, extend the knowledge base and improve the flows. You see how many requests and hours AI takes off your team.",
+      uk: "Стежимо за якістю й витратами, доповнюємо знання. Ви бачите, скільки роботи забрав AI.",
+      en: "We watch quality and costs and keep adding knowledge. You see how much work AI has taken over.",
     },
   },
 ];
 
 const RESULTS: { title: T; text: T }[] = [
-  { title: { uk: "🧠 Знає ваш бізнес", en: "🧠 Knows your business" }, text: { uk: "відповідає з вашої бази знань, а не загальними фразами", en: "answers from your knowledge base, not with generic phrases" } },
+  { title: { uk: "🧠 Знає ваш бізнес", en: "🧠 Knows your business" }, text: { uk: "відповідає з вашої бази знань", en: "answers from your own knowledge base" } },
   { title: { uk: "🔗 Працює з вашими сервісами", en: "🔗 Works with your tools" }, text: { uk: "CRM, Shopify, Google Sheets, Нова пошта, Monobank", en: "CRM, Shopify, Google Sheets, Nova Poshta, Monobank" } },
-  { title: { uk: "💬 Усі канали", en: "💬 Every channel" }, text: { uk: "Telegram, Instagram, Viber, WhatsApp і сайт", en: "Telegram, Instagram, Viber, WhatsApp and your website" } },
-  { title: { uk: "👤 Людина в процесі", en: "👤 Human in the loop" }, text: { uk: "складні випадки бот передає менеджеру з усім контекстом", en: "complex cases go to a manager with full context" } },
-  { title: { uk: "🇺🇦 Українською та англійською", en: "🌍 Ukrainian, English and more" }, text: { uk: "і іншими мовами, якими пишуть ваші клієнти", en: "and any other language your customers write in" } },
-  { title: { uk: "📊 Прозорі результати", en: "📊 Clear results" }, text: { uk: "скільки звернень оброблено і скільки годин заощаджено", en: "how many requests were handled and hours saved" } },
-  { title: { uk: "💸 Передбачувані витрати", en: "💸 Predictable costs" }, text: { uk: "заздалегідь рахуємо вартість AI-запитів на місяць", en: "we estimate monthly AI usage costs up front" } },
-  { title: { uk: "🛠 Підтримка", en: "🛠 Ongoing support" }, text: { uk: "доповнюємо знання і вдосконалюємо агента після запуску", en: "we keep improving the agent after launch" } },
+  { title: { uk: "💬 Усі канали", en: "💬 Every channel" }, text: { uk: "Telegram, Instagram, Viber, WhatsApp, сайт", en: "Telegram, Instagram, Viber, WhatsApp, website" } },
+  { title: { uk: "👤 Людина поруч", en: "👤 Human in the loop" }, text: { uk: "складне йде менеджеру з контекстом", en: "tricky cases go to a manager with context" } },
+  { title: { uk: "🌍 Будь-якою мовою", en: "🌍 Any language" }, text: { uk: "українською, англійською та іншими", en: "Ukrainian, English and more" } },
+  { title: { uk: "📊 Видно результат", en: "📊 Visible results" }, text: { uk: "скільки звернень і годин закрив AI", en: "requests handled and hours saved" } },
+  { title: { uk: "💸 Витрати наперед", en: "💸 Costs known up front" }, text: { uk: "рахуємо вартість AI-запитів до старту", en: "we estimate AI usage costs before we start" } },
+  { title: { uk: "🛠 Підтримка", en: "🛠 Ongoing support" }, text: { uk: "допрацьовуємо агента після запуску", en: "we keep improving the agent after launch" } },
 ];
 
 const TOOLS: { title: T; list: T; logos: { filename: string; alt: string }[] }[] = [
   {
-    title: { uk: "AI-моделі та платформи", en: "AI models and platforms" },
+    title: { uk: "LLM-моделі", en: "LLMs" },
     list: {
-      uk: "OpenAI (GPT), Claude, Gemini, Dialogflow; бази знань і RAG для відповідей з ваших документів",
-      en: "OpenAI (GPT), Claude, Gemini, Dialogflow; knowledge bases and RAG for answers from your own documents",
+      uk: "Claude (Anthropic), ChatGPT / GPT (OpenAI), Gemini (Google); Llama і Mistral, якщо модель має працювати на вашому сервері. RAG — щоб відповідати з ваших документів.",
+      en: "Claude (Anthropic), ChatGPT / GPT (OpenAI), Gemini (Google); Llama and Mistral when the model must run on your own server. RAG to answer from your documents.",
     },
-    logos: [logo("1180x320/f23ca2dea4/openai-logo.webp", "OpenAI logo"), logo("353x116/396506bec2/dialogflow.webp", "Dialogflow logo")],
+    logos: [logo("1180x320/f23ca2dea4/openai-logo.webp", "OpenAI logo")],
   },
   {
-    title: { uk: "Автоматизація та код", en: "Automation and code" },
+    title: { uk: "Make, Zapier, n8n", en: "Make, Zapier, n8n" },
     list: {
-      uk: "n8n, Make, Zapier для зв'язків між сервісами; Python і JavaScript для складних інтеграцій",
-      en: "n8n, Make and Zapier to connect services; Python and JavaScript for complex integrations",
+      uk: "Зв'язують AI з рештою сервісів: CRM, Shopify, Google Sheets, пошта, оплати й доставка.",
+      en: "Connect AI to the rest of your stack: CRM, Shopify, Google Sheets, email, payments and delivery.",
     },
-    logos: [logo("519x154/34bdc0b722/python_logo.svg", "Python logo"), logo("150x150/d34a92bbd4/js_logo.svg", "JavaScript logo")],
+    logos: [
+      logo("3371x1024/66338251a2/make-logo.png", "Make logo"),
+      logo("1619x439/1e5b3e9f82/zapier-logo.png", "Zapier logo"),
+      logo("2560x1024/7f5e82b718/n8n-logo.png", "n8n logo"),
+    ],
+  },
+  {
+    title: { uk: "Код і дані", en: "Code and data" },
+    list: {
+      uk: "Python і JavaScript для складних інтеграцій, Supabase і PostgreSQL для даних і бази знань.",
+      en: "Python and JavaScript for complex integrations, Supabase and PostgreSQL for data and the knowledge base.",
+    },
+    logos: [
+      logo("519x154/34bdc0b722/python_logo.svg", "Python logo"),
+      logo("150x150/d34a92bbd4/js_logo.svg", "JavaScript logo"),
+      logo("1580x305/aa02828198/supabase_logotype.png", "Supabase logo"),
+    ],
   },
   {
     title: { uk: "Канали", en: "Channels" },
     list: {
-      uk: "Telegram, Instagram, Viber, WhatsApp, Messenger, віджет на сайті",
-      en: "Telegram, Instagram, Viber, WhatsApp, Messenger, website widget",
+      uk: "Telegram, Instagram, Viber, WhatsApp, Messenger, віджет на сайті.",
+      en: "Telegram, Instagram, Viber, WhatsApp, Messenger, website widget.",
     },
     logos: [
       logo("512x512/7bcf04b90b/telegram_app-logo.webp", "Telegram logo"),
@@ -181,45 +195,45 @@ const TOOLS: { title: T; list: T; logos: { filename: string; alt: string }[] }[]
 
 export const AI_FAQ: { q: T; a: T }[] = [
   {
-    q: { uk: "Чим AI-автоматизація відрізняється від звичайної?", en: "How is AI automation different from regular automation?" },
+    q: { uk: "Чим це відрізняється від Make чи Zapier?", en: "How is this different from Make or Zapier?" },
     a: {
-      uk: "Звичайна автоматизація (Make, Zapier, n8n) переносить дані за чіткими правилами: «якщо прийшла оплата — створи ТТН». AI додається там, де потрібно зрозуміти текст: відповісти клієнту, розібрати лист, витягти дані з документа. Найчастіше ми поєднуємо обидва підходи.",
-      en: "Regular automation (Make, Zapier, n8n) moves data by fixed rules: “when a payment arrives, create a shipment”. AI is added where text needs to be understood: answering a customer, sorting an email, extracting data from a document. We usually combine both.",
+      uk: "Make, Zapier і n8n переносять дані за правилами: прийшла оплата — створи ТТН. AI додаємо там, де треба зрозуміти текст: відповісти клієнту, розібрати лист чи документ. Зазвичай поєднуємо обидва.",
+      en: "Make, Zapier and n8n move data by rules: payment in — create a shipment. AI comes in where text has to be understood: replying to a customer, reading an email or a document. We usually combine both.",
     },
   },
   {
-    q: { uk: "У яких месенджерах може працювати AI-чат-бот?", en: "Which messengers can the AI chatbot work in?" },
+    q: { uk: "Яку модель обрати: Claude, ChatGPT чи Gemini?", en: "Which model: Claude, ChatGPT or Gemini?" },
     a: {
-      uk: "Telegram, Instagram, Viber, WhatsApp, Facebook Messenger, а також віджет на вашому сайті. Один агент може працювати в кількох каналах одночасно з однією базою знань.",
-      en: "Telegram, Instagram, Viber, WhatsApp, Facebook Messenger and a widget on your website. One agent can work across several channels at once with a single knowledge base.",
+      uk: "Залежить від задачі. Для діалогів і довгих документів часто беремо Claude, для швидких дешевих задач — менші моделі GPT чи Gemini. Тестуємо кілька на ваших даних і обираємо за якістю та ціною.",
+      en: "It depends on the task. For conversations and long documents we often pick Claude; for quick, cheap tasks, smaller GPT or Gemini models. We test several on your data and choose by quality and price.",
+    },
+  },
+  {
+    q: { uk: "У яких месенджерах працює бот?", en: "Which messengers does the bot work in?" },
+    a: {
+      uk: "Telegram, Instagram, Viber, WhatsApp, Messenger і віджет на сайті — один агент, одна база знань.",
+      en: "Telegram, Instagram, Viber, WhatsApp, Messenger and a website widget — one agent, one knowledge base.",
     },
   },
   {
     q: { uk: "Чи не вигадуватиме бот відповіді?", en: "Won't the bot make things up?" },
     a: {
-      uk: "Ми обмежуємо агента вашою базою знань і правилами: якщо відповіді немає, він чесно каже про це і передає розмову менеджеру. Перед запуском тестуємо його на реальних запитаннях клієнтів.",
-      en: "We limit the agent to your knowledge base and rules: if there's no answer, it says so and hands the conversation to a manager. Before launch we test it on real customer questions.",
+      uk: "Агент відповідає лише з вашої бази знань і правил. Якщо відповіді немає — каже про це й передає розмову менеджеру. Перед запуском перевіряємо на реальних питаннях клієнтів.",
+      en: "The agent answers only from your knowledge base and rules. If there's no answer, it says so and hands over to a manager. We test it on real customer questions before launch.",
     },
   },
   {
-    q: { uk: "Скільки коштує AI-автоматизація?", en: "How much does AI automation cost?" },
+    q: { uk: "Скільки це коштує і як довго?", en: "How much and how long?" },
     a: {
-      uk: "Вартість залежить від кількості сценаріїв та інтеграцій. Окремо є щомісячна плата за використання AI-моделі — ми рахуємо її заздалегідь за вашими обсягами, зазвичай це менше, ніж година роботи менеджера на день.",
-      en: "The price depends on the number of flows and integrations. There's also a monthly AI usage fee — we estimate it up front from your volumes; it's usually less than one hour of a manager's time per day.",
+      uk: "Разова розробка плюс щомісячна плата за API моделі, яка залежить від обсягу запитів. Термін залежить від кількості сценаріїв та інтеграцій. Точний кошторис і терміни даємо після короткого аудиту.",
+      en: "A one-off build plus a monthly model API fee that depends on volume. Timing depends on the number of flows and integrations. We give an exact estimate and timeline after a short audit.",
     },
   },
   {
-    q: { uk: "Скільки часу займає запуск?", en: "How long does it take to launch?" },
+    q: { uk: "Що з безпекою даних?", en: "What about data security?" },
     a: {
-      uk: "Простий AI-чат-бот з базою знань — від 1–2 тижнів. Агент з інтеграціями в CRM, магазин і доставку — зазвичай 3–6 тижнів, залежно від кількості сервісів.",
-      en: "A simple AI chatbot with a knowledge base takes from 1–2 weeks. An agent integrated with your CRM, store and delivery usually takes 3–6 weeks, depending on the number of services.",
-    },
-  },
-  {
-    q: { uk: "Чи безпечно передавати дані в AI?", en: "Is it safe to give our data to AI?" },
-    a: {
-      uk: "Ми використовуємо бізнес-API моделей, де ваші дані не йдуть на навчання, передаємо AI лише потрібне для задачі і зберігаємо доступи на вашій стороні. За потреби можна використати модель, розгорнуту на вашому сервері.",
-      en: "We use business APIs where your data isn't used for training, pass AI only what the task needs and keep access on your side. If needed, a model hosted on your own server is an option.",
+      uk: "Працюємо через бізнес-API, де дані не йдуть на навчання моделей, передаємо AI лише потрібне для задачі. Якщо дані не можна виносити, розгортаємо модель на вашому сервері.",
+      en: "We use business APIs where data isn't used to train models and pass AI only what the task needs. If data can't leave your infrastructure, we run the model on your own server.",
     },
   },
 ];
@@ -259,7 +273,7 @@ export function aiServiceStory(locale: string, projects: any[] = []) {
     {
       _uid: id("d"),
       component: "service_details",
-      title: l === "en" ? "🧩 What we automate with AI" : "🧩 Що ми автоматизуємо за допомогою AI",
+      title: l === "en" ? "🧩 What we automate" : "🧩 Що автоматизуємо",
       service_details_cards: USES.map((u) => ({
         _uid: id("dc"),
         component: "service_details_card",
@@ -271,7 +285,7 @@ export function aiServiceStory(locale: string, projects: any[] = []) {
       _uid: id("n"),
       component: "service_need",
       media: "",
-      title: l === "en" ? "⚙️ How we implement AI automation" : "⚙️ Як ми впроваджуємо AI-автоматизацію",
+      title: l === "en" ? "⚙️ How we work" : "⚙️ Як працюємо",
       cards: STEPS.map((s) => ({ _uid: id("nc"), component: "service_need_card", title: s.title[l], description: doc(s.text[l]) })),
     },
     {
@@ -283,7 +297,7 @@ export function aiServiceStory(locale: string, projects: any[] = []) {
     {
       _uid: id("i"),
       component: "service_instruments",
-      title: l === "en" ? "Tools we use" : "Інструменти, з якими працюємо",
+      title: l === "en" ? "Tools and models" : "Інструменти та моделі",
       cards: TOOLS.map((t) => ({
         _uid: id("ic"),
         component: "service_instruments_card",
@@ -295,7 +309,7 @@ export function aiServiceStory(locale: string, projects: any[] = []) {
     {
       _uid: id("f"),
       component: "service_faq",
-      title: l === "en" ? "FAQ: AI automation and chatbots" : "FAQ: AI-автоматизація та чат-боти",
+      title: l === "en" ? "FAQ: AI automation and chatbots" : "Питання про AI-автоматизацію та чат-ботів",
       items: AI_FAQ.map((f) => ({ _uid: id("fi"), component: "faq_item", question: f.q[l], answer: f.a[l] })),
     },
   ];
