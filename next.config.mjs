@@ -1,5 +1,12 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  experimental: {
+    // files read with fs at request time (blog Markdown + fonts for cover images)
+    outputFileTracingIncludes: {
+      "/api/blog-cover/[slug]": ["./content/blog/**/*", "./public/fonts/**/*"],
+      "/[locale]/blog/**": ["./content/blog/**/*"],
+    },
+  },
   images: {
     remotePatterns: [
       {
@@ -26,6 +33,17 @@ const nextConfig = {
         source: "/en/services/chatbots-developing",
         destination: "/en/services/ai-automation",
         permanent: true,
+      },
+      // The blog is Ukrainian-only for now
+      {
+        source: "/en/blog/:path*",
+        destination: "/blog/:path*",
+        permanent: false,
+      },
+      {
+        source: "/en/blog",
+        destination: "/blog",
+        permanent: false,
       },
       // Event websites are no longer offered as a service
       {
