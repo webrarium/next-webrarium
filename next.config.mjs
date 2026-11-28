@@ -27,6 +27,17 @@ const nextConfig = {
         destination: "/en/services/ai-automation",
         permanent: true,
       },
+      // Event websites are no longer offered as a service
+      {
+        source: "/services/event-websites",
+        destination: "/services/company-websites",
+        permanent: true,
+      },
+      {
+        source: "/en/services/event-websites",
+        destination: "/en/services/company-websites",
+        permanent: true,
+      },
       {
         source: "/en/ua",
         destination: "/en",

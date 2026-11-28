@@ -34,7 +34,9 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const dynamicRoutes = [
     // AI Automation lives in code; it replaces the old chatbot service
     { full_slug: "services/ai-automation", is_startpage: false, published_at: now },
-    ...services.filter((s) => !s.full_slug.includes("chatbots-developing")),
+    ...services.filter(
+      (s) => !s.full_slug.includes("chatbots-developing") && !s.full_slug.includes("event-websites")
+    ),
     ...projects,
   ].map((s) => ({
     path: `/${s.full_slug.replace(/\/$/, "")}`,

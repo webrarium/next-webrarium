@@ -8,6 +8,9 @@
  */
 import { REPLACED_SERVICE_SLUG, aiServiceCard } from "./ai-automation";
 
+/** Services that are no longer offered: hidden from grids, URLs redirect (next.config.mjs). */
+export const HIDDEN_SERVICES = ["event-websites"];
+
 type Localized = { uk: string; en: string };
 type Overrides = Record<string, Record<string, Record<string, Localized | Localized[]>>>;
 
@@ -67,7 +70,8 @@ const storySlug = (story: any) =>
 function patchServicesGrid(node: any, locale: string) {
   if (!Array.isArray(node.services_list) || typeof node.services_list[0] !== "object") return node;
   const rest = node.services_list.filter(
-    (s: any) => s?.slug !== REPLACED_SERVICE_SLUG && s?.slug !== "ai-automation"
+    (s: any) =>
+      s?.slug !== REPLACED_SERVICE_SLUG && s?.slug !== "ai-automation" && !HIDDEN_SERVICES.includes(s?.slug)
   );
   return { ...node, services_list: [aiServiceCard(locale), ...rest] };
 }
