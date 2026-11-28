@@ -44,7 +44,7 @@ export async function generateMetadata({ params }: any) {
       keywords:
         locale === "en"
           ? "AI automation, AI agents for business, AI chatbot, chatbot development, Telegram bot, Instagram chatbot, Viber bot, WhatsApp bot, GPT integration, business process automation"
-          : "AI-автоматизація, AI-агенти для бізнесу, впровадження ШІ в бізнес, чат-бот, розробка чат-ботів, Telegram-бот, чат-бот для Instagram, Viber-бот, інтеграція GPT, автоматизація бізнес-процесів",
+          : "AI-автоматизація, AI-агенти для бізнесу, впровадження ШІ в бізнес, чат-бот, розробка чат-ботів, Telegram-бот, чат-бот для Instagram, Viber-бот, Claude, ChatGPT, Gemini, Make, Zapier, n8n",
       openGraph: { title: m.title, description: m.description, images: ogImage, siteName: "Webrarium", type: "website", ...ogLocale(locale) },
       twitter: { card: "summary_large_image", title: m.title, description: m.description, images: ogImage },
       alternates: alternates(`/services/${AI_SLUG}`, locale),
