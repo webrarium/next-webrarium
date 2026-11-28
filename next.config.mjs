@@ -27,6 +27,17 @@ const nextConfig = {
         destination: "/en/services/ai-automation",
         permanent: true,
       },
+      // The blog is Ukrainian-only for now
+      {
+        source: "/en/blog/:path*",
+        destination: "/blog/:path*",
+        permanent: false,
+      },
+      {
+        source: "/en/blog",
+        destination: "/blog",
+        permanent: false,
+      },
       // Event websites are no longer offered as a service
       {
         source: "/services/event-websites",
