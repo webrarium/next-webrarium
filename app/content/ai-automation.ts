@@ -148,10 +148,18 @@ const TOOLS: { title: T; list: T; logos: { filename: string; alt: string }[] }[]
   {
     title: { uk: "LLM-моделі", en: "LLMs" },
     list: {
-      uk: "Claude (Anthropic), ChatGPT / GPT (OpenAI), Gemini (Google); Llama і Mistral, якщо модель має працювати на вашому сервері. RAG — щоб відповідати з ваших документів.",
-      en: "Claude (Anthropic), ChatGPT / GPT (OpenAI), Gemini (Google); Llama and Mistral when the model must run on your own server. RAG to answer from your documents.",
+      uk: "Claude (Anthropic), ChatGPT / GPT (OpenAI), Gemini (Google), DeepSeek; Llama і Mistral, якщо модель має працювати на вашому сервері. RAG — щоб відповідати з ваших документів.",
+      en: "Claude (Anthropic), ChatGPT / GPT (OpenAI), Gemini (Google), DeepSeek; Llama and Mistral when the model must run on your own server. RAG to answer from your documents.",
     },
-    logos: [logo("1180x320/f23ca2dea4/openai-logo.webp", "OpenAI logo")],
+    logos: [
+      { filename: "/logos/claude.svg", alt: "Claude logo" },
+      { filename: "/logos/anthropic.svg", alt: "Anthropic logo" },
+      logo("1180x320/f23ca2dea4/openai-logo.webp", "OpenAI logo"),
+      { filename: "/logos/googlegemini.svg", alt: "Gemini logo" },
+      { filename: "/logos/deepseek.svg", alt: "DeepSeek logo" },
+      { filename: "/logos/meta.svg", alt: "Llama logo" },
+      { filename: "/logos/mistralai.svg", alt: "Mistral logo" },
+    ],
   },
   {
     title: { uk: "Make, Zapier, n8n", en: "Make, Zapier, n8n" },
