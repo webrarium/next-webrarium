@@ -1,5 +1,6 @@
 import { MetadataRoute } from "next";
 import { BASEURL } from "@/app/lib/constances";
+import { CATEGORIES, getArticles } from "@/app/lib/blog";
 
 export const revalidate = 3600;
 
@@ -50,7 +51,14 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     return true;
   });
 
-  return routes.map(({ path, lastModified }) => ({
+  // Blog (Ukrainian only): index, categories, articles
+  const blog = [
+    { url: `${BASEURL}/blog`, lastModified: now },
+    ...CATEGORIES.map((c) => ({ url: `${BASEURL}/blog/category/${c.slug}`, lastModified: now })),
+    ...getArticles().map((a) => ({ url: `${BASEURL}/blog/${a.slug}`, lastModified: new Date(a.updated).toISOString() })),
+  ].map((r) => ({ ...r, alternates: { languages: { uk: r.url, "x-default": r.url } } }));
+
+  return [...routes.map(({ path, lastModified }) => ({
     url: `${BASEURL}${path}`,
     lastModified,
     alternates: {
@@ -60,5 +68,5 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
         "x-default": `${BASEURL}${path}`,
       },
     },
-  }));
+  })), ...blog];
 }
